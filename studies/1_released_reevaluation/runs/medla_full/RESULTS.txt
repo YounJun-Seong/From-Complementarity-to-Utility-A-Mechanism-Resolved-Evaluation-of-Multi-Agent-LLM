@@ -1,0 +1,23 @@
+MedLA full test — MedQA-US 4-option, 1,273 questions, gpt-4o-mini
+  L0 run1 0.7588  (calls/q 69.5, tokens/q 167612, $/q 0.03968, wall 350s/q, crash 0.000)
+  S4 run1 0.8044  (tokens/q 1124, $/q 0.00035);  runs 1-3: 0.8044, 0.8052, 0.8036  SD 0.0008
+  L1 run1 0.7494  (tokens/q 307);  runs 1-3: 0.7494, 0.7478, 0.7518  SD 0.0020
+  cost L0/S4: tokens 149.1x, $ 111.8x
+
+PRIMARY (run 1 vs run 1)
+  L0 − S4 = -0.0456 [-0.0660, -0.0251]  McNemar p=1.8e-05 (L0 only 61, S4 only 119)
+    TOST p: δ0.01:0.9997 δ0.02:0.9926 *δ0.03:0.9314 δ0.04:0.7024 δ0.05:0.3358
+SECONDARY
+  L0 − L1 = +0.0094 [-0.0118, +0.0306]  McNemar p=0.42 (L0 only 100, L1 only 88)
+    TOST p: δ0.01:0.4788 δ0.02:0.1632 *δ0.03:0.0282 δ0.04:0.0023 δ0.05:0.0001
+DESCRIPTIVE
+  S4 − L1 = +0.0550 [+0.0346, +0.0770]  McNemar p=3.6e-07 (S4 only 129, L1 only 59)
+    TOST p: δ0.01:1.0000 δ0.02:0.9995 *δ0.03:0.9904 δ0.04:0.9199 δ0.05:0.6800
+SENSITIVITY: L0 run1 vs S4 / L1 averaged over runs 1–3
+  L0 − S4(mean of 3) = -0.0456 [-0.0647, -0.0272]  McNemar p=3.7e-07 (L0 only 31, S4(mean of 3) only 86)
+    TOST p: δ0.01:0.9999 δ0.02:0.9964 *δ0.03:0.9491 δ0.04:0.7207 δ0.05:0.3203
+  L0 − L1(mean of 3) = +0.0092 [-0.0107, +0.0288]  McNemar p=0.47 (L0 only 83, L1(mean of 3) only 73)
+    TOST p: δ0.01:0.4675 δ0.02:0.1452 *δ0.03:0.0211 δ0.04:0.0013 δ0.05:0.0000
+
+Sequential replication rule: |Δ|=0.0456 (≤0.02: False); CI [-0.0660,-0.0251] contains −0.03: True, +0.03: False
+=> L0 runs 2–3 REQUIRED by the rule

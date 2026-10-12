@@ -1,0 +1,12 @@
+cot run1: n=5 errors=0 tokens/q=650
+cot run3: n=5 errors=0 tokens/q=674
+cot run2: n=5 errors=0 tokens/q=679
+B run2: n=5 errors=0 tokens/q=11466
+B run1: n=5 errors=0 tokens/q=11412
+B run3: n=5 errors=0 tokens/q=11863
+sc run3: n=5 errors=0 tokens/q=19669
+sc run2: n=5 errors=0 tokens/q=19394
+sc run1: n=5 errors=0 tokens/q=19257
+sc run6: n=5 errors=0 tokens/q=19260
+sc run4: n=5 errors=0 tokens/q=19515
+sc run5: n=5 errors=0 tokens/q=19255

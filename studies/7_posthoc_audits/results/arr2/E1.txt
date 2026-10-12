@@ -1,0 +1,21 @@
+=== ARR2-E1 compute-corrected C* (Phase II PILOT) ===
+--- Qwen2.5-14B-Instruct: gen prompt ≈ 238 tok; SC/sample 1158 → 1384; HET/sample 1236 → 1395 (roles 6.95); M1 24991
+    k* frozen 22 → corrected 18 (HET corrected 18). Reproduction at k=22: H, H_plc, C*, AUC, C*_het OK
+      k  SC/M1 tok (fz|corr) acc SC_E                    H                H_plc                   C*               C*_het  n_C                     G3
+     18     0.834 | 0.997       0.739    +3.4 [+1.1, +5.8]    +0.0 [-0.8, +0.8]    +3.4 [+1.0, +6.0]    +2.9 [+0.5, +5.5]   16   +75.0 [+56.2, +93.8] ← k*′
+     19     0.881 | 1.052       0.740    +3.3 [+1.0, +5.7]    -0.0 [-1.0, +0.8]    +3.4 [+0.9, +6.0]    +2.9 [+0.5, +5.5]   16   +75.0 [+56.2, +93.8]
+     20     0.927 | 1.108       0.742    +3.3 [+1.0, +5.7]    -0.1 [-1.0, +0.8]    +3.4 [+1.0, +6.0]    +3.3 [+0.9, +5.9]   16   +75.0 [+56.2, +93.8]
+     21     0.973 | 1.163       0.733    +3.6 [+1.4, +6.0]    +0.2 [-0.5, +0.9]    +3.4 [+1.1, +5.9]    +3.1 [+0.8, +5.7]   16   +73.3 [+49.4, +92.4]
+     22     1.020 | 1.218       0.733    +3.6 [+1.4, +6.0]    +0.2 [-0.5, +0.9]    +3.4 [+1.1, +5.9]    +3.1 [+1.0, +5.6]   16   +73.2 [+49.4, +92.2] ← k* frozen
+
+--- Llama-3.1-8B-Instruct: gen prompt ≈ 264 tok; SC/sample 1081 → 1331; HET/sample 1165 → 1403 (roles 2.05); M1 7198
+    k* frozen 7 → corrected 5 (HET corrected 5). Reproduction at k=7: H, H_plc, C*, AUC, C*_het OK
+      k  SC/M1 tok (fz|corr) acc SC_E                    H                H_plc                   C*               C*_het  n_C                     G3
+      5     0.751 | 0.925       0.727    +3.8 [+1.8, +5.8]    +0.1 [-0.6, +0.7]    +3.7 [+1.7, +6.0]    +3.1 [+1.1, +5.4]   16   +65.0 [+42.6, +82.7] ← k*′
+      6     0.901 | 1.110       0.729    +3.7 [+1.8, +5.8]    +0.1 [-0.5, +0.8]    +3.6 [+1.6, +5.9]    +3.1 [+1.1, +5.3]   16   +65.1 [+42.4, +83.1]
+      7     1.051 | 1.295       0.733    +3.8 [+1.8, +5.9]    +0.1 [-0.6, +0.7]    +3.7 [+1.7, +6.1]    +3.0 [+0.9, +5.4]   16   +65.9 [+42.9, +84.4] ← k* frozen
+
+--- HELD-OUT sensitivity (Qwen, n=339): per-question gen prompt mean 243 tok
+    SC-22 (frozen accounting): acc SC 0.687 vs M1 0.646, M1 − SC -4.1 [-8.6, +0.0]; SC/M1 tokens 1.012; Criterion B Ours-Collab − Ours-Sampling +0.3 [-0.6, +1.5], token ratio 1.009
+    SC-18 (corrected accounting): acc SC 0.678 vs M1 0.646, M1 − SC -3.2 [-7.7, +1.2]; SC/M1 tokens 0.993; Criterion B Ours-Collab − Ours-Sampling +0.3 [-0.6, +1.5], token ratio 1.010
+

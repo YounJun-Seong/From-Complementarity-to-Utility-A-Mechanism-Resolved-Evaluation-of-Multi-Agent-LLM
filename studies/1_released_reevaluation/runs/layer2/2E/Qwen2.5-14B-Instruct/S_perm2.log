@@ -1,0 +1,14 @@
+zero-shot CoT reasoning, n=200: finish=length 0.100, E1 regex finds an explicit answer in 0.985, reasoning >2500 chars 0.385
+E1 source: {'bold': 94, 'explicit': 78, 'option_text': 25, 'none': 3}
+
+extractor    acc  predE
+E1      0.645  0.225
+E2      0.615  0.200
+E3      0.685  0.215
+E3f     0.685  0.220
+
+flips vs E1's explicit answer (on the 197 questions where E1 parses):
+extractor  changed  wrong->right  right->wrong
+E2         13.706%        2.538%        7.107%
+E3          7.107%        3.046%        0.508%
+E3f         4.061%        2.538%        0.000%

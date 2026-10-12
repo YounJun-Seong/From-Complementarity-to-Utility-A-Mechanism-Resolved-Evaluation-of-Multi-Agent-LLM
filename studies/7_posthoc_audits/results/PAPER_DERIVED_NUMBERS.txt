@@ -1,0 +1,23 @@
+[App. C.4] Phase II 4-sample probe (first four SC run-1 votes): probes containing an empty or out-of-option vote
+    pilot    n=300: empty vote in 2 probes; empty or out-of-option vote in 3 probes (3 votes)
+    heldout  n=339: empty vote in 1 probes; empty or out-of-option vote in 2 probes (3 votes)
+
+[§4.4, App. D] Phase III PILOT: triggered 111/300 (37.0%)
+    gold in probe but outside top-2 (lost by top-two selection): 8; gold absent from all 4 probe answers: 33
+    disagreement extraction: parsed share 1.000 over 110 applicable (triggered 111 − single-answer 1); revision E3 failures 0.0091
+    Full MAS / SampleMore tokens = 20876 / 3674 = 5.68x
+
+[§4.4, App. D] Phase III RESERVE: triggered 661/1683 (39.3%)
+    gold in probe but outside top-2 (lost by top-two selection): 33; gold absent from all 4 probe answers: 142
+    disagreement extraction: parsed share 1.000 over 651 applicable (triggered 661 − single-answer 10); revision E3 failures 0.0008
+    Full MAS / SampleMore tokens = 20680 / 3721 = 5.56x
+    TDC / SampleMore with the generation prompt charged per sample (gen ≈ 78 tok, measured: mean generation-prompt input tokens of the probe request on triggered questions): 3619 / 3957 = 0.915  (frozen accounting 0.972)
+    TDC / SampleMore with the generation prompt charged per sample (gen ≈ 101 tok, value quoted in POSTHOC_TRANSITION.md (no script)): 3619 / 4024 = 0.899  (frozen accounting 0.972)
+
+[§3.2, App. F.2, F.6] Phase V MedARC
+    tokens/question MedARC 20920, SC-25 20495; SC/MedARC = 0.980
+    κ_loss / κ_gain = 0.0957 / 0.0207 = 4.61x
+
+[App. F.8] Judge swapped-summary control (n = 500)
+    label = source: true 0.988, swapped 0.186; swapped evidence 'none' 389/500 = 77.8%
+[App. F.8] Human check: n = 80; evidence_preserved full 34, partial 46; misrepresented = true on items ['2']

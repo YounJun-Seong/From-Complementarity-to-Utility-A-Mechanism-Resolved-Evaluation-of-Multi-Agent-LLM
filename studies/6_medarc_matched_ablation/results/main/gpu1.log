@@ -1,0 +1,12 @@
+cot run3: n=472 errors=0 tokens/q=654
+cot run2: n=472 errors=0 tokens/q=654
+cot run1: n=472 errors=0 tokens/q=654
+B run1: n=472 errors=0 tokens/q=12068
+B run3: n=472 errors=0 tokens/q=12075
+B run2: n=472 errors=0 tokens/q=12076
+sc run3: n=472 errors=0 tokens/q=20589
+sc run1: n=472 errors=0 tokens/q=20588
+sc run2: n=472 errors=0 tokens/q=20594
+sc run5: n=472 errors=0 tokens/q=20567
+sc run6: n=472 errors=0 tokens/q=20566
+sc run4: n=472 errors=0 tokens/q=20582

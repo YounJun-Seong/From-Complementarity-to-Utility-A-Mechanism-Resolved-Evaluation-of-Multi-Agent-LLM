@@ -1,0 +1,64 @@
+<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [02:13<1:27:01, 133.89s/it]  5%|▌         | 2/40 [04:48<1:32:37, 146.26s/it]  8%|▊         | 3/40 [07:23<1:32:29, 149.97s/it] 10%|█         | 4/40 [09:53<1:29:57, 149.94s/it] 12%|█▎        | 5/40 [10:13<1:00:15, 103.29s/it] 15%|█▌        | 6/40 [10:35<42:53, 75.69s/it]    18%|█▊        | 7/40 [13:52<1:03:22, 115.22s/it] 20%|██        | 8/40 [14:58<53:01, 99.43s/it]    22%|██▎       | 9/40 [15:14<37:58, 73.49s/it] 25%|██▌       | 10/40 [15:30<27:52, 55.75s/it] 28%|██▊       | 11/40 [17:40<37:51, 78.33s/it] 30%|███       | 12/40 [20:11<46:55, 100.55s/it] 32%|███▎      | 13/40 [22:24<49:41, 110.44s/it] 35%|███▌      | 14/40 [25:08<54:50, 126.56s/it] 38%|███▊      | 15/40 [25:56<42:53, 102.94s/it] 40%|████      | 16/40 [26:56<36:02, 90.11s/it]  42%|████▎     | 17/40 [28:48<37:01, 96.59s/it] 45%|████▌     | 18/40 [29:04<26:34, 72.48s/it] 48%|████▊     | 19/40 [30:01<23:44, 67.85s/it] 50%|█████     | 20/40 [30:51<20:45, 62.29s/it] 52%|█████▎    | 21/40 [31:37<18:11, 57.45s/it] 55%|█████▌    | 22/40 [33:11<20:30, 68.39s/it] 57%|█████▊    | 23/40 [34:49<21:52, 77.20s/it] 60%|██████    | 24/40 [36:53<24:21, 91.34s/it] 62%|██████▎   | 25/40 [38:51<24:51, 99.41s/it] 65%|██████▌   | 26/40 [39:53<20:35, 88.25s/it] 68%|██████▊   | 27/40 [40:47<16:51, 77.84s/it] 70%|███████   | 28/40 [41:00<11:40, 58.34s/it] 72%|███████▎  | 29/40 [43:14<14:52, 81.13s/it] 75%|███████▌  | 30/40 [45:12<15:21, 92.11s/it] 78%|███████▊  | 31/40 [46:23<12:52, 85.78s/it] 80%|████████  | 32/40 [47:46<11:20, 85.01s/it] 82%|████████▎ | 33/40 [48:55<09:21, 80.18s/it] 85%|████████▌ | 34/40 [50:22<08:13, 82.24s/it] 88%|████████▊ | 35/40 [51:51<07:01, 84.21s/it] 90%|█████████ | 36/40 [52:48<05:04, 76.22s/it] 92%|█████████▎| 37/40 [54:37<04:17, 85.99s/it] 95%|█████████▌| 38/40 [1:04:50<08:08, 244.12s/it] 98%|█████████▊| 39/40 [1:14:30<05:44, 344.73s/it]<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s] 95%|█████████▌| 38/40 [01:30<00:04,  2.37s/it] 98%|█████████▊| 39/40 [03:19<00:06,  6.26s/it]100%|██████████| 40/40 [03:34<00:00,  6.66s/it]100%|██████████| 40/40 [03:34<00:00,  5.36s/it]
+
+[INFO] no: 37
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Pediatric Immunologist (Lead)): Specializes in diagnosing and managing immunodeficiency diseases in children, focusing on assessing T and B cell function which is crucial for this case's evaluation.
+ Member 2 (Pediatric Infectious Disease Specialist): Provides expertise in managing opportunistic infections and in interpreting the signs and symptoms of infections, including RSV pneumonia and oral candidiasis.
+ Member 3 (Pediatric Gastroenterologist): Evaluates gastrointestinal symptoms such as persistent diarrhea, offering insights into potential malabsorption or other GI issues related to immunodeficiency.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Clinical Laboratory Scientist (Lead)): Oversees laboratory testing and evaluates results related to immune function (e.g., blood cell counts, immunoglobulin levels) to confirm findings of reduced B cells or defective T cell function.
+ Member 2 (Geneticist): Assesses the potential for hereditary immunodeficiency syndromes through genetic testing and family history, helping to identify possible X
+ Member 3 (Pediatric Hematologist): Focuses on the evaluation of blood cells, including a thorough assessment of lymphocytes and their subsets, which is critical for diagnosing issues related to B or T cell populations.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant Pediatrician (Lead)): Integrates findings from all assessments, guiding discussions based on overall clinical impressions and alignment with standard treatment protocols for immunodeficiencies.
+ Member 2 (Immunology Clinical Nurse Specialist): Supports the team in conducting thorough reviews of the patient's case history and treatment responses, ensuring holistic consideration of the patient's condition and nursing implications.
+ Member 3 (Pediatric Oncologist): While not primarily focused on immunodeficiencies, their expertise in lymphocyte biology and treatment plans for abnormal immune responses can provide insight into managing potential malignancies or other sequelae of immunodeficiencies.
+
+
+[INFO] no: 38
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Medical Oncologist (Lead)): 
+ Member 2 (Pharmacologist): 
+ Member 3 (Clinical Research Coordinator): 
+
+Group 2 -  Safety and Efficacy Assessment Team (SEAT)
+ Member 1 (Medical Statistician (Lead)): 
+ Member 2 (Oncologic Nurse Specialist): 
+ Member 3 (Safety Officer): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Medical Oncologist (Lead)): 
+ Member 2 (Clinical Trials Director): 
+ Member 3 (Patient Advocate): 
+
+
+[INFO] no: 39
+difficulty: basic

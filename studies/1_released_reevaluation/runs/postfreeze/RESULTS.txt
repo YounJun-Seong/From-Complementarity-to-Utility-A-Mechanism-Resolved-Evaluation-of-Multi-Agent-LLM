@@ -1,0 +1,24 @@
+
+=== Qwen2.5-14B-Instruct ===
+  R1 subset A: S 0.670  M1 0.640  M1 − S -0.030 [-0.090, +0.030]  | SC-5 0.680  SC-5 − M1 +0.040 [-0.015, +0.095]  (M1 crash 0)
+  R1 subset B: S 0.625  M1 0.650  M1 − S +0.025 [-0.035, +0.085]  | SC-5 0.635  SC-5 − M1 -0.015 [-0.075, +0.045]  (M1 crash 0)
+  R1 subset C: S 0.700  M1 0.660  M1 − S -0.040 [-0.100, +0.015]  | SC-5 0.685  SC-5 − M1 +0.025 [-0.030, +0.080]  (M1 crash 0)
+  R1 pooled (600 draws, 523 unique questions; cluster bootstrap by question): M1 − S -0.015 [-0.054, +0.024]  | SC-5 − M1 +0.017 [-0.018, +0.051]
+  R2 MedMCQA (500 q): S 0.648  M1 0.636  SC-5 0.642
+    M1 − S -0.012 [-0.048, +0.026]   SC-5 − M1 +0.006 [-0.032, +0.042]   M1 crash 0
+    S      input      533  output     387  total      920  calls   2.0
+    SC-5   input     2393  output    1989  total     4382  calls   6.0
+    M1     input    15270  output    3978  total    19249  calls  27.7
+
+=== Llama-3.1-8B-Instruct ===
+  R1 subset A: S 0.675  M1 0.530  M1 − S -0.145 [-0.215, -0.070]  | SC-5 0.685  SC-5 − M1 +0.155 [+0.085, +0.225]  (M1 crash 0)
+  R1 subset B: S 0.610  M1 0.545  M1 − S -0.065 [-0.135, +0.005]  | SC-5 0.650  SC-5 − M1 +0.105 [+0.035, +0.180]  (M1 crash 1)
+  R1 subset C: S 0.650  M1 0.520  M1 − S -0.130 [-0.205, -0.055]  | SC-5 0.660  SC-5 − M1 +0.140 [+0.065, +0.215]  (M1 crash 1)
+  R1 pooled (600 draws, 523 unique questions; cluster bootstrap by question): M1 − S -0.113 [-0.159, -0.068]  | SC-5 − M1 +0.133 [+0.090, +0.177]
+  R2 MedMCQA (500 q): S 0.608  M1 0.542  SC-5 0.648
+    M1 − S -0.066 [-0.112, -0.020]   SC-5 − M1 +0.106 [+0.060, +0.152]   M1 crash 0
+    S      input      507  output     318  total      826  calls   2.0
+    SC-5   input     2109  output    1563  total     3672  calls   6.0
+    M1     input     4948  output    1699  total     6646  calls  10.6
+
+R5 Llama-3.1-8B, first 200 x 3: SC-7 0.732 (7755 tok/q) vs M1 0.598 (7561 tok/q): SC-7 − M1 +0.133 [+0.080, +0.187]

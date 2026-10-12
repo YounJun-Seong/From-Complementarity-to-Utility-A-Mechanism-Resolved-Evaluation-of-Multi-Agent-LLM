@@ -1,0 +1,22 @@
+Identification audit (post-hoc, HELD-OUT n=339); frozen router chose COLLABORATE on 4
+q_C: mean 0.097, median 0.051, max 0.591, share > 0.5 0.012
+primary  y = M1 right & SC-22 wrong: n_pos 21 (prevalence 0.062); AUROC 0.735 [0.642, 0.818]; AUPRC 0.220 [0.086, 0.377]
+secondary y2 = M1 right & S, SC wrong: n_pos 17 (prevalence 0.050); AUROC 0.688 [0.589, 0.796]; AUPRC 0.192 [0.053, 0.372]
+coverage–cost (route top-k% by q_C to M1; others keep frozen action):
+  k=0.00  n=  0  recall 0.000 (random 0.00)  precision None  acc 0.649  tok/q 9028
+  k=0.01  n=  3  recall 0.095 (random 0.01)  precision 0.667  acc 0.649  tok/q 9028
+  k=0.05  n= 17  recall 0.143 (random 0.05)  precision 0.176  acc 0.643  tok/q 9398
+  k=0.10  n= 34  recall 0.190 (random 0.10)  precision 0.118  acc 0.637  tok/q 10001
+  k=0.20  n= 68  recall 0.476 (random 0.20)  precision 0.147  acc 0.664  tok/q 12231
+  k=0.30  n=102  recall 0.524 (random 0.30)  precision 0.108  acc 0.655  tok/q 14642
+calibration (1[M1 correct and both cheap actions wrong]): mean q_C 0.097 vs base rate 0.050; Brier 0.058
+  decile q_C 0.012 -> observed 0.000 (n=34)
+  decile q_C 0.028 -> observed 0.000 (n=34)
+  decile q_C 0.035 -> observed 0.029 (n=34)
+  decile q_C 0.042 -> observed 0.029 (n=34)
+  decile q_C 0.049 -> observed 0.030 (n=33)
+  decile q_C 0.054 -> observed 0.118 (n=34)
+  decile q_C 0.063 -> observed 0.088 (n=34)
+  decile q_C 0.081 -> observed 0.029 (n=34)
+  decile q_C 0.195 -> observed 0.088 (n=34)
+  decile q_C 0.406 -> observed 0.088 (n=34)

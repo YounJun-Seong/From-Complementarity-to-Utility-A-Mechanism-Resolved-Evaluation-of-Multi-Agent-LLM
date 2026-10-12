@@ -1,0 +1,6 @@
+Multi-agent gain of MedAgents (M1) over a strong single agent (S) across the evaluated
+Qwen2.5-Instruct scales (1.5B, 3B, 7B, 14B; MedQA questions 0–199, 3 runs per system, BF16,
+local vLLM). x: S accuracy; y: M1 − S with question-level paired-bootstrap 95% CI; crashes and
+unparsed answers scored wrong. Labels give the M1 crash rate where it is non-negligible
+(1.5B 7.5%, 3B 8.8%); 7B and 14B had near-zero / zero crash rates (0.2% / 0%).
+Exploratory open-weight layer; not pooled with the GPT-4o-mini results.

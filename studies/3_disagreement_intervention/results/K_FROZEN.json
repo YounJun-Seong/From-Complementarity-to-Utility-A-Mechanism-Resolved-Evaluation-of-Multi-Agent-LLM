@@ -1,0 +1,23 @@
+{
+ "n_triggered": 20,
+ "mean_tdc_incremental_tokens": 3597.85,
+ "mean_sample_tokens": 888.5,
+ "mean_hetero_recruitment_tokens": 345.85,
+ "mean_hetero_sample_tokens": 955.0500000000002,
+ "predicted_samplemore_tokens": 3554.0,
+ "predicted_samplemore_ratio": 1.0123382104670793,
+ "predicted_heteromore_tokens": 3211.0000000000005,
+ "predicted_heteromore_ratio": 1.1204764870756772,
+ "n_token_probe": 20,
+ "n_probe_questions": 100,
+ "T_TDC": 3597.85,
+ "t_s": 888.5,
+ "t_r": 345.85,
+ "t_h": 955.0500000000002,
+ "k_add": 4,
+ "k_het": 3,
+ "predicted_ratio_add": 1.0123382104670793,
+ "predicted_ratio_het": 1.1204764870756772,
+ "n_single_answer": 0,
+ "source": "runs/phase3/dev/token_probe"
+}

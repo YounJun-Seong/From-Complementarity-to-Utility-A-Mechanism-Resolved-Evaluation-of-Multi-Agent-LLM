@@ -1,0 +1,7 @@
+model                   S acc  M1 acc            M1−S [95% CI]  crash  compl stab S stab M1 M1 len% M1 calls/q  M1 tok/q
+Qwen2.5-1.5B-Instruct   0.378   0.367  -0.012 [-0.078,+0.057]  0.075  0.925  0.540   0.515   0.299       22.9     25522
+Qwen2.5-3B-Instruct     0.508   0.475  -0.033 [-0.093,+0.025]  0.088  0.912  0.740   0.530   0.262       26.6     23027
+Qwen2.5-7B-Instruct     0.628   0.625  -0.003 [-0.058,+0.055]  0.002  0.998  0.765   0.750   0.331       22.2     21384
+Qwen2.5-14B-Instruct    0.745   0.705  -0.040 [-0.087,+0.007]  0.000  1.000  0.870   0.805   0.321       23.5     22130
+
+cache calls are unique generations per namespace (cached repeats within a run are counted once)

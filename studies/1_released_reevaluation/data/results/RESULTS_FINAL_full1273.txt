@@ -1,0 +1,15 @@
+=== MedQA FULL TEST SET (n=1273) — gpt-4o-mini ===
+  base_cot (weak baseline)   0.636 [0.610,0.662]
+  base_cot_strong            0.754 [0.730,0.777]
+  single zero-shot CoT       0.768 [0.745,0.792]
+  MedAgents syn_verif        0.755 [0.731,0.778]
+
+  Δ(multi-single) = -0.0134  90%CI[-0.0297,+0.0030]  discordant=161
+  TOST (two one-sided t):
+     δ=0.02: p_TOST=0.2525 -> not established
+     δ=0.03: p_TOST=0.0475 -> EQUIVALENT
+     δ=0.05: p_TOST=0.0001 -> EQUIVALENT
+
+  single - base_cot     = +0.133 [+0.110,+0.156]
+  multi - base_cot_strong = +0.001 [-0.019,+0.021]
+FINAL_1273_DONE

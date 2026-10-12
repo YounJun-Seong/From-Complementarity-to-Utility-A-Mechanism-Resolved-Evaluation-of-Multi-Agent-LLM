@@ -1,0 +1,9 @@
+probe: n=1683 errors=0 parse_success=0.992 states={'unanimous': 1018, 'split': 161, 'weak': 353, 'fragmented': 147, 'failure': 4}
+tdc: n=661 expected=661 qids_match=True errors=0 empty_final=0
+  extraction parsed_all=651/651 core_fallback=0 claim_missing=0 revision_e3_failed=1/1302 single_answer=10
+  flow joint={'swap': 93, 'converge X': 148, 'disagreement remains': 284, 'converge Y': 125, 'converge third': 1}
+  revision finish=length: 3/1302
+sample_more: n=661 expected=661 qids_match=True errors=0 empty_final=0
+het: n=661 expected=661 qids_match=True errors=0 empty_final=0
+M1: rows=661 expected=661 order_ok=True crashes=0 placeholder_constant=True
+VALID

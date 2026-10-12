@@ -1,0 +1,10 @@
+COST / TOKEN ACCOUNTING (gpt-4o-mini, per question) vs standard single prompt
+method                    calls/q   tokens/q  xTokens    acc
+single: zeroshot_cot          2.0       1149     1.0x  0.815
+MedAgents base_cot            1.0        510     0.4x  0.700
+MedAgents syn_verif          24.5      20094    17.5x  0.800
+MDAgents adaptive            25.0      50156    43.7x  0.720
+
+=> Multi-agent systems cost 17.5x (MedAgents) to 43.7x (MDAgents) the tokens of a
+   standard single prompt, for statistically equivalent (or lower) accuracy.
+COST_DONE

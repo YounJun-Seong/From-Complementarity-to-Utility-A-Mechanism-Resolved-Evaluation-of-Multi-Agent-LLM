@@ -1,0 +1,14 @@
+MedLA pilot — MedQA-US 4-option, questions 0–199, gpt-4o-mini, 3 runs per system
+system    acc   ± SD                 runs stable3 unparsed  crash calls/q    tok/q      $/q wall s/q
+L0    0.827  0.012    0.840 0.820 0.820   0.895    0.000  0.000    69.2   161230  0.03865    328.5
+L1    0.798  0.012    0.805 0.805 0.785   0.930    0.000  0.000     1.0      301  0.00005      0.7
+S4    0.835  0.005    0.840 0.830 0.835   0.900    0.000  0.000     2.0     1112  0.00035      nan
+
+[PRIMARY] L0 − S4 = -0.008 [-0.047, +0.030]  McNemar(majority) p=1 (L0 only 11, S4 only 12)
+    TOST p: δ0.01:0.467 δ0.02:0.279 *δ0.03:0.138 δ0.04:0.056 δ0.05:0.018
+[secondary] L0 − L1 = +0.028 [-0.013, +0.070]  McNemar(majority) p=0.42 (L0 only 15, L1 only 10)
+    TOST p: δ0.01:0.803 δ0.02:0.651 *δ0.03:0.469 δ0.04:0.294 δ0.05:0.157
+[descriptive] S4 − L1 = +0.037 [-0.002, +0.077]  McNemar(majority) p=0.29 (S4 only 14, L1 only 8)
+    TOST p: δ0.01:0.905 δ0.02:0.794 *δ0.03:0.629 δ0.04:0.435 δ0.05:0.256
+
+cost ratio L0/S4: tokens 145.0x, $ 109.9x

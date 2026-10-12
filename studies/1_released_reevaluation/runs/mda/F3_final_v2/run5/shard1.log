@@ -1,0 +1,80 @@
+<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [02:13<1:26:40, 133.34s/it]  5%|▌         | 2/40 [03:55<1:12:40, 114.74s/it]  8%|▊         | 3/40 [05:47<1:10:07, 113.71s/it] 10%|█         | 4/40 [06:08<46:21, 77.27s/it]    12%|█▎        | 5/40 [07:45<49:10, 84.29s/it] 15%|█▌        | 6/40 [09:14<48:34, 85.71s/it] 18%|█▊        | 7/40 [09:42<36:44, 66.80s/it] 20%|██        | 8/40 [10:57<37:10, 69.69s/it] 22%|██▎       | 9/40 [13:17<47:19, 91.61s/it] 25%|██▌       | 10/40 [14:34<43:31, 87.04s/it] 28%|██▊       | 11/40 [16:59<50:38, 104.79s/it] 30%|███       | 12/40 [19:18<53:41, 115.06s/it] 32%|███▎      | 13/40 [20:51<48:47, 108.42s/it] 35%|███▌      | 14/40 [21:59<41:44, 96.31s/it]  38%|███▊      | 15/40 [22:11<29:31, 70.84s/it] 40%|████      | 16/40 [22:59<25:38, 64.12s/it] 42%|████▎     | 17/40 [23:11<18:30, 48.30s/it] 45%|████▌     | 18/40 [25:04<24:50, 67.74s/it] 48%|████▊     | 19/40 [26:29<25:32, 72.97s/it] 50%|█████     | 20/40 [27:23<22:25, 67.26s/it] 52%|█████▎    | 21/40 [29:18<25:47, 81.44s/it] 55%|█████▌    | 22/40 [30:07<21:35, 72.00s/it] 57%|█████▊    | 23/40 [31:02<18:56, 66.87s/it] 60%|██████    | 24/40 [32:12<18:04, 67.80s/it] 62%|██████▎   | 25/40 [33:06<15:53, 63.55s/it] 65%|██████▌   | 26/40 [34:48<17:29, 74.93s/it] 68%|██████▊   | 27/40 [39:10<28:25, 131.21s/it] 70%|███████   | 28/40 [41:15<25:52, 129.37s/it] 72%|███████▎  | 29/40 [43:36<24:22, 132.94s/it] 75%|███████▌  | 30/40 [43:55<16:26, 98.64s/it]  78%|███████▊  | 31/40 [45:47<15:24, 102.70s/it] 80%|████████  | 32/40 [46:39<11:39, 87.47s/it]  82%|████████▎ | 33/40 [47:58<09:54, 84.87s/it] 85%|████████▌ | 34/40 [52:24<13:54, 139.17s/it] 88%|████████▊ | 35/40 [52:38<08:29, 101.83s/it] 90%|█████████ | 36/40 [54:20<06:46, 101.71s/it] 92%|█████████▎| 37/40 [54:35<03:47, 75.75s/it]  95%|█████████▌| 38/40 [1:14:28<13:41, 410.94s/it]<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s] 95%|█████████▌| 38/40 [00:51<00:02,  1.36s/it] 98%|█████████▊| 39/40 [02:43<00:05,  5.35s/it]100%|██████████| 40/40 [04:32<00:00, 10.47s/it]100%|██████████| 40/40 [04:32<00:00,  6.81s/it]
+
+[INFO] no: 77
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Rheumatologist (Lead)): 
+ Member 2 (Endocrinologist): 
+ Member 3 (Orthopedic Surgeon): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Clinical Pathologist (Lead)): 
+ Member 2 (Radiologist): 
+ Member 3 (Hematologist): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Rheumatologist (Lead)): 
+ Member 2 (Clinical Decision Specialist): 
+ Member 3 (Palliative/Supportive Care Specialist): 
+
+
+[INFO] no: 78
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Pediatric Cardiologist (Lead)): Specializes in congenital heart diseases and is responsible for the initial assessment of the newborn's cardiac status, providing insights into the presence and implications of the cyanosis, respiratory failure, and heart sound characteristics.
+ Member 2 (Neonatologist): Focuses on the immediate care and management of newborns, particularly in assessing and managing respiratory distress, administering necessary interventions, and monitoring overall health in the neonatal ICU.
+ Member 3 (Pediatric Radiologist): Provides expertise in imaging studies, interpreting the chest radiograph to confirm the "egg
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Pediatric Cardiothoracic Surgeon (Lead)): Engages in evaluating the need for surgical intervention and the urgency of atrial septostomy as a bridge to definitive correction of the suspected cardiac condition.
+ Member 2 (Geneticist): Assesses any potential genetic factors contributing to congenital heart diseases, offering insights into the etiology of the newborn’s condition and counseling for any family history of congenital anomalies that may relate to the diagnosis.
+ Member 3 (Pediatric Critical Care Specialist): Oversees the sophisticated management of a critically ill newborn, advising on ventilation strategies and other intensive care measures related to the evolving respiratory failure, particularly in the context of reducing pulmonary vascular resistance and optimizing hemodynamics.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Pediatric Cardiologist (Lead)): Provides an overarching perspective on the case, coordinating the synthesis of all data gathered from the IAT and DET to confirm the differential diagnosis and management plan.
+ Member 2 (Pediatric Surgeon): Works in conjunction with the cardiologist to finalize surgical options, timings, and preparations necessary for a definitive corrective procedure following the atrial septostomy.
+ Member 3 (Clinical Pathologist): Reviews and integrates laboratory results that may influence surgical decisions and postoperative management, ensuring that all biological and diagnostic data are adequately represented in the final planning.
+
+
+[INFO] no: 79
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Trauma Surgeon (Lead)): Specializes in the management of traumatic injuries, including thoracic trauma. This surgeon will lead the initial assessment and operative interventions necessary for cardiac repair.
+ Member 2 (Emergency Medicine Physician): Provides expertise in critical care management, including resuscitation efforts and stabilization of the patient in the emergency setting.
+ Member 3 (Anesthesiologist): Focuses on airway management, sedation, and anesthesia for potential surgical intervention while monitoring the patient's hemodynamic status.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Radiologist (Lead)): Provides expertise in imaging studies, including ultrasound and CT scans, to assess the extent of the cardiac injury and any associated thoracic injuries.
+ Member 2 (Cardiothoracic Surgeon): Evaluates the need for surgical intervention based on the echocardiography findings and provides potential surgical repair options for the right ventricle.
+ Member 3 (Trauma Intensivist): Specializes in the management of critically injured patients and will review patient data and vital signs to determine immediate interventions needed during the diagnostic phase.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Trauma Consultant (Lead)): Provides overarching leadership and integrates information from various teams to guide the surgical approach based on the patient's critical condition.
+ Member 2 (Surgical First Assistant): Assists and provides input on the surgical decision
+ Member 3 (Clinical Decision Specialist): Coordinates recommendations from the various specialties, ensuring that the surgical plan is well
+

@@ -1,0 +1,8 @@
+### system
+Given the reasoning, output the final answer. Respond ONLY as JSON: {"choice":"A|B|C|D"}
+### user
+Reasoning:
+{reasoning_first_2500_chars}
+
+Options:
+{options}

@@ -1,0 +1,282 @@
+<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [03:06<2:00:59, 186.13s/it]  5%|▌         | 2/40 [11:15<3:50:49, 364.47s/it]  8%|▊         | 3/40 [13:41<2:43:13, 264.69s/it] 10%|█         | 4/40 [15:44<2:05:16, 208.79s/it] 12%|█▎        | 5/40 [15:58<1:20:47, 138.50s/it] 15%|█▌        | 6/40 [19:52<1:36:49, 170.88s/it] 18%|█▊        | 7/40 [22:45<1:34:23, 171.63s/it] 20%|██        | 8/40 [23:31<1:10:11, 131.61s/it] 22%|██▎       | 9/40 [24:09<52:52, 102.35s/it]   25%|██▌       | 10/40 [25:44<50:02, 100.08s/it] 28%|██▊       | 11/40 [26:37<41:28, 85.82s/it]  30%|███       | 12/40 [27:57<39:08, 83.89s/it] 32%|███▎      | 13/40 [29:28<38:44, 86.09s/it] 35%|███▌      | 14/40 [31:18<40:25, 93.30s/it] 38%|███▊      | 15/40 [33:18<42:17, 101.52s/it] 40%|████      | 16/40 [34:43<38:35, 96.48s/it]  42%|████▎     | 17/40 [35:44<32:54, 85.86s/it] 45%|████▌     | 18/40 [35:57<23:27, 63.99s/it] 48%|████▊     | 19/40 [37:31<25:28, 72.80s/it] 50%|█████     | 20/40 [38:52<25:04, 75.22s/it] 52%|█████▎    | 21/40 [39:52<22:26, 70.84s/it] 55%|█████▌    | 22/40 [41:21<22:49, 76.10s/it] 57%|█████▊    | 23/40 [43:31<26:11, 92.42s/it] 60%|██████    | 24/40 [44:32<22:08, 83.05s/it] 62%|██████▎   | 25/40 [46:27<23:06, 92.44s/it] 65%|██████▌   | 26/40 [48:23<23:15, 99.65s/it] 68%|██████▊   | 27/40 [48:36<15:56, 73.61s/it] 70%|███████   | 28/40 [48:47<11:00, 55.01s/it] 72%|███████▎  | 29/40 [50:57<14:10, 77.32s/it] 75%|███████▌  | 30/40 [53:11<15:42, 94.23s/it] 78%|███████▊  | 31/40 [54:12<12:40, 84.48s/it] 80%|████████  | 32/40 [1:04:50<33:22, 250.35s/it] 82%|████████▎ | 33/40 [1:14:29<40:43, 349.00s/it]<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s] 80%|████████  | 32/40 [01:08<00:17,  2.14s/it] 82%|████████▎ | 33/40 [02:05<00:31,  4.50s/it] 85%|████████▌ | 34/40 [03:58<01:04, 10.73s/it] 88%|████████▊ | 35/40 [05:24<01:22, 16.48s/it] 90%|█████████ | 36/40 [06:41<01:29, 22.36s/it] 92%|█████████▎| 37/40 [07:55<01:26, 28.73s/it] 95%|█████████▌| 38/40 [09:16<01:12, 36.43s/it] 98%|█████████▊| 39/40 [11:17<00:51, 51.26s/it]100%|██████████| 40/40 [12:40<00:00, 57.62s/it]100%|██████████| 40/40 [12:40<00:00, 19.00s/it]
+
+[INFO] no: 31
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Cardiologist (Lead)): As the primary expert in cardiovascular conditions, the cardiologist will assess the patient's symptoms of shortness of breath and palpitations. They will interpret the findings from the cardiac catheterization and pressure
+ Member 2 (Critical Care Physician): Specializes in managing patients in the intensive care unit, focusing on immediate life
+ Member 3 (Radiologist): Expert in interpreting imaging studies, including those from cardiac catheterization (e.g., angiograms). The radiologist will provide diagnostic support by reviewing any imaging related to the patient’s heart structure and function, which can help differentiate the underlying cause of their symptoms.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Heart Failure Specialist (Cardiologist)): Focused on evaluating the patient’s overall cardiac function, the heart failure specialist will analyze the left ventricular pressure
+ Member 2 (Pulmonologist): Assesses the respiratory aspects of the patient’s condition, since shortness of breath can also stem from pulmonary issues. The pulmonologist will evaluate pulmonary function tests and ensure that any obstructive or restrictive lung abnormalities are ruled out.
+ Member 3 (Cardiothoracic Surgeon): Will consult on any structural heart disease considerations, especially given that conditions like aortic stenosis could contribute to the observed symptoms. This team member will provide insights into potential surgical interventions if indicated, based on diagnostic evidence.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Cardiologist (Lead)): As a seasoned expert, the senior cardiologist will synthesize information and recommendations from the initial and diagnostic teams to determine the most likely underlying cause of the patient’s symptoms. They will guide the discussion toward appropriate interventions based on consensus.
+ Member 2 (Clinical Pharmacologist): Evaluates medication management related to the patient's conditions, particularly concerning heart failure management and any necessary adjustments following the established diagnosis from the MDTs. This member ensures that pharmacologic therapies align with the identified underlying condition.
+ Member 3 (Nurse Practitioner (Cardiology Specialty)): Plays a pivotal role in facilitating communication among the teams and ensuring the patient's needs are met holistically. The nurse practitioner will focus on patient education regarding the findings and management plans and coordinate nursing care post
+
+
+[INFO] no: 32
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏽‍⚕️ 1. Infectious Disease Specialist): Specializes in the diagnosis and treatment of infections, particularly those caused by bacteria, viruses, fungi, and parasites.
+Agent 2 (👨🏿‍⚕️ 2. Microbiologist): Focuses on the study of microorganisms, including bacteria and their resistance patterns, and assists in interpreting culture results.
+Agent 3 (👨🏽‍⚕️ 3. Clinical Pharmacologist): Specializes in the science of drugs and their effects on the body, including antibiotic therapy and resistance.
+Agent 4 (🧑🏽‍⚕️ 4. Hematologist): Focuses on blood disorders, which can be relevant in assessing the patient's thrombocytopenia and anemia.
+Agent 5 (👩🏼‍⚕️ 5. Emergency Medicine Physician): Specializes in the immediate evaluation and treatment of acute medical conditions, providing insights into the initial management of infections in the emergency setting.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                             moderator (👨‍⚖️)                                                                                              
+                   ┌──────────────────────────────────┬─────────────┴────────────────────┬─────────────────────────────────┬──────────────────────────────┐                
+ Infectious Disease Specialist (👨🏽‍⚕️)      Microbiologist (👨🏿‍⚕️)      Emergency Medicine Physician (👩🏼‍⚕️)      Hematologist (🧑🏽‍⚕️)     Clinical Pharmacologist (👨🏽‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏽‍⚕️ infectious disease specialist): 🤐
+ Agent 2 (👨🏿‍⚕️ microbiologist): 🤐
+ Agent 3 (👨🏽‍⚕️ clinical pharmacologist): 🤐
+ Agent 4 (🧑🏽‍⚕️ hematologist): 🤐
+ Agent 5 (👩🏼‍⚕️ emergency medicine physician): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏽‍⚕️) | Agent 2 (👨🏿‍⚕️) | Agent 3 (👨🏽‍⚕️) | Agent 4 (🧑🏽‍⚕️) | Agent 5 (👩🏼‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (🧑🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👩🏼‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely antibiotic treatment for the patient described, we need to consider the context of her recent hospitalization for bacterial meningitis and the subsequent development of her symptoms, including fever, fatigue, and thrombocytopenia, along with the blood culture results showing coagulase-negative staphylococci.\n\n1. **Doxycycline (A)**: Typically used for a variety of infections, but not the first choice for bacterial meningitis.\n2. **Trimethoprim/sulfamethoxazole (B)**: Not commonly used for bacterial meningitis.\n3. **Vancomycin (C)**: Often used in cases of suspected meningitis, especially to cover resistant strains of Staphylococcus aureus, but less likely for coagulase-negative staphylococci.\n4. **Chloramphenicol (E)**: Historically used for bacterial meningitis, particularly in cases of penicillin-resistant organisms, but less common now due to side effects and availability of other antibiotics.\n5. **Linezolid (D)**: Primarily used for resistant Gram-positive infections, not typically for meningitis.\n\nGiven the context of the patient's recent hospitalization for bacterial meningitis and the blood culture results, the most likely antibiotic treatment would be **Vancomycin (C)**, as it is commonly used in conjunction with other antibiotics for treating meningitis, especially in cases where resistant organisms are a concern.\n\nAfter reviewing the opinions and considering the clinical scenario, the majority of reasoning points towards:\n\nAnswer: C) Vancomycin"}
+
+
+[INFO] no: 33
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Gastroenterologist (Lead)): Specializes in diagnosing and treating gastrointestinal disorders. This member will lead the assessment, focusing on the endoscopic findings and interpreting the biopsy results related to the gastric mucosa changes.
+ Member 2 (Internist): Provides holistic insights into the patient's overall health, the significance of the weight loss, and concurrent systemic symptoms, and ensures the patient's comorbid conditions are considered.
+ Member 3 (Dietitian): Assesses nutritional status due to the patient's weight loss and gastrointestinal symptoms, advising on potential dietary adjustments necessary while evaluating the underlying cause of gastric changes.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Pathologist (Lead)): Responsible for analyzing biopsy samples and determining the specific histological changes indicating atrophy of parietal cells and differential diagnoses.
+ Member 2 (Radiologist): Evaluates any imaging studies (such as an abdominal ultrasound or CT scan) for any structural changes or masses that may relate to the gastrointestinal complaints and contribute to the diagnostic picture.
+ Member 3 (Oncologist): Explores the possibility of neoplasias, particularly focusing on identifying any potential malignancies including gastric tumors that could be influencing the gastrin levels or causing the observed symptoms and findings.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Gastroenterologist (Lead)): Provides overarching expertise in gastrointestinal diseases and integrates findings from multiple specialties to confirm the diagnosis and treatment approach.
+ Member 2 (Clinical Pharmacologist): Analyzes management options and medication plans that will be required for long
+ Member 3 (Clinical Decision Specialist): Coordinates and synthesizes the treatment recommendations from all the teams, ensuring a comprehensive approach to the complex case and facilitating discussions on the most appropriate intervention strategy.
+
+
+[INFO] no: 34
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Emergency Medicine Physician (Lead)): 
+ Member 2 (Toxicologist): 
+ Member 3 (Critical Care Nurse): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Internal Medicine Specialist (Lead)): 
+ Member 2 (Endocrinologist): 
+ Member 3 (Nephrologist): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant Physician from Internal Medicine (Lead)): 
+ Member 2 (Pharmacist): 
+ Member 3 (Clinical Decision Specialist): 
+
+
+[INFO] no: 35
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏽‍⚕️ 1. Rheumatologist): Specializes in the diagnosis and treatment of arthritis and other rheumatic diseases.
+Agent 2 (🧑🏿‍⚕️ 2. Dermatologist): Focuses on skin conditions, which will help evaluate the dandruff and any related skin manifestations of arthritis.
+Agent 3 (👩🏼‍⚕️ 3. Physiotherapist): Specializes in rehabilitation and physical therapy, particularly in improving mobility and managing pain associated with joint issues.
+Agent 4 (👨🏽‍⚕️ 4. Orthopedic Surgeon): Focuses on the musculoskeletal system, providing insights on joint damage or orthopedic interventions if necessary.
+Agent 5 (👩🏻‍⚕️ 5. Geriatrician): Specializes in health care for older adults, addressing the complexity of age
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                             moderator (👨‍⚖️)                                                                            
+            ┌──────────────────────────┬────────────┴────────────┬────────────────────────────┬─────────────────────────────┐            
+  Rheumatologist (👨🏽‍⚕️)     Dermatologist (🧑🏿‍⚕️)      Geriatrician (👩🏻‍⚕️)      Orthopedic Surgeon (👨🏽‍⚕️)     Physiotherapist (👩🏼‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏽‍⚕️ rheumatologist): 🤐
+ Agent 2 (🧑🏿‍⚕️ dermatologist) -> Agent 1 (👨🏽‍⚕️ rheumatologist) : As a dermatologist with a focus on skin conditions, I support the diagnosis of psoriatic arthritis for this patient based on the connection between his dermatological symptoms and the joint inflammation. Specifically, the patient's history of dandruff may indicate underlying scalp psoriasis, which aligns with the presence of nail pitting—both of which are commonly associated with psoriatic arthritis. These factors, combined with the characteristic joint symptoms and their pattern, strongly suggest that we should consider this diagnosis seriously to guide effective treatment strategies.
+ Agent 2 (🧑🏿‍⚕️ dermatologist) -> Agent 2 (🧑🏿‍⚕️ dermatologist) : As a dermatologist specializing in skin conditions, I also support the diagnosis of psoriatic arthritis given the patient’s presentation. The presence of dandruff may indicate scalp psoriasis, which is often found in individuals with psoriatic arthritis. Additionally, the nail pitting observed in the patient is a hallmark feature associated with this condition. These dermatological signs, in conjunction with the patient’s joint symptoms and their inflammatory nature, underscore the importance of addressing both the skin and joint manifestations through an integrated treatment approach.
+ Agent 3 (👩🏼‍⚕️ physiotherapist) -> Agent 1 (👨🏽‍⚕️ rheumatologist) : As a physiotherapist specializing in rehabilitation and physical therapy, my focus is on enhancing mobility and managing pain associated with joint issues. 
+
+To the rheumatologist:
+
+In this case, I strongly concur with the diagnosis of psoriatic arthritis based on the patient's long-standing history of arthritis, joint swelling, back pain that improves with rest, and notable nail pitting. These findings align with inflammatory arthritis characteristics and suggest underlying psoriasis. Addressing both the joint and skin components of his condition is crucial for an effective treatment plan that aims to improve his mobility and overall quality of life. I believe that early intervention and a comprehensive therapeutic approach will greatly benefit this patient.
+ Agent 3 (👩🏼‍⚕️ physiotherapist) -> Agent 2 (🧑🏿‍⚕️ dermatologist) : As a physiotherapist specializing in rehabilitation and physical therapy, my focus is on improving mobility and managing pain associated with joint issues.
+
+To the dermatologist:
+
+I fully support the consideration of psoriatic arthritis as the likely diagnosis for this patient. Given the presence of dandruff and nail pitting, we should evaluate the possibility of underlying psoriasis that may not be overtly visible. Addressing these skin manifestations is essential, as they can significantly impact the patient's quality of life and could correlate with the severity of his arthritis symptoms. Collaboration in managing both his skin and joint issues will lead to a more comprehensive treatment approach, potentially improving his mobility and overall health outcomes.
+ Agent 4 (👨🏽‍⚕️ orthopedic surgeon): 🤐
+ Agent 5 (👩🏻‍⚕️ geriatrician) -> Agent 1 (👨🏽‍⚕️ rheumatologist) : As a geriatrician, my expertise lies in managing the health care needs of older adults, particularly considering the complexities associated with aging, such as multiple chronic conditions and polypharmacy. 
+
+To Agent 1 (rheumatologist): 
+
+I strongly concur with the diagnosis of psoriatic arthritis for this patient. The long history of arthritis, coupled with the presence of nail pitting and symptoms of bilateral knee swelling and back pain, suggests an inflammatory arthropathy linked to psoriasis. The patient’s complaint of pain that improves with rest further supports this diagnosis, which is characteristic of inflammatory conditions rather than mechanical ones. The association of skin symptoms like dandruff could indicate underlying psoriasis, enhancing the case for psoriatic arthritis. Comprehensive management will be crucial to address both the joint and skin components of his condition as we consider therapy options.
+ Agent 5 (👩🏻‍⚕️ geriatrician) -> Agent 2 (🧑🏿‍⚕️ dermatologist) : As a geriatrician, my expertise involves the comprehensive care of older adults, focusing on their unique health challenges and the interplay of multiple medical conditions.
+
+To Agent 2 (dermatologist):
+
+I believe we should consider the possibility of psoriasis in this patient, given his symptoms of dandruff and nail pitting, which are suggestive of psoriatic involvement. The presence of these skin manifestations, alongside the joint symptoms indicative of psoriatic arthritis, underscores the need for a thorough dermatological evaluation. Addressing the skin condition will be crucial, as effective management of psoriasis can significantly improve the patient's quality of life and may have a positive impact on his joint symptoms. Collaboration on this aspect will enhance our overall treatment approach and patient outcomes.
+ Agent 5 (👩🏻‍⚕️ geriatrician) -> Agent 3 (👩🏼‍⚕️ physiotherapist) : As a geriatrician, my expertise focuses on the health care of older adults, particularly in managing complex health issues and improving their functional status.
+
+To Agent 3 (physiotherapist):
+
+I highly recommend initiating a physical therapy intervention for this patient with psoriatic arthritis. Given his bilateral knee pain and back discomfort, a tailored physiotherapy program will be essential to enhance mobility, reduce pain, and promote functional independence. Emphasizing gentle range-of-motion exercises and strengthening routines can help alleviate stiffness and improve overall joint function. Additionally, educating the patient about activities that minimize strain on his joints while maximizing movement can significantly improve his quality of life. Collaborative efforts in his rehabilitation will be critical to managing his symptoms and promoting sustained activity levels.
+ Agent 5 (👩🏻‍⚕️ geriatrician) -> Agent 4 (👨🏽‍⚕️ orthopedic surgeon) : As a geriatrician, my expertise lies in the comprehensive care of older adults, focusing on their multifaceted health issues and the implications of aging on treatment decisions.
+
+To Agent 4 (orthopedic surgeon):
+
+I believe that while we primarily suspect psoriatic arthritis as the diagnosis for this patient, it is crucial to evaluate the potential for joint damage resulting from prolonged inflammation and the chronic nature of his symptoms. Given the patient's difficulty walking and the extent of pain affecting his mobility, an orthopedic assessment may be warranted to examine the structural integrity of his knees and spine. Early intervention can prevent further deterioration and preserve function. If there are significant degenerative changes, surgical options may need to be considered in conjunction with medical management. Your expertise in this area will be invaluable in optimizing his care and ensuring we take a comprehensive approach to his joint health.
+ Agent 5 (👩🏻‍⚕️ geriatrician) -> Agent 5 (👩🏻‍⚕️ geriatrician) : As a geriatrician, my expertise is centered on the comprehensive health care needs of older adults, particularly addressing the complexities of aging and the management of multiple comorbidities.
+
+To Agent 5 (geriatrician):
+
+In reviewing this case of psoriatic arthritis in an older adult, it's important to consider not only the joint and skin manifestations but also the broader impact of this condition on the patient's overall health and independence. Given his difficulty walking and the frustration stemming from pain, we should emphasize a multidisciplinary approach that includes pain management, physical therapy, and potentially, medication adjustments. We also need to evaluate his psychosocial aspects, as chronic pain and mobility issues can lead to anxiety or depression in older adults. Ensuring he has adequate support systems and resources will be crucial in improving his quality of life. Overall, our goal should be to enhance his functionality and well-being while managing his psoriatic arthritis effectively.
+|_Turn 2
+ Agent 1 (👨🏽‍⚕️ rheumatologist): 🤐
+ Agent 2 (🧑🏿‍⚕️ dermatologist): 🤐
+ Agent 3 (👩🏼‍⚕️ physiotherapist): 🤐
+ Agent 4 (👨🏽‍⚕️ orthopedic surgeon): 🤐
+ Agent 5 (👩🏻‍⚕️ geriatrician): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏽‍⚕️) | Agent 2 (🧑🏿‍⚕️) | Agent 3 (👩🏼‍⚕️) | Agent 4 (👨🏽‍⚕️) | Agent 5 (👩🏻‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏽‍⚕️) |              |  ✋ (1<-2)   |  ✋ (1<-3)   |              |  ✋ (1<-5)   |
+|              |              |              |              |              |              |
+| Agent 2 (🧑🏿‍⚕️) |  ✋ (2->1)   |              |  ✋ (2<-3)   |              |  ✋ (2<-5)   |
+|              |              |              |              |              |              |
+| Agent 3 (👩🏼‍⚕️) |  ✋ (3->1)   |  ✋ (3->2)   |              |              |  ✋ (3<-5)   |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏽‍⚕️) |              |              |              |              |  ✋ (4<-5)   |
+|              |              |              |              |              |              |
+| Agent 5 (👩🏻‍⚕️) |  ✋ (5->1)   |  ✋ (5->2)   |  ✋ (5->3)   |  ✋ (5->4)   |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely diagnosis based on the provided information, let's review the key points:\n\n1. The patient is a 67-year-old man with a long history of arthritis.\n2. He presents with swelling and pain in both knees, with a previous episode of swelling in the left knee.\n3. He experiences back pain that improves with rest.\n4. He has pitting of the nails and dandruff, which may suggest a skin condition.\n\nNow, let's analyze the options:\n\n- **(A) Psoriatic arthritis**: This condition is characterized by joint pain and swelling, often associated with psoriasis (which can present as dandruff). The presence of nail pitting is also a strong indicator of psoriatic arthritis.\n  \n- **(B) Arthritis mutilans**: This is a severe form of psoriatic arthritis that leads to significant joint destruction, but the description does not indicate such severe deformities.\n  \n- **(C) Rheumatoid arthritis**: Typically presents with symmetrical joint involvement and morning stiffness, but the improvement of pain with rest and the presence of nail pitting are not characteristic.\n  \n- **(D) Familial Mediterranean fever**: This is a hereditary condition that causes recurrent fevers and abdominal pain, not typically associated with the symptoms described.\n  \n- **(E) Mixed connective tissue disease**: This is a combination of features from various connective tissue diseases, but the specific symptoms do not align closely with this diagnosis.\n\nGiven the presence of nail pitting, the history of arthritis, and the improvement of pain with rest, the most likely diagnosis is:\n\nAnswer: A) Psoriatic arthritis"}
+
+
+[INFO] no: 36
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Neurologist (Lead)): 
+ Member 2 (Urologist): 
+ Member 3 (Geriatrician): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Neuromuscular Specialist (Neurologist with a Focus on Myasthenia Gravis) (Lead)): 
+ Member 2 (Radiologist): 
+ Member 3 (Pathologist): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant Neurologist (Lead)): 
+ Member 2 (Clinical Decision Specialist): 
+ Member 3 (Palliative Care Specialist): 
+
+
+[INFO] no: 37
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Pediatric Infectious Disease Specialist (Lead)): 
+ Member 2 (Pediatric Immunologist): 
+ Member 3 (Pediatric Gastroenterologist): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Clinical Laboratory Scientist (Lead)): 
+ Member 2 (Pediatric Pulmonologist): 
+ Member 3 (Pediatric Endocrinologist): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Pediatric Consultant (Lead)): 
+ Member 2 (Immunology Fellow): 
+ Member 3 (Medical Geneticist): 
+
+
+[INFO] no: 38
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Medical Oncologist (Lead)): Specializes in treating pancreatic adenocarcinoma and evaluating the efficacy of novel chemotherapeutic agents. They lead the team in assessing the patient's candidacy for the clinical trial and interpreting treatment response data.
+ Member 2 (Clinical Pharmacologist): Provides expertise in pharmacokinetics and pharmacodynamics of the novel agent, crucial for understanding dosing, safety, and therapeutic index calculations.
+ Member 3 (Radiologist): Responsible for imaging evaluations to objectively assess the tumor response to treatment and any side effects related to therapy, enhancing the initial assessment of treatment efficacy.
+
+Group 2 -  Safety and Tolerability Assessment Team (STAT)
+ Member 1 (Hematologist/Oncologist (Lead)): Focuses specifically on monitoring adverse events and toxicities associated with the chemotherapeutic agent, leading the assessment of the drug's safety profile.
+ Member 2 (Clinical Trials Coordinator): Oversees adherence to the clinical trial protocols and ensures that safety data is collected and reported accurately, facilitating understanding of the adverse events relative to treatment doses.
+ Member 3 (Nurse Specialist in Oncology): Works with the patient to track and communicate the side effects experienced, contributing to a patient
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Oncologist (Lead)): Provides overarching clinical expertise and credibility in interpreting data from IAT and STAT. They facilitate a comprehensive review of trial findings and their implications for patient management.
+ Member 2 (Biostatistician): Involved in analyzing outcome data, calculating the therapeutic index based on efficacy vs. safety, and helps in making evidence
+ Member 3 (Patient Advocate): Incorporates the patient’s perspective and concerns into the decision
+
+
+[INFO] no: 39
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Neurologist (Lead)): 
+ Member 2 (Speech): Language Pathologist
+ Member 3 (Radiologist): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Neuropsychologist (Lead)): 
+ Member 2 (Speech): Language Pathologist (if not in IAT)
+ Member 3 (Occupational Therapist): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Neurologist (Lead)): 
+ Member 2 (Clinical Decision Specialist): 
+ Member 3 (Neurosurgeon or Interventional Neurologist): 
+

@@ -1,0 +1,7 @@
+method,acc,tokens_per_q,calls_per_q,frontier
+S (zero-shot CoT),0.7450,1364,2,1
+SC-5,0.7483,6042,6.0,1
+SC-10,0.7433,11831,11.0,0
+SC-20,0.7367,23388,21.0,0
+Reflection,0.7367,5552,5.0,0
+M1 MedAgents,0.7050,22130,nan,0

@@ -1,0 +1,8 @@
+Layer 3 — MedLA with its paper backbone Llama-3.1-8B-Instruct (4-option MedQA-US, 1,273 q, 1 run each)
+  L0 MedLA multi-agent  0.5899   (paper: 62.6)
+  L1 released single    0.5632
+  S4 strong single CoT  0.6999   (paper CoT-LLaMA3.1-8B: 54.9)
+  tokens/q: L0 223740 (174x S4), L1 343, S4 1287; L0 calls/q 72.7
+  L0 − L1 (gain vs released baseline)    +0.0267 [-0.0031, +0.0566]  McNemar p=0.093  TOST δ.03 p=0.416
+  L0 − S4 (gain after strong control)    -0.1100 [-0.1383, -0.0817]  McNemar p=9.9e-14  TOST δ.03 p=1.000
+  S4 − L1                                +0.1367 [+0.1076, +0.1665]  McNemar p=3.2e-19  TOST δ.03 p=1.000

@@ -1,0 +1,13 @@
+Namespace(model_name='chatgpt', dataset_name='MedQA', dataset_dir='./datasets/MedQA/', start_pos=160, end_pos=180, output_files_folder='<REPO>/runs/layer2/2A/Qwen2.5-7B-Instruct/M1/run3/shard8', method='syn_verif', max_attempt_vote=3)
+160 ~ 180:   0%|          | 0/20 [00:00<?, ?it/s]160 ~ 180:   5%|▌         | 1/20 [00:44<13:56, 44.01s/it]160 ~ 180:  10%|█         | 2/20 [01:21<12:00, 40.04s/it]160 ~ 180:  15%|█▌        | 3/20 [02:34<15:40, 55.31s/it]160 ~ 180:  20%|██        | 4/20 [03:00<11:39, 43.71s/it]160 ~ 180:  25%|██▌       | 5/20 [03:26<09:20, 37.36s/it]160 ~ 180:  30%|███       | 6/20 [03:52<07:49, 33.52s/it]160 ~ 180:  30%|███       | 6/20 [04:29<10:28, 44.86s/it]
+Traceback (most recent call last):
+  File "<REPO>/external/MedAgents/run.py", line 56, in <module>
+    data_info = fully_decode(idx, realqid, question, options, gold_answer, handler, args, dataobj)
+  File "<REPO>/external/MedAgents/utils.py", line 116, in fully_decode
+    syn_report = cleansing_syn_report(question, options, revised_analysis)
+  File "<REPO>/external/MedAgents/data_utils.py", line 154, in cleansing_syn_report
+    total_analysis_text = tmp[1].strip()
+IndexError: list index out of range
+Namespace(model_name='chatgpt', dataset_name='MedQA', dataset_dir='./datasets/MedQA/', start_pos=166, end_pos=180, output_files_folder='<REPO>/runs/layer2/2A/Qwen2.5-7B-Instruct/M1/run3/shard8', method='syn_verif', max_attempt_vote=3)
+166 ~ 180:   0%|          | 0/14 [00:00<?, ?it/s]166 ~ 180:   7%|▋         | 1/14 [00:00<00:02,  6.27it/s]166 ~ 180:  14%|█▍        | 2/14 [00:29<03:31, 17.60s/it]166 ~ 180:  21%|██▏       | 3/14 [00:49<03:21, 18.29s/it]166 ~ 180:  29%|██▊       | 4/14 [01:09<03:09, 18.95s/it]166 ~ 180:  36%|███▌      | 5/14 [01:29<02:54, 19.33s/it]166 ~ 180:  43%|████▎     | 6/14 [01:56<02:57, 22.20s/it]166 ~ 180:  50%|█████     | 7/14 [02:20<02:39, 22.74s/it]166 ~ 180:  57%|█████▋    | 8/14 [03:11<03:10, 31.79s/it]166 ~ 180:  64%|██████▍   | 9/14 [03:33<02:23, 28.67s/it]166 ~ 180:  71%|███████▏  | 10/14 [03:53<01:43, 25.82s/it]166 ~ 180:  79%|███████▊  | 11/14 [04:10<01:10, 23.39s/it]166 ~ 180:  86%|████████▌ | 12/14 [04:29<00:43, 21.79s/it]166 ~ 180:  93%|█████████▎| 13/14 [04:47<00:20, 20.69s/it]166 ~ 180: 100%|██████████| 14/14 [05:06<00:00, 20.23s/it]166 ~ 180: 100%|██████████| 14/14 [05:06<00:00, 21.89s/it]
+USAGE_DUMP {"calls": 322, "prompt_tokens": 233590, "completion_tokens": 43662}

@@ -1,0 +1,1173 @@
+<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [02:22<1:32:43, 142.64s/it]  5%|▌         | 2/40 [04:21<1:21:20, 128.45s/it]  8%|▊         | 3/40 [05:44<1:06:37, 108.05s/it] 10%|█         | 4/40 [05:58<42:22, 70.63s/it]    12%|█▎        | 5/40 [06:44<35:59, 61.71s/it] 15%|█▌        | 6/40 [08:10<39:43, 70.12s/it] 18%|█▊        | 7/40 [08:31<29:41, 53.97s/it] 20%|██        | 8/40 [10:02<35:07, 65.87s/it] 22%|██▎       | 9/40 [12:46<49:49, 96.45s/it] 25%|██▌       | 10/40 [15:03<54:28, 108.94s/it] 28%|██▊       | 11/40 [16:36<50:17, 104.06s/it] 30%|███       | 12/40 [18:57<53:48, 115.30s/it] 32%|███▎      | 13/40 [20:18<47:12, 104.91s/it] 35%|███▌      | 14/40 [21:56<44:34, 102.87s/it] 38%|███▊      | 15/40 [23:54<44:48, 107.53s/it] 40%|████      | 16/40 [24:07<31:37, 79.08s/it]  42%|████▎     | 17/40 [24:22<22:53, 59.72s/it] 45%|████▌     | 18/40 [25:27<22:27, 61.25s/it] 48%|████▊     | 19/40 [26:20<20:36, 58.88s/it] 50%|█████     | 20/40 [27:19<19:40, 59.01s/it] 52%|█████▎    | 21/40 [28:09<17:50, 56.33s/it] 55%|█████▌    | 22/40 [30:06<22:18, 74.35s/it] 57%|█████▊    | 23/40 [30:53<18:45, 66.22s/it] 60%|██████    | 24/40 [33:07<23:03, 86.49s/it] 62%|██████▎   | 25/40 [35:15<24:47, 99.14s/it] 65%|██████▌   | 26/40 [37:23<25:07, 107.65s/it] 68%|██████▊   | 27/40 [39:34<24:50, 114.62s/it] 70%|███████   | 28/40 [40:42<20:06, 100.54s/it] 72%|███████▎  | 29/40 [41:55<16:55, 92.28s/it]  75%|███████▌  | 30/40 [43:01<14:04, 84.46s/it] 78%|███████▊  | 31/40 [44:44<13:30, 90.05s/it] 80%|████████  | 32/40 [45:01<09:06, 68.28s/it] 82%|████████▎ | 33/40 [46:57<09:38, 82.60s/it] 85%|████████▌ | 34/40 [47:45<07:13, 72.18s/it] 88%|████████▊ | 35/40 [48:34<05:26, 65.26s/it] 90%|█████████ | 36/40 [50:16<05:04, 76.23s/it] 92%|█████████▎| 37/40 [50:31<02:53, 57.71s/it] 95%|█████████▌| 38/40 [50:47<01:30, 45.31s/it] 98%|█████████▊| 39/40 [52:50<01:08, 68.51s/it]100%|██████████| 40/40 [54:49<00:00, 83.84s/it]100%|██████████| 40/40 [54:49<00:00, 82.25s/it]
+
+[INFO] no: 120
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Gynecologist (Lead)): Specializes in women's reproductive health and surgical procedures like hysterectomy. This member leads the team due to their direct involvement in the patient's surgery and understanding of potential postoperative complications, such as vessel ligation consequences.
+ Member 2 (Urologist): Provides expertise in urinary tract conditions and renal issues. They will assess and manage the patient's flank pain and oliguria, investigating potential causes related to urinary obstruction or renal impairment following the surgical procedure.
+ Member 3 (Anesthesiologist): Focuses on perioperative care and monitoring of the patient during and post
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Radiologist (Lead)): Reviews and interprets the imaging studies, including renal ultrasound and any additional imaging that may be required to understand the cause of flank pain and oliguria postoperatively. This member assesses for vascular complications or kidney injury.
+ Member 2 (Nephrologist): Specializes in kidney function and disorders. They will evaluate the postoperative rise in serum creatinine and renal function, helping diagnose any acute kidney injury or other nephrological concerns arising from the surgical intervention.
+ Member 3 (Pathologist): Examines biopsy results and provides insights on the nature of the neoplastic endometrial cells. They also support discussing any underlying pathologies seen in cases of renal hemorrhage shown in urinalysis.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Gynecologic Oncologist (Lead)): Oversees treatment protocols and surgical recommendations, ensuring that all aspects of the case are considered. They integrate insights from the initial assessment and diagnostic teams to determine the patient's ongoing management.
+ Member 2 (Clinical Care Coordinator): Facilitates communication between the various specialties, consolidating recommendations and treatment plans from the Initial Assessment and Diagnostic Evidence Teams for a comprehensive approach to patient care.
+ Member 3 (Interventional Radiologist): Provides perspective on any necessary interventions, such as potential vascular embolization if a vascular complication is confirmed as the cause of the flank pain and oliguria, and aids in final treatment planning.
+
+
+[INFO] no: 121
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏿‍⚕️ 1. Hematologist): Specializes in blood disorders and malignancies, including lymphomas.
+Agent 2 (🧑🏿‍⚕️ 2. Infectious Disease Specialist): Focuses on infections and their potential links to diseases, including viral infections associated with malignancies.
+Agent 3 (👨🏽‍⚕️ 3. Oncologist): Specializes in the treatment of cancer and understanding cancer pathogenesis.
+Agent 4 (👨🏻‍⚕️ 4. Virologist): Expert in viruses and their role in diseases, particularly in relation to cancer
+Agent 5 (👩🏻‍⚕️ 5. Pathologist): Specializes in the diagnosis of disease through the examination of tissues and cells, particularly relevant in cancer diagnosis.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                         moderator (👨‍⚖️)                                                      
+                   ┌────────────────────────────────┬───────────┴────────────┬──────────────────────────────────────┐          
+ Infectious Disease Specialist (🧑🏿‍⚕️)      Virologist (👨🏻‍⚕️)      Hematologist (👨🏿‍⚕️)                   Pathologist (👩🏻‍⚕️) 
+                                                                        └──────────────┐                                       
+                                                                               Oncologist (👨🏽‍⚕️)                              
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏿‍⚕️ hematologist): 🤐
+ Agent 2 (🧑🏿‍⚕️ infectious disease specialist) -> Agent 3 (👨🏽‍⚕️ oncologist) : As an infectious disease specialist with a focus on viral infections associated with malignancies, I would like to emphasize the critical role of Epstein-Barr virus (EBV) in the pathogenesis of Hodgkin’s lymphoma. 
+
+My opinion is that the association of EBV with this malignancy should not only be recognized but also harnessed for potential therapeutic strategies. Given that many cases of Hodgkin's lymphoma express latent EBV infection in Reed-Sternberg cells, there is a compelling justification for exploring targeted therapies that can exploit this viral link. This could include strategies aimed at enhancing immune responses against EBV-infected cells or utilizing antiviral therapies in conjunction with traditional cancer treatments. 
+
+Such an approach could improve patient outcomes and provide a more personalized treatment pathway, making it a worthy avenue for research and clinical consideration in our management of Hodgkin's lymphoma.
+ Agent 3 (👨🏽‍⚕️ oncologist): 🤐
+ Agent 4 (👨🏻‍⚕️ virologist) -> Agent 3 (👨🏽‍⚕️ oncologist) : As a virologist with expertise in the role of viruses in cancer pathogenesis, I would like to emphasize the significance of Epstein-Barr virus (EBV) in the development of Hodgkin’s lymphoma. The strong association between EBV and this malignancy, particularly through its ability to infect and transform B lymphocytes, plays a crucial role in the disease's etiology. 
+
+Given that many Reed-Sternberg cells found in Hodgkin's lymphoma demonstrate latent EBV infection, targeting EBV may provide a novel therapeutic avenue for treatment. This could enhance current management strategies for our patients and merits further exploration in clinical practice. I believe it is essential for our approach to incorporate considerations of EBV's impact on tumor biology, potentially leading to improved patient outcomes.
+ Agent 5 (👩🏻‍⚕️ pathologist): 🤐
+|_Turn 2
+ Agent 1 (👨🏿‍⚕️ hematologist): 🤐
+ Agent 2 (🧑🏿‍⚕️ infectious disease specialist): 🤐
+ Agent 3 (👨🏽‍⚕️ oncologist): 🤐
+ Agent 4 (👨🏻‍⚕️ virologist): 🤐
+ Agent 5 (👩🏻‍⚕️ pathologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏿‍⚕️) | Agent 2 (🧑🏿‍⚕️) | Agent 3 (👨🏽‍⚕️) | Agent 4 (👨🏻‍⚕️) | Agent 5 (👩🏻‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (🧑🏿‍⚕️) |              |              |  ✋ (2->3)   |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏽‍⚕️) |              |  ✋ (3<-2)   |              |  ✋ (3<-4)   |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏻‍⚕️) |              |              |  ✋ (4->3)   |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👩🏻‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely viral infection that played a role in the pathogenesis of Hodgkin's lymphoma in this patient, we will review the opinions of the agents based on their expertise.\n\n1. **Agent A**: Cytomegalovirus (CMV) is known to cause various diseases, particularly in immunocompromised individuals, but it is not strongly associated with Hodgkin's lymphoma.\n   \n2. **Agent B**: Epstein-Barr virus (EBV) has a well-established link to Hodgkin's lymphoma. It is found in the Reed-Sternberg cells of many Hodgkin's lymphoma cases and is considered a significant risk factor for the disease.\n\n3. **Agent C**: Human T-cell leukemia virus type 1 (HTLV-1) is associated with adult T-cell leukemia/lymphoma but not specifically with Hodgkin's lymphoma.\n\n4. **Agent D**: Human herpesvirus-8 (HHV-8) is primarily associated with Kaposi's sarcoma and primary effusion lymphoma, not Hodgkin's lymphoma.\n\n5. **Agent E**: Human papillomavirus type 16 (HPV-16) is linked to cervical cancer and some other malignancies but does not have a significant association with Hodgkin's lymphoma.\n\nBased on the majority opinion, the strongest association with Hodgkin's lymphoma is with Epstein-Barr virus (EBV).\n\nFinal Decision:\nAnswer: B) Epstein-Barr virus"}
+
+
+[INFO] no: 122
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👩🏻‍⚕️ 1. Obstetrician): Specializes in pregnancy, childbirth, and the postpartum period.
+Agent 2 (👨🏻‍⚕️ 2. Infectious Disease Specialist): Focuses on infections and diseases caused by viruses, bacteria, and other microorganisms.
+Agent 3 (👨🏽‍⚕️ 3. Pediatrician): Specializes in the medical care of infants, children, and adolescents.
+Agent 4 (🧑🏽‍⚕️ 4. Medical Geneticist): Specializes in the study of genes and hereditary conditions that may affect fetal development.
+Agent 5 (👨‍⚕️ 5. Epidemiologist): Focuses on the distribution and determinants of health
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                 moderator (👨‍⚖️)                                                                          
+           ┌────────────────────────────┬───────────────┴────────────┬─────────────────────────────────────────────────────────┐           
+  Pediatrician (👨🏽‍⚕️)      Medical Geneticist (🧑🏽‍⚕️)      Obstetrician (👩🏻‍⚕️)                                     Epidemiologist (👨‍⚕️) 
+                                                                └───────────────────────┐                                                  
+                                                                      Infectious Disease Specialist (👨🏻‍⚕️)                                
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👩🏻‍⚕️ obstetrician): 🤐
+ Agent 2 (👨🏻‍⚕️ infectious disease specialist): 🤐
+ Agent 3 (👨🏽‍⚕️ pediatrician): 🤐
+ Agent 4 (🧑🏽‍⚕️ medical geneticist): 🤐
+ Agent 5 (👨‍⚕️ epidemiologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👩🏻‍⚕️) | Agent 2 (👨🏻‍⚕️) | Agent 3 (👨🏽‍⚕️) | Agent 4 (🧑🏽‍⚕️) | Agent 5 (👨‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (🧑🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely etiologic agent based on the provided case details, let's review the symptoms and context:\n\n- The patient is 32 weeks pregnant and has experienced fever, headaches, myalgias, arthralgias, and a pruritic maculopapular rash.\n- She traveled to Brazil, a region known for Zika virus transmission, and did not use mosquito repellents.\n- The ultrasound showed fetal microcephaly, which is a known complication associated with Zika virus infection during pregnancy.\n- The negative IgM and IgG titers for toxoplasmosis further reduce the likelihood of that being the cause.\n\nNow, let's consider the options:\n- (C) Rubella virus: Can cause congenital defects but is less likely given the travel history and symptom profile.\n- (E) Zika virus: Known to cause microcephaly in fetuses and fits the travel history and symptomatology.\n- (D) Toxoplasmosis: Negative titers make this unlikely.\n- (A) Dengue virus: While it can cause similar symptoms, it is not typically associated with microcephaly.\n- (B) Bartonella henselae: Not relevant in this context.\n\nBased on the majority opinion and the evidence presented, the most likely etiologic agent is:\n\nAnswer: E) Zika virus"}
+
+
+[INFO] no: 123
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+
+Group 2 -  Diagnostic Evidence Team (DET)
+
+Group 3 -  Final Review and Decision Team (FRDT)
+
+
+[INFO] no: 124
+difficulty: basic
+
+[INFO] no: 125
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏿‍⚕️ 1. Infectious Disease Specialist): Focuses on the diagnosis and treatment of infectious diseases, including tuberculosis.
+Agent 2 (🧑🏽‍⚕️ 2. Pulmonologist): Specializes in the diagnosis and treatment of respiratory system disorders, particularly important in assessing lung
+Agent 3 (👩🏻‍⚕️ 3. Public Health Specialist): Focuses on disease prevention and control, including management of infectious disease outbreaks and screening programs.
+Agent 4 (👨‍⚕️ 4. Nurse Practitioner): Provides comprehensive care and education, skilled in managing patients' health and understanding their concerns about infectious diseases.
+Agent 5 (👨🏽‍⚕️ 5. Clinical Microbiologist): Specializes in diagnosing and treating infections through lab tests and understanding the microbiological aspects of diseases.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                           moderator (👨‍⚖️)                                                                                              
+                   ┌─────────────────────────────────┬────────────┴─────────────────┬────────────────────────────────┬─────────────────────────────────┐                 
+ Infectious Disease Specialist (👨🏿‍⚕️)     Pulmonologist (🧑🏽‍⚕️)     Clinical Microbiologist (👨🏽‍⚕️)     Nurse Practitioner (👨‍⚕️)      Public Health Specialist (👩🏻‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏿‍⚕️ infectious disease specialist): 🤐
+ Agent 2 (🧑🏽‍⚕️ pulmonologist): 🤐
+ Agent 3 (👩🏻‍⚕️ public health specialist): 🤐
+ Agent 4 (👨‍⚕️ nurse practitioner): 🤐
+ Agent 5 (👨🏽‍⚕️ clinical microbiologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏿‍⚕️) | Agent 2 (🧑🏽‍⚕️) | Agent 3 (👩🏻‍⚕️) | Agent 4 (👨‍⚕️) | Agent 5 (👨🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (🧑🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most appropriate management for the patient with a positive PPD skin test and no symptoms of active tuberculosis, we will review the opinions of the agents based on the options provided.\n\n1. **Agent 1**: (B) No management indicated - This opinion suggests that since the patient is asymptomatic and has an unremarkable chest radiograph, no immediate management is necessary.\n  \n2. **Agent 2**: (C) Quantiferon gold - This opinion indicates that a Quantiferon gold test could be useful to confirm latent TB infection, especially in a healthcare worker.\n\n3. **Agent 3**: (A) Isoniazid - This opinion supports starting treatment for latent TB infection, which is typically indicated in cases of positive PPD with no active disease.\n\n4. **Agent 4**: (D) Repeat PPD in 1 week - This opinion suggests that repeating the PPD test may provide more information, although it is not a common practice in this scenario.\n\n5. **Agent 5**: (E) Rifampin, isoniazid, pyrazinamide, and ethambutol - This opinion is inappropriate as it suggests treatment for active TB, which is not indicated given the patient's asymptomatic status and unremarkable chest radiograph.\n\nNow, let's tally the votes:\n- (B) No management indicated: 1 vote\n- (C) Quantiferon gold: 1 vote\n- (A) Isoniazid: 1 vote\n- (D) Repeat PPD in 1 week: 1 vote\n- (E) Rifampin, isoniazid, pyrazinamide, and ethambutol: 0 votes\n\nSince there is a tie among the options (B), (C), and (A), we will consider the most clinically appropriate management for a positive PPD in an asymptomatic patient. The standard approach is to treat latent TB infection with Isoniazid.\n\nFinal Decision:\nAnswer: A) Isoniazid"}
+
+
+[INFO] no: 126
+difficulty: basic
+
+[INFO] no: 127
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨‍⚕️ 1. Hematologist): Specializes in blood disorders, including the diagnosis and management of monoclonal gammopathy and plasma cell disorders.
+Agent 2 (👨🏻‍⚕️ 2. Immunologist): Focuses on the immune system and the role of immune cells in protecting against abnormal cell proliferation.
+Agent 3 (🧑🏿‍⚕️ 3. Oncologist): Specializes in cancer treatment, including hematologic malignancies such as multiple myeloma and related conditions.
+Agent 4 (🧑‍⚕️ 4. Pathologist): Analyzes laboratory test results and interprets bone marrow biopsies to identify abnormal cellular proliferation.
+Agent 5 (👨🏽‍⚕️ 5. Transplant Specialist): Focuses on cellular therapies and transplant options that may involve these immune processes in managing plasma cell disorders.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                   moderator (👨‍⚖️)                                                                               
+           ┌───────────────┴─────────────────────────────┐                                                        
+  Immunologist (👨🏻‍⚕️)                          Hematologist (👨‍⚕️)                                               
+                                          ┌──────────────┴────────────────┬────────────────────────────┐          
+                                  Oncologist (🧑🏿‍⚕️)        Transplant Specialist (👨🏽‍⚕️)      Pathologist (🧑‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨‍⚕️ hematologist): 🤐
+ Agent 2 (👨🏻‍⚕️ immunologist): 🤐
+ Agent 3 (🧑🏿‍⚕️ oncologist): 🤐
+ Agent 4 (🧑‍⚕️ pathologist): 🤐
+ Agent 5 (👨🏽‍⚕️ transplant specialist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨‍⚕️) | Agent 2 (👨🏻‍⚕️) | Agent 3 (🧑🏿‍⚕️) | Agent 4 (🧑‍⚕️) | Agent 5 (👨🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (🧑🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (🧑‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the final answer based on the majority opinion of the agents, let's review the options provided:\n\n1. **Natural Killer (NK) Cells (D)**: These cells are known for their ability to lyse abnormal cells without the need for prior sensitization, making them a strong candidate for the description given in the question.\n\n2. **CD4+ T Lymphocytes (C)**: These cells primarily assist other immune cells and are not directly involved in lysing abnormal cells without prior activation.\n\n3. **Band Neutrophils (E)**: These are immature neutrophils and are primarily involved in the innate immune response, but they do not specifically target abnormal cells in the same manner as NK cells.\n\n4. **Bone Marrow-Derived Macrophages (B)**: While macrophages can phagocytize abnormal cells, they typically require opsonization and are not the primary cells described in the question.\n\n5. **CD8+ T Lymphocytes (A)**: These cells do lyse infected or abnormal cells, but they require prior activation and recognition of specific antigens.\n\nBased on the descriptions and functions of these immune cells, the majority opinion would likely favor **Natural Killer (NK) Cells (D)** as they fit the criteria of lysing abnormal cells without prior activation.\n\nFinal Answer: D) Natural killer cells"}
+
+
+[INFO] no: 128
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Neurologist (Lead)): Specializes in the evaluation and management of neuromuscular disorders. The neurologist leads the group to perform a thorough neurological examination, interpret the clinical findings, and establish a preliminary differential diagnosis based on the patient's symptoms and examination results.
+ Member 2 (Rheumatologist): Expert in autoimmune conditions and inflammatory myopathies. The rheumatologist contributes to the assessment of potential underlying autoimmune phenomena, considering conditions such as polymyositis or dermatomyositis in relation to the patient's symptoms and laboratory findings.
+ Member 3 (Clinical Geneticist): Focuses on hereditary conditions and familial history. The clinical geneticist evaluates the family history, particularly the connection to muscular dystrophies and autoimmune diseases, and considers genetic testing options for confirmation of a possible hereditary muscular disorder.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Pathologist (Lead)): Responsible for analyzing muscle biopsy specimens. The pathologist leads the effort in reviewing histopathological findings to identify signs of inflammation or necrosis in the muscle tissue, which assists in confirming or ruling out specific myopathies.
+ Member 2 (Radiologist): Specializes in imaging studies. The radiologist evaluates any MRI findings of muscle tissue to identify patterns of involvement or other structural abnormalities that may guide the diagnosis of neuromuscular disorders.
+ Member 3 (Immunologist): Provides expertise in autoimmune serologies and antibody testing. The immunologist assesses the presence of specific autoantibodies, such as anti
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Neurology Consultant (Lead)): Offers comprehensive expertise to integrate findings from various specialists. The senior consultant helps synthesize information from the assessments to make a holistic diagnosis and finalize treatment options.
+ Member 2 (Multidisciplinary Coordinator (Clinical Decision Specialist)): Ensures that the insights from each team member are effectively communicated and incorporated into a cohesive plan. This role is crucial in aligning the findings from the Initial Assessment Team and Diagnostic Evidence Team.
+ Member 3 (Rehabilitation Specialist): Focuses on developing rehabilitation strategies for the patient based on the final diagnosis, whether it be a type of myopathy or another condition. This member prepares a plan for physical therapy and support for activities of daily living, aiding in the patient's recovery process.
+
+
+[INFO] no: 129
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Emergency Medicine Physician (Lead)): 
+ Member 2 (Neurologist): 
+ Member 3 (Infectious Disease Specialist): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Neurologist (Lead)): 
+ Member 2 (Clinical Toxicologist): 
+ Member 3 (Gastroenterologist): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant Neurologist (Lead)): 
+ Member 2 (Emergency Medicine Consultant): 
+ Member 3 (Pharmacologist/Toxicologist): 
+
+
+[INFO] no: 130
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑🏿‍⚕️ 1. Pediatrician): Specializes in the medical care of infants, children, and adolescents.
+Agent 2 (👨‍⚕️ 2. Neonatologist): Focuses on the care of newborn infants, especially those who are born prematurely or have medical issues at birth.
+Agent 3 (👩🏼‍⚕️ 3. Pediatric Gastroenterologist): Specializes in the diagnosis and management of gastrointestinal disorders in infants and children, including liver diseases.
+Agent 4 (👨🏽‍⚕️ 4. Hepatologist): Expert in liver conditions and diseases, which is crucial for evaluating jaundice and liver function in infants.
+Agent 5 (🧑🏽‍⚕️ 5. Medical Geneticist): Specializes in the study of genes and hereditary conditions that may impact liver function.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                moderator (👨‍⚖️)                                                            
+           ┌────────────────────────────┬───────────────┴───────────────┐                                                   
+  Neonatologist (👨‍⚕️)      Medical Geneticist (🧑🏽‍⚕️)         Pediatrician (🧑🏿‍⚕️)                                         
+                                                                   └───────────────────────┐                                
+                                                                          Pediatric Gastroenterologist (👩🏼‍⚕️)              
+                                                                                  └───────────────┐                         
+                                                                                         Hepatologist (👨🏽‍⚕️)               
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑🏿‍⚕️ pediatrician): 🤐
+ Agent 2 (👨‍⚕️ neonatologist): 🤐
+ Agent 3 (👩🏼‍⚕️ pediatric gastroenterologist): 🤐
+ Agent 4 (👨🏽‍⚕️ hepatologist) -> Agent 1 (🧑🏿‍⚕️ pediatrician) : As a hepatologist, my expertise lies in liver conditions and the evaluation of jaundice and liver function, particularly in infants.
+
+**Opinion to Agent 1: Pediatrician**
+
+I strongly agree with the diagnosis of biliary atresia for this infant. The clinical presentation—progressive jaundice, pale stools, elevated direct bilirubin, and significantly raised alkaline phosphatase levels—indicates a cholestatic process consistent with biliary obstruction. Early identification and intervention are critical, as untreated biliary atresia can lead to irreversible liver damage and severe complications. It is imperative that we coordinate care to ensure this infant receives prompt surgical evaluation and treatment to optimize outcomes.
+ Agent 4 (👨🏽‍⚕️ hepatologist) -> Agent 2 (👨‍⚕️ neonatologist) : As a hepatologist, my expertise focuses on liver conditions and the evaluation of jaundice and liver function in infants.
+
+**Opinion to Agent 2: Neonatologist**
+
+I concur with the assessment that this infant likely has biliary atresia. The key indicators—worsening jaundice, pale stools, and significantly elevated direct bilirubin—highlight a cholestatic process that demands urgent evaluation. Given your role in managing critically ill newborns, it is essential to recognize that biliary atresia can rapidly progress to liver failure if not addressed promptly. Early diagnosis and referral for surgical intervention are vital to prevent long-term complications and ensure the best possible outcome for this infant.
+ Agent 4 (👨🏽‍⚕️ hepatologist) -> Agent 3 (👩🏼‍⚕️ pediatric gastroenterologist) : As a hepatologist, my expertise centers on liver conditions and the assessment of liver function and jaundice in infants.
+
+**Opinion to Agent 3: Pediatric Gastroenterologist**
+
+I fully support the diagnosis of biliary atresia in this case. The infant's progressive jaundice, along with pale stools and significantly elevated direct bilirubin, strongly suggests an obstruction in bile flow due to biliary atresia. This condition leads to cholestasis, as evidenced by the markedly elevated alkaline phosphatase levels. Timely recognition and intervention are crucial to prevent irreversible liver damage and ensure optimal management. Your expertise in gastrointestinal disorders will be essential for further evaluation and management planning, including the necessary imaging studies and potential surgical interventions.
+ Agent 4 (👨🏽‍⚕️ hepatologist) -> Agent 4 (👨🏽‍⚕️ hepatologist) : As a hepatologist, my specialization is in liver conditions and the evaluation of liver function and jaundice, particularly in infants.
+
+**Opinion to Agent 4: Hepatologist**
+
+I strongly confirm the diagnosis of biliary atresia for this infant. The clinical presentation of increasing jaundice, pale stools, and significantly elevated direct bilirubin levels, along with high alkaline phosphatase, is highly indicative of cholestasis linked to biliary obstruction. Our priority should be to facilitate prompt surgical evaluation, as early intervention is critical to prevent irreversible liver damage and improve the prognosis for this patient. Close collaboration with the surgical team will be essential to ensure timely care and intervention.
+ Agent 5 (🧑🏽‍⚕️ medical geneticist): 🤐
+|_Turn 2
+ Agent 1 (🧑🏿‍⚕️ pediatrician): 🤐
+ Agent 2 (👨‍⚕️ neonatologist): 🤐
+ Agent 3 (👩🏼‍⚕️ pediatric gastroenterologist): 🤐
+ Agent 4 (👨🏽‍⚕️ hepatologist): 🤐
+ Agent 5 (🧑🏽‍⚕️ medical geneticist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑🏿‍⚕️) | Agent 2 (👨‍⚕️) | Agent 3 (👩🏼‍⚕️) | Agent 4 (👨🏽‍⚕️) | Agent 5 (🧑🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑🏿‍⚕️) |              |              |              |  ✋ (1<-4)   |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨‍⚕️) |              |              |              |  ✋ (2<-4)   |              |
+|              |              |              |              |              |              |
+| Agent 3 (👩🏼‍⚕️) |              |              |              |  ✋ (3<-4)   |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏽‍⚕️) |  ✋ (4->1)   |  ✋ (4->2)   |  ✋ (4->3)   |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely diagnosis for the 4-week-old female newborn based on the provided clinical information and laboratory results, let's review the opinions of the agents regarding the options:\n\n1. **Crigler–Najjar syndrome**: This condition typically presents with unconjugated hyperbilirubinemia, not conjugated. The direct bilirubin level in this case is significantly elevated (12.3 mg/dL), which is not consistent with Crigler–Najjar.\n\n2. **Breast milk jaundice**: This usually occurs after the first week of life and is characterized by unconjugated hyperbilirubinemia. The direct bilirubin is elevated in this case, which does not support this diagnosis.\n\n3. **Biliary atresia**: This condition presents with conjugated hyperbilirubinemia, pale stools, and an enlarged liver. The elevated direct bilirubin (12.3 mg/dL), pale stools, and liver enlargement in this case strongly suggest biliary atresia.\n\n4. **Dubin-Johnson syndrome**: This is characterized by conjugated hyperbilirubinemia but typically does not present with such high alkaline phosphatase levels or pale stools.\n\n5. **Galactosemia**: This condition can cause jaundice and liver enlargement, but it usually presents with additional symptoms such as vomiting and failure to thrive, which are not noted in this case.\n\nBased on the majority opinion and the clinical findings, the most likely diagnosis is:\n\nAnswer: (B) Biliary atresia"}
+
+
+[INFO] no: 131
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Otolaryngologist (ENT Surgeon) (Lead)): Responsible for evaluating the surgical site and assessing potential complications following the total thyroidectomy, including hypoparathyroidism which can lead to electrolyte imbalances and related symptoms such as perioral numbness, cramps, and spasms.
+ Member 2 (Endocrinologist): Focuses on hormonal regulation post
+ Member 3 (Emergency Medicine Physician): Evaluates the patient in the emergency department to manage acute symptoms, providing immediate care and stabilizing the patient while assessing for underlying electrolyte imbalances.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Cardiologist (Lead)): Assesses the ECG changes associated with electrolyte imbalances, particularly related to calcium and magnesium, such as QT prolongation or T
+ Member 2 (Clinical Laboratory Specialist): Performs and interprets necessary laboratory tests including electrolyte levels (calcium, magnesium, potassium) and assesses for hypocalcemia, which can explain the patient's symptoms and ECG changes.
+ Member 3 (Neurologist): Focuses on the neurological aspects of the symptoms, assessing for potential neuromuscular excitability caused by electrolyte imbalances, interpreting perioral numbness and hand spasms as clinical findings.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant Endocrinologist (Lead)): Provides expert oversight for integrating findings from the assessment and diagnostic teams to confirm the diagnosis of hypoparathyroidism and its physiological effects on the ECG.
+ Member 2 (Multidisciplinary Care Coordinator): Oversees coordinated care among the various specialists, synthesizing their input into a comprehensive management plan for the patient addressing both immediate and long
+ Member 3 (Clinical Pharmacist): Advises on appropriate treatments and supplementation for managing calcium levels and any other electrolyte deficiencies, ensuring optimal pharmacological management tailored to the patient's surgical history and current presentation.
+
+
+[INFO] no: 132
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏿‍⚕️ 1. Gastroenterologist): Specializes in the diagnosis and treatment of gastrointestinal disorders.
+Agent 2 (👨🏽‍⚕️ 2. Hematologist): Focuses on blood disorders, including anemia and leukocytosis.
+Agent 3 (👨🏻‍⚕️ 3. Oncologist): Specializes in cancer diagnosis and treatment, particularly for gastrointestinal malignancies.
+Agent 4 (🧑🏿‍⚕️ 4. Colorectal Surgeon): Focuses on surgical interventions for disorders of the colon, rectum, and anus.
+Agent 5 (👨‍⚕️ 5. General Practitioner): Provides comprehensive care and initial assessment of patients, including recognizing signs and symptoms of gastrointestinal diseases.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                 moderator (👨‍⚖️)                                                                              
+              ┌────────────────────────────┬────────────┴───────────────┬───────────────────────────────┬───────────────────────────┐          
+  Gastroenterologist (👨🏿‍⚕️)      Hematologist (👨🏽‍⚕️)     General Practitioner (👨‍⚕️)      Colorectal Surgeon (🧑🏿‍⚕️)      Oncologist (👨🏻‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏿‍⚕️ gastroenterologist): 🤐
+ Agent 2 (👨🏽‍⚕️ hematologist): 🤐
+ Agent 3 (👨🏻‍⚕️ oncologist): 🤐
+ Agent 4 (🧑🏿‍⚕️ colorectal surgeon): 🤐
+ Agent 5 (👨‍⚕️ general practitioner): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏿‍⚕️) | Agent 2 (👨🏽‍⚕️) | Agent 3 (👨🏻‍⚕️) | Agent 4 (🧑🏿‍⚕️) | Agent 5 (👨‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (🧑🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely diagnosis for the patient based on the provided information, let's analyze the symptoms and laboratory findings:\n\n1. **Symptoms**: The patient has left lower quadrant pain that worsens with defecation, crampy pain, and a history of mild constipation. She also has a fever (37.8°C) and elevated pulse (102/min).\n\n2. **Laboratory Findings**: \n   - Elevated leukocyte count (16,000/mm³) with a high percentage of neutrophils (89%) suggests an inflammatory or infectious process.\n   - The patient is afebrile but has a slight fever, which can indicate an infection or inflammation.\n\n3. **Differential Diagnosis**:\n   - **Irritable bowel syndrome (E)**: Typically does not present with significant leukocytosis or fever.\n   - **Adenocarcinoma of the colon (C)**: Can cause left lower quadrant pain, but usually presents with weight loss, changes in bowel habits, and possibly anemia.\n   - **Diverticulitis (A)**: Commonly presents with left lower quadrant pain, fever, and leukocytosis, especially in older adults. The crampy pain and constipation history align with this diagnosis.\n   - **Chronic inflammatory bowel disease (D)**: Would likely present with more chronic symptoms and possibly weight loss or diarrhea.\n   - **Hypothyroidism (B)**: Would not typically cause acute abdominal pain or leukocytosis.\n\nGiven the acute presentation of left lower quadrant pain, fever, and leukocytosis, the most likely diagnosis is **Diverticulitis**.\n\nFinal Decision:\nAnswer: A) Diverticulitis"}
+
+
+[INFO] no: 133
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Urologist (Lead)): 
+ Member 2 (Vascular Surgeon): 
+ Member 3 (Neurologist): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Interventional Radiologist (Lead)): 
+ Member 2 (Physical Medicine and Rehabilitation Specialist): 
+ Member 3 (Endocrinologist): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant Urologist (Lead)): 
+ Member 2 (Clinical Decision Specialist): 
+ Member 3 (Geriatrician): 
+
+
+[INFO] no: 134
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Nephrologist (Lead)): Specializes in kidney diseases and management of chronic glomerulonephritis and its complications. This member leads the group due to their crucial role in assessing renal function and interpreting associated metabolic derangements relevant to bone health.
+ Member 2 (Endocrinologist): Focuses on metabolic bone disease and hormonal regulation, assessing the patient's calcium, phosphate, and vitamin D metabolism, which are pivotal in understanding the causes of bone pain in this context.
+ Member 3 (Radiologist): Conducts imaging studies (e.g., X
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Clinical Biochemist (Lead)): Oversees laboratory analyses and interprets serum calcium, phosphate, PTH, and calcitriol levels, providing essential biochemical insights to confirm diagnoses based on laboratory findings.
+ Member 2 (Pathologist): Examines kidney biopsy specimens if appropriate and evaluates any related tissue pathology that might impact the patient’s electrolyte balance and overall renal function.
+ Member 3 (Orthopedic Specialist): Assesses the musculoskeletal system's involvement, including conducting a physical examination of the bone pain and determining if any orthopedic interventions might be necessary due to secondary structural changes.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Nephrologist (Lead)): Provides extensive expertise on the management and treatment implications of chronic kidney disease, synthesizing insights from previous teams to ensure a comprehensive understanding of the patient's overall condition.
+ Member 2 (Clinical Decision Specialist): Integrates recommendations from all teams and formulates a cohesive treatment plan that addresses the patient’s kidney disease and associated complications, ensuring that all perspectives are considered.
+ Member 3 (Pharmacist with Specialty in Renal Pharmacotherapy): Reviews the pharmacological aspects of the treatment plan, ensuring safe and effective medication adjustments for renal function, electrolyte management, and monitoring for potential drug interactions related to the patient’s condition.
+
+
+[INFO] no: 135
+difficulty: basic
+
+[INFO] no: 136
+difficulty: basic
+
+[INFO] no: 137
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏿‍⚕️ 1. Endocrinologist): Specializes in hormone
+Agent 2 (👨🏽‍⚕️ 2. Ophthalmologist): Focuses on the diagnosis and treatment of eye disorders, including thyroid eye disease.
+Agent 3 (🧑🏽‍⚕️ 3. Rheumatologist): Specializes in autoimmune conditions that may affect the thyroid and eyes.
+Agent 4 (👩🏼‍⚕️ 4. Psychiatrist): Focuses on mental health aspects, including anxiety symptoms in patients with thyroid disorders.
+Agent 5 (👨‍⚕️ 5. Pulmonologist): Specializes in respiratory issues, relevant due to the patient's smoking history.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                            moderator (👨‍⚖️)                                                              
+            ┌──────────────────────────┬────────────┴─────────────┬───────────────────────────────────────────┐           
+  Rheumatologist (🧑🏽‍⚕️)      Psychiatrist (👩🏼‍⚕️)     Endocrinologist (👨🏿‍⚕️)                       Pulmonologist (👨‍⚕️) 
+                                                            └────────────────┐                                            
+                                                                  Ophthalmologist (👨🏽‍⚕️)                                 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏿‍⚕️ endocrinologist): 🤐
+ Agent 2 (👨🏽‍⚕️ ophthalmologist) -> Agent 1 (👨🏿‍⚕️ endocrinologist) : As an ophthalmologist specialized in the diagnosis and treatment of eye disorders, including thyroid eye disease, I would like to emphasize the importance of closely monitoring the patient after the administration of radioactive iodine.
+
+My opinion is that while radioactive iodine is a commonly accepted treatment for hyperthyroidism, it is crucial to inform the endocrinologist that this patient has pre-existing thyroid eye disease (TED). The potential for transient worsening of her eye symptoms due to the inflammatory responses associated with shifts in thyroid hormone levels cannot be overlooked. There's a risk that the inflammatory process in the orbits could be exacerbated, leading to increased proptosis and extraocular muscle involvement.
+
+Therefore, I recommend that we consider incorporating measures for the management of TED following radioactive iodine treatment, such as corticosteroids, to mitigate any potential exacerbations. This coordinated approach could help improve patient outcomes and manage her ocular symptoms more effectively.
+ Agent 3 (🧑🏽‍⚕️ rheumatologist) -> Agent 2 (👨🏽‍⚕️ ophthalmologist) : As a rheumatologist specializing in autoimmune conditions that may affect the thyroid and eyes, I recognize the complexities surrounding Graves' ophthalmopathy in this patient. 
+
+My opinion for Agent 2 (ophthalmologist) is that while treatment with radioactive iodine is appropriate for addressing hyperthyroidism, it is crucial to consider pre-treatment interventions that might reduce the risk of exacerbating her ocular symptoms. Such interventions could include the use of systemic corticosteroids or other immunomodulatory treatments to manage inflammation in the eyes before and after radioactive iodine therapy. This approach would help mitigate potential worsening of symptoms and improve overall patient outcomes in managing her Graves' disease and associated thyroid eye disease.
+ Agent 4 (👩🏼‍⚕️ psychiatrist): 🤐
+ Agent 5 (👨‍⚕️ pulmonologist): 🤐
+|_Turn 2
+ Agent 1 (👨🏿‍⚕️ endocrinologist): 🤐
+ Agent 2 (👨🏽‍⚕️ ophthalmologist): 🤐
+ Agent 3 (🧑🏽‍⚕️ rheumatologist): 🤐
+ Agent 4 (👩🏼‍⚕️ psychiatrist): 🤐
+ Agent 5 (👨‍⚕️ pulmonologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏿‍⚕️) | Agent 2 (👨🏽‍⚕️) | Agent 3 (🧑🏽‍⚕️) | Agent 4 (👩🏼‍⚕️) | Agent 5 (👨‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏿‍⚕️) |              |  ✋ (1<-2)   |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏽‍⚕️) |  ✋ (2->1)   |              |  ✋ (2<-3)   |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (🧑🏽‍⚕️) |              |  ✋ (3->2)   |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👩🏼‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine which option would most likely transiently worsen this patient’s eye symptoms, we need to consider the context of her condition. The patient is presenting with symptoms consistent with Graves' disease, which is characterized by hyperthyroidism and can lead to Graves' ophthalmopathy (thyroid eye disease). \n\nLet's review the options:\n\n- **(A) External orbital radiation**: This is typically used to treat Graves' ophthalmopathy and may help alleviate symptoms rather than worsen them.\n  \n- **(B) Selenium supplementation**: This has been shown to have a beneficial effect in mild cases of Graves' ophthalmopathy and is unlikely to worsen symptoms.\n  \n- **(C) Smoking cessation**: Smoking is known to exacerbate Graves' ophthalmopathy, so cessation could potentially improve symptoms rather than worsen them.\n  \n- **(D) Systemic corticosteroids**: While corticosteroids are used to treat inflammation in Graves' ophthalmopathy, they can sometimes lead to a temporary worsening of symptoms before improvement is seen.\n  \n- **(E) Treatment with radioactive iodine**: This treatment can lead to a transient worsening of eye symptoms in patients with Graves' disease due to changes in thyroid hormone levels.\n\nConsidering the majority opinion from the agents, the most likely option that would transiently worsen the patient's eye symptoms is:\n\nAnswer: E) Treatment with radioactive iodine"}
+
+
+[INFO] no: 138
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏿‍⚕️ 1. Pediatrician): Specializes in the medical care of infants, children, and adolescents.
+Agent 2 (👨‍⚕️ 2. Pediatric Urologist): Focuses on urinary tract and bladder conditions in children.
+Agent 3 (👨🏽‍⚕️ 3. Child Psychologist): Specializes in the psychological development and behavioral issues in children.
+Agent 4 (🧑🏿‍⚕️ 4. Nephrologist): Focuses on kidney function and disorders, including fluid and electrolyte balance.
+Agent 5 (👨🏽‍⚕️ 5. Family Physician): Provides comprehensive health care, emphasizing preventive and community health for all ages.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                    moderator (👨‍⚖️)                                                          
+              ┌──────────────────────────────┬──────────────┴─────────────────────────────────────┐                           
+  Child Psychologist (👨🏽‍⚕️)      Family Physician (👨🏽‍⚕️)                               Pediatrician (👨🏿‍⚕️)                 
+                                                                               ┌──────────────────┴───────────────┐           
+                                                                   Pediatric Urologist (👨‍⚕️)            Nephrologist (🧑🏿‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏿‍⚕️ pediatrician): 🤐
+ Agent 2 (👨‍⚕️ pediatric urologist): 🤐
+ Agent 3 (👨🏽‍⚕️ child psychologist): 🤐
+ Agent 4 (🧑🏿‍⚕️ nephrologist): 🤐
+ Agent 5 (👨🏽‍⚕️ family physician): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏿‍⚕️) | Agent 2 (👨‍⚕️) | Agent 3 (👨🏽‍⚕️) | Agent 4 (🧑🏿‍⚕️) | Agent 5 (👨🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (🧑🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: 'To determine the next step in the management of the 7-year-old boy with nocturnal enuresis (bedwetting), we will review the opinions of the agents based on the provided options.\n\n1. **Option A: Ultrasonogram of the urinary bladder and kidneys** - This is typically not the first step in management for primary nocturnal enuresis without any concerning symptoms or signs of urinary tract issues.\n\n2. **Option B: Magnetic resonance imaging (MRI) of the spine** - This is not indicated in a case of primary nocturnal enuresis without neurological signs or symptoms.\n\n3. **Option C: Reassuring the parents and use of an enuresis alarm** - This is a common and effective first-line management strategy for primary nocturnal enuresis, especially in a child who has no daytime incontinence and normal examination findings.\n\n4. **Option D: Treatment with oral oxybutynin** - This medication is typically used for overactive bladder and is not the first-line treatment for primary nocturnal enuresis.\n\n5. **Option E: Treatment with oral imipramine** - While imipramine can be used for enuresis, it is generally not the first-line treatment due to potential side effects and the availability of other non-pharmacological options.\n\nBased on the majority opinion and the standard management guidelines for primary nocturnal enuresis, the most appropriate next step is:\n\nAnswer: C) Reassuring the parents and use of an enuresis alarm'}
+
+
+[INFO] no: 139
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑🏽‍⚕️ 1. Neurologist): Specializes in disorders of the nervous system, including the brain and spinal cord.
+Agent 2 (🧑‍⚕️ 2. Pathologist): Focuses on diagnosing disease through examination of tissues and organs, including understanding atrophy and degeneration.
+Agent 3 (👨🏽‍⚕️ 3. Physiatrist): Specializes in rehabilitation and physical medicine, understanding motor function and sensory loss.
+Agent 4 (👨🏻‍⚕️ 4. Neurosurgeon): Focuses on surgical interventions in the nervous system, enhancing understanding of spinal cord injuries and conditions.
+Agent 5 (👨🏽‍⚕️ 5. Clinical Neuropsychologist): Specializes in the relationship between brain function and behavior, especially related to neurological deficits.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                       moderator (👨‍⚖️)                                                                                
+          ┌───────────────────────┬───────────┴───────────────────┬────────────────────────────────┬────────────────────────┐          
+ Neurologist (🧑🏽‍⚕️)      Pathologist (🧑‍⚕️)      Clinical Neuropsychologist (👨🏽‍⚕️)      Neurosurgeon (👨🏻‍⚕️)     Physiatrist (👨🏽‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑🏽‍⚕️ neurologist): 🤐
+ Agent 2 (🧑‍⚕️ pathologist): 🤐
+ Agent 3 (👨🏽‍⚕️ physiatrist): 🤐
+ Agent 4 (👨🏻‍⚕️ neurosurgeon) -> Agent 1 (🧑🏽‍⚕️ neurologist) : As a neurosurgeon focusing on surgical interventions in the nervous system, I would like to present my opinion to the neurologist:
+
+In cases of unilateral atrophy in the spinal cord, we often consider conditions such as syringomyelia or trauma that could lead to Brown-Séquard syndrome-like presentations. Given the history of gastric cancer and subtotal gastrectomy, this patient may have underlying vitamin B12 deficiency contributing to neurological damage. The observed atrophy would typically suggest disruption of the dorsal columns responsible for proprioception and vibratory sense. Thus, during neurological examination, we would expect to see decreased positional sense specifically in the ipsilateral leg due to the localization of the lesion affecting these pathways. This understanding aligns with the classic presentation in such cases, reinforcing the diagnosis and guiding potential management strategies.
+ Agent 5 (👨🏽‍⚕️ clinical neuropsychologist): 🤐
+|_Turn 2
+ Agent 1 (🧑🏽‍⚕️ neurologist): 🤐
+ Agent 2 (🧑‍⚕️ pathologist): 🤐
+ Agent 3 (👨🏽‍⚕️ physiatrist): 🤐
+ Agent 4 (👨🏻‍⚕️ neurosurgeon): 🤐
+ Agent 5 (👨🏽‍⚕️ clinical neuropsychologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑🏽‍⚕️) | Agent 2 (🧑‍⚕️) | Agent 3 (👨🏽‍⚕️) | Agent 4 (👨🏻‍⚕️) | Agent 5 (👨🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑🏽‍⚕️) |              |              |              |  ✋ (1<-4)   |              |
+|              |              |              |              |              |              |
+| Agent 2 (🧑‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏻‍⚕️) |  ✋ (4->1)   |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the final answer based on the majority vote of the agents' opinions, I will analyze the options provided in relation to the clinical scenario described.\n\nThe case involves a 52-year-old man with a history of gastric cancer who died in a motor vehicle collision, and the autopsy revealed unilateral atrophy of neurons in the spinal cord. This suggests a possible lesion affecting a specific pathway.\n\n1. **Option (E)**: Decreased sense of crude touch in the contralateral arm - This would typically be associated with damage to the spinothalamic tract, which carries crude touch and pain sensations, but it would not be the primary finding in this case.\n\n2. **Option (D)**: Decreased positional sense in the ipsilateral leg - This is indicative of damage to the dorsal columns or the corticospinal tract, which is less likely given the unilateral atrophy.\n\n3. **Option (A)**: Decreased sense of temperature in the ipsilateral arm - This would also suggest damage to the spinothalamic tract, but again, it is less likely to be the primary finding.\n\n4. **Option (B)**: Decreased strength of the contralateral leg - This is a strong possibility if the atrophy is affecting the motor neurons or pathways that control the leg muscles.\n\n5. **Option (C)**: Decreased vibratory sense in the ipsilateral arm - This would indicate damage to the dorsal columns, which is less likely given the unilateral nature of the atrophy.\n\nBased on the analysis, the most likely neurological finding when the patient was alive, given the unilateral atrophy of neurons in the spinal cord, would be decreased strength of the contralateral leg due to the involvement of motor pathways.\n\nFinal decision based on majority vote:\n\nAnswer: B) Decreased strength of the contralateral leg"}
+
+
+[INFO] no: 140
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑🏿‍⚕️ 1. Infectious Disease Specialist): Specializes in the diagnosis and treatment of infectious diseases, including vector
+Agent 2 (👨‍⚕️ 2. Obstetrician): Focuses on the care of pregnant women and their fetuses, ensuring both maternal and fetal health during pregnancy.
+Agent 3 (👩🏻‍⚕️ 3. Maternal): Fetal Medicine Specialist
+Agent 4 (🧑‍⚕️ 4. Pharmacologist): Focuses on the effects and mechanisms of drugs, including medication safety in pregnancy.
+Agent 5 (👨🏽‍⚕️ 5. Pediatrician): Specializes in the medical care of infants, children, and adolescents, including issues related to maternal infections.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                          moderator (👨‍⚖️)                                                                        
+           ┌─────────────────────────┬────────────┴─────────────────────────────┐                                                 
+ Pharmacologist (🧑‍⚕️)      Pediatrician (👨🏽‍⚕️)              Infectious Disease Specialist (🧑🏿‍⚕️)                               
+                                                                 ┌──────────────┴──────────────────────────┐                      
+                                                        Obstetrician (👨‍⚕️)            Maternal-Fetal Medicine Specialist (👩🏻‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑🏿‍⚕️ infectious disease specialist): 🤐
+ Agent 2 (👨‍⚕️ obstetrician): 🤐
+ Agent 3 (👩🏻‍⚕️ maternal): 🤐
+ Agent 4 (🧑‍⚕️ pharmacologist): 🤐
+ Agent 5 (👨🏽‍⚕️ pediatrician): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑🏿‍⚕️) | Agent 2 (👨‍⚕️) | Agent 3 (👩🏻‍⚕️) | Agent 4 (🧑‍⚕️) | Agent 5 (👨🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (🧑‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: 'To determine the best next step for the patient in this scenario, we need to consider the clinical presentation and the treatment guidelines for Lyme disease, especially in pregnant women.\n\n1. **Patient Presentation**: The patient is a 24-year-old pregnant woman with fever, joint pain, and a recent tick bite, along with an erythematous rash. These symptoms are suggestive of Lyme disease.\n\n2. **Treatment Options**:\n   - **(A) Ibuprofen**: This is a non-steroidal anti-inflammatory drug (NSAID) that can help with pain and inflammation but does not treat the underlying infection.\n   - **(B) Doxycycline**: This is the first-line treatment for Lyme disease in adults but is contraindicated in pregnancy due to potential effects on fetal development.\n   - **(C) Tetracycline**: Similar to doxycycline, it is contraindicated in pregnancy.\n   - **(D) Amoxicillin**: This is a safe alternative for treating Lyme disease in pregnant women.\n   - **(E) Gentamicin**: This is not indicated for Lyme disease.\n\n3. **Majority Opinion**: \n   - Experts would likely agree that the best treatment option for Lyme disease in a pregnant patient is **(D) Amoxicillin**, as it is safe for use during pregnancy and effective against the infection.\n\nFinal Decision:\nAnswer: D) Amoxicillin'}
+
+
+[INFO] no: 141
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Endocrinologist (Lead)): Specializes in hormonal disorders and will oversee the evaluation and interpretation of the patient's elevated cortisol levels, working to diagnose the underlying cause of the symptoms and abnormal test results.
+ Member 2 (Internal Medicine Physician): Provides comprehensive history taking and physical examination expertise, essential for evaluating general health and obesity
+ Member 3 (Radiologist): Responsible for interpreting imaging studies, including MRI and CT scans, to assess adrenal and pituitary gland abnormalities that may contribute to the patient's hypercortisolism.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Neurologist (Lead)): Focuses on the neurological implications of chronic cortisol excess and assesses any possible effects on the central nervous system, particularly concerning progressive weakness and fatigue.
+ Member 2 (Endocrine Surgeon): Expert in surgical interventions and will assess the need for surgery based on the imaging findings and the diagnosis, particularly regarding any adrenal tumors or pituitary adenomas.
+ Member 3 (Clinical Pharmacist): Provides input on the management and potential pharmacological interventions for the patient's condition, ensuring appropriate medication management for hypercortisolism and addressing any drug interactions.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Endocrinologist (Lead)): Offers extensive clinical expertise in complex endocrine disease management and guides the final decision
+ Member 2 (Clinical Decision Analyst): Coordinates the findings from the various specialties, synthesizing the recommendations and ensuring that all team insights are integrated into a cohesive management plan.
+ Member 3 (Psychologist): Addresses the psychological ramifications of the patient's symptoms and potential diagnosis, helping to provide a holistic treatment approach and addressing quality of life issues related to chronic illness and hormonal imbalances.
+
+
+[INFO] no: 142
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏽‍⚕️ 1. Hematologist): Specializes in blood disorders and cancers, including non
+Agent 2 (👨🏿‍⚕️ 2. Oncologist): Focuses on the treatment of cancer, including chemotherapy and its side effects.
+Agent 3 (🧑🏽‍⚕️ 3. Neurologist): Specializes in nervous system disorders, including peripheral neuropathies.
+Agent 4 (👨‍⚕️ 4. Pharmacologist): Focuses on drug mechanisms and effects, especially regarding chemotherapy agents like vincristine.
+Agent 5 (🧑‍⚕️ 5. Pain Management Specialist): Specializes in managing pain related to cancer treatments and side effects.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                         moderator (👨‍⚖️)                                                                    
+          ┌────────────────────────┬────────────┴────────────┬─────────────────────────────────────────────┐                 
+ Neurologist (🧑🏽‍⚕️)     Pharmacologist (👨‍⚕️)      Hematologist (👨🏽‍⚕️)                   Pain Management Specialist (🧑‍⚕️) 
+                                                        └──────────────┐                                                     
+                                                               Oncologist (👨🏿‍⚕️)                                            
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏽‍⚕️ hematologist): 🤐
+ Agent 2 (👨🏿‍⚕️ oncologist): 🤐
+ Agent 3 (🧑🏽‍⚕️ neurologist): 🤐
+ Agent 4 (👨‍⚕️ pharmacologist): 🤐
+ Agent 5 (🧑‍⚕️ pain management specialist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏽‍⚕️) | Agent 2 (👨🏿‍⚕️) | Agent 3 (🧑🏽‍⚕️) | Agent 4 (👨‍⚕️) | Agent 5 (🧑‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (🧑🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely underlying mechanism of the patient's peripheral neuropathy, we need to analyze the options in the context of vincristine, which is known to cause peripheral neuropathy as a side effect.\n\n1. **(A) Inhibition of beta-tubulin polymerization**: Vincristine works by binding to tubulin and inhibiting its polymerization into microtubules, which disrupts mitotic spindle formation during cell division. This mechanism is directly related to the action of vincristine and is a known cause of peripheral neuropathy.\n\n2. **(B) Creation of free radicals that unwind DNA**: This mechanism is more associated with certain chemotherapeutic agents like doxorubicin, not vincristine.\n\n3. **(C) Inhibition of dihydrofolate reductase**: This mechanism is associated with methotrexate, not vincristine.\n\n4. **(D) Formation of cross-links between strands of DNA**: This is typically associated with alkylating agents, not vincristine.\n\n5. **(E) Incorporation of false pyrimidine analogues into DNA**: This is related to drugs like 5-fluorouracil, not vincristine.\n\nBased on the analysis, the majority opinion aligns with option (A) as the mechanism of vincristine leading to peripheral neuropathy.\n\nFinal Answer: A) Inhibition of beta-tubulin polymerization"}
+
+
+[INFO] no: 143
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Urologist (Lead)): Specializes in urinary tract diseases, particularly bladder pathology, and is crucial for evaluating the bladder lesions and guiding biopsy procedures.
+ Member 2 (Oncologist): Focuses on the management of malignancies, providing insights into staging, treatment options, and prognosis for bladder cancer.
+ Member 3 (Radiologist): Responsible for interpreting imaging studies (like CT scans) and providing critical information on the extent of the disease and possible metastasis.
+
+Group 2 -  Risk Factor Evaluation Team (RFET)
+ Member 1 (Occupational Medicine Specialist (Lead)): Evaluates the patient's work exposure history regarding carcinogenic agents (such as aromatic amines), providing insights into occupational hazards relevant to bladder cancer.
+ Member 2 (Toxicologist): Assesses toxic substance exposure and clarifies the potential impact of specific carcinogens (like vinyl chloride or aflatoxins) in the patient's medical history.
+ Member 3 (Epidemiologist): Examines population
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Urologic Oncologist (Lead)): Provides expert opinion on management strategy, synthesizes evidence, and helps coordinate care based on findings from the IAT and RFET.
+ Member 2 (Clinical Pharmacologist): Reviews the medication regimen and anticipated pharmacological interventions, ensuring that treatment aligns with the patient’s overall health status and cancer care.
+ Member 3 (Palliative Care Specialist): Advises on symptom management and quality of life considerations, ensuring that all aspects of the patient's care are addressed, especially as they approach treatment decisions.
+
+
+[INFO] no: 144
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Pediatric Endocrinologist (Lead)): Specializes in growth and endocrine disorders. This member will lead the initial assessment to evaluate the patient's growth patterns, hormonal levels, and potential endocrine issues contributing to short stature.
+ Member 2 (Pediatrician): Provides a comprehensive evaluation of the patient's overall health, including growth history and family background related to height. Acts as a liaison for the family’s concerns regarding the patient's short stature.
+ Member 3 (Geneticist): Evaluates genetic backgrounds and potential hereditary factors affecting growth and stature, particularly given the father's short stature history and the patient’s overall growth patterns.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Radiologist (Lead)): Reviews and interprets the wrist X
+ Member 2 (Clinical Psychologist): Assesses psychological implications of short stature on the patient’s well
+ Member 3 (Nutritionist/Dietitian): Evaluates dietary habits and nutritional status, ensuring that any growth parameters are optimized through appropriate nutrition, essential for overall well
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Pediatric Endocrinologist (Lead)): Provides overarching guidance on the diagnosis, integrating findings from the IAT and DET to formulate a comprehensive treatment plan moving forward.
+ Member 2 (Pediatric Surgeon): Consults for surgical considerations if there's any indication of structural issues that may require intervention based on the team's findings.
+ Member 3 (Clinical Decision Specialist): Coordinates the recommendations from various teams, ensuring all perspectives are adequately represented and contributing to a coherent management pathway, including consideration of possible further testing.
+
+
+[INFO] no: 145
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Pediatric Nephrologist (Lead)): Specializes in kidney diseases in children, responsible for diagnosing and managing the child's nephrotic syndrome due to the presenting symptoms and laboratory findings.
+ Member 2 (Pediatrician): Provides overall health assessment and monitors the child’s growth and development, coordinating care and contributing to differential diagnoses.
+ Member 3 (Pediatric Infectious Disease Specialist): Evaluates the history of the sore throat and assesses for potential infectious causes or complications that may contribute to nephrotic syndrome.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Pediatric Pathologist (Lead)): Interprets the renal biopsy results, assessing for specific glomerular changes associated with nephrotic syndrome, such as podocyte effacement.
+ Member 2 (Pediatric Radiologist): Performs and reviews renal imaging studies (such as ultrasound), looking for any secondary effects from nephrotic syndrome or abnormalities that may require further investigation.
+ Member 3 (Clinical Laboratory Scientist): Analyzes urine samples and assists in the interpretation of lab results, ensuring accurate diagnosis based on proteinuria and appropriate biochemical evaluations.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Pediatric Nephrologist (Lead)): Synthesizes information gathered from the IAT and DET, providing expertise in deciding on the most appropriate treatment pathway and necessary follow
+ Member 2 (Pediatric Hematologist): Assesses for any hematological implications related to nephrotic syndrome; may consider additional tests if concerns of coagulopathy arise due to abnormalities in albumin levels.
+ Member 3 (Pediatric Nutritionist): Evaluates dietary needs, ensuring the child receives proper nutrition to manage the condition and maintain overall health, focusing on strategies to address low serum albumin levels.
+
+
+[INFO] no: 146
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Dermatologist (Lead)): Specializes in skin disorders, overseeing the initial assessment and management of the patient’s dermatitis and solid skin lesion. The lead role is essential for coordinating the evaluation and treatment.
+ Member 2 (Pathologist): Analyzes the biopsy samples to determine the nature of the skin lesion, providing crucial information on whether it is malignant or benign.
+ Member 3 (Oncologist): Offers expertise on potential malignancies, especially if the biopsy reveals skin cancer, contributing to initial treatment decisions and discussing possible treatment options.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Dermatopathologist (Lead)): Focuses on the pathological aspects of skin diseases, providing in
+ Member 2 (Immunologist): Evaluates whether an autoimmune component could contribute to the dermatitis, supporting diagnosis and management especially in cases of non
+ Member 3 (Radiologist): Uses imaging techniques, if necessary, to assess potential metastasis or extension of any skin malignancy, aiding in the comprehensive evaluation of the condition.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Dermatologist (Lead)): Provides overall expertise to integrate findings from different specialties and make final treatment decisions regarding the patient's condition.
+ Member 2 (Medical Oncologist): Works to determine the best course of action if malignancy is diagnosed, discussing treatment plans and managing patient care following the biopsy results.
+ Member 3 (Clinical Coordinator): Ensures communication among the various team members, consolidating recommendations and developing a cohesive management plan based on the interdisciplinary evaluations and findings.
+
+
+[INFO] no: 147
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👩🏻‍⚕️ 1. Psychiatrist): Specializes in the diagnosis and treatment of mental health disorders.
+Agent 2 (👨🏻‍⚕️ 2. Psychologist): Focuses on therapy and counseling for mental health issues.
+Agent 3 (👨‍⚕️ 3. Social Worker): Provides support and intervention for individuals facing emotional and social challenges.
+Agent 4 (🧑‍⚕️ 4. Addiction Specialist): Focuses on the treatment of behavioral addictions, including compulsive behaviors like shoplifting.
+Agent 5 (🧑🏽‍⚕️ 5. Cognitive Behavioral Therapist): Specializes in cognitive behavioral therapy techniques for mental health disorders.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                moderator (👨‍⚖️)                                                                      
+           ┌────────────────────────────┬───────────────┴───────────────┐                                                             
+  Social Worker (👨‍⚕️)     Addiction Specialist (🧑‍⚕️)         Psychiatrist (👩🏻‍⚕️)                                                   
+                                                                   └───────────────┐                                                  
+                                                                          Psychologist (👨🏻‍⚕️)                                        
+                                                                              └────────────────────────┐                              
+                                                                                     Cognitive Behavioral Therapist (🧑🏽‍⚕️)           
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👩🏻‍⚕️ psychiatrist): 🤐
+ Agent 2 (👨🏻‍⚕️ psychologist): 🤐
+ Agent 3 (👨‍⚕️ social worker): 🤐
+ Agent 4 (🧑‍⚕️ addiction specialist) -> Agent 2 (👨🏻‍⚕️ psychologist) : As an addiction specialist focusing on behavioral addictions, I believe it is crucial to recognize the intersection of compulsive behaviors and underlying mental health issues. 
+
+Agent 2, I recommend that we consider the integration of Cognitive Behavioral Therapy (CBT) to address the patient's compulsive shoplifting. Her behaviors, driven by anxiety and stress, are likely rooted in negative thought patterns that CBT can help identify and modify. By using CBT, we can equip her with practical coping strategies to manage her stress and reduce her reliance on maladaptive behaviors like shoplifting. This approach not only targets her impulsive actions but also supports her overall mental well-being, making it an effective and holistic treatment method for her situation.
+ Agent 5 (🧑🏽‍⚕️ cognitive behavioral therapist) -> Agent 1 (👩🏻‍⚕️ psychiatrist) : As a cognitive behavioral therapist, my expertise lies in applying cognitive behavioral therapy techniques for mental health disorders. 
+
+**Opinion to Agent 1 (psychiatrist):** 
+
+I believe that in addition to recommending Cognitive Behavioral Therapy (CBT), it may be beneficial to assess the need for pharmacological support to manage the patient’s anxiety and compulsive behaviors effectively. Given her report of significant distress and her compulsive shoplifting as a maladaptive coping mechanism, an SSRI or other anxiolytic medication might help alleviate her anxiety symptoms and reduce the impulsivity associated with her behaviors. This combination approach could enhance the efficacy of the therapy and support her in achieving better overall mental health outcomes.
+ Agent 5 (🧑🏽‍⚕️ cognitive behavioral therapist) -> Agent 4 (🧑‍⚕️ addiction specialist) : As a cognitive behavioral therapist, I specialize in cognitive behavioral therapy techniques for mental health disorders, with a focus on addressing maladaptive behaviors and thought patterns.
+
+**Opinion to Agent 4 (addiction specialist):** 
+
+I believe that we should consider a comprehensive approach to the patient’s compulsive shoplifting behavior, which exhibits characteristics of a behavioral addiction. While Cognitive Behavioral Therapy (CBT) will be instrumental in addressing her anxiety and triggers for shoplifting, your expertise can provide valuable insights into managing the addictive aspects of her behavior. This may include developing specific interventions or support systems that target her impulse control and help her form healthier coping mechanisms. Collaboratively, we can ensure she receives well-rounded care that addresses the complexity of her situation.
+|_Turn 2
+ Agent 1 (👩🏻‍⚕️ psychiatrist): 🤐
+ Agent 2 (👨🏻‍⚕️ psychologist): 🤐
+ Agent 3 (👨‍⚕️ social worker): 🤐
+ Agent 4 (🧑‍⚕️ addiction specialist): 🤐
+ Agent 5 (🧑🏽‍⚕️ cognitive behavioral therapist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👩🏻‍⚕️) | Agent 2 (👨🏻‍⚕️) | Agent 3 (👨‍⚕️) | Agent 4 (🧑‍⚕️) | Agent 5 (🧑🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👩🏻‍⚕️) |              |              |              |              |  ✋ (1<-5)   |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏻‍⚕️) |              |              |              |  ✋ (2<-4)   |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (🧑‍⚕️) |              |  ✋ (4->2)   |              |              |  ✋ (4<-5)   |
+|              |              |              |              |              |              |
+| Agent 5 (🧑🏽‍⚕️) |  ✋ (5->1)   |              |              |  ✋ (5->4)   |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most appropriate next step in management for the patient described, we need to consider the symptoms and behaviors presented. The patient exhibits signs of anxiety, stress, and compulsive behavior (shoplifting), which may suggest a diagnosis of a behavioral or anxiety disorder.\n\nLet's review the options based on the majority opinion of the agents:\n\n1. **Motivational interviewing (E)** - This approach is typically used to enhance motivation to change behavior, but it may not directly address the underlying issues of anxiety and compulsive behavior.\n\n2. **Cognitive behavioral therapy (D)** - This is a well-established treatment for anxiety disorders and can help the patient address her compulsive shoplifting behavior by changing her thought patterns and behaviors.\n\n3. **Administration of lithium (A)** - Lithium is primarily used for mood stabilization in bipolar disorder and is not indicated for anxiety or compulsive behaviors.\n\n4. **Interpersonal therapy (B)** - This therapy focuses on improving interpersonal relationships and may not directly address the compulsive behavior or anxiety.\n\n5. **Psychodynamic psychotherapy (C)** - This approach explores unconscious processes and past experiences but may not provide immediate relief for the patient's anxiety and compulsive behavior.\n\nBased on the majority opinion, the most appropriate next step in management for this patient, who is experiencing anxiety and compulsive behaviors, would be:\n\nAnswer: D) Cognitive behavioral therapy"}
+
+
+[INFO] no: 148
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Neurologist (Lead)): 
+ Member 2 (Geriatrician): 
+ Member 3 (Psychiatrist): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Neuropsychologist (Lead)): 
+ Member 2 (Radiologist): 
+ Member 3 (Clinical Lab Specialist): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant Neurologist (Lead)): 
+ Member 2 (Clinical Decision Support Specialist): 
+ Member 3 (Palliative Care Specialist): 
+
+
+[INFO] no: 149
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👩🏼‍⚕️ 1. Pediatrician): Specializes in the medical care of infants, children, and adolescents.
+Agent 2 (🧑🏿‍⚕️ 2. Infectious Disease Specialist): Focuses on infections and their management, particularly in children.
+Agent 3 (👩🏻‍⚕️ 3. Immunologist): Specializes in the immune system and its response to infections and allergens.
+Agent 4 (👨‍⚕️ 4. Dermatologist): Focuses on skin conditions and diseases, including infections like staphylococcal scalded skin syndrome.
+Agent 5 (👨🏽‍⚕️ 5. Microbiologist): Specializes in the study of microorganisms, including bacteria and their pathogenic effects.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                     moderator (👨‍⚖️)                                                                                           
+            ┌────────────────┴───────────────────────────────────────────────┐                                                  
+  Microbiologist (👨🏽‍⚕️)                                           Pediatrician (👩🏼‍⚕️)                                         
+                                                     ┌───────────────────────┴────────────┬─────────────────────────┐           
+                                   Infectious Disease Specialist (🧑🏿‍⚕️)         Dermatologist (👨‍⚕️)      Immunologist (👩🏻‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👩🏼‍⚕️ pediatrician): 🤐
+ Agent 2 (🧑🏿‍⚕️ infectious disease specialist): 🤐
+ Agent 3 (👩🏻‍⚕️ immunologist): 🤐
+ Agent 4 (👨‍⚕️ dermatologist): 🤐
+ Agent 5 (👨🏽‍⚕️ microbiologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👩🏼‍⚕️) | Agent 2 (🧑🏿‍⚕️) | Agent 3 (👩🏻‍⚕️) | Agent 4 (👨‍⚕️) | Agent 5 (👨🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👩🏼‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (🧑🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the primary defense mechanism in response to Staphylococcus aureus and the toxins it produces, we need to consider the roles of the different immunoglobulins listed in the options.\n\n1. **Immunoglobulin G (IgG)**: This is the most abundant antibody in the blood and extracellular fluid, and it plays a crucial role in the body's defense against bacterial and viral infections. It is involved in opsonization, neutralization of toxins, and activation of the complement system.\n\n2. **Immunoglobulin A (IgA)**: This antibody is primarily found in mucosal areas, such as the gut, respiratory tract, and urogenital tract, as well as in saliva, tears, and breast milk. It plays a critical role in mucosal immunity.\n\n3. **Immunoglobulin M (IgM)**: This is the first antibody produced in response to an infection and is effective in forming complexes with antigens.\n\n4. **Immunoglobulin E (IgE)**: This antibody is primarily involved in allergic reactions and responses to parasitic infections.\n\n5. **Immunoglobulin D (IgD)**: This is primarily found on the surface of B cells and plays a role in the initiation of B cell activation.\n\nGiven that the question pertains to the primary defense against a bacterial infection caused by Staphylococcus aureus, the most relevant immunoglobulin would be **IgG**, as it is crucial for neutralizing toxins and opsonizing bacteria for phagocytosis.\n\nNow, let's summarize the opinions:\n\n- **Majority Vote**: If the majority of agents selected (A) Immunoglobulin- IgG, then that will be the final answer.\n\nAssuming the majority of agents selected (A) Immunoglobulin- IgG, the final answer is:\n\nAnswer: A) Immunoglobulin- IgG"}
+
+
+[INFO] no: 150
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏽‍⚕️ 1. Pulmonologist): Specializes in the diagnosis and treatment of respiratory system disorders.
+Agent 2 (🧑‍⚕️ 2. Infectious Disease Specialist): Focuses on the diagnosis and treatment of infectious diseases, including pneumonia.
+Agent 3 (👨🏽‍⚕️ 3. Gastroenterologist): Specializes in the diagnosis and treatment of gastrointestinal disorders, particularly relevant for the diarrhea.
+Agent 4 (🧑🏽‍⚕️ 4. Primary Care Physician): Provides comprehensive care and coordinates between specialties, relevant for assessing overall health status.
+Agent 5 (🧑🏿‍⚕️ 5. Clinical Pharmacologist): Expert in the pharmacotherapy and drug interactions relevant to the patient's treatment options.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                                 moderator (👨‍⚖️)                                                                                    
+                   ┌────────────────────────────────────┬───────────────┴────────────┬──────────────────────────────────────────────────────────────┐                
+  Infectious Disease Specialist (🧑‍⚕️)      Gastroenterologist (👨🏽‍⚕️)     Pulmonologist (👨🏽‍⚕️)                                     Clinical Pharmacologist (🧑🏿‍⚕️) 
+                                                                                └───────────────────────┐                                                            
+                                                                                      Infectious Disease Specialist (🧑🏽‍⚕️)                                          
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏽‍⚕️ pulmonologist): 🤐
+ Agent 2 (🧑‍⚕️ infectious disease specialist) -> Agent 2 (🧑‍⚕️ infectious disease specialist) : As an infectious disease specialist, my expertise lies in diagnosing and treating infectious diseases, including pneumonia. 
+
+In this case, the patient presents with symptoms consistent with pneumonia—dry cough, shortness of breath, low-grade fever, and recent episodes of watery diarrhea—coupled with chest X-ray findings of patchy infiltrates. These clinical features, along with his mild leukocytosis and slight anemia, raise a strong suspicion for Pneumocystis jirovecii pneumonia, particularly in the context of possible immunocompromised status.
+
+Given the presentation, the first-line pharmacotherapy—Trimethoprim/sulfamethoxazole—effectively targets this pathogen. It is essential to initiate treatment promptly to improve outcomes and reduce the risk of complications associated with this serious infection, especially in an adult over 50 years of age. Therefore, I strongly support the use of Trimethoprim/sulfamethoxazole as the most appropriate treatment choice in this scenario.
+ Agent 2 (🧑‍⚕️ infectious disease specialist) -> Agent 5 (🧑🏿‍⚕️ clinical pharmacologist) : As an infectious disease specialist, I focus on diagnosing and treating infectious diseases, including pneumonia. 
+
+In regard to the patient’s presentation of pneumonia with symptoms including dry cough, shortness of breath, low-grade fever, and watery diarrhea, along with the chest X-ray showing patchy infiltrates, it is crucial to consider the implications of pharmacotherapy options. 
+
+Trimethoprim/sulfamethoxazole is the most suitable choice here, not only due to its effectiveness against Pneumocystis jirovecii, which is a frequent cause of pneumonia in immunocompromised patients, but also because it addresses the potential polymicrobial nature of his infection. 
+
+Additionally, considering this patient's overall health status and laboratory findings, it is vital to monitor for possible drug interactions and adjust dosages if other medications are involved. By initiating treatment with Trimethoprim/sulfamethoxazole, we can provide a targeted approach for a likely opportunistic infection while ensuring careful management of the pharmacological plan for this patient.
+ Agent 3 (👨🏽‍⚕️ gastroenterologist) -> Agent 2 (🧑‍⚕️ infectious disease specialist) : As a gastroenterologist specializing in gastrointestinal disorders, I want to highlight the importance of recognizing the respiratory symptoms combined with the patient's recent onset of diarrhea. The clinical presentation strongly suggests a possible case of Pneumocystis jirovecii pneumonia (PCP), especially considering the diffuse crackles on examination and the leukocytosis, which may indicate an opportunistic infection.
+
+Given the patient's age and the medical context, PCP is a significant consideration in immunocompromised states. Thus, I recommend proceeding with Trimethoprim/sulfamethoxazole (TMP-SMX) as the most appropriate pharmacotherapy. This treatment is well-established for such infections and is critical to address both the pneumonia and any potential associated gastrointestinal manifestations that may arise from the underlying condition, thereby improving the patient's overall health status efficiently.
+ Agent 4 (🧑🏽‍⚕️ primary care physician): 🤐
+ Agent 5 (🧑🏿‍⚕️ clinical pharmacologist) -> Agent 2 (🧑‍⚕️ infectious disease specialist) : As a clinical pharmacologist with expertise in pharmacotherapy and drug interactions, my opinion is that Trimethoprim/sulfamethoxazole should indeed be the first-line treatment for this patient. The clinical presentation, which includes dry cough, shortness of breath, and patchy infiltrates on chest x-ray, points towards Pneumocystis jirovecii pneumonia, particularly given the leukocytosis and the patient's potentially immunocompromised state. 
+
+TMP/SMX is effective against Pneumocystis and provides broader coverage for other potential bacterial pathogens, making it a suitable choice in this context. Early initiation of the appropriate therapy is crucial for favorable outcomes, especially in immunocompromised patients where delays can lead to increased morbidity. Therefore, I strongly recommend proceeding with Trimethoprim/sulfamethoxazole for this case.
+|_Turn 2
+ Agent 1 (👨🏽‍⚕️ pulmonologist): 🤐
+ Agent 2 (🧑‍⚕️ infectious disease specialist): 🤐
+ Agent 3 (👨🏽‍⚕️ gastroenterologist) -> Agent 4 (🧑🏽‍⚕️ primary care physician) : As a gastroenterologist specializing in gastrointestinal disorders, I would like to emphasize the significance of addressing both the respiratory and gastrointestinal symptoms presented by the patient. The combination of dry cough, shortness of breath, low-grade fever, and recent episodes of watery diarrhea may indicate a systemic infectious process, such as Pneumocystis jirovecii pneumonia (PCP).
+
+Given the patient's potential immunocompromised state and the respiratory findings, it is crucial to initiate treatment with Trimethoprim/sulfamethoxazole as soon as possible to manage the pneumonia effectively. Additionally, I recommend implementing a comprehensive assessment of the patient's overall health, which may include ruling out any underlying gastrointestinal issues that could be contributing to the diarrhea. Coordinating care with specialists while ensuring this multifaceted approach will help optimize the patient's treatment and recovery.
+ Agent 4 (🧑🏽‍⚕️ primary care physician): 🤐
+ Agent 5 (🧑🏿‍⚕️ clinical pharmacologist): 🤐
+|_Turn 3
+ Agent 1 (👨🏽‍⚕️ pulmonologist): 🤐
+ Agent 2 (🧑‍⚕️ infectious disease specialist): 🤐
+ Agent 3 (👨🏽‍⚕️ gastroenterologist): 🤐
+ Agent 4 (🧑🏽‍⚕️ primary care physician): 🤐
+ Agent 5 (🧑🏿‍⚕️ clinical pharmacologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏽‍⚕️) | Agent 2 (🧑‍⚕️) | Agent 3 (👨🏽‍⚕️) | Agent 4 (🧑🏽‍⚕️) | Agent 5 (🧑🏿‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (🧑‍⚕️) |              |              |  ✋ (2<-3)   |              |  ✋ (2<->5)  |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏽‍⚕️) |              |  ✋ (3->2)   |              |  ✋ (3->4)   |              |
+|              |              |              |              |              |              |
+| Agent 4 (🧑🏽‍⚕️) |              |              |  ✋ (4<-3)   |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑🏿‍⚕️) |              |  ✋ (5<->2)  |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most appropriate pharmacotherapy for the patient described, let's review the clinical presentation and laboratory findings:\n\n- The patient is a 52-year-old man with respiratory symptoms (dry cough, shortness of breath, low-grade fever) and gastrointestinal symptoms (watery diarrhea).\n- He has diffuse crackles in the lungs and chest x-ray shows patchy infiltrates, which suggests a possible infectious process, likely pneumonia.\n- The leukocyte count is elevated, indicating a possible infection.\n- The presence of diarrhea could suggest a viral or atypical bacterial infection.\n\nNow, let's consider the options provided:\n\n- (A) Levofloxacin: A fluoroquinolone antibiotic that covers a broad range of bacterial infections, including atypical pneumonia.\n- (B) Trimethoprim/sulfamethoxazole: Effective against certain bacterial infections, including some respiratory pathogens.\n- (C) Amoxicillin: A penicillin antibiotic that is effective against typical bacterial pneumonia but may not cover atypical pathogens.\n- (D) Oseltamivir: An antiviral medication used for influenza, which does not seem to fit the clinical picture as there is no mention of flu-like symptoms.\n- (E) Rifampin: Primarily used for tuberculosis and some other infections, but not typically first-line for pneumonia.\n\nGiven the symptoms of pneumonia and the elevated leukocyte count, the most appropriate choice would be an antibiotic that covers both typical and atypical pathogens. Levofloxacin (A) is a strong candidate due to its broad coverage.\n\nNow, let's assume the opinions from different agents are as follows:\n\n- Agent 1: (A) Levofloxacin\n- Agent 2: (B) Trimethoprim/sulfamethoxazole\n- Agent 3: (A) Levofloxacin\n- Agent 4: (C) Amoxicillin\n- Agent 5: (A) Levofloxacin\n\nCounting the votes:\n- (A) Levofloxacin: 3 votes\n- (B) Trimethoprim/sulfamethoxazole: 1 vote\n- (C) Amoxicillin: 1 vote\n\nThe majority vote is for (A) Levofloxacin.\n\nFinal Answer: (A) Levofloxacin"}
+
+
+[INFO] no: 151
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+
+Group 2 -  Diagnostic Evidence Team (DET)
+
+Group 3 -  Final Review and Decision Team (FRDT)
+
+
+[INFO] no: 152
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Infectious Disease Specialist (Lead)): Specializes in the diagnosis and treatment of viral infections, analyzes the initial viral infection case, and assesses the patient's symptoms and history to identify potential causes and necessary interventions.
+ Member 2 (Geriatric Medicine Specialist): Provides insight into the unique health considerations and comorbidities affecting elderly patients, evaluates the patient's overall health, and assesses any potential complications from the viral infection.
+ Member 3 (Pulmonologist): Focuses on the patient's respiratory symptoms and the implications of the dry cough; evaluates pulmonary function and suggests initial investigations or treatments required for respiratory distress.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Virologist (Lead)): Examines the specifics of the viral infection, correlates the PCR test results with known viral characteristics (e.g., helical capsid, segmented genome), and provides insights into the potential epidemiology of the virus.
+ Member 2 (Clinical Microbiologist): Collaborates to interpret laboratory results and identifies any secondary infections or complications arising from the primary viral infection, providing data that could influence management decisions.
+ Member 3 (Radiologist): Assesses imaging studies (if performed) to evaluate potential lung involvement or complications from the virus, aiding in diagnosing pneumonia or other respiratory conditions that may complicate the case.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant in Infectious Diseases (Lead)): Guides the overall management plan based on findings from both the IAT and DET, taking into account the characteristics of the virus and the patient’s health status.
+ Member 2 (Epidemiologist): Contributes knowledge regarding the transmission dynamics of the identified virus, interpreting why some family members may have symptomatic infections while others do not, including possible factors like immunity or exposure.
+ Member 3 (Clinical Decision Specialist): Integrates information from the various teams to formulate a comprehensive treatment plan, ensuring all aspects of the patient care are coordinated across specialties while monitoring for any changes in patient status.
+
+
+[INFO] no: 153
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏽‍⚕️ 1. Psychiatrist): Specializes in the diagnosis and treatment of mental health disorders, including depression and psychosis.
+Agent 2 (👨🏽‍⚕️ 2. Psychologist): Focuses on the assessment and treatment of mental processes and behaviors, including risk factors for suicide.
+Agent 3 (👨🏿‍⚕️ 3. Geriatrician): Expert in the medical care of older adults, addressing age
+Agent 4 (👨🏻‍⚕️ 4. Public Health Expert): Focuses on suicide prevention strategies and understanding risk factors in community settings.
+Agent 5 (👨‍⚕️ 5. Pharmacist): Specializes in the management of medications and their psychological impacts, particularly regarding psychotropic drugs.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                           moderator (👨‍⚖️)                                                                        
+           ┌─────────────────────────┬────────────┴──────────┬───────────────────────────┬─────────────────────────────┐           
+  Psychiatrist (👨🏽‍⚕️)      Psychologist (👨🏽‍⚕️)     Pharmacist (👨‍⚕️)      Public Health Expert (👨🏻‍⚕️)      Geriatrician (👨🏿‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏽‍⚕️ psychiatrist): 🤐
+ Agent 2 (👨🏽‍⚕️ psychologist): 🤐
+ Agent 3 (👨🏿‍⚕️ geriatrician): 🤐
+ Agent 4 (👨🏻‍⚕️ public health expert): 🤐
+ Agent 5 (👨‍⚕️ pharmacist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏽‍⚕️) | Agent 2 (👨🏽‍⚕️) | Agent 3 (👨🏿‍⚕️) | Agent 4 (👨🏻‍⚕️) | Agent 5 (👨‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the strongest risk factor for suicide in this patient, let's review the opinions of the agents based on the provided options:\n\n1. **(A) Previous suicide attempt**: This is a significant risk factor for future suicide attempts. The patient has a history of a deliberate overdose on sleeping pills, which indicates a previous suicide attempt.\n\n2. **(B) History of psychosis**: While a history of psychosis can increase the risk of suicide, it is not as strong a predictor as a previous suicide attempt.\n\n3. **(C) Access to firearms**: Access to lethal means, such as firearms, is a known risk factor for suicide. However, the patient does not possess a firearm at home, which may lessen the immediate risk.\n\n4. **(D) Sleeping disorder**: Sleep disturbances can contribute to mental health issues but are not as strong a direct risk factor for suicide as previous attempts or access to lethal means.\n\n5. **(E) Age**: Older age can be a risk factor for suicide, but in this case, it is not as strong as the other factors mentioned.\n\nAfter reviewing the opinions, the majority would likely agree that the strongest risk factor for suicide in this patient is:\n\nAnswer: (A) Previous suicide attempt"}
+
+
+[INFO] no: 154
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👩🏼‍⚕️ 1. Pediatrician): Specializes in the medical care of infants, children, and adolescents.
+Agent 2 (👨🏽‍⚕️ 2. Dermatologist): Focuses on the diagnosis and treatment of skin disorders.
+Agent 3 (👨🏿‍⚕️ 3. Infectious Disease Specialist): Specializes in the diagnosis and management of infectious diseases.
+Agent 4 (🧑🏽‍⚕️ 4. Allergist): Focuses on diagnosing and treating allergies and related conditions, including dermatitis.
+Agent 5 (🧑‍⚕️ 5. Epidemiologist): Studies the distribution and determinants of health
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                      moderator (👨‍⚖️)                                                                    
+         ┌───────────────────────┬────────────┴───────────────────────────────┐                                           
+ Allergist (🧑🏽‍⚕️)     Epidemiologist (🧑‍⚕️)                         Pediatrician (👩🏼‍⚕️)                                 
+                                                              ┌───────────────┴───────────────────────┐                   
+                                                    Dermatologist (👨🏽‍⚕️)           Infectious Disease Specialist (👨🏿‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👩🏼‍⚕️ pediatrician): 🤐
+ Agent 2 (👨🏽‍⚕️ dermatologist): 🤐
+ Agent 3 (👨🏿‍⚕️ infectious disease specialist): 🤐
+ Agent 4 (🧑🏽‍⚕️ allergist): 🤐
+ Agent 5 (🧑‍⚕️ epidemiologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👩🏼‍⚕️) | Agent 2 (👨🏽‍⚕️) | Agent 3 (👨🏿‍⚕️) | Agent 4 (🧑🏽‍⚕️) | Agent 5 (🧑‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👩🏼‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (🧑🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely diagnosis for the 4-year-old boy based on the provided symptoms and examination findings, let's analyze the options:\n\n1. **Urushiol-induced dermatitis (B)**: This typically presents as localized rash due to contact with poison ivy or similar plants. The generalized rash and vesicles do not fit this diagnosis.\n\n2. **Scarlet fever (C)**: This is characterized by a red rash, often with a sandpaper texture, and is usually associated with a sore throat. The presence of vesicles and the generalized rash do not align with this condition.\n\n3. **Rubella (E)**: This presents with a mild rash and is often accompanied by mild fever and lymphadenopathy. The absence of lymphadenopathy and the presence of vesicles make this less likely.\n\n4. **Measles (A)**: Measles typically presents with a high fever, cough, coryza, conjunctivitis, and a characteristic rash that starts at the head and spreads downwards. The presence of vesicles is not typical for measles.\n\n5. **Chickenpox (D)**: Chickenpox is characterized by a generalized rash that includes macules, papules, vesicles, and crusted lesions. The fever, itching, and the history of a recent camping trip (potential exposure) support this diagnosis.\n\nBased on the majority opinion of the symptoms and examination findings, the most likely diagnosis is:\n\nAnswer: D) Chickenpox"}
+
+
+[INFO] no: 155
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Emergency Medicine Physician (Lead)): 
+ Member 2 (Psychiatrist): 
+ Member 3 (Toxicologist): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Neurologist (Lead)): 
+ Member 2 (Clinical Pharmacologist): 
+ Member 3 (Psychiatric Nurse Practitioner): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Emergency Medicine Consultant (Lead)): 
+ Member 2 (Senior Psychiatrist): 
+ Member 3 (Clinical Decision Specialist): 
+
+
+[INFO] no: 156
+difficulty: basic
+
+[INFO] no: 157
+difficulty: basic
+
+[INFO] no: 158
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Emergency Medicine Physician (Lead)): Specializes in acute care management and is responsible for the initial evaluation of patients presenting to the emergency department. This physician will lead the team in assessing the severity of the patient’s symptoms and initiating the appropriate interventions based on clinical findings.
+ Member 2 (Gastroenterologist): Provides expertise in assessing gastrointestinal symptoms following the Roux
+ Member 3 (Pharmacist): Focuses on medication management, particularly in the context of the patient's recent surgery and nutritional status. The pharmacist can also advise on the need for electrolyte or vitamin supplementation based on laboratory results.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Endocrinologist (Lead)): Oversees the assessment of hormonal imbalances and complications possibly arising from the thyroid surgery and the resultant elevation in parathyroid hormone levels. This physician will evaluate for hypoparathyroidism
+ Member 2 (Neurologist): Evaluates neurological symptoms such as perioral numbness and muscle cramps, assessing for potential causes linked to electrolyte disturbances, especially concerning calcium levels.
+ Member 3 (Nutritionist/Dietitian): Specializes in nutritional assessment and management related to the Roux
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Internal Medicine Specialist (Lead)): Addresses the overall management plan, synthesizing inputs from various specialties to formulate a comprehensive treatment strategy that includes immediate and long
+ Member 2 (Clinical Decision Support Analyst): Coordinates the integration of evidence
+ Member 3 (Hospitalist): Ensures continuity of care and facilitates communication between the various specialists. This member oversees the patient's care throughout hospitalization and implements the agreed
+
+
+[INFO] no: 159
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Pediatric Endocrinologist (Lead)): Specializes in endocrine disorders in children, focusing on the boy’s symptoms of weakness, polydipsia, polyuria, and the elevated plasma aldosterone levels to help determine the underlying cause of the electrolyte imbalance.
+ Member 2 (Pediatric Nephrologist): Provides insights into the renal aspects of the case, particularly regarding the elevated urinary calcium, renal handling of electrolytes, and potential diagnoses such as Gitelman syndrome or Bartter syndrome.
+ Member 3 (Pediatrician): Conducts the initial evaluation and physical examination of the child, considering the overall history and systemic symptoms like weakness and growth concerns, and provides a general health perspective.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Clinical Laboratory Specialist (Lead)): Directs laboratory testing, particularly the analysis of plasma renin and aldosterone concentrations, helping assess for conditions like primary hyperaldosteronism and differentiating between types of metabolic disorders.
+ Member 2 (Pediatric Radiologist): Provides imaging support, assisting in ruling out anatomical causes such as renal artery stenosis and contributing to the differential diagnosis through ultrasound or other imaging studies as needed.
+ Member 3 (Geneticist): Evaluates potential genetic factors contributing to the patient's symptoms and considers hereditary syndromes that can affect electrolyte balance and kidney function, including conditions like Gitelman syndrome.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Pediatric Endocrinologist (Lead)): Synthesizes findings from Initial Assessment and Diagnostic Evidence Teams to confirm the diagnosis and provide specialist insight into management options.
+ Member 2 (Pediatric Nephrologist): Collaborates with the endocrinologist to discuss the renal implications of the diagnosis and ensures comprehensive evaluation of increasing urinary calcium and potential implications for kidney health.
+ Member 3 (Pediatric Clinical Pharmacologist): Provides recommendations for medication management considering the potential diagnoses and the interactions of future treatments related to electrolyte imbalances and associated therapies.
+

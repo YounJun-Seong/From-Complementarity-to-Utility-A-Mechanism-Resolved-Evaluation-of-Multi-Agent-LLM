@@ -1,0 +1,9 @@
+{
+ "n_probe": 30,
+ "T_M": 21251.366666666665,
+ "t_s": 857.7333333333333,
+ "k_star": 25,
+ "predicted_sc_tokens": 21443.333333333332,
+ "predicted_ratio": 0.9910477226799316,
+ "note": "t_s = one independent round-0 sample (one request, n=1); the SC arm issues k* separate n=1 requests (Amendment 2)"
+}

@@ -1,0 +1,106 @@
+<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:17<11:09, 17.18s/it]  5%|▌         | 2/40 [00:41<13:24, 21.17s/it]  8%|▊         | 3/40 [03:23<52:42, 85.47s/it] 10%|█         | 4/40 [05:06<55:25, 92.37s/it] 12%|█▎        | 5/40 [06:35<53:18, 91.40s/it] 15%|█▌        | 6/40 [07:46<47:49, 84.39s/it] 18%|█▊        | 7/40 [09:53<54:08, 98.43s/it] 20%|██        | 8/40 [12:23<1:01:15, 114.87s/it] 22%|██▎       | 9/40 [14:13<58:25, 113.07s/it]   25%|██▌       | 10/40 [15:43<53:01, 106.06s/it] 28%|██▊       | 11/40 [16:03<38:32, 79.73s/it]  30%|███       | 12/40 [17:15<36:04, 77.29s/it] 32%|███▎      | 13/40 [18:22<33:21, 74.14s/it] 35%|███▌      | 14/40 [21:06<43:55, 101.35s/it] 38%|███▊      | 15/40 [22:08<37:18, 89.55s/it]  40%|████      | 16/40 [24:14<40:10, 100.43s/it] 42%|████▎     | 17/40 [25:01<32:20, 84.39s/it]  45%|████▌     | 18/40 [26:07<28:58, 79.01s/it] 48%|████▊     | 19/40 [26:21<20:49, 59.48s/it] 50%|█████     | 20/40 [30:13<37:04, 111.23s/it] 52%|█████▎    | 21/40 [31:06<29:41, 93.77s/it]  55%|█████▌    | 22/40 [33:13<31:08, 103.80s/it] 57%|█████▊    | 23/40 [34:31<27:11, 95.98s/it]  60%|██████    | 24/40 [35:27<22:23, 83.94s/it] 62%|██████▎   | 25/40 [35:41<15:45, 63.07s/it] 65%|██████▌   | 26/40 [38:00<20:00, 85.78s/it] 68%|██████▊   | 27/40 [38:18<14:11, 65.54s/it] 70%|███████   | 28/40 [40:16<16:12, 81.03s/it] 72%|███████▎  | 29/40 [42:17<17:06, 93.30s/it] 75%|███████▌  | 30/40 [43:26<14:18, 85.87s/it] 78%|███████▊  | 31/40 [46:55<18:25, 122.87s/it] 80%|████████  | 32/40 [48:53<16:11, 121.47s/it] 82%|████████▎ | 33/40 [50:34<13:26, 115.24s/it] 85%|████████▌ | 34/40 [51:40<10:02, 100.45s/it] 88%|████████▊ | 35/40 [52:27<07:01, 84.28s/it]  90%|█████████ | 36/40 [54:31<06:24, 96.24s/it] 92%|█████████▎| 37/40 [54:43<03:33, 71.11s/it] 95%|█████████▌| 38/40 [1:04:49<07:42, 231.41s/it] 98%|█████████▊| 39/40 [1:14:29<05:36, 336.08s/it]<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s] 95%|█████████▌| 38/40 [00:32<00:01,  1.18it/s] 98%|█████████▊| 39/40 [02:12<00:04,  4.46s/it]100%|██████████| 40/40 [03:33<00:00,  8.24s/it]100%|██████████| 40/40 [03:33<00:00,  5.35s/it]
+
+[INFO] no: 157
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨‍⚕️ 1. Pediatrician): Specializes in the medical care of infants, children, and adolescents.
+Agent 2 (👩🏻‍⚕️ 2. Pediatric Gastroenterologist): Focuses on gastrointestinal disorders in children, including lipid metabolism issues.
+Agent 3 (🧑🏿‍⚕️ 3. Medical Geneticist): Specializes in the study of genes and hereditary conditions.
+Agent 4 (👨🏻‍⚕️ 4. Endocrinologist): Specializes in hormonal and metabolic disorders, including those related to lipid metabolism.
+Agent 5 (🧑🏽‍⚕️ 5. Cardiologist): Focuses on the diagnosis and treatment of heart and blood vessel
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                         moderator (👨‍⚖️)                                                                                             
+              ┌──────────────────┴───────────────────────────────────────────────┐                                                    
+  Medical Geneticist (🧑🏿‍⚕️)                                            Pediatrician (👨‍⚕️)                                           
+                                                         ┌───────────────────────┴────────────┬──────────────────────────┐            
+                                        Pediatric Gastroenterologist (👩🏻‍⚕️)         Cardiologist (🧑🏽‍⚕️)     Endocrinologist (👨🏻‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨‍⚕️ pediatrician): 🤐
+ Agent 2 (👩🏻‍⚕️ pediatric gastroenterologist): 🤐
+ Agent 3 (🧑🏿‍⚕️ medical geneticist): 🤐
+ Agent 4 (👨🏻‍⚕️ endocrinologist): 🤐
+ Agent 5 (🧑🏽‍⚕️ cardiologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨‍⚕️) | Agent 2 (👩🏻‍⚕️) | Agent 3 (🧑🏿‍⚕️) | Agent 4 (👨🏻‍⚕️) | Agent 5 (🧑🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (🧑🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the final answer based on the majority vote of the agents' opinions, I will analyze the provided information regarding the 13-month-old boy with hepatosplenomegaly, a milky blood sample, and a mutation in the apolipoprotein C-II gene.\n\nThe key points to consider are:\n- The mutation in the apolipoprotein C-II gene is associated with familial chylomicronemia syndrome, which leads to elevated triglyceride levels.\n- Patients with this condition are at a high risk for acute pancreatitis due to the accumulation of triglycerides.\n\nNow, let's review the options:\n(A) Acute pancreatitis - This is a well-known complication of elevated triglycerides due to chylomicronemia.\n(B) Myocardial infarction - This is more associated with elevated cholesterol levels rather than triglycerides in this context.\n(C) Corneal arcus - This is related to cholesterol levels but is not an acute complication.\n(D) Cholesterol embolization syndrome - This is not directly related to the condition described.\n(E) Cerebrovascular accident - This is also more associated with chronic conditions rather than acute complications from triglyceride elevation.\n\nGiven the context and the known risks associated with the mutation in the apolipoprotein C-II gene, the majority of medical experts would likely agree that the greatest risk for this patient is:\n\nAnswer: A) Acute pancreatitis"}
+
+
+[INFO] no: 158
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Emergency Medicine Physician (Lead)): This physician leads the team and is responsible for the initial evaluation and stabilization of patients presenting with acute abdominal and neurological symptoms. They will assess the urgency of the patient's condition and initiate the appropriate treatment.
+ Member 2 (Gastroenterologist): Provides expertise in gastrointestinal issues, particularly the complications related to the recent Roux
+ Member 3 (Neurologist): Focuses on the progressive perioral numbness and muscle cramping noted in the patient. They will evaluate the neurological aspects of the patient's presentation and help rule out conditions such as hypoparathyroidism, which could lead to low calcium levels and neuromuscular symptoms.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Endocrinologist (Lead)): This specialist will manage issues related to the patient's parathyroid hormone levels and calcium metabolism, given the elevated PTH and the potential for hypocalcemia after thyroidectomy.
+ Member 2 (Clinical Laboratory Specialist): Responsible for interpreting laboratory results, including calcium, phosphorus, and vitamin D levels, and providing insights into the biochemical abnormalities related to the patient's presentation.
+ Member 3 (Radiologist): Evaluates additional imaging studies, if necessary, to assess for any anatomical abnormalities or complications resulting from the recent surgical procedures, particularly focusing on the parathyroid glands after total thyroidectomy.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant Endocrinologist (Lead)): Guides the final management plan by integrating data from the diagnostic teams and making a decision about the initial treatment approach, especially regarding calcium and vitamin D management.
+ Member 2 (Clinical Decision Specialist): Coordinates recommendations from the various teams, synthesizing evidence and data to ensure a comprehensive management plan that addresses all aspects of the patient’s condition.
+ Member 3 (Oncologist): Provides an overarching view of the patient's cancer history and risk factors, which may influence management choices, particularly in ensuring careful monitoring and supportive care given the patient's family history of cancer.
+
+
+[INFO] no: 159
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Pediatric Endocrinologist (Lead)): 
+ Member 2 (Pediatric Nephrologist): 
+ Member 3 (Pediatric Gastroenterologist): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Clinical Laboratory Specialist (Lead)): 
+ Member 2 (Pediatric Radiologist): 
+ Member 3 (Genetic Counselor): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Pediatric Endocrinologist (Lead)): 
+ Member 2 (Pediatric Nephrologist): 
+ Member 3 (Pediatric Surgeon (if necessary)): 
+

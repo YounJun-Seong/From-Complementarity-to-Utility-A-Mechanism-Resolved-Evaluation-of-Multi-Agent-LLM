@@ -1,0 +1,10 @@
+Compute/token-matched single-agent aggregation vs MedAgents (MedQA n=200, gpt-4o-mini)
+  method            tokens/q   accuracy
+  single (k=1)       1,149      0.815
+  SC k=20            8,433      0.780
+  SC k=40           16,591      0.760   <- token-matched to MedAgents
+  MedAgents         18,555      0.800
+=> At a token budget comparable to MedAgents (SC k=40 = 16.6k vs 18.6k), self-consistency does
+   NOT exceed the single-chain baseline; on MedQA more aggregation tokens slightly reduce accuracy.
+   The single chain attains the best accuracy at ~1/16 the token budget.
+COMPUTE_MATCHED_DONE

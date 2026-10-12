@@ -1,0 +1,8 @@
+order   S acc  M1 acc          M1 − S [95% CI]
+orig    0.730   0.710  -0.020 [-0.075,+0.035]
+perm1   0.715   0.735  +0.020 [-0.040,+0.080]
+perm2   0.685   0.695  +0.010 [-0.050,+0.070]
+perm3   0.715   0.700  -0.015 [-0.070,+0.040]
+pooled (mean over 4 orders per question) M1 − S = -0.001 [-0.037,+0.035]
+S: same chosen option content in all 4 orders 0.655
+M1: same chosen option content in all 4 orders 0.705

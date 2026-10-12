@@ -1,0 +1,11 @@
+=== Phase V: MedARC (released homogeneous configuration, Qwen2.5-14B), PubMedQA n=498, k*=25 ===
+accuracy: A_released 0.619, A_released_controlled_parser 0.596, A_paper_no_reinit 0.598, A_R2MV 0.611, A_R0MV 0.647, B_released 0.598, B_strong 0.635, SC-k* 0.658
+G1  G_app (released-pipeline apparent gain, common backbone) +2.1 pp [-0.7, +4.8]
+G1  G_base -3.7 pp [-6.9, -0.4]    G_int -6.0 pp [-8.6, -3.5]    G_het N/A
+G2  H +2.1 pp [+1.0, +3.4]  H_plc +0.3 pp [-0.5, +1.2]  C* +1.8 pp [+0.6, +3.2]
+G3  N/A (always-on)
+G4  kappa_gen 0.746  kappa_post 0.671  delta -7.5 pp [-9.6, -5.4]  gain 0.021  loss 0.096
+G5  pooled DI -6.9 pp [-13.4, -0.6] (BRR 0.359, HRR 0.429, n_W 969, n_C 1050) -> inconclusive
+    DI 0→1 -10.6 pp [-18.3, -2.8]; DI 1→2 -3.1 pp [-10.6, +4.6]; switch pooled 0.123
+G6  R_int -3.5 pp [-5.8, -1.3]; paper−R2MV -1.3 pp [-2.5, -0.1]; released−R2MV +0.8 pp [-0.3, +1.9]; released parser − controlled parser +2.3 pp [+1.6, +3.1]; none-pass 0.276
+descriptive: {"paper_reported_deepseek": {"zero_shot": 0.729, "medarc": 0.772, "gain": 0.043}, "tokens_per_question": {"medarc": 20919.74564926372, "B_strong": 653.5274431057563, "SC_k": 20494.71419009371, "B_released": 553.0267737617136}, "realized_token_ratio_medarc_over_sc": 1.0207385892395344, "unparsed_controlled": {"medarc_turns": 0.022311468094600623, "B_strong": 0.0, "SC": 0.018580990629183402}, "truncated": {"medarc": 0.0, "SC": 0.0}}

@@ -1,0 +1,61 @@
+================================================================================
+MULTI-AGENT REALITY-CHECK — MASTER SUMMARY
+Claim: reported multi-agent LLM gains are a WEAK-BASELINE ARTIFACT; a standard,
+pre-registered single prompt (Kojima zero-shot CoT) ties multi-agent systems.
+All on gpt-4o-mini-2024-07-18 via our cached client (reproducible); bootstrap 95% CI.
+================================================================================
+
+[AXIS 1 — DATASETS] standard single ties the multi-agent system, on BOTH datasets
+  MedQA (n=200):   base_cot 0.700 | zeroshot_cot 0.815 | multi 0.800
+                   multi - single = -0.015 [-0.065,+0.030]  TIE
+                   single - base_cot = +0.115 [+0.060,+0.170]  (>=100% of gain from prompt)
+  MedMCQA (n=100): base_cot 0.660 | zeroshot_cot 0.740 | multi 0.750
+                   multi - single = +0.010 [-0.060,+0.080]  TIE
+                   single - base_cot = +0.080 [-0.010,+0.170] (artifact smaller on harder set)
+
+[AXIS 2 — SYSTEMS] a 2nd, architecturally different multi-agent system also ties single
+  MedQA (n=50):    base_cot 0.620 | zeroshot_cot 0.740 | MedAgents 0.780 | MDAgents 0.720
+                   MDAgents - single = -0.020 [-0.140,+0.100]  TIE
+
+[AXIS 3 — BASE MODELS] no crossover; multi-agent doesn't rescue weak models
+  n=500, 5 models (Qwen 1.5B/3B/7B/14B, gpt-4o-mini) x {debate, MedAgents, MDAgents}
+  ALL gains statistically 0; crossover slopes n.s. (single acc 0.464 -> 0.766)
+
+[MECHANISM — E3] the weak baseline is NOT an answer-extraction artifact
+  base_cot own extraction 0.700 > robust regex 0.560 / LLM re-extraction 0.575
+  => mechanism is weak PROMPT quality, not parsing.
+
+CONCLUSION: across datasets, multi-agent systems, and base-model strengths, a standard
+single prompt matches multi-agent systems; the reported gains reflect a weak baseline,
+not multi-agent coordination. Methodological ask: compare against a strong single baseline.
+MASTER_DONE
+
+================================================================================
+ADDITIONAL ROBUSTNESS (reviewer-facing gaps closed)
+================================================================================
+[E-① CROSS-DOMAIN] non-medical MMLU (philosophy/math/history/logic/physics/ethics), n=150
+  base_cot 0.727 | zeroshot_cot 0.840 | multi 0.820
+  multi - single = -0.020 [-0.067,+0.027]  TIE ; single - base_cot = +0.113 [+0.047,+0.180]
+  => finding is NOT medical-QA-specific.
+
+[E-③ PROMPT-SYMMETRY] fix ONLY the single-agent baseline's prompt config in MedAgents' OWN code
+  (empty role->expert, 300->700 tokens): base_cot 0.700 -> base_cot_strong 0.790
+  multi - base_cot_strong = +0.010 [-0.040,+0.060]  TIE ; strong-weak = +0.090 [+0.040,+0.140]
+  => rebuts "you only tuned the single prompt": their harness's own baseline, config-fixed, ties multi.
+
+[E-⑤ COST] tokens/question (gpt-4o-mini), equal-or-lower accuracy
+  single zeroshot_cot 1,149 (1x) | MedAgents syn_verif 20,094 (17.5x) | MDAgents 50,156 (43.7x)
+  => multi-agent costs 17.5-43.7x the tokens for no accuracy gain.
+
+[E-② TOST] pre-registered equivalence margin delta=0.05, MedQA n=500
+  base_cot 0.640 | zeroshot_cot 0.768 | multi 0.766
+  multi - single = -0.002  90%CI[-0.030,+0.026]  -> EQUIVALENT at delta=0.05 (formally declared)
+  => not just 'CI includes 0': standard single is statistically EQUIVALENT to multi-agent.
+
+[E-① REASONING + POSITIVE CONTROL] GSM8K arithmetic, n=200 (multi-agent debate's home turf)
+  single_cot 0.935 | debate (3 agents x 2 rounds) 0.945 | self_consistency(k=10) 0.960
+  debate - single = +0.010 [-0.010,+0.030]  TIE (no debate gain, even on math)
+  SC - single     = +0.025 [+0.005,+0.050]  POSITIVE CONTROL PASSED (harness detects real gains)
+  SC - debate     = +0.015 [-0.005,+0.040]  cheap self-consistency >= expensive debate
+  => the null extends to multi-agent debate on reasoning; the failure to beat single is
+     NOT measurement insensitivity (SC does beat single).

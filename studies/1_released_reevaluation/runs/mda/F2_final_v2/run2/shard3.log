@@ -1,0 +1,147 @@
+<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [03:57<2:34:29, 237.67s/it]  5%|▌         | 2/40 [05:33<1:37:47, 154.40s/it]  8%|▊         | 3/40 [08:17<1:37:44, 158.49s/it] 10%|█         | 4/40 [10:19<1:26:25, 144.04s/it] 12%|█▎        | 5/40 [10:41<58:24, 100.12s/it]   15%|█▌        | 6/40 [11:51<50:54, 89.84s/it]  18%|█▊        | 7/40 [13:17<48:47, 88.72s/it] 20%|██        | 8/40 [14:35<45:24, 85.13s/it] 22%|██▎       | 9/40 [18:58<1:12:44, 140.79s/it] 25%|██▌       | 10/40 [21:39<1:13:29, 146.99s/it] 28%|██▊       | 11/40 [22:30<56:53, 117.71s/it]   30%|███       | 12/40 [23:38<47:57, 102.77s/it] 32%|███▎      | 13/40 [24:24<38:23, 85.33s/it]  35%|███▌      | 14/40 [25:04<31:07, 71.82s/it] 38%|███▊      | 15/40 [25:54<27:09, 65.18s/it] 40%|████      | 16/40 [26:42<24:01, 60.07s/it] 42%|████▎     | 17/40 [27:23<20:45, 54.17s/it] 45%|████▌     | 18/40 [28:05<18:32, 50.59s/it] 48%|████▊     | 19/40 [28:55<17:37, 50.37s/it] 50%|█████     | 20/40 [31:09<25:10, 75.51s/it] 52%|█████▎    | 21/40 [32:43<25:41, 81.12s/it] 55%|█████▌    | 22/40 [34:39<27:29, 91.63s/it] 57%|█████▊    | 23/40 [35:25<22:01, 77.72s/it] 60%|██████    | 24/40 [36:53<21:33, 80.85s/it] 62%|██████▎   | 25/40 [40:37<30:57, 123.81s/it] 65%|██████▌   | 26/40 [41:20<23:14, 99.61s/it]  68%|██████▊   | 27/40 [43:35<23:51, 110.15s/it] 70%|███████   | 28/40 [44:29<18:40, 93.41s/it]  72%|███████▎  | 29/40 [45:40<15:54, 86.80s/it] 75%|███████▌  | 30/40 [46:28<12:31, 75.11s/it] 78%|███████▊  | 31/40 [47:27<10:31, 70.13s/it] 80%|████████  | 32/40 [48:13<08:24, 63.06s/it] 82%|████████▎ | 33/40 [48:59<06:45, 57.93s/it] 85%|████████▌ | 34/40 [49:54<05:42, 57.04s/it] 88%|████████▊ | 35/40 [50:39<04:26, 53.32s/it] 90%|█████████ | 36/40 [51:24<03:23, 50.86s/it] 92%|█████████▎| 37/40 [52:10<02:27, 49.27s/it] 95%|█████████▌| 38/40 [54:02<02:16, 68.33s/it] 98%|█████████▊| 39/40 [1:14:29<06:55, 415.90s/it]<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s] 98%|█████████▊| 39/40 [00:47<00:01,  1.23s/it]100%|██████████| 40/40 [02:15<00:00,  4.27s/it]100%|██████████| 40/40 [02:15<00:00,  3.38s/it]
+
+[INFO] no: 158
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Gastroenterologist (Lead)): Specializes in the diagnosis and treatment of gastrointestinal disorders, critical for assessing the patient's abdominal discomfort post
+ Member 2 (Endocrinologist): Focuses on metabolic and hormonal disorders, which will be essential in evaluating the patient’s abnormal parathyroid hormone levels and the possibility of hypoparathyroidism after thyroidectomy.
+ Member 3 (Neurologist): Assesses the neurological symptoms, specifically the perioral numbness and muscle cramping, which may indicate metabolic abnormalities such as hypocalcemia post
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Internal Medicine Specialist (Lead)): Provides comprehensive management, analyzing the patient's electrolyte levels, particularly the combination of hypomagnesemia and elevated parathyroid hormone levels, which suggest a potential case of primary hyperparathyroidism.
+ Member 2 (Clinical Laboratory Scientist): Responsible for interpreting laboratory results accurately, ensuring that the electrolyte and hormone assays are correctly assessed and interpreted concerning the patient's recent surgeries and clinical presentation.
+ Member 3 (Dietitian): Specializes in nutrition, which is crucial for assessing the patient's dietary intake, particularly focusing on calcium and vitamin D, essential for understanding the hypocalcemia symptoms and managing postoperative nutritional deficiencies.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant Endocrinologist (Lead)): Provides expert oversight on the patient’s hormonal levels, particularly concerning the management of hypoparathyroidism and any immediate need for calcium administration.
+ Member 2 (Senior General Surgeon): Reviews the surgical history, evaluating any potential complications from the thyroidectomy and assessing the need for any surgical interventions or re
+ Member 3 (Clinical Decision Specialist): Coordinates the recommendations from all teams, synthesizing the findings and formulating an actionable treatment plan, specifically addressing the need for immediate calcium supplementation or further diagnostic interventions.
+
+
+[INFO] no: 159
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑‍⚕️ 1. Pediatric Endocrinologist): Specializes in hormonal imbalances and endocrine disorders.
+Agent 2 (👨🏽‍⚕️ 2. Nephrologist): Focuses on the diagnosis and treatment of kidney
+Agent 3 (👩🏻‍⚕️ 3. Pediatric Gastroenterologist): Specializes in gastrointestinal issues in children.
+Agent 4 (👨🏻‍⚕️ 4. Pediatric Psychiatrist): Focuses on mental health disorders in children and adolescents.
+Agent 5 (👨🏿‍⚕️ 5. Pediatric Dietitian): Specializes in childhood nutrition and diet
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                          moderator (👨‍⚖️)                                                                    
+                ┌─────────────────────────────────┬───────────────┴───────────────────────────────┐                                           
+  Pediatric Psychiatrist (👨🏻‍⚕️)     Pediatric Dietitian (👨🏿‍⚕️)                   Pediatric Endocrinologist (🧑‍⚕️)                           
+                                                                                  ┌───────────────┴───────────────────────┐                   
+                                                                         Nephrologist (👨🏽‍⚕️)            Pediatric Gastroenterologist (👩🏻‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑‍⚕️ pediatric endocrinologist): 🤐
+ Agent 2 (👨🏽‍⚕️ nephrologist) -> Agent 1 (🧑‍⚕️ pediatric endocrinologist) : As a nephrologist with a focus on kidney-related disorders, I believe that the clinical presentation of the 9-year-old boy—characterized by generalized weakness, increased urination, increased thirst, and pronounced hypokalemia—strongly suggests Bartter's syndrome. This condition features renal tubular dysfunction leading to electrolyte imbalances and compensatory behaviors, such as craving salty foods, due to sodium loss. The elevated renin and aldosterone levels further support this diagnosis. I encourage you, as the pediatric endocrinologist, to consider the implications of these hormonal changes and the need for a holistic management plan to address both the electrolyte disturbances and the patient's growth and developmental needs.
+ Agent 3 (👩🏻‍⚕️ pediatric gastroenterologist) -> Agent 1 (🧑‍⚕️ pediatric endocrinologist) : As a pediatric gastroenterologist specializing in gastrointestinal issues in children, I recognize that the case presented is indicative of Bartter's syndrome, which is predominantly a renal tubular disorder characterized by electrolyte imbalances, particularly hypokalemia, metabolic alkalosis, and elevated renin and aldosterone levels.
+
+My opinion is that, while the nephrologist has highlighted the renal aspects appropriately, it’s crucial to consider the long-term impact on the child’s growth and nutritional status. Given the symptoms of generalized weakness, increased thirst, and preferences for salty foods, these suggest significant physiological responses to chronic electrolyte disturbances. Interventions to manage electrolyte imbalances will be vital to prevent further complications, including growth retardation and delayed development. 
+
+I encourage ongoing collaboration between our specialties to ensure we address both the renal dysfunction and the potential gastrointestinal symptoms that can arise, including constipation and dietary issues stemming from these imbalances.
+ Agent 3 (👩🏻‍⚕️ pediatric gastroenterologist) -> Agent 2 (👨🏽‍⚕️ nephrologist) : As a pediatric gastroenterologist specializing in gastrointestinal issues in children, I agree with the nephrologist's assessment that this case presents strong indications of Bartter's syndrome. The symptoms of generalized weakness, increased urination, increased thirst, and the clinical findings of hypokalemia, coupled with elevated renin and aldosterone levels, are indeed suggestive of renal tubular dysfunction.
+
+I would emphasize the importance of monitoring and managing not only the electrolyte imbalances but also the potential gastrointestinal complications that could arise from these disturbances, such as frequent constipation and dietary challenges. Given that the child has growth concerns as well, close collaboration between our specialties is essential. We should work together to develop a comprehensive management plan that addresses both the renal and gastrointestinal manifestations of this condition, ensuring holistic care for the patient.
+ Agent 4 (👨🏻‍⚕️ pediatric psychiatrist) -> Agent 1 (🧑‍⚕️ pediatric endocrinologist) : As a pediatric psychiatrist with a focus on mental health disorders in children and adolescents, my expertise lies in understanding how medical conditions can impact psychological well-being. 
+
+Opinion to Agent 1 (pediatric endocrinologist): 
+
+I believe Bartter's syndrome is indeed the correct diagnosis for the 9-year-old boy based on the presenting symptoms of generalized weakness, increased urination, increased thirst, and laboratory findings of hypokalemia, elevated plasma renin, and aldosterone. Given that this condition can lead to significant electrolyte imbalances, it's crucial to monitor the patient not only for physical health implications but also for any potential impact on mood and cognitive function, as chronic illness can affect the child's emotional development and engagement with peers. Early intervention to manage both the endocrine aspects and the psychological effects will be key in providing holistic care for the patient.
+ Agent 4 (👨🏻‍⚕️ pediatric psychiatrist) -> Agent 2 (👨🏽‍⚕️ nephrologist) : As a pediatric psychiatrist, I focus on the mental health and emotional well-being of children and adolescents, understanding that physical health conditions can profoundly affect psychological development.
+
+Opinion to Agent 2 (nephrologist):
+
+I agree that Bartter's syndrome is the likely diagnosis for the patient. The presentation of hypokalemia, elevated plasma renin, and aldosterone levels aligns well with this condition. It's important to consider that the chronic nature of this renal tubular dysfunction might lead to increased stress and anxiety for the child, given his symptoms of weakness and fatigue, as well as social preferences that might indicate withdrawal from peers. Addressing these psychological aspects, alongside managing the kidney function, will be critical to improving both his physical health and emotional well-being. Collaborative management of this case will ensure that we attend to both the renal and psychosocial needs of the patient.
+ Agent 5 (👨🏿‍⚕️ pediatric dietitian) -> Agent 1 (🧑‍⚕️ pediatric endocrinologist) : As a pediatric dietitian specializing in childhood nutrition and diet, my expertise informs me that the 9-year-old boy's symptoms of generalized weakness, increased urination, increased thirst, craving for salty foods, and elevated levels of hypothesized markers strongly suggest Bartter's syndrome. This condition typically results in significant losses of potassium and sodium due to renal tubular dysfunction, leading to compensatory behaviors like seeking salty foods. Given the importance of correct nutritional management in such electrolyte imbalances, including tailored dietary recommendations, it is essential to collaborate on a comprehensive treatment plan that addresses both the metabolic derangements and the dietary needs of this patient. Therefore, I encourage exploration of nutritional strategies that could support this child's condition and overall health.
+ Agent 5 (👨🏿‍⚕️ pediatric dietitian) -> Agent 2 (👨🏽‍⚕️ nephrologist) : As a pediatric dietitian specializing in childhood nutrition and diet, I want to express my agreement with the diagnosis of Bartter's syndrome in this 9-year-old boy. The combination of his symptoms—generalized weakness, increased urination, increased thirst, cravings for salty foods, and laboratory findings indicative of hypokalemia and elevated plasma renin and aldosterone levels—suggests renal tubular dysfunction consistent with this condition. Given the significant role that nutrition plays in managing the electrolyte imbalances seen in Bartter's syndrome, I believe we should collaborate closely on dietary interventions that can help manage his symptoms and support his growth and development. A strategic dietary approach, focusing on adequate potassium and sodium intake, can be a critical component of his overall management plan.
+|_Turn 2
+ Agent 1 (🧑‍⚕️ pediatric endocrinologist): 🤐
+ Agent 2 (👨🏽‍⚕️ nephrologist): 🤐
+ Agent 3 (👩🏻‍⚕️ pediatric gastroenterologist) -> Agent 1 (🧑‍⚕️ pediatric endocrinologist) : As a pediatric gastroenterologist specializing in gastrointestinal issues in children, I recognize the critical role that hormonal imbalances play in the management of conditions like Bartter's syndrome. 
+
+My opinion is that while the renal and electrolyte issues dominate the clinical picture, we must also address the endocrine implications of elevated plasma renin and aldosterone levels. These hormonal changes are compensatory responses to the volume depletion caused by renal sodium wasting. Further evaluation of the child's growth patterns, nutritional status, and metabolic demands is essential. By working collaboratively, we can develop a holistic management plan that not only addresses the renal dysfunction but also mitigates any potential long-term endocrine effects, ensuring the best outcomes for this patient.
+ Agent 4 (👨🏻‍⚕️ pediatric psychiatrist) -> Agent 1 (🧑‍⚕️ pediatric endocrinologist) : As a pediatric psychiatrist specializing in mental health disorders in children and adolescents, I understand the importance of addressing both the psychological and physical aspects of a child's health.
+
+Opinion to Agent 1 (pediatric endocrinologist):
+
+I concur that Bartter's syndrome is the most likely diagnosis for this patient, given his symptoms and laboratory findings. It is crucial that we consider not only the physiological treatment of his electrolyte imbalances but also the potential psychological impact of his condition. Chronic illness, particularly one that affects growth and social interaction, may lead to issues such as anxiety and depression. Therefore, as we manage his hormonal imbalances and renal function, I suggest incorporating regular mental health assessments and support for the child to help him cope with any emotional challenges related to his diagnosis and treatment. This holistic approach will be important for his overall well-being.
+ Agent 4 (👨🏻‍⚕️ pediatric psychiatrist) -> Agent 2 (👨🏽‍⚕️ nephrologist) : As a pediatric psychiatrist specializing in mental health disorders in children and adolescents, I recognize the significant interplay between physical health and psychological well-being.
+
+Opinion to Agent 2 (nephrologist):
+
+I fully support the diagnosis of Bartter's syndrome, considering the patient's clinical presentation and lab findings. In addition to addressing the renal and electrolyte management aspects of this condition, it is imperative that we remain mindful of the child's potential psychological needs. The symptoms of fatigue, weakness, and changes in social behavior may signify emotional distress due to his chronic illness. Therefore, I recommend implementing a multidisciplinary approach that includes mental health support as part of his ongoing care plan. By ensuring that we monitor and address any psychological impacts, we can significantly improve the child's quality of life alongside managing his renal condition.
+ Agent 5 (👨🏿‍⚕️ pediatric dietitian): 🤐
+|_Turn 3
+ Agent 1 (🧑‍⚕️ pediatric endocrinologist): 🤐
+ Agent 2 (👨🏽‍⚕️ nephrologist): 🤐
+ Agent 3 (👩🏻‍⚕️ pediatric gastroenterologist): 🤐
+ Agent 4 (👨🏻‍⚕️ pediatric psychiatrist) -> Agent 3 (👩🏻‍⚕️ pediatric gastroenterologist) : As a pediatric psychiatrist specializing in mental health disorders in children and adolescents, I understand the importance of a holistic approach to pediatric care that incorporates both physical and psychological health needs.
+
+Opinion to Agent 3 (pediatric gastroenterologist):
+
+I believe that addressing the gastrointestinal issues in this 9-year-old boy with Bartter's syndrome is crucial, especially his frequent episodes of constipation. This may be associated with his electrolyte imbalances, particularly hypokalemia, which is known to cause gastrointestinal motility issues. To optimize the patient's overall health, it would be beneficial to assess his dietary intake and ensure it is adequate in fiber and hydration, which may help alleviate constipation while also supporting his renal condition. Collaborating on a nutrition plan that considers both his preferences for salty foods and the need for balanced electrolytes will be essential. By focusing on both gastrointestinal function and overall nutrition, we can help improve his physical comfort and emotional well-being, enhancing his quality of life.
+ Agent 5 (👨🏿‍⚕️ pediatric dietitian): 🤐
+|_Turn 4
+ Agent 1 (🧑‍⚕️ pediatric endocrinologist): 🤐
+ Agent 2 (👨🏽‍⚕️ nephrologist): 🤐
+ Agent 3 (👩🏻‍⚕️ pediatric gastroenterologist): 🤐
+ Agent 4 (👨🏻‍⚕️ pediatric psychiatrist) -> Agent 5 (👨🏿‍⚕️ pediatric dietitian) : As a pediatric psychiatrist specializing in mental health disorders in children and adolescents, I understand the interplay between nutrition, physical health, and psychological well-being.
+
+Opinion to Agent 5 (pediatric dietitian):
+
+I believe it is essential to develop a tailored nutritional plan for this 9-year-old boy diagnosed with Bartter's syndrome, particularly considering his symptoms of hypokalemia and his cravings for salty foods. A key focus should be on ensuring he receives adequate potassium-rich foods while also balancing his sodium intake. Moreover, we should address his recurrent constipation by increasing dietary fiber and hydration. It would also be beneficial to engage him in the planning of his meals, fostering a positive attitude toward food that supports both his physical health and emotional well-being. Incorporating a holistic dietary strategy will not only help in managing his symptoms but also positively influence his mood and social interactions, ultimately promoting better overall health outcomes.
+ Agent 5 (👨🏿‍⚕️ pediatric dietitian): 🤐
+|_Turn 5
+ Agent 1 (🧑‍⚕️ pediatric endocrinologist): 🤐
+ Agent 2 (👨🏽‍⚕️ nephrologist): 🤐
+ Agent 3 (👩🏻‍⚕️ pediatric gastroenterologist): 🤐
+ Agent 4 (👨🏻‍⚕️ pediatric psychiatrist): 🤐
+ Agent 5 (👨🏿‍⚕️ pediatric dietitian): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑‍⚕️) | Agent 2 (👨🏽‍⚕️) | Agent 3 (👩🏻‍⚕️) | Agent 4 (👨🏻‍⚕️) | Agent 5 (👨🏿‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑‍⚕️) |              |  ✋ (1<-2)   |  ✋ (1<-3)   |  ✋ (1<-4)   |  ✋ (1<-5)   |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏽‍⚕️) |  ✋ (2->1)   |              |  ✋ (2<-3)   |  ✋ (2<-4)   |  ✋ (2<-5)   |
+|              |              |              |              |              |              |
+| Agent 3 (👩🏻‍⚕️) |  ✋ (3->1)   |  ✋ (3->2)   |              |  ✋ (3<-4)   |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏻‍⚕️) |  ✋ (4->1)   |  ✋ (4->2)   |  ✋ (4->3)   |              |  ✋ (4->5)   |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏿‍⚕️) |  ✋ (5->1)   |  ✋ (5->2)   |              |  ✋ (5<-4)   |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely diagnosis based on the provided clinical scenario and lab results, let's analyze the information:\n\n1. **Symptoms**: The boy presents with generalized weakness, increased urination, increased thirst, fatigue, and constipation. He also has cravings for salty foods.\n  \n2. **Lab Results**:\n   - **Elevated urinary calcium excretion**: This is a key finding.\n   - **Electrolytes**: Sodium is slightly low, potassium is low (3.2 mEq/L), and chloride is normal.\n   - **Plasma renin activity**: Elevated at 10 ng/mL/hr (normal is 0.5–3.3 ng/mL/hr).\n   - **Plasma aldosterone concentration**: Elevated at 20 ng/dL (normal is 2–9 ng/dL).\n\n3. **Differential Diagnosis**:\n   - **Primary hyperaldosteronism (Conn's syndrome)**: Characterized by hypertension, hypokalemia, and metabolic alkalosis. The boy has low potassium, which could suggest this condition, but he does not have hypertension.\n   - **Bartter's syndrome**: A genetic disorder that presents with hypokalemia, metabolic alkalosis, and elevated renin and aldosterone levels. The symptoms of weakness, increased thirst, and cravings for salt align with this condition.\n   - **Gitelman's syndrome**: Similar to Bartter's but typically presents with hypomagnesemia and hypocalcemia, which is not indicated here.\n   - **Renal artery stenosis**: Would typically present with hypertension and possibly elevated renin, but the boy does not have hypertension.\n   - **Pheochromocytoma**: Would present with episodic hypertension, palpitations, and other symptoms related to catecholamine excess, which are not present here.\n\nGiven the elevated urinary calcium, hypokalemia, and elevated renin and aldosterone levels, the most fitting diagnosis is **Bartter's syndrome**.\n\nAfter reviewing the opinions of the agents, if the majority agree on Bartter's syndrome, the final answer would be:\n\nAnswer: C) Bartter's syndrome"}
+

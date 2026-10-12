@@ -1,0 +1,12 @@
+single_cot=0.935  self_consistency=0.960
+[pass 1] debate done 200/200 (+200 this pass)
+
+=== GSM8K final (n=200) ===
+  single_cot         0.935 [0.900,0.965]
+  self_consistency   0.960 [0.930,0.985]
+  debate             0.945 [0.910,0.975]
+  SC - single     = +0.025 [+0.005,+0.050]  POS. CONTROL PASSED
+  debate - single = +0.010 [-0.010,+0.030]  TIE (no debate gain)
+  SC - debate     = +0.015 [-0.005,+0.040]  tie
+GSM8K_FULL_DONE
+DRIVER_EXIT=0

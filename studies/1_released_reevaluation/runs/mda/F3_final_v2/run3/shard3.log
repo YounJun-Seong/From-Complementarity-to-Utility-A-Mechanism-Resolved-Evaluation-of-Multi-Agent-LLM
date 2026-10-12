@@ -1,0 +1,211 @@
+<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [02:28<1:36:38, 148.67s/it]  5%|▌         | 2/40 [04:21<1:20:41, 127.40s/it]  8%|▊         | 3/40 [05:47<1:06:59, 108.64s/it] 10%|█         | 4/40 [07:49<1:08:17, 113.82s/it] 12%|█▎        | 5/40 [08:56<56:35, 97.00s/it]    15%|█▌        | 6/40 [10:47<57:35, 101.64s/it] 18%|█▊        | 7/40 [13:25<1:06:10, 120.33s/it] 20%|██        | 8/40 [15:01<1:00:03, 112.61s/it] 22%|██▎       | 9/40 [17:04<59:43, 115.61s/it]   25%|██▌       | 10/40 [19:53<1:06:10, 132.34s/it] 28%|██▊       | 11/40 [20:59<54:04, 111.88s/it]   30%|███       | 12/40 [21:31<40:55, 87.71s/it]  32%|███▎      | 13/40 [22:26<35:01, 77.83s/it] 35%|███▌      | 14/40 [23:38<32:54, 75.95s/it] 38%|███▊      | 15/40 [25:15<34:18, 82.32s/it] 40%|████      | 16/40 [27:31<39:22, 98.43s/it] 42%|████▎     | 17/40 [28:19<31:56, 83.31s/it] 45%|████▌     | 18/40 [29:19<27:55, 76.16s/it] 48%|████▊     | 19/40 [30:20<25:05, 71.70s/it] 50%|█████     | 20/40 [32:18<28:34, 85.72s/it] 52%|█████▎    | 21/40 [33:43<27:01, 85.33s/it] 55%|█████▌    | 22/40 [35:42<28:38, 95.46s/it] 57%|█████▊    | 23/40 [35:57<20:11, 71.29s/it] 60%|██████    | 24/40 [36:56<18:00, 67.54s/it] 62%|██████▎   | 25/40 [40:41<28:44, 114.99s/it] 65%|██████▌   | 26/40 [42:33<26:35, 113.94s/it] 68%|██████▊   | 27/40 [44:42<25:40, 118.52s/it] 70%|███████   | 28/40 [45:48<20:34, 102.87s/it] 72%|███████▎  | 29/40 [46:41<16:05, 87.81s/it]  75%|███████▌  | 30/40 [47:27<12:33, 75.34s/it] 78%|███████▊  | 31/40 [47:46<08:44, 58.29s/it] 80%|████████  | 32/40 [48:56<08:15, 61.96s/it] 82%|████████▎ | 33/40 [51:01<09:26, 80.88s/it] 85%|████████▌ | 34/40 [51:55<07:17, 72.87s/it] 88%|████████▊ | 35/40 [52:45<05:29, 65.90s/it] 90%|█████████ | 36/40 [54:18<04:56, 74.08s/it] 92%|█████████▎| 37/40 [1:04:43<11:57, 239.17s/it] 95%|█████████▌| 38/40 [1:14:24<11:23, 341.82s/it]<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s] 92%|█████████▎| 37/40 [00:31<00:02,  1.16it/s] 95%|█████████▌| 38/40 [01:26<00:05,  2.86s/it] 98%|█████████▊| 39/40 [02:47<00:06,  6.81s/it]100%|██████████| 40/40 [04:04<00:00, 11.48s/it]100%|██████████| 40/40 [04:04<00:00,  6.10s/it]
+
+[INFO] no: 156
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👩🏻‍⚕️ 1. Psychiatrist): Specializes in the diagnosis and treatment of mental health disorders, including medication management for conditions like schizophrenia.
+Agent 2 (👨‍⚕️ 2. Neurologist): Focuses on disorders of the nervous system, including movement disorders and acute neurological conditions.
+Agent 3 (👩🏼‍⚕️ 3. Pharmacologist): Specializes in the effects and mechanisms of drugs, including treatments for psychiatric conditions and their side effects.
+Agent 4 (🧑🏽‍⚕️ 4. Emergency Medicine Physician): Expert in acute care and trauma management, managing patients in emergency situations.
+Agent 5 (👨🏻‍⚕️ 5. Addiction Medicine Specialist): Focuses on the treatment of substance use disorders and the interactions between psychotropic medications and patient outcomes.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                         moderator (👨‍⚖️)                                                                                                      
+           ┌────────────────────────┬───────────┴────────────────────┬─────────────────────────────────────────┬──────────────────────────────────┐            
+  Psychiatrist (👩🏻‍⚕️)      Neurologist (👨‍⚕️)     Addiction Medicine Specialist (👨🏻‍⚕️)      Emergency Medicine Physician (🧑🏽‍⚕️)      Pharmacologist (👩🏼‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👩🏻‍⚕️ psychiatrist): 🤐
+ Agent 2 (👨‍⚕️ neurologist): 🤐
+ Agent 3 (👩🏼‍⚕️ pharmacologist): 🤐
+ Agent 4 (🧑🏽‍⚕️ emergency medicine physician): 🤐
+ Agent 5 (👨🏻‍⚕️ addiction medicine specialist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👩🏻‍⚕️) | Agent 2 (👨‍⚕️) | Agent 3 (👩🏼‍⚕️) | Agent 4 (🧑🏽‍⚕️) | Agent 5 (👨🏻‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👩🏼‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (🧑🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏻‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most appropriate treatment for this patient, we need to analyze the symptoms and the context provided. The patient is experiencing neck stiffness, a locked neck position, and muscle contractions, which are indicative of acute dystonia, likely as a side effect of antipsychotic medication, especially given his history of schizophrenia.\n\nNow, let's review the options based on the opinions of the agents:\n\n- **(A) Glycopyrrolate**: This is an anticholinergic medication that can be used for various conditions but is not the first-line treatment for acute dystonia.\n- **(B) Benztropine**: This is an anticholinergic agent commonly used to treat acute dystonic reactions, especially in patients taking antipsychotic medications.\n- **(C) Levodopa**: This is primarily used for Parkinson's disease and is not indicated for acute dystonia.\n- **(D) Dantrolene**: This is used for malignant hyperthermia and spasticity but is not the first choice for acute dystonia.\n- **(E) Propranolol**: This is a beta-blocker used for various conditions, including anxiety and tremors, but not for acute dystonia.\n\nBased on the majority opinion of the agents, the most appropriate treatment for this patient, who is likely experiencing acute dystonia, is:\n\nAnswer: B) Benztropine"}
+
+
+[INFO] no: 157
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏽‍⚕️ 1. Pediatrician): Specializes in the medical care of infants, children, and adolescents.
+Agent 2 (🧑‍⚕️ 2. Pediatric Gastroenterologist): Focuses on digestive system disorders in children and the management of conditions related to hepatosplenomegaly.
+Agent 3 (👨🏿‍⚕️ 3. Medical Geneticist): Specializes in the study of genes and hereditary disorders.
+Agent 4 (👩🏼‍⚕️ 4. Pediatric Endocrinologist): Focuses on hormonal disorders and metabolic issues in children, including lipid metabolism disorders.
+Agent 5 (🧑🏽‍⚕️ 5. Pediatric Cardiologist): Specializes in diagnosing and treating heart conditions in children, with knowledge related to complications of lipid disorders.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                         moderator (👨‍⚖️)                                                                                                               
+              ┌──────────────────┴─────────────────────────────────────────────┐                                                                        
+  Medical Geneticist (👨🏿‍⚕️)                                         Pediatrician (👨🏽‍⚕️)                                                               
+                                                        ┌──────────────────────┴─────────────────┬────────────────────────────────────┐                 
+                                       Pediatric Gastroenterologist (🧑‍⚕️)         Pediatric Cardiologist (🧑🏽‍⚕️)     Pediatric Endocrinologist (👩🏼‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏽‍⚕️ pediatrician): 🤐
+ Agent 2 (🧑‍⚕️ pediatric gastroenterologist): 🤐
+ Agent 3 (👨🏿‍⚕️ medical geneticist): 🤐
+ Agent 4 (👩🏼‍⚕️ pediatric endocrinologist): 🤐
+ Agent 5 (🧑🏽‍⚕️ pediatric cardiologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏽‍⚕️) | Agent 2 (🧑‍⚕️) | Agent 3 (👨🏿‍⚕️) | Agent 4 (👩🏼‍⚕️) | Agent 5 (🧑🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (🧑‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👩🏼‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the final answer based on the majority vote of the agents' opinions, I will analyze the provided information.\n\nThe case describes a 13-month-old boy with hepatosplenomegaly and a milky blood sample that shows a creamy supernatant after refrigeration, indicating a hyperlipidemic condition. The mutation in the apolipoprotein C-II gene (APOC2) suggests a deficiency in lipoprotein lipase activity, leading to elevated triglyceride levels.\n\nIn this context, the most relevant complication associated with elevated triglycerides, particularly in children with this genetic mutation, is acute pancreatitis. This is because high triglyceride levels can lead to the development of pancreatitis, especially when they exceed 1000 mg/dL.\n\nNow, let's summarize the opinions of the agents regarding the complications:\n\n- (E) Cerebrovascular accident: Not typically associated with this condition in children.\n- (C) Corneal arci: More related to cholesterol levels, not triglycerides.\n- (D) Cholesterol embolization syndrome: Not directly related to the condition described.\n- (B) Myocardial infarction: Unlikely in a 13-month-old.\n- (A) Acute pancreatitis: Directly related to high triglyceride levels.\n\nBased on the analysis, the majority opinion would likely favor acute pancreatitis as the most significant risk for this patient.\n\nFinal Answer: A) Acute pancreatitis"}
+
+
+[INFO] no: 158
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑🏿‍⚕️ 1. Endocrinologist): Specializes in hormonal and metabolic disorders, including calcium and vitamin D metabolism.
+Agent 2 (👩🏼‍⚕️ 2. Gastroenterologist): Focuses on the digestive system and its disorders, including complications from gastric bypass surgery.
+Agent 3 (👩🏻‍⚕️ 3. Nephrologist): Specializes in kidney function, electrolyte imbalances, and mineral metabolism, particularly calcium and phosphorus levels.
+Agent 4 (👨🏽‍⚕️ 4. Nutritional Specialist): Focuses on dietary management and nutritional supplementation for patients with malabsorption issues.
+Agent 5 (👨🏿‍⚕️ 5. Emergency Medicine Physician): Specializes in acute care and immediate treatment of patients in emergency situations.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                   moderator (👨‍⚖️)                                                                                              
+            ┌─────────────────────────────┬───────────────┴────────────────────┬──────────────────────────────────────┬──────────────────────────────┐           
+ Endocrinologist (🧑🏿‍⚕️)      Gastroenterologist (👩🏼‍⚕️)      Emergency Medicine Physician (👨🏿‍⚕️)      Nutritional Specialist (👨🏽‍⚕️)      Nephrologist (👩🏻‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑🏿‍⚕️ endocrinologist) -> Agent 2 (👩🏼‍⚕️ gastroenterologist) : As an endocrinologist specializing in hormonal and metabolic disorders, I recognize the potential for complex interactions between the gastrointestinal system and metabolic health, especially in patients who have undergone significant surgical interventions like Roux-en-Y gastric bypass. 
+
+To the gastroenterologist, I would like to emphasize the importance of considering the effects of gastric bypass on calcium and vitamin D absorption, particularly in the context of this patient's recent total thyroidectomy. The bypass procedure can lead to malabsorption of crucial nutrients, including calcium, which might further complicate the management of his hypocalcemia. 
+
+Given the patient's symptoms suggestive of acute hypocalcemia—perioral numbness, muscle cramping, and hand spasm—it is critical to urgently address his calcium levels, as you are already aware. However, as part of a comprehensive management plan, assessing his nutritional status and potential deficiencies due to the bypass effect on gastric absorption will be key in providing effective long-term care. Ensuring that he receives adequate calcium and vitamin D supplementation going forward will be vital in avoiding recurrent hypocalcemic episodes. 
+
+Your insights regarding his nutritional management will be invaluable in achieving optimal outcomes for this patient.
+ Agent 2 (👩🏼‍⚕️ gastroenterologist) -> Agent 1 (🧑🏿‍⚕️ endocrinologist) : As a gastroenterologist specializing in complications from gastric bypass surgery and the management of nutritional deficiencies, I recognize the importance of coordinating care for patients with unique metabolic concerns. 
+
+To the endocrinologist (Agent 1):
+
+I support the decision to administer calcium gluconate to address the patient's likely hypocalcemia following total thyroidectomy. Given the elevated parathyroid hormone (PTH) levels and symptoms of perioral numbness, muscle cramping, and hand spasms suggesting tetany, it is crucial to urgently restore serum calcium levels. Your expertise in hormonal regulation will be invaluable in monitoring the patient's calcium metabolism and ensuring that appropriate follow-up care is established to prevent recurrent hypoparathyroidism and manage any long-term implications of his recent surgery.
+ Agent 3 (👩🏻‍⚕️ nephrologist) -> Agent 1 (🧑🏿‍⚕️ endocrinologist) : As a nephrologist specializing in kidney function and mineral metabolism, I understand the critical role calcium balance plays in relation to parathyroid hormone (PTH) levels and the potential implications following thyroidectomy.
+
+My opinion for Agent 1 (endocrinologist) is to consider the patient's elevated PTH levels and symptomatic presentation as strong indicators for immediate intervention with calcium gluconate. Post-thyroidectomy patients may experience hypoparathyroidism, leading to hypocalcemia, which is evidenced by the perioral numbness and muscle cramping. Rapid correction of calcium levels is essential to prevent further complications such as seizures or cardiac issues, and the current symptoms indicate an urgent need for calcium supplementation. Follow-up should also involve monitoring calcium and magnesium levels to guide ongoing management and address potential chronic hypoparathyroidism implications.
+ Agent 4 (👨🏽‍⚕️ nutritional specialist): 🤐
+ Agent 5 (👨🏿‍⚕️ emergency medicine physician): 🤐
+|_Turn 2
+ Agent 1 (🧑🏿‍⚕️ endocrinologist): 🤐
+ Agent 2 (👩🏼‍⚕️ gastroenterologist): 🤐
+ Agent 3 (👩🏻‍⚕️ nephrologist) -> Agent 2 (👩🏼‍⚕️ gastroenterologist) : As a nephrologist specializing in kidney function and electrolyte imbalances, I recognize the critical interplay between gastrointestinal absorption and mineral metabolism. 
+
+My opinion for Agent 2 (gastroenterologist) is to assess the possibility of malabsorption contributing to the patient's current symptoms and electrolyte status following his Roux-en-Y gastric bypass. Post-surgery, patients may experience impaired absorption of key nutrients, including calcium and magnesium, which are essential for maintaining proper mineral homeostasis. Given the patient's recent total thyroidectomy, the risk of developing hypoparathyroidism further complicates his calcium management. 
+
+It’s essential to evaluate the patient for malabsorption issues that could be exacerbating his hypocalcemia and to ensure that his dietary intake supports his nutritional needs following the bypass while also considering any necessary supplementation. This collaborative approach will help ensure comprehensive management of his condition, addressing both the immediate symptoms and the underlying causes.
+ Agent 4 (👨🏽‍⚕️ nutritional specialist): 🤐
+ Agent 5 (👨🏿‍⚕️ emergency medicine physician): 🤐
+|_Turn 3
+ Agent 1 (🧑🏿‍⚕️ endocrinologist): 🤐
+ Agent 2 (👩🏼‍⚕️ gastroenterologist): 🤐
+ Agent 3 (👩🏻‍⚕️ nephrologist) -> Agent 4 (👨🏽‍⚕️ nutritional specialist) : As a nephrologist specializing in kidney function and electrolyte imbalances, I'm keenly aware of the importance of proper mineral metabolism, particularly in patients who have undergone gastrointestinal surgeries like Roux-en-Y gastric bypass.
+
+My opinion for Agent 4 (nutritional specialist) is to focus on developing a detailed dietary plan that addresses the patient's specific needs for calcium and magnesium supplementation following his gastric bypass. This surgery can significantly impair nutrient absorption, including these critical minerals, which are crucial for bone health and neuromuscular function. Given the patient's symptoms suggesting hypocalcemia, it is essential to ensure adequate dietary intake and consider high-bioavailability supplements to prevent further complications. 
+
+Additionally, monitoring and educating the patient about foods rich in calcium and magnesium, as well as discussing the timing of these nutrients in relation to meals to optimize absorption, will be key components in managing his condition effectively. A collaborative approach in reinforcing dietary strategies and monitoring nutritional status will contribute significantly to his overall recovery and health maintenance.
+ Agent 4 (👨🏽‍⚕️ nutritional specialist): 🤐
+ Agent 5 (👨🏿‍⚕️ emergency medicine physician): 🤐
+|_Turn 4
+ Agent 1 (🧑🏿‍⚕️ endocrinologist): 🤐
+ Agent 2 (👩🏼‍⚕️ gastroenterologist): 🤐
+ Agent 3 (👩🏻‍⚕️ nephrologist): 🤐
+ Agent 4 (👨🏽‍⚕️ nutritional specialist): 🤐
+ Agent 5 (👨🏿‍⚕️ emergency medicine physician): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑🏿‍⚕️) | Agent 2 (👩🏼‍⚕️) | Agent 3 (👩🏻‍⚕️) | Agent 4 (👨🏽‍⚕️) | Agent 5 (👨🏿‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑🏿‍⚕️) |              |  ✋ (1<->2)  |  ✋ (1<-3)   |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👩🏼‍⚕️) |  ✋ (2<->1)  |              |  ✋ (2<-3)   |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👩🏻‍⚕️) |  ✋ (3->1)   |  ✋ (3->2)   |              |  ✋ (3->4)   |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏽‍⚕️) |              |              |  ✋ (4<-3)   |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏿‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most appropriate initial step in the management of this patient, let's review the key points from the case:\n\n- The patient has undergone a total thyroidectomy and Roux-en-Y gastric bypass, which can lead to complications such as hypoparathyroidism and malabsorption.\n- Symptoms include nausea, abdominal discomfort, diarrhea, perioral numbness, and muscle cramping, which are suggestive of hypocalcemia.\n- Laboratory results show elevated parathyroid hormone (PTH) levels (115 pg/mL) and low magnesium (1.7 mEq/L), which can contribute to hypocalcemia and neuromuscular irritability.\n\nGiven these findings, the most pressing issue appears to be the potential for hypocalcemia, indicated by the patient's symptoms and laboratory results. The initial management for symptomatic hypocalcemia is typically the administration of calcium.\n\nNow, let's consider the opinions of the agents regarding the management options:\n\n- (E) Supplementation with vitamin D: While vitamin D is important for calcium absorption, it is not the immediate treatment for symptomatic hypocalcemia.\n- (B) Observation only: This is not appropriate given the patient's symptoms and lab findings.\n- (C) Begin rehydration therapy: This may be necessary but does not address the immediate concern of hypocalcemia.\n- (D) Administer calcium gluconate: This is the most appropriate initial step for symptomatic hypocalcemia.\n- (A) Obtain abdominal CT: This is not indicated at this time given the acute symptoms and lab findings.\n\nBased on the majority opinion and the clinical scenario, the most appropriate initial step in the management of this patient is:\n\nAnswer: D) Administer calcium gluconate"}
+
+
+[INFO] no: 159
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Pediatric Nephrologist (Lead)): 
+ Member 2 (Pediatric Endocrinologist): 
+ Member 3 (Pediatric Dietitian): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Clinical Geneticist (Lead)): 
+ Member 2 (Pediatric Cardiologist): 
+ Member 3 (Pediatric Gastroenterologist): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant Pediatrician (Lead)): 
+ Member 2 (Clinical Decision Support Specialist): 
+ Member 3 (Pediatric Psychologist): 
+

@@ -1,0 +1,23 @@
+(1) PRIMARY — Criterion B: Ours-Collab − Ours-Sampling
+    Δ_B = +0.3 pp [-0.6, +1.5];  token ratio 1.009 (window [0.9, 1.1])  -> FAIL
+(2) Criterion A: Ours-Collab vs always-on M1
+    diff = +0.3 pp [-3.2, +3.8] (90% CI; non-inferior if lower > −1.0 pp);  tokens 0.357× M1 (≤ 0.5)  -> FAIL
+(3) Criterion B′: Ours-Collab − Ours-Hetero
+    Δ_B′ = +0.3 pp [-0.6, +1.5];  token ratio 0.995  -> FAIL
+    pre-declared reading: neither A nor B: adaptive method dropped; mechanism finding only
+
+(4) fixed strategies and routing baselines (accuracy, tokens/q, diff vs Ours-Collab [95% CI])
+    S                    0.631      1381   Ours − this +1.8 pp [-0.6, +4.1]
+    SC-22                0.687     25561   Ours − this -3.8 pp [-6.8, -0.9]
+    HET-22               0.670     30268   Ours − this -2.1 pp [-5.6, +1.5]
+    always-on M1         0.646     25255   Ours − this +0.3 pp [-3.8, +4.7]
+    Ours-Collab          0.649      9028
+    Ours-Sampling        0.646      8949   Ours − this +0.3 pp [-0.6, +1.5]
+    Ours-Hetero          0.646      9069   Ours − this +0.3 pp [-0.6, +1.2]
+    Difficulty→SC (a)    0.658      9578   Ours − this -0.9 pp [-3.2, +1.5]
+    Difficulty→M1 (b)    0.634     10799   Ours − this +1.5 pp [-1.2, +4.4]
+    Random routing       0.639      8789   (1,000 permutations; 95% range 0.628–0.652)
+
+(5) diagnostics
+    action shares: STOP 0.870  SAMPLE 0.118  COLLABORATE 0.012  (COLLABORATE n = 4)
+    on COLLABORATE-selected questions: S 0.250  SC 0.250  HET 0.250  M 0.500

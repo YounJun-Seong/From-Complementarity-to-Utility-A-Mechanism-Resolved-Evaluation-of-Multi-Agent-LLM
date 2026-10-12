@@ -1,0 +1,8 @@
+cross-fitted on PILOT (descriptive; HELD-OUT untouched). target cost 0.5 × M1 = 12496 tok/q
+logreg λ= 3.00  exp. acc 0.730  cost 12519  shares STOP:0.70 SAMPLE:0.24 COLLABORATE:0.06
+tree   λ= 4.50  exp. acc 0.719  cost 12447  shares STOP:0.72 SAMPLE:0.15 COLLABORATE:0.13
+chosen model: logreg
+Ours-Sampling (same routing, COLLAB -> SC-22): exp. acc 0.744  cost 12256
+always-on M1: exp. acc 0.701  cost 24991;  S: 0.694;  SC-22: 0.740
+difficulty routing τ = 0.8125
+FROZEN (Amendment 2): V_C design λ=0.0, cross-fit exp. acc 0.736, cost 8420, COLLAB->SC 0.736; positives q_C 25, q_A 42; τ_b = 0.5625

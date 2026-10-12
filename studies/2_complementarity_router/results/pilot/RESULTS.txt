@@ -1,0 +1,23 @@
+=== Qwen2.5-14B-Instruct (DECISION MODEL) ===
+k* = 22  (tokens/q: S 1369, SC per sample 1158, M1 24991); placebo pool 60 samples
+types (selection half): A 62.7%  B 5.7%  C 5.3%  D 9.3%  E 17.0%
+empirical-oracle acc  {S,SC,M} 0.805 (5495 tok/q, M chosen 7.3%)   {S,SC} 0.769 (4596 tok/q)
+G1  H                 +3.6 pp [+1.4, +6.0]   -> PASS
+G2  H − H_plc         +3.4 pp [+1.1, +5.9]   (H_plc +0.2 pp [-0.5, +0.9])   -> PASS
+G3  type C: n_C = 16, M1 run3 − SC pool E  +73.2 pp [+49.4, +92.2]   -> PASS
+G4  OOF AUC 0.704 [0.566, 0.820] (positives 22)   -> PASS
+secondary utility AUC by λ (pp/10k tok): 0: 0.704  0.5: 0.738  1: 0.738  2: 0.753  5: 0.753
+mapping (§3.5): GO
+
+=== Llama-3.1-8B-Instruct (reported, no decision role) ===
+k* = 7  (tokens/q: S 1332, SC per sample 1081, M1 7198); placebo pool 60 samples
+types (selection half): A 54.3%  B 2.7%  C 5.3%  D 20.0%  E 17.7%
+empirical-oracle acc  {S,SC,M} 0.805 (3091 tok/q, M chosen 8.7%)   {S,SC} 0.767 (3072 tok/q)
+G1  H                 +3.8 pp [+1.8, +5.9]   -> PASS
+G2  H − H_plc         +3.7 pp [+1.7, +6.1]   (H_plc +0.1 pp [-0.6, +0.7])   -> PASS
+G3  type C: n_C = 16, M1 run3 − SC pool E  +65.9 pp [+42.9, +84.4]   -> PASS
+G4  OOF AUC 0.651 [0.509, 0.771] (positives 26)   -> FAIL
+secondary utility AUC by λ (pp/10k tok): 0: 0.651  0.5: 0.651  1: 0.651  2: 0.651  5: 0.651
+mapping (§3.5): INCONCLUSIVE
+
+PHASE II GO/NO-GO (Qwen2.5-14B): GO

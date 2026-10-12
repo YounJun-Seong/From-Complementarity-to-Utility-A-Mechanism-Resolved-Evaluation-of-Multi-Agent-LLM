@@ -1,0 +1,722 @@
+[
+{
+"set": "VI_A",
+"run": 3,
+"idx": 288,
+"pubid": 22227642,
+"round": 1,
+"agent": 2,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 234,
+"pubid": 20101129,
+"round": 1,
+"agent": 0,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 427,
+"pubid": 26194560,
+"round": 2,
+"agent": 1,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 71,
+"pubid": 12121321,
+"round": 1,
+"agent": 1,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 455,
+"pubid": 27456836,
+"round": 1,
+"agent": 0,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 107,
+"pubid": 15597845,
+"round": 1,
+"agent": 2,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 166,
+"pubid": 18179827,
+"round": 1,
+"agent": 0,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 187,
+"pubid": 18784527,
+"round": 2,
+"agent": 1,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 338,
+"pubid": 23587089,
+"round": 2,
+"agent": 1,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 51,
+"pubid": 11458136,
+"round": 1,
+"agent": 1,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 330,
+"pubid": 23389866,
+"round": 1,
+"agent": 0,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 106,
+"pubid": 15588538,
+"round": 2,
+"agent": 2,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 224,
+"pubid": 19711462,
+"round": 2,
+"agent": 1,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 2,
+"pubid": 2503176,
+"round": 1,
+"agent": 1,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 295,
+"pubid": 22427593,
+"round": 1,
+"agent": 2,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 243,
+"pubid": 20537205,
+"round": 2,
+"agent": 0,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 141,
+"pubid": 17192736,
+"round": 2,
+"agent": 0,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 38,
+"pubid": 10922093,
+"round": 2,
+"agent": 1,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 385,
+"pubid": 24973051,
+"round": 2,
+"agent": 2,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 412,
+"pubid": 25810292,
+"round": 1,
+"agent": 0,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 86,
+"pubid": 12920330,
+"round": 2,
+"agent": 0,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 12,
+"pubid": 8847047,
+"round": 1,
+"agent": 2,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 144,
+"pubid": 17244100,
+"round": 2,
+"agent": 2,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 214,
+"pubid": 19481382,
+"round": 2,
+"agent": 0,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 138,
+"pubid": 17054994,
+"round": 1,
+"agent": 1,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 42,
+"pubid": 11053064,
+"round": 2,
+"agent": 2,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 162,
+"pubid": 18049437,
+"round": 2,
+"agent": 0,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 429,
+"pubid": 26285789,
+"round": 1,
+"agent": 2,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 391,
+"pubid": 25311479,
+"round": 1,
+"agent": 1,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 5,
+"pubid": 7664228,
+"round": 1,
+"agent": 1,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 236,
+"pubid": 20156655,
+"round": 1,
+"agent": 2,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 256,
+"pubid": 21256734,
+"round": 2,
+"agent": 1,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 194,
+"pubid": 19027440,
+"round": 2,
+"agent": 2,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 240,
+"pubid": 20382292,
+"round": 1,
+"agent": 2,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 346,
+"pubid": 23899611,
+"round": 2,
+"agent": 0,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 91,
+"pubid": 14713788,
+"round": 2,
+"agent": 0,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 231,
+"pubid": 20064872,
+"round": 1,
+"agent": 1,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 471,
+"pubid": 28707539,
+"round": 2,
+"agent": 0,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 361,
+"pubid": 24340838,
+"round": 1,
+"agent": 2,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 217,
+"pubid": 19542542,
+"round": 1,
+"agent": 1,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 308,
+"pubid": 22768311,
+"round": 2,
+"agent": 1,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 463,
+"pubid": 27884344,
+"round": 2,
+"agent": 1,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 405,
+"pubid": 25592625,
+"round": 2,
+"agent": 2,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 327,
+"pubid": 23347337,
+"round": 1,
+"agent": 0,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 327,
+"pubid": 23347337,
+"round": 2,
+"agent": 1,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 148,
+"pubid": 17335331,
+"round": 1,
+"agent": 1,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 114,
+"pubid": 16147837,
+"round": 1,
+"agent": 1,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 471,
+"pubid": 28707539,
+"round": 2,
+"agent": 2,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 432,
+"pubid": 26370095,
+"round": 2,
+"agent": 0,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 157,
+"pubid": 17606778,
+"round": 1,
+"agent": 2,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 460,
+"pubid": 27643961,
+"round": 1,
+"agent": 1,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 167,
+"pubid": 18239988,
+"round": 2,
+"agent": 1,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 299,
+"pubid": 22521460,
+"round": 1,
+"agent": 1,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 460,
+"pubid": 27643961,
+"round": 1,
+"agent": 2,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 326,
+"pubid": 23337545,
+"round": 1,
+"agent": 2,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 95,
+"pubid": 15052394,
+"round": 1,
+"agent": 0,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 369,
+"pubid": 24614851,
+"round": 2,
+"agent": 0,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 41,
+"pubid": 10966943,
+"round": 1,
+"agent": 1,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 167,
+"pubid": 18239988,
+"round": 1,
+"agent": 1,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 0,
+"pubid": 1571683,
+"round": 2,
+"agent": 1,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 210,
+"pubid": 19406119,
+"round": 2,
+"agent": 0,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 186,
+"pubid": 18783922,
+"round": 2,
+"agent": 0,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 300,
+"pubid": 22534881,
+"round": 2,
+"agent": 1,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 418,
+"pubid": 25982163,
+"round": 1,
+"agent": 1,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 345,
+"pubid": 23792130,
+"round": 2,
+"agent": 0,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 250,
+"pubid": 20871246,
+"round": 1,
+"agent": 2,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 84,
+"pubid": 12846929,
+"round": 1,
+"agent": 0,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 303,
+"pubid": 22658587,
+"round": 1,
+"agent": 0,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 169,
+"pubid": 18307476,
+"round": 1,
+"agent": 1,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 140,
+"pubid": 17089900,
+"round": 2,
+"agent": 1,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 267,
+"pubid": 21645374,
+"round": 1,
+"agent": 2,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 23,
+"pubid": 9582182,
+"round": 1,
+"agent": 2,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 127,
+"pubid": 16564683,
+"round": 1,
+"agent": 1,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 35,
+"pubid": 10577397,
+"round": 2,
+"agent": 0,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 1,
+"idx": 112,
+"pubid": 15943725,
+"round": 2,
+"agent": 1,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 267,
+"pubid": 21645374,
+"round": 2,
+"agent": 2,
+"j": 2
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 292,
+"pubid": 22324545,
+"round": 2,
+"agent": 0,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 2,
+"idx": 372,
+"pubid": 24652474,
+"round": 2,
+"agent": 2,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 3,
+"pubid": 7497757,
+"round": 2,
+"agent": 0,
+"j": 1
+},
+{
+"set": "VI_A",
+"run": 3,
+"idx": 359,
+"pubid": 24245816,
+"round": 2,
+"agent": 1,
+"j": 2
+}
+]

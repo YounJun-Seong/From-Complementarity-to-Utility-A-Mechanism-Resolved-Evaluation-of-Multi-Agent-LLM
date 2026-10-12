@@ -1,0 +1,16 @@
+=== Qwen2.5-7B-Instruct ===
+  S 0.628 | M1-original 0.625 (crash 0.002) | M1-expanded 0.603 (crash 0.002)
+  M1-expanded − S            -0.025 [-0.078, +0.030]
+  M1-expanded − M1-original  -0.022 [-0.063, +0.020]
+  M1-original − S            -0.003 [-0.058, +0.055]
+  M1-original  calls/q 22.2, tokens/q 21384; truncated: advice 18%, domain classification 0%, expert analysis 100%, synthesis / answer / revision 0%, vote 0%
+  M1-expanded  calls/q 22.6, tokens/q 31184; truncated: advice 1%, domain classification 0%, expert analysis 41%, synthesis / answer / revision 0%, vote 0%
+
+=== Qwen2.5-14B-Instruct ===
+  S 0.745 | M1-original 0.705 (crash 0.000) | M1-expanded 0.705 (crash 0.000)
+  M1-expanded − S            -0.040 [-0.087, +0.007]
+  M1-expanded − M1-original  -0.000 [-0.035, +0.033]
+  M1-original − S            -0.040 [-0.087, +0.007]
+  M1-original  calls/q 23.5, tokens/q 22130; truncated: advice 13%, domain classification 0%, expert analysis 100%, synthesis / answer / revision 0%, vote 3%
+  M1-expanded  calls/q 24.4, tokens/q 30458; truncated: advice 1%, domain classification 0%, expert analysis 18%, synthesis / answer / revision 0%, vote 3%
+

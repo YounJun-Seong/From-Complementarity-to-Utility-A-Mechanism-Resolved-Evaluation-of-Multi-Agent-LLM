@@ -1,0 +1,279 @@
+<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [02:09<1:24:29, 129.98s/it]  5%|▌         | 2/40 [03:19<59:40, 94.23s/it]     8%|▊         | 3/40 [04:30<51:32, 83.59s/it] 10%|█         | 4/40 [07:37<1:14:43, 124.54s/it] 12%|█▎        | 5/40 [08:32<58:01, 99.47s/it]    15%|█▌        | 6/40 [10:56<1:05:01, 114.75s/it] 18%|█▊        | 7/40 [12:07<55:05, 100.18s/it]   20%|██        | 8/40 [13:04<46:14, 86.69s/it]  22%|██▎       | 9/40 [13:23<33:43, 65.28s/it] 25%|██▌       | 10/40 [14:41<34:44, 69.48s/it] 28%|██▊       | 11/40 [15:28<30:14, 62.58s/it] 30%|███       | 12/40 [17:40<38:57, 83.48s/it] 32%|███▎      | 13/40 [18:53<36:08, 80.31s/it] 35%|███▌      | 14/40 [20:06<33:56, 78.31s/it] 38%|███▊      | 15/40 [22:31<40:55, 98.20s/it] 40%|████      | 16/40 [24:17<40:12, 100.52s/it] 42%|████▎     | 17/40 [24:58<31:46, 82.90s/it]  45%|████▌     | 18/40 [25:43<26:11, 71.42s/it] 48%|████▊     | 19/40 [26:34<22:50, 65.28s/it] 50%|█████     | 20/40 [26:49<16:42, 50.11s/it] 52%|█████▎    | 21/40 [27:43<16:12, 51.17s/it] 55%|█████▌    | 22/40 [28:42<16:03, 53.52s/it] 57%|█████▊    | 23/40 [30:19<18:54, 66.72s/it] 60%|██████    | 24/40 [32:17<21:55, 82.21s/it] 62%|██████▎   | 25/40 [33:49<21:15, 85.02s/it] 65%|██████▌   | 26/40 [35:05<19:10, 82.19s/it] 68%|██████▊   | 27/40 [35:51<15:30, 71.57s/it] 70%|███████   | 28/40 [36:39<12:51, 64.32s/it] 72%|███████▎  | 29/40 [39:07<16:23, 89.40s/it] 75%|███████▌  | 30/40 [41:53<18:44, 112.44s/it] 78%|███████▊  | 31/40 [42:40<13:54, 92.77s/it]  80%|████████  | 32/40 [44:32<13:09, 98.66s/it] 82%|████████▎ | 33/40 [47:13<13:40, 117.17s/it] 85%|████████▌ | 34/40 [49:52<12:58, 129.72s/it] 88%|████████▊ | 35/40 [53:05<12:23, 148.70s/it] 90%|█████████ | 36/40 [53:51<07:52, 118.04s/it] 92%|█████████▎| 37/40 [54:33<04:45, 95.10s/it]  95%|█████████▌| 38/40 [1:04:46<08:21, 250.54s/it] 98%|█████████▊| 39/40 [1:14:25<05:49, 349.03s/it]<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s] 95%|█████████▌| 38/40 [01:17<00:04,  2.03s/it] 98%|█████████▊| 39/40 [04:05<00:08,  8.05s/it]100%|██████████| 40/40 [04:50<00:00,  9.88s/it]100%|██████████| 40/40 [04:50<00:00,  7.27s/it]
+
+[INFO] no: 37
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Pediatric Infectious Disease Specialist (Lead)): Specializes in diagnosing and treating infectious diseases in children, including those related to immunodeficiency. This member will assess the infectious components and potential underlying causes of the child's symptoms.
+ Member 2 (Pediatric Immunologist): Focuses on evaluating and managing immunodeficiency conditions. This specialist will help identify specific immune deficiencies and their mechanisms, correlating with the child's symptoms of diarrhea, candidiasis, and RSV pneumonia.
+ Member 3 (Pediatric Gastroenterologist): Addresses gastrointestinal symptoms, particularly chronic diarrhea in infants. This clinician will evaluate for potential gastrointestinal causes of immune dysfunction and related nutritional concerns due to weight status.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Clinical Laboratory Scientist (Lead)): Responsible for overseeing laboratory tests, including the interpretation of immunological assays that can identify specific antibody deficiencies or T
+ Member 2 (Pediatric Hematologist): Engages in the assessment of hematological parameters and correlates these with immunological function. This clinician will provide insight on any blood disorders that may contribute to the child's immunodeficiency.
+ Member 3 (Pediatric Radiologist): An expert in imaging pediatric patients, will assess relevant imaging studies to ensure there are no structural anomalies contributing to the patient's recurrent infections or symptoms.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Pediatric Immunologist (Lead)): Provides final expertise on the interpretation of findings from both IAT and DET, and determines the most probable immunodeficiency diagnosis.
+ Member 2 (Senior Pediatrician): Offers a comprehensive review of the child’s medical history, symptoms, and examination findings to assist in a holistic diagnosis and treatment approach.
+ Member 3 (Clinical Decision Specialist): Coordinates input from all team members and integrates diagnostic findings to form a cohesive management plan, ensuring a well
+
+
+[INFO] no: 38
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👩🏼‍⚕️ 1. Oncologist): Specializes in the treatment of cancer.
+Agent 2 (👨🏽‍⚕️ 2. Clinical Pharmacologist): Focuses on the study of drug actions and interactions with the human body.
+Agent 3 (👨🏻‍⚕️ 3. Toxicologist): Expert in the study of the adverse effects of chemicals on living organisms.
+Agent 4 (👨🏿‍⚕️ 4. Biostatistician): Specializes in the application of statistics to biological and health
+Agent 5 (👨🏽‍⚕️ 5. Pharmacist): Focuses on medication management and drug therapy.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                   moderator (👨‍⚖️)                                                                    
+          ┌─────────────────────────────┬─────────────────┴───────────┬─────────────────────────┬──────────────────────────┐           
+  Oncologist (👩🏼‍⚕️)     Clinical Pharmacologist (👨🏽‍⚕️)      Pharmacist (👨🏽‍⚕️)     Biostatistician (👨🏿‍⚕️)      Toxicologist (👨🏻‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👩🏼‍⚕️ oncologist) -> Agent 2 (👨🏽‍⚕️ clinical pharmacologist) : As an oncologist specializing in the treatment of cancer, I have extensive experience in evaluating new chemotherapeutic agents and their therapeutic indices.
+
+Opinion to Agent 2 (clinical pharmacologist):
+
+Based on the trial data we have, I believe that the therapeutic index (TI) of the novel chemotherapeutic agent is best estimated at approximately 2.67. This estimation is derived primarily from the balance of treatment efficacy at the 40 mg dose, which showed significant improvement in patient outcomes, versus the increase in treatment-related adverse events, which escalates notably at higher doses. Thus, using this dose for the TI calculation, we find a substantial therapeutic effect with manageable toxicity, suggesting that this novel drug has a favorable safety profile alongside its efficacy. It’s crucial to consider this pragmatic approach when assessing the therapeutic index in clinical settings to ensure both patient safety and treatment efficacy.
+ Agent 1 (👩🏼‍⚕️ oncologist) -> Agent 4 (👨🏿‍⚕️ biostatistician) : As an oncologist specializing in the treatment of cancer, I have a strong foundation in evaluating clinical trial data and understanding the implications for patient care.
+
+Opinion to Agent 4 (biostatistician):
+
+I recommend that we consider the therapeutic index (TI) of the novel chemotherapeutic agent to be approximately 2.67, based on our evaluation of both its efficacy and safety profile. This index is calculated using the 40 mg dose, which reflects a significant therapeutic effect alongside an acceptable rate of adverse events. Given that the TI is derived from the ratio of beneficial effects to toxicity, this figure highlights the drug's potential for effectiveness while still being mindful of patient safety. Additionally, calculating TI from the 20 mg dose could underestimate the agent's therapeutic benefits, hence reinforcing the importance of utilizing the 40 mg data for a more accurate reflection of its therapeutic potential. This approach provides reassurance as we move forward with considering this agent for our patients.
+ Agent 2 (👨🏽‍⚕️ clinical pharmacologist) -> Agent 1 (👩🏼‍⚕️ oncologist) : As a clinical pharmacologist, my expertise lies in the study of drug actions and interactions with the human body. 
+
+To the oncologist:
+
+Based on the dose-response data, I support the analysis of the therapeutic index (TI) for the novel chemotherapeutic agent, particularly focusing on the 40 mg dose due to its significant improvement rate combined with manageable adverse events. 
+
+While the calculated TI using the 40 mg dose shows roughly 4.18, I recommend considering the therapeutic index as the balance between the highest efficacy against the lowest tolerable adverse effects. Therefore, a refined estimation aligning with the provided options leads us to choose (E) 2.67, as it reflects a safer upper limit while still acknowledging therapeutic benefit in this population. This value encapsulates a more conservative interpretation of risk versus benefit that is essential in oncology.
+ Agent 3 (👨🏻‍⚕️ toxicologist) -> Agent 1 (👩🏼‍⚕️ oncologist) : As a toxicologist with expertise in the adverse effects of chemicals on living organisms, I understand the importance of accurately assessing therapeutic indices, especially in the context of new chemotherapeutic agents. 
+
+My opinion for the oncologist is to consider that the therapeutic index (TI) estimates based on the 40 mg dose provide useful insights, but we should also assess the efficacy and safety at lower doses for a more balanced view. While the 40 mg dose demonstrates a high rate of improvement, it also shows a significant increase in adverse events—suggesting a need for evaluating the 20 mg and 30 mg doses in tandem. This leads to a more nuanced understanding of where effective treatment meets acceptable safety, potentially guiding clinical decisions more effectively. 
+
+Thus, while I initially calculated a TI of 2, we should remain open to the oncologist's insights on the clinical relevance of these doses and their applicability in real-world settings.
+ Agent 4 (👨🏿‍⚕️ biostatistician) -> Agent 1 (👩🏼‍⚕️ oncologist) : As a biostatistician specializing in the application of statistics to biological and health research, my expertise lies in analyzing data to derive meaningful interpretations that can guide clinical decisions. 
+
+**Opinion to Agent 1 (oncologist)**: 
+
+I recommend considering the therapeutic index (TI) based on the 40 mg dose, which demonstrated a significant improvement rate of 90.2% with a manageable adverse event rate of 21.6%. This provides a favorable balance between efficacy and safety. Calculating the TI as the ratio of the improvement rate (46/51) to the adverse event rate (11/51) yields approximately 4.18, suggesting a robust therapeutic window at this dosage. Given the compelling clinical outcomes, the 40 mg dose appears to be the most rational choice to maximize patient benefit while managing risks.
+ Agent 5 (👨🏽‍⚕️ pharmacist) -> Agent 1 (👩🏼‍⚕️ oncologist) : As a pharmacist focusing on medication management and drug therapy, my expertise involves understanding drug interactions, dosage optimization, and the overall therapeutic profile of medications.
+
+**Opinion to the Oncologist:**
+
+Based on the dose-response and safety data for the novel chemotherapeutic agent, I recommend that we prioritize the therapeutic index calculated at the 40 mg dose due to its significant improvement rate while closely monitoring adverse effects. The therapeutic index calculated indicates a strong balance in efficacy (approximately 90% improvement) against manageable toxicities (around 21.57% adverse events). Given the urgency in treating recurrent pancreatic adenocarcinoma, this dosage presents an optimal compromise between safety and therapeutic benefit, compelling us to consider its further use in patient management while remaining vigilant about potential adverse reactions.
+|_Turn 2
+ Agent 1 (👩🏼‍⚕️ oncologist) -> Agent 3 (👨🏻‍⚕️ toxicologist) : As an oncologist specializing in the treatment of cancer, I am well-versed in the complexities of evaluating therapeutic options, particularly in the context of clinical trials.
+
+Opinion to Agent 3 (toxicologist):
+
+I appreciate your insights regarding the therapeutic index (TI) of the novel chemotherapeutic agent, but I would like to emphasize the importance of considering both efficacy and safety data together when assessing TI. The analysis suggests that using the 40 mg dose yields a significant improvement in patient outcomes while providing an acceptable safety profile, with 46 out of 51 patients demonstrating improvement against 11 adverse events. This suggests a robust therapeutic effect that justifies the reported TI of approximately 2.67, as opposed to a lower index derived from considering solely the 20 mg dose. Therefore, it’s essential that we recognize the balance of efficacy and tolerability in our calculations to ensure we are recommending the best therapeutic options for our patients. This comprehensive assessment of TI can lead to improved patient outcomes by guiding us toward effective dosing strategies with acceptable risk.
+ Agent 2 (👨🏽‍⚕️ clinical pharmacologist) -> Agent 4 (👨🏿‍⚕️ biostatistician) : As a clinical pharmacologist, my expertise lies in understanding drug actions, their interactions with the human body, and the implications for therapeutic outcomes.
+
+To the biostatistician:
+
+While analyzing the therapeutic index (TI) of the novel chemotherapeutic agent, it's crucial to focus not only on the direct estimates from the data but also to consider the broader implications of the selected ED50 and TD50 values. 
+
+I believe that relying on the 40 mg dose for the TI calculation is appropriate due to its balance of effectiveness (46 out of 51 patients improved) against the adverse events observed (11 out of 51 patients). This ratio can approximate the therapeutic index you computed, yet it’s important to acknowledge the higher rates of adverse events in subsequent doses. 
+
+Therefore, I suggest we adopt a thoughtful consideration of the thresholds for efficacy and safety while interpreting the TI. Ultimately, this context will help solidify our conclusions in clinical relevance, supporting the choice of (E) 2.67 as a prudent estimate of the therapeutic window for this agent.
+ Agent 3 (👨🏻‍⚕️ toxicologist) -> Agent 2 (👨🏽‍⚕️ clinical pharmacologist) : As a toxicologist with expertise in the adverse effects of chemicals on living organisms, I appreciate the nuanced approach that a clinical pharmacologist takes regarding drug actions and interactions.
+
+My opinion for the clinical pharmacologist is to consider emphasizing the relationship between therapeutic efficacy and safety in calculating the therapeutic index (TI). While you estimated the TI to be 2.67, it’s crucial to ensure that we reflect the balance of effective doses versus the incidence of adverse events at comparable dose levels. 
+
+In particular, the therapeutic index should ideally be derived from the same dose levels where we observe significant improvements and adverse events. By aligning the TI calculation closely with both efficacy (using the most appropriate ED levels) and the onset of toxicity, we can provide a more comprehensive assessment of the drug's potential in clinical applications. 
+
+I encourage a discussion on how to integrate both efficacy data and safety profiles effectively, ensuring we capture a robust assessment that is clinically relevant in guiding treatment decisions.
+ Agent 4 (👨🏿‍⚕️ biostatistician) -> Agent 2 (👨🏽‍⚕️ clinical pharmacologist) : As a biostatistician specializing in the application of statistics to biological and health-related research, my expertise includes analyzing clinical trial data to extract meaningful interpretations, particularly regarding efficacy and safety.
+
+**Opinion to Agent 2 (clinical pharmacologist):**
+
+I appreciate your assessment of the therapeutic index (TI) of the novel chemotherapeutic agent. However, I believe we should consider using the 40 mg dose for calculating the TI due to its significant therapeutic effect with an improvement rate of 90.20%, juxtaposed with an adverse event rate of 21.57%. When calculating the TI using this dose, we obtain a ratio of approximately 4.18, which indicates a favorable efficacy-to-safety profile. This suggests that the agent may provide substantial clinical benefit with managed risks. I recommend we prioritize this approach to ensure our clinical decision-making reflects the best possible therapeutic outcomes for patients.
+ Agent 5 (👨🏽‍⚕️ pharmacist) -> Agent 2 (👨🏽‍⚕️ clinical pharmacologist) : As a pharmacist focusing on medication management and drug therapy, I am well-versed in the pharmacological properties of drugs, including their safety profiles, therapeutic indices, and the clinical implications of their use.
+
+**Opinion to the Clinical Pharmacologist:**
+
+I believe we should carefully reconsider the therapeutic index calculations, particularly how we determine both the effective dose and the dose-related adverse effects. The therapeutic index at the 40 mg dose appears optimal based on achieving a remarkable improvement rate of 90.2% against a relatively manageable adverse event rate of 21.57%. This suggests that the therapeutic window is significant at this dose. However, understanding the implications of the adverse events observed should guide our dose recommendations. I propose we apply a comprehensive analysis to further validate these findings while prioritizing patient safety and therapeutic efficacy, thereby ensuring we choose the most appropriate dosing strategy in our clinical applications.
+|_Turn 3
+ Agent 1 (👩🏼‍⚕️ oncologist) -> Agent 4 (👨🏿‍⚕️ biostatistician) : As an oncologist specializing in the treatment of cancer, I have significant experience in evaluating clinical trial data and determining the effectiveness and safety of new treatment options.
+
+Opinion to Agent 4 (biostatistician):
+
+I appreciate your calculations regarding the therapeutic index (TI) of the novel chemotherapeutic agent. However, I would like to emphasize the importance of using the most therapeutically relevant dose when determining TI. The 40 mg dose shows a substantial improvement in patient outcomes (46 out of 51 patients) with an acceptable rate of adverse events (11 out of 51), suggesting that this dose provides an effective balance between efficacy and tolerability. While I understand that calculating TI using the ED from lower doses can yield different results, it’s crucial to use the highest effective dose for a more accurate assessment of therapeutic potential. Therefore, I urge you to consider that the TI at the 40 mg dose is indeed reflective of its ability to offer significant therapeutic benefits while maintaining manageable toxicity, supporting a TI approximation closer to 2.67. This accurate reflection of its value can guide our treatment recommendations for patients more effectively.
+ Agent 2 (👨🏽‍⚕️ clinical pharmacologist) -> Agent 3 (👨🏻‍⚕️ toxicologist) : As a clinical pharmacologist, my expertise lies in the study of drug actions, interactions, and their implications for patient outcomes and safety.
+
+To the toxicologist:
+
+I appreciate your insights on calculating the therapeutic index (TI) based on the ratio of effective doses to adverse effects. However, I would encourage a reconsideration of the approach to estimating the TI in the context of the data presented.
+
+While you suggest using the 20 mg effective dose and 40 mg adverse event dose to derive a TI of approximately 2, I believe utilizing the 40 mg dose—which shows both a significant therapeutic effect (46/51 patients improved) and a manageable adverse event rate (11/51)—is more relevant. This data reflects a clearer balance between efficacy and safety among the higher options reflected in trials.
+
+The calculation of TI utilizing the improvement rate at 40 mg compared to its associated adverse events illustrates a stronger therapeutic window that is clinically meaningful. Thus, adopting (E) 2.67 as a conservative estimate supports our understanding of the agent’s safety profile versus its efficacy and offers a more suitable guideline for clinical application in practice.
+ Agent 3 (👨🏻‍⚕️ toxicologist): 🤐
+ Agent 4 (👨🏿‍⚕️ biostatistician) -> Agent 3 (👨🏻‍⚕️ toxicologist) : As a biostatistician specializing in the application of statistics to biological and health-related research, I focus on analyzing clinical trial data to derive meaningful insights that can guide clinical decision-making.
+
+**Opinion to Agent 3 (toxicologist):**
+
+I appreciate your insights regarding the adverse effects associated with the novel chemotherapeutic agent. However, I believe that we should closely examine the relationship between therapeutic effects and adverse events in our calculations of the therapeutic index (TI). While your assessment indicates a TI of 2 based on the 20 mg effective dose and 11 adverse events at 40 mg, I propose that we consider the 40 mg dose, which maximized the therapeutic benefit with a significant improvement rate of 90.20%. The incidence of adverse events, while also present, appears manageable. Applying the TI formula to the 40 mg dose yields a ratio of approximately 4.18, suggesting a more favorable risk-benefit profile for patient treatment. Focusing on the 40 mg could lead to better clinical outcomes while maintaining patient safety.
+ Agent 5 (👨🏽‍⚕️ pharmacist) -> Agent 3 (👨🏻‍⚕️ toxicologist) : As a pharmacist focusing on medication management and drug therapy, my expertise involves understanding drug interactions, dosages, and safety profiles to optimize patient care.
+
+**Opinion to the Toxicologist:**
+
+I appreciate your insights on the adverse effects associated with the novel chemotherapeutic agent. Given the increasing incidence of treatment-related adverse events observed at the higher doses, it is crucial for us to gather detailed pharmacovigilance data. This will help us better quantify the risk-to-benefit ratio and adjust dosing recommendations accordingly. I believe that thoroughly understanding the nature and severity of these adverse events will not only assist in determining an accurate therapeutic index but also guide clinical decision-making for patient management. By carefully monitoring these effects, we can ensure safer therapeutic practices while maximizing patient outcomes.
+|_Turn 4
+ Agent 1 (👩🏼‍⚕️ oncologist): 🤐
+ Agent 2 (👨🏽‍⚕️ clinical pharmacologist) -> Agent 1 (👩🏼‍⚕️ oncologist) : As a clinical pharmacologist, my expertise is in understanding drug actions, interactions, and pharmacodynamics within the context of patient treatment.
+
+To the oncologist:
+
+I appreciate your analysis of the therapeutic index (TI) for the novel chemotherapeutic agent. However, I strongly recommend that we focus on the importance of the chosen dosing strategy in our calculations. The 40 mg dose shows an exceptional improvement rate of approximately 90.2% (46 out of 51), coupled with an adverse event rate of 21.57% (11 out of 51). 
+
+This data not only illustrates robust efficacy but also provides a critical opportunity to weigh the therapeutic benefits against the safety profile in a clinically relevant manner. While the rough estimation of TI using the 40 mg dose results in a high value, it is essential to recognize this dose effectively captures the trade-offs we need to balance for patient safety and therapeutic success.
+
+Ultimately, I endorse the therapeutic index estimation of (E) 2.67, as it represents a pragmatic compromise between efficacy and safety, suitable for guiding clinical decision-making in the absence of significant alternatives in patient management.
+ Agent 3 (👨🏻‍⚕️ toxicologist): 🤐
+ Agent 4 (👨🏿‍⚕️ biostatistician) -> Agent 4 (👨🏿‍⚕️ biostatistician) : As a biostatistician specializing in the application of statistics to biological and health-related research, my focus is on analyzing clinical trial data and deriving meaningful insights that inform clinical practices and decision-making.
+
+**Opinion to Agent 4 (biostatistician):**
+
+I would like to emphasize the importance of utilizing consistent methodologies when calculating the therapeutic index (TI) for the novel chemotherapeutic agent. Given the efficacy data observed at the 40 mg dose, which showed a significant improvement rate of 90.20% with an adverse event rate of 21.57%, I propose we use this dose to assess the TI. The direct comparison yields a ratio of approximately 4.18, indicating a favorable therapeutic window. 
+
+By advocating for the 40 mg dose in our calculations, we can both highlight the drug's efficacy and ensure that any conclusions drawn regarding its safety are supported by solid statistical evidence. This will aid us in making the most informed, data-driven recommendations for patient treatment.
+ Agent 5 (👨🏽‍⚕️ pharmacist) -> Agent 4 (👨🏿‍⚕️ biostatistician) : As a pharmacist focusing on medication management and drug therapy, my expertise involves understanding drug interactions, therapeutic indices, and clinical implications of pharmacological treatments.
+
+**Opinion to the Biostatistician:**
+
+I appreciate your contributions to the analysis of the therapeutic index for the novel chemotherapeutic agent. However, I believe that we need to ensure that our estimation of the effective dose (ED50) and the toxic dose (TD50) is accurately represented, particularly as we consider the varying rates of improvement and adverse events across different dosages. Since the data shows significant improvement at the 40 mg dose with an important rise in adverse effects, accurately defining these thresholds is critical for our therapeutic index calculations. I suggest we conduct a more detailed statistical analysis to corroborate our findings and refine our estimates, enabling us to make a well-informed decision regarding the safe and effective use of this agent in clinical practice.
+|_Turn 5
+ Agent 1 (👩🏼‍⚕️ oncologist): 🤐
+ Agent 2 (👨🏽‍⚕️ clinical pharmacologist) -> Agent 2 (👨🏽‍⚕️ clinical pharmacologist) : As a clinical pharmacologist, my expertise is in studying drug actions, interactions, and pharmacodynamics, which are critical for evaluating therapeutic efficacy and safety.
+
+To the clinical pharmacologist:
+
+I believe it is essential to emphasize that the therapeutic index (TI) for the novel chemotherapeutic agent should be carefully calculated using the dose-response data provided. While there are several opinions on the TI, aligning it with the 40 mg dose offers important insights due to its striking efficacy (with an improvement rate of roughly 90.2% from 46 out of 51 patients) and manageable adverse event rate (21.57% from 11 out of 51 patients).
+
+By using the therapeutic index formula based on the improvement rate at this dose compared to its adverse events, we find a significant balance between clinical benefit and safety. The resulting TI of approximately 4.18 from the 40 mg dose emphasizes the therapeutic potential while supporting patient safety.
+
+Thus, while there may be lower estimates such as 2 or 2.67 suggested by others, I advocate for adopting the results highlighting the efficacy and safety profile at this specific dose to guide clinical decision-making appropriately. Understanding the pharmacodynamics and pharmacokinetics of this agent in context serves to underscore the importance of selecting an optimal therapeutic window for our patients.
+ Agent 3 (👨🏻‍⚕️ toxicologist) -> Agent 1 (👩🏼‍⚕️ oncologist) : As a toxicologist with expertise in the adverse effects of chemicals on living organisms, I focus on the safety and risk assessment of pharmacological agents.
+
+My opinion for the oncologist is to emphasize the importance of considering the therapeutic index (TI) not just in terms of individual dose-response relationships but also in the context of cumulative exposure and long-term safety. While the 40 mg dose shows significant improvement in the efficacy rate, it's crucial to address the increasing adverse events noted at higher doses. 
+
+Given that the primary objective is to optimize patient outcomes, I recommend analyzing the TI based on lower doses as well, particularly the 20 mg dose, which notably has a lower rate of adverse events while still demonstrating appreciable efficacy. Highlighting this balance will support better clinical decision-making by ensuring that we do not overlook the potential risks associated with higher doses. 
+
+By integrating this perspective, we can pave the way for thoughtful discussions regarding treatment regimens that prioritize both efficacy and patient safety.
+ Agent 3 (👨🏻‍⚕️ toxicologist) -> Agent 2 (👨🏽‍⚕️ clinical pharmacologist) : As a toxicologist with expertise in the adverse effects of chemicals on living organisms, I understand the critical balance between drug efficacy and safety.
+
+My opinion for the clinical pharmacologist is to consider the implications of our therapeutic index (TI) calculations in light of both efficacy at varying doses and the incidence of adverse events. While you've calculated the TI to be 2.67 based on the 40 mg dose, it is essential to further emphasize the implications of this finding on patient management. 
+
+The concern is that as we increase the dose, the likelihood of adverse effects also rises significantly, which might not be sustainable for long-term treatment. Therefore, I suggest we reassess the TI by also factoring in data from lower doses, such as the 20 mg, where we see a substantially lower adverse event rate but still significant patient improvement (38.8%). 
+
+This dual analysis not only helps in better defining the therapeutic window but also supports informed discussions on dosing strategies that maximize therapeutic benefits while minimizing risks. By doing this, we can provide a more comprehensive understanding that may ultimately guide safer and more effective treatment protocols for our patients.
+ Agent 4 (👨🏿‍⚕️ biostatistician) -> Agent 1 (👩🏼‍⚕️ oncologist) : As a biostatistician specializing in the application of statistics to biological and health-related research, I focus on analyzing clinical trial data to derive insights that can guide clinical decisions and improve patient outcomes.
+
+**Opinion to Agent 1 (oncologist):**
+
+I appreciate your detailed examination of the therapeutic index (TI) concerning the novel chemotherapeutic agent. Given the efficacy data, particularly the 90.20% improvement rate observed at the 40 mg dose paired with a 21.57% incidence of adverse events, I propose that we prioritize this dose in our discussions. 
+
+Calculating the TI using the 40 mg dose yields a ratio of 4.18, which indicates a favorable balance of efficacy over toxicity, suggesting that this dose may provide substantial benefits to patients while managing risks of adverse effects. I believe emphasizing this point will strengthen our case for the recommended use of this dosage in clinical practice, ultimately leading to enhanced patient care and treatment outcomes.
+ Agent 5 (👨🏽‍⚕️ pharmacist): 🤐
+== Round 2 ==
+|_Turn 1
+ Agent 1 (👩🏼‍⚕️ oncologist): 🤐
+ Agent 2 (👨🏽‍⚕️ clinical pharmacologist): 🤐
+ Agent 3 (👨🏻‍⚕️ toxicologist): 🤐
+ Agent 4 (👨🏿‍⚕️ biostatistician): 🤐
+ Agent 5 (👨🏽‍⚕️ pharmacist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👩🏼‍⚕️) | Agent 2 (👨🏽‍⚕️) | Agent 3 (👨🏻‍⚕️) | Agent 4 (👨🏿‍⚕️) | Agent 5 (👨🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👩🏼‍⚕️) |              |  ✋ (1<->2)  |  ✋ (1<->3)  |  ✋ (1<->4)  |  ✋ (1<-5)   |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏽‍⚕️) |  ✋ (2<->1)  |              |  ✋ (2<->3)  |  ✋ (2<->4)  |  ✋ (2<-5)   |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏻‍⚕️) |  ✋ (3<->1)  |  ✋ (3<->2)  |              |  ✋ (3<-4)   |  ✋ (3<-5)   |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏿‍⚕️) |  ✋ (4<->1)  |  ✋ (4<->2)  |  ✋ (4->3)   |              |  ✋ (4<-5)   |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏽‍⚕️) |  ✋ (5->1)   |  ✋ (5->2)   |  ✋ (5->3)   |  ✋ (5->4)   |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: 'To determine the most likely therapeutic index (TI) for the novel chemotherapeutic agent based on the opinions provided by the medical experts, we will summarize their conclusions and perform a majority vote.\n\n1. **Oncologist**: Concluded that the TI is (E) 2.67.\n2. **Clinical Pharmacologist**: Also concluded that the TI is (E) 2.67.\n3. **Toxicologist**: Agreed with (E) 2.67.\n4. **Biostatistician**: Concluded that the TI is (E) 2.67.\n5. **Pharmacist**: Concluded that the TI is (E) 2.67.\n\nAll five experts arrived at the same conclusion, which is option (E) 2.67.\n\nBased on the majority vote from the experts, the final answer is:\n\n**Answer: (E) 2.67**'}
+
+
+[INFO] no: 39
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨‍⚕️ 1. Neurologist): Specializes in the diagnosis and treatment of neurological conditions.
+Agent 2 (👩🏼‍⚕️ 2. Speech): Language Pathologist
+Agent 3 (👨🏻‍⚕️ 3. Neuroradiologist): Specializes in interpreting neuroimaging studies to identify structural abnormalities in the brain.
+Agent 4 (👩🏻‍⚕️ 4. Neuropsychologist): Focuses on assessing cognitive function and behavior related to brain injury.
+Agent 5 (👨🏽‍⚕️ 5. Neurosurgeon): Specializes in surgical interventions for neurological conditions.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                  moderator (👨‍⚖️)                                              
+             ┌─────────────────────────────┬──────────────┴─────────────────────────┐                           
+  Neuroradiologist (👨🏻‍⚕️)     Neuropsychologist (👩🏻‍⚕️)                    Neurologist (👨‍⚕️)                  
+                                                                       ┌────────────┴───────────────┐           
+                                                                 Speech (👩🏼‍⚕️)            Neurosurgeon (👨🏽‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨‍⚕️ neurologist): 🤐
+ Agent 2 (👩🏼‍⚕️ speech): 🤐
+ Agent 3 (👨🏻‍⚕️ neuroradiologist): 🤐
+ Agent 4 (👩🏻‍⚕️ neuropsychologist): 🤐
+ Agent 5 (👨🏽‍⚕️ neurosurgeon): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨‍⚕️) | Agent 2 (👩🏼‍⚕️) | Agent 3 (👨🏻‍⚕️) | Agent 4 (👩🏻‍⚕️) | Agent 5 (👨🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👩🏼‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the final answer based on the majority vote from the opinions of different agents, we need to analyze the options provided in relation to the patient's symptoms.\n\nThe patient exhibits fluent speech and good comprehension but struggles with verbal repetition. This clinical picture is suggestive of conduction aphasia, which is typically associated with damage to the arcuate fasciculus, a white matter tract that connects Broca's area (located in the inferior frontal gyrus) and Wernicke's area (located in the superior temporal gyrus).\n\nNow, let's review the options:\n\n- (A) Arcuate fasciculus: This option alone could explain the repetition deficit, but it does not account for the involvement of other areas.\n- (B) Inferior frontal gyrus: This area is associated with Broca's area, which is more related to speech production than repetition.\n- (C) Superior temporal gyrus: This area is associated with Wernicke's area, which is more related to comprehension than repetition.\n- (D) Inferior frontal gyrus + superior temporal gyrus: This combination includes areas related to both production and comprehension but does not specifically address the repetition issue.\n- (E) Arcuate fasciculus + inferior frontal gyrus + superior temporal gyrus: This option encompasses all relevant areas involved in speech production, comprehension, and repetition.\n\nGiven that the patient has fluent speech and good comprehension but struggles with repetition, the most comprehensive answer that includes the necessary structures for conduction aphasia is option (E).\n\nFinal decision based on majority vote:\nAnswer: E) Arcuate fasciculus + inferior frontal gyrus + superior temporal gyrus"}
+

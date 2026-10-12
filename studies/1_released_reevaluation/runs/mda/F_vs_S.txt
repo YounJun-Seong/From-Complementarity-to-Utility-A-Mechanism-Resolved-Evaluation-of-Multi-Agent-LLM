@@ -1,0 +1,11 @@
+S strong single x5 (questions 0–199): acc 0.808 ± SD 0.014 (runs 0.800, 0.800, 0.795, 0.820, 0.825); identical answer in all 5 runs 0.840; P0 single realization 0.805
+scorer: pre-registered (letter only)
+  F0           acc 0.518   MAS − S = -0.290 [-0.335, -0.245]
+  F1           acc 0.484   MAS − S = -0.324 [-0.365, -0.282]
+  F2_final_v2  acc 0.688   MAS − S = -0.120 [-0.156, -0.085]
+  F3_final_v2  acc 0.628   MAS − S = -0.180 [-0.217, -0.143]
+scorer: sensitivity (+option text)
+  F0           acc 0.521   MAS − S = -0.287 [-0.334, -0.242]
+  F1           acc 0.493   MAS − S = -0.315 [-0.357, -0.273]
+  F2_final_v2  acc 0.709   MAS − S = -0.099 [-0.134, -0.064]
+  F3_final_v2  acc 0.665   MAS − S = -0.143 [-0.178, -0.108]

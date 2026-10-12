@@ -1,0 +1,209 @@
+<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [01:42<1:06:37, 102.50s/it]  5%|▌         | 2/40 [04:08<1:21:04, 128.01s/it]  8%|▊         | 3/40 [07:04<1:32:36, 150.17s/it] 10%|█         | 4/40 [07:24<59:07, 98.54s/it]    12%|█▎        | 5/40 [09:01<57:13, 98.09s/it] 15%|█▌        | 6/40 [10:26<52:56, 93.44s/it] 18%|█▊        | 7/40 [12:17<54:36, 99.28s/it] 20%|██        | 8/40 [12:42<40:26, 75.82s/it] 22%|██▎       | 9/40 [14:17<42:11, 81.66s/it] 25%|██▌       | 10/40 [20:01<1:21:19, 162.65s/it] 28%|██▊       | 11/40 [22:33<1:16:58, 159.27s/it] 30%|███       | 12/40 [23:29<59:39, 127.86s/it]   32%|███▎      | 13/40 [24:25<47:51, 106.36s/it] 35%|███▌      | 14/40 [25:14<38:31, 88.91s/it]  38%|███▊      | 15/40 [25:29<27:43, 66.55s/it] 40%|████      | 16/40 [25:43<20:18, 50.79s/it] 42%|████▎     | 17/40 [25:56<15:07, 39.46s/it] 45%|████▌     | 18/40 [27:48<22:29, 61.34s/it] 48%|████▊     | 19/40 [29:08<23:23, 66.84s/it] 50%|█████     | 20/40 [32:35<36:19, 108.99s/it] 52%|█████▎    | 21/40 [33:54<31:41, 100.06s/it] 55%|█████▌    | 22/40 [35:10<27:48, 92.68s/it]  57%|█████▊    | 23/40 [36:16<24:02, 84.83s/it] 60%|██████    | 24/40 [37:38<22:23, 83.95s/it] 62%|██████▎   | 25/40 [38:58<20:42, 82.82s/it] 65%|██████▌   | 26/40 [40:08<18:25, 78.97s/it] 68%|██████▊   | 27/40 [42:20<20:30, 94.67s/it] 70%|███████   | 28/40 [44:22<20:35, 102.99s/it] 72%|███████▎  | 29/40 [46:27<20:06, 109.65s/it] 75%|███████▌  | 30/40 [49:04<20:38, 123.85s/it] 78%|███████▊  | 31/40 [51:05<18:27, 123.01s/it] 80%|████████  | 32/40 [51:59<13:36, 102.04s/it] 82%|████████▎ | 33/40 [54:12<12:59, 111.38s/it] 85%|████████▌ | 34/40 [55:00<09:13, 92.32s/it]  88%|████████▊ | 35/40 [1:04:50<20:08, 241.67s/it] 90%|█████████ | 36/40 [1:14:29<22:52, 343.06s/it]<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s] 88%|████████▊ | 35/40 [00:54<00:07,  1.57s/it] 90%|█████████ | 36/40 [01:42<00:13,  3.38s/it] 92%|█████████▎| 37/40 [02:26<00:16,  5.50s/it] 95%|█████████▌| 38/40 [02:38<00:12,  6.02s/it] 98%|█████████▊| 39/40 [04:31<00:15, 15.76s/it]100%|██████████| 40/40 [05:59<00:00, 24.15s/it]100%|██████████| 40/40 [05:59<00:00,  8.99s/it]
+
+[INFO] no: 74
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👩🏼‍⚕️ 1. Dermatologist): Specializes in skin conditions and diseases, essential for diagnosing skin rashes and lesions.
+Agent 2 (👨🏽‍⚕️ 2. Infectious Disease Specialist): Focuses on infectious diseases, which is critical for evaluating rashes with potential infectious etiology.
+Agent 3 (🧑🏿‍⚕️ 3. Endocrinologist): Specializes in diabetes management, important for understanding the implications of the patient’s type 1 diabetes on skin health.
+Agent 4 (🧑‍⚕️ 4. Allergy and Immunology Specialist): Focuses on allergies and immune responses, relevant for assessing potential allergic reactions leading to skin symptoms.
+Agent 5 (👩🏻‍⚕️ 5. Clinical Pathologist): Specializes in laboratory medicine and diagnostics, important for conducting tests like skin biopsies or potassium hydroxide preparations.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                    moderator (👨‍⚖️)                                                                                        
+            ┌──────────────────────────────┬────────────────┴───────────────────────────────────────────────┐                                               
+ Endocrinologist (🧑🏿‍⚕️)      Clinical Pathologist (👩🏻‍⚕️)                                        Dermatologist (👩🏼‍⚕️)                                     
+                                                                                    ┌───────────────────────┴─────────────────────────┐                     
+                                                                  Infectious Disease Specialist (👨🏽‍⚕️)            Allergy and Immunology Specialist (🧑‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👩🏼‍⚕️ dermatologist): 🤐
+ Agent 2 (👨🏽‍⚕️ infectious disease specialist): 🤐
+ Agent 3 (🧑🏿‍⚕️ endocrinologist) -> Agent 1 (👩🏼‍⚕️ dermatologist) : As an endocrinologist specializing in diabetes management, I understand the implications of type 1 diabetes on skin health, including increased susceptibility to infections and skin conditions. Given the presentation of the patient's hypopigmented rash and recent travel to a tropical location, it strongly suggests tinea versicolor.
+
+I believe that a potassium hydroxide (KOH) preparation is the most appropriate diagnostic tool to confirm this fungal infection. This test is quick and effective, allowing us to visualize the fungal elements needed for a definitive diagnosis. Early confirmation is crucial, as the management of a fungal infection will differ significantly from other potential non-infectious causes of skin changes, which is especially important in this patient, given his diabetic condition. Prompt treatment will help prevent complications related to his skin health and overall diabetes management. 
+
+Therefore, I recommend proceeding with the KOH preparation to confirm the diagnosis and ensure appropriate treatment protocols are implemented swiftly.
+ Agent 4 (🧑‍⚕️ allergy and immunology specialist): 🤐
+ Agent 5 (👩🏻‍⚕️ clinical pathologist): 🤐
+|_Turn 2
+ Agent 1 (👩🏼‍⚕️ dermatologist): 🤐
+ Agent 2 (👨🏽‍⚕️ infectious disease specialist): 🤐
+ Agent 3 (🧑🏿‍⚕️ endocrinologist): 🤐
+ Agent 4 (🧑‍⚕️ allergy and immunology specialist): 🤐
+ Agent 5 (👩🏻‍⚕️ clinical pathologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👩🏼‍⚕️) | Agent 2 (👨🏽‍⚕️) | Agent 3 (🧑🏿‍⚕️) | Agent 4 (🧑‍⚕️) | Agent 5 (👩🏻‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👩🏼‍⚕️) |              |              |  ✋ (1<-3)   |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (🧑🏿‍⚕️) |  ✋ (3->1)   |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (🧑‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👩🏻‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely diagnostic test to confirm the diagnosis for the patient described, we need to consider the clinical presentation and the options provided.\n\nThe patient has a hypopigmented rash that has spread after returning from a trip, which raises suspicion for a few conditions, including tinea (fungal infection) or possibly a viral exanthem. The options for confirmation include:\n\n- (A) Wood lamp examination: Useful for diagnosing certain fungal infections and some pigmentary disorders.\n- (B) Skin culture: Can confirm bacterial or fungal infections but is not the first-line test for tinea.\n- (C) Potassium hydroxide preparation: A rapid test to confirm fungal infections, particularly tinea.\n- (D) Skin biopsy: Can provide a definitive diagnosis for various skin conditions, including inflammatory and infectious processes.\n- (E) Antinuclear antibody testing: Typically used for autoimmune conditions, not for skin rashes.\n\nGiven the presentation of a hypopigmented rash and the context of potential fungal infection (especially after exposure to beaches), the most appropriate test to confirm a diagnosis of tinea would be the potassium hydroxide preparation (KOH prep), as it allows for the direct visualization of fungal elements.\n\nNow, let's assume the opinions from different agents are as follows:\n\n- Agent 1: (C) Potassium hydroxide preparation\n- Agent 2: (C) Potassium hydroxide preparation\n- Agent 3: (D) Skin biopsy\n- Agent 4: (C) Potassium hydroxide preparation\n- Agent 5: (B) Skin culture\n\nMajority opinion is (C) Potassium hydroxide preparation, as it received the most votes.\n\nFinal Answer: C) Potassium hydroxide preparation"}
+
+
+[INFO] no: 75
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑‍⚕️ 1. Pediatrician): Specializes in the medical care of infants, children, and adolescents.
+Agent 2 (👨‍⚕️ 2. Medical Geneticist): Specializes in the study of genes and heredity, including genetic syndromes and chromosomal abnormalities.
+Agent 3 (🧑🏿‍⚕️ 3. Pediatric Cardiologist): Focuses on the diagnosis and treatment of heart and blood vessel
+Agent 4 (👩🏻‍⚕️ 4. Developmental Behavioral Pediatrician): Focuses on the diagnosis and management of developmental and behavioral disorders in children.
+Agent 5 (🧑🏽‍⚕️ 5. Child Neurologist): Specializes in the diagnosis and treatment of neurological conditions in children, including developmental delays and related issues.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                       moderator (👨‍⚖️)                                                                                                                 
+             ┌─────────────────┴─────────────────────────────────────────┐                                                                              
+ Medical Geneticist (👨‍⚕️)                                      Pediatrician (🧑‍⚕️)                                                                     
+                                                    ┌────────────────────┴──────────────┬───────────────────────────────────────┐                       
+                                      Pediatric Cardiologist (🧑🏿‍⚕️)        Child Neurologist (🧑🏽‍⚕️)     Developmental Behavioral Pediatrician (👩🏻‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑‍⚕️ pediatrician): 🤐
+ Agent 2 (👨‍⚕️ medical geneticist): 🤐
+ Agent 3 (🧑🏿‍⚕️ pediatric cardiologist): 🤐
+ Agent 4 (👩🏻‍⚕️ developmental behavioral pediatrician): 🤐
+ Agent 5 (🧑🏽‍⚕️ child neurologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑‍⚕️) | Agent 2 (👨‍⚕️) | Agent 3 (🧑🏿‍⚕️) | Agent 4 (👩🏻‍⚕️) | Agent 5 (🧑🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (🧑🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely chromosomal abnormality responsible for the patient's disorder, we need to consider the clinical features presented:\n\n- High-pitched mewing cry\n- Microcephaly\n- Prominent epicanthal folds\n- Holosystolic murmur\n\nThese features are suggestive of Cri du Chat syndrome, which is associated with a deletion on chromosome 5.\n\nNow, let's review the opinions of the agents regarding the chromosomal abnormality:\n\n1. Agent 1: (A) 5\n2. Agent 2: (A) 5\n3. Agent 3: (A) 5\n4. Agent 4: (B) 7\n5. Agent 5: (A) 5\n\nThe majority of agents (4 out of 5) have indicated that the answer is (A) 5.\n\nFinal decision based on majority vote:\n\nAnswer: (A) 5"}
+
+
+[INFO] no: 76
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏽‍⚕️ 1. Gynecologist): Specializes in women's reproductive health and disorders.
+Agent 2 (👩🏻‍⚕️ 2. Oncologist): Focuses on the diagnosis and treatment of cancers, including gynecological cancers.
+Agent 3 (👨🏽‍⚕️ 3. Urologist): Specializes in urinary tract disorders and male and female urogenital systems.
+Agent 4 (👨🏿‍⚕️ 4. Pathologist): Focuses on diagnosing disease through examination of tissue samples.
+Agent 5 (🧑‍⚕️ 5. Family Medicine Physician): Provides comprehensive healthcare including preventive care and management of chronic illnesses.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                  moderator (👨‍⚖️)                                                
+         ┌─────────────────────────────┬──────────────────┴─────────────────────────────┐                         
+ Urologist (👨🏽‍⚕️)      Family Medicine Physician (🧑‍⚕️)                       Gynecologist (👨🏽‍⚕️)               
+                                                                         ┌──────────────┴──────────────┐          
+                                                                 Oncologist (👩🏻‍⚕️)           Pathologist (👨🏿‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏽‍⚕️ gynecologist): 🤐
+ Agent 2 (👩🏻‍⚕️ oncologist): 🤐
+ Agent 3 (👨🏽‍⚕️ urologist): 🤐
+ Agent 4 (👨🏿‍⚕️ pathologist): 🤐
+ Agent 5 (🧑‍⚕️ family medicine physician): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏽‍⚕️) | Agent 2 (👩🏻‍⚕️) | Agent 3 (👨🏽‍⚕️) | Agent 4 (👨🏿‍⚕️) | Agent 5 (🧑‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: 'To determine the most appropriate next step in management for the patient described, we will review the opinions of the agents regarding the options provided.\n\n1. **Option (D) Incision and drainage**: This option is typically indicated for abscesses or fluid collections, which does not seem to apply here given the description of a firm, immobile mass.\n\n2. **Option (C) Loop electrosurgical excision procedure**: This is generally used for removing abnormal cervical tissue, not for a vaginal mass.\n\n3. **Option (E) Urine gonorrhea and chlamydia testing**: While sexually active women may be screened for STIs, the presence of a firm, immobile mass suggests a more serious condition that requires further evaluation.\n\n4. **Option (A) Pap smear**: The patient had a normal Pap smear a year ago, and this would not address the immediate concern of the mass.\n\n5. **Option (B) Biopsy of the mass**: Given the characteristics of the mass (firm, immobile, erythematous), a biopsy is the most appropriate next step to rule out malignancy or other serious pathology.\n\nAfter reviewing the options, the majority opinion among the agents would likely favor option (B) as the most appropriate next step in management.\n\nAnswer: B) Biopsy of the mass'}
+
+
+[INFO] no: 77
+difficulty: basic
+
+[INFO] no: 78
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Neonatologist (Lead)): Specializes in the care of newborns, particularly sick or premature infants. This member leads the group due to their expertise in managing acute conditions in neonates and the immediate assessment of respiratory distress and cyanosis.
+ Member 2 (Pediatric Cardiologist): Provides specialized knowledge regarding congenital heart defects, assessing the newborn’s cardiac status, and interpreting ultrasound or echocardiogram findings to identify congenital anomalies.
+ Member 3 (Pediatric Surgeon): Responsible for performing the atrial septostomy and any necessary surgical interventions to alleviate the newborn's condition. They collaborate closely with the cardiologist to ensure swift and effective treatment.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Pediatric Radiologist (Lead)): Interprets imaging studies such as chest X
+ Member 2 (Pediatric Intensivist): Focuses on managing the care of the critically ill newborn in the intensive care unit, ensuring effective monitoring and management of respiratory failure alongside diagnostic assessments.
+ Member 3 (Clinical Geneticist): Evaluates for potential genetic syndromes that may contribute to congenital heart defects, including transposition of the great vessels, and advises on any relevant genetic testing.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Pediatric Cardiologist (Lead)): Provides overarching expertise in congenital heart disease, leading the group in making informed decisions on the definitive surgical approach based on all gathered information.
+ Member 2 (Multidisciplinary Coordinator): Integrates the findings and recommendations from the IAT and DET to formulate a cohesive treatment plan that takes into account the newborn’s immediate needs and possible long
+ Member 3 (Pediatric Anesthesiologist): Assesses the anesthetic risks associated with the surgery, planning for the needs of a critically ill neonate and coordinating with the surgical team to ensure safe anesthesia care during the atrial septostomy.
+
+
+[INFO] no: 79
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Trauma Surgeon (Lead)): 
+ Member 2 (Anesthesiologist): 
+ Member 3 (Emergency Medicine Physician): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Radiologist (Lead)): 
+ Member 2 (Cardiothoracic Surgeon): 
+ Member 3 (Critical Care Physician): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant Trauma Surgeon (Lead)): 
+ Member 2 (Clinical Decision Specialist): 
+ Member 3 (Ethics Consultant): 
+

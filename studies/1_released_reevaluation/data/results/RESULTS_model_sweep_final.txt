@@ -1,0 +1,12 @@
+Model-capability sweep: MedAgents (syn_verif) vs strong single (zero-shot CoT), MedQA
+  gpt-3.5 (weak)    n=500  single=0.642  base_cot=0.618  MedAgents=0.620  Δ=-0.022 [-0.062,+0.018]  TIE
+  gpt-4o-mini (mid) n=500  single=0.768  base_cot=0.640  MedAgents=0.766  Δ=-0.002 [-0.034,+0.030]  EQUIVALENT (δ=0.05)
+  gpt-4.1 (strong)  n=200  single=0.960  base_cot=0.495  MedAgents=0.905  Δ=-0.055 [-0.095,-0.015]  single>multi (exploratory)
+
+CONCLUSION: multi-agent-minus-single Δ <= 0 at every capability level; equivalent on weak/mid,
+single significantly better on strong. No evidence coordination helps across the spectrum.
+base_cot collapses more on stronger (more verbose) models (0.618/0.640/0.495), reproducing the
+300-token truncation mechanism across the sweep.
+Caveat: gpt-4.1 is n=200 exploratory; MedAgents' internal per-call token caps may also truncate
+on the more verbose gpt-4.1, so the strong-model gap is reported as exploratory.
+MODEL_SWEEP_DONE

@@ -1,0 +1,9 @@
+=== Phase VI: matched interaction ablation, MedARC homogeneous Qwen2.5-14B, PubMedQA PQA-L fresh n=472 ===
+accuracy (A_paper_no-reinit, mean of 3 runs): A 0.581, B 0.714, C 0.649, SC25 0.625, B_strong 0.633
+PRIMARY  Acc(A) − Acc(B) = -13.3 pp [-16.2, -10.4]
+key secondary  κ_post(A) − κ_post(B) = -15.4 pp [-18.4, -12.5];  Δκ(A) − Δκ(B) = -15.4 pp [-18.3, -12.5];  κ_gen identical across arms: True
+  arm A: κ_gen 0.722 → κ_post 0.636 (gain 0.018, loss 0.104); BRR 0.357 HRR 0.416 DI -5.9 pp [-12.9, +1.0] [inconclusive] switch 0.120; G_int -4.4 pp [-6.9, -1.8]; C* +1.1 pp [-0.3, +2.6] (H +0.6); R2MV 0.583; tokens/q 20965; none-pass 0.306; unparsed 0.026
+  arm B: κ_gen 0.722 → κ_post 0.790 (gain 0.107, loss 0.040); BRR 0.390 HRR 0.151 DI +24.0 pp [+18.1, +29.9] [truth-discriminating] switch 0.141; G_int +8.9 pp [+5.8, +12.1]; C* +9.6 pp [+7.0, +12.4] (H +9.1); R2MV 0.712; tokens/q 12073; none-pass 0.138; unparsed 0.016
+  arm C: κ_gen 0.722 → κ_post 0.732 (gain 0.047, loss 0.037); BRR 0.163 HRR 0.117 DI +4.6 pp [+0.6, +8.6] [truth-discriminating] switch 0.079; G_int +2.4 pp [-0.1, +4.9]; C* +4.5 pp [+2.5, +6.5] (H +4.0); R2MV 0.621; tokens/q 20935; none-pass 0.160; unparsed 0.018
+robustness  A − C -6.8 pp [-9.2, -4.3];  B − C +6.5 pp [+4.1, +8.9];  R2MV A − B -12.9 pp [-15.6, -10.1]
+tokens/q: SC-25 20581, B_strong 654

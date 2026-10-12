@@ -1,0 +1,192 @@
+<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [02:50<1:50:32, 170.07s/it]  5%|▌         | 2/40 [04:54<1:30:53, 143.51s/it]  8%|▊         | 3/40 [07:11<1:26:26, 140.16s/it] 10%|█         | 4/40 [07:31<55:46, 92.96s/it]    12%|█▎        | 5/40 [10:11<1:08:10, 116.88s/it] 15%|█▌        | 6/40 [12:08<1:06:16, 116.95s/it] 18%|█▊        | 7/40 [12:27<46:42, 84.93s/it]    20%|██        | 8/40 [14:36<52:54, 99.21s/it] 22%|██▎       | 9/40 [16:55<57:38, 111.57s/it] 25%|██▌       | 10/40 [22:31<1:30:21, 180.72s/it] 28%|██▊       | 11/40 [23:24<1:08:30, 141.75s/it] 30%|███       | 12/40 [24:21<54:09, 116.06s/it]   32%|███▎      | 13/40 [24:36<38:21, 85.24s/it]  35%|███▌      | 14/40 [25:24<32:04, 74.02s/it] 38%|███▊      | 15/40 [26:15<28:01, 67.26s/it] 40%|████      | 16/40 [27:04<24:38, 61.62s/it] 42%|████▎     | 17/40 [27:15<17:50, 46.54s/it] 45%|████▌     | 18/40 [29:27<26:27, 72.16s/it] 48%|████▊     | 19/40 [31:18<29:21, 83.88s/it] 50%|█████     | 20/40 [32:24<26:06, 78.31s/it] 52%|█████▎    | 21/40 [32:40<18:52, 59.63s/it] 55%|█████▌    | 22/40 [33:57<19:26, 64.79s/it] 57%|█████▊    | 23/40 [34:10<14:00, 49.43s/it] 60%|██████    | 24/40 [36:15<19:14, 72.14s/it] 62%|██████▎   | 25/40 [37:42<19:08, 76.57s/it] 65%|██████▌   | 26/40 [39:05<18:16, 78.31s/it] 68%|██████▊   | 27/40 [42:34<25:28, 117.58s/it] 70%|███████   | 28/40 [44:12<22:19, 111.62s/it] 72%|███████▎  | 29/40 [46:25<21:40, 118.23s/it] 75%|███████▌  | 30/40 [47:54<18:12, 109.30s/it] 78%|███████▊  | 31/40 [50:04<17:19, 115.46s/it] 80%|████████  | 32/40 [51:21<13:51, 103.99s/it] 82%|████████▎ | 33/40 [53:25<12:49, 109.94s/it] 85%|████████▌ | 34/40 [1:04:46<28:08, 281.49s/it] 88%|████████▊ | 35/40 [1:14:28<30:57, 371.57s/it]<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s] 85%|████████▌ | 34/40 [00:27<00:04,  1.24it/s] 88%|████████▊ | 35/40 [01:31<00:16,  3.35s/it] 90%|█████████ | 36/40 [02:18<00:22,  5.74s/it] 92%|█████████▎| 37/40 [04:08<00:39, 13.23s/it] 95%|█████████▌| 38/40 [04:20<00:26, 13.15s/it] 98%|█████████▊| 39/40 [06:16<00:25, 25.28s/it]100%|██████████| 40/40 [08:03<00:00, 37.02s/it]100%|██████████| 40/40 [08:03<00:00, 12.08s/it]
+
+[INFO] no: 73
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏽‍⚕️ 1. Endocrinologist): Specializes in the diagnosis and treatment of hormone
+Agent 2 (🧑🏽‍⚕️ 2. Psychiatrist): Focuses on mental health, which can intersect with physical health issues such as weight loss and anxiety.
+Agent 3 (🧑‍⚕️ 3. Nutritionist/Dietitian): Specializes in dietary habits and nutrition, which can affect symptoms and treatment of metabolic disorders.
+Agent 4 (👨🏽‍⚕️ 4. Cardiologist): Focuses on cardiovascular health, which is relevant given the patient's elevated heart rate and blood pressure.
+Agent 5 (👨🏻‍⚕️ 5. Internist): Specializes in internal medicine, managing complex medical conditions and providing holistic patient care.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                  moderator (👨‍⚖️)                                                        
+           ┌─────────────────────────────┬────────────────┴─────────────┬─────────────────────────────────────┐           
+  Psychiatrist (🧑🏽‍⚕️)     Nutritionist/Dietitian (🧑‍⚕️)     Endocrinologist (👨🏽‍⚕️)                 Cardiologist (👨🏽‍⚕️) 
+                                                                  └─────────────┐                                         
+                                                                        Internist (👨🏻‍⚕️)                                 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏽‍⚕️ endocrinologist): 🤐
+ Agent 2 (🧑🏽‍⚕️ psychiatrist): 🤐
+ Agent 3 (🧑‍⚕️ nutritionist/dietitian): 🤐
+ Agent 4 (👨🏽‍⚕️ cardiologist): 🤐
+ Agent 5 (👨🏻‍⚕️ internist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏽‍⚕️) | Agent 2 (🧑🏽‍⚕️) | Agent 3 (🧑‍⚕️) | Agent 4 (👨🏽‍⚕️) | Agent 5 (👨🏻‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (🧑🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (🧑‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏻‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the best single treatment option for the patient described, we need to consider the symptoms and clinical presentation. The patient exhibits signs consistent with hyperthyroidism, including weight loss, increased heart rate, warm and moist skin, and tremors.\n\nLet's review the treatment options:\n\n- (A) Glucocorticoids: Not a primary treatment for hyperthyroidism.\n- (B) Methimazole: An antithyroid medication that can be used to manage hyperthyroidism.\n- (C) Propranolol: A beta-blocker that can help manage symptoms such as tachycardia and tremors but does not treat the underlying hyperthyroidism.\n- (D) Radioiodine therapy: A definitive treatment for hyperthyroidism, particularly in cases of Graves' disease.\n- (E) Thyroidectomy: A surgical option for hyperthyroidism, usually reserved for specific cases.\n\nConsidering the majority opinion among the agents, Methimazole is often the first-line treatment for hyperthyroidism, especially in cases where immediate control of symptoms is not the primary concern. However, if the goal is to provide a definitive treatment, Radioiodine therapy is also a strong contender.\n\nAfter reviewing the options and considering the context of the question, the best single treatment option for this patient, who likely has hyperthyroidism, is:\n\nAnswer: (B) Methimazole"}
+
+
+[INFO] no: 74
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Dermatologist (Lead)): 
+ Member 2 (Infectious Disease Specialist): 
+ Member 3 (Endocrinologist): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Pathologist (Lead)): 
+ Member 2 (Microbiologist): 
+ Member 3 (Dermatopathologist): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant Dermatologist (Lead)): 
+ Member 2 (Clinical Decision Specialist): 
+ Member 3 (Patient Care Coordinator): 
+
+
+[INFO] no: 75
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑‍⚕️ 1. Pediatrician): Specializes in the medical care of infants, children, and adolescents.
+Agent 2 (👨🏿‍⚕️ 2. Medical Geneticist): Specializes in the study of genes and heredity, particularly relevant for chromosomal abnormalities.
+Agent 3 (🧑🏿‍⚕️ 3. Cardiologist): Focuses on the diagnosis and treatment of heart and blood vessel
+Agent 4 (👨‍⚕️ 4. Neonatologist): Focuses on the care of newborn infants, especially those with congenital issues, relevant for assessing developmental delays and birth history.
+Agent 5 (🧑🏽‍⚕️ 5. Developmental Behavioral Pediatrician): Specializes in the assessment and management of developmental delays and related disorders in children.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                moderator (👨‍⚖️)                                                                            
+              ┌────────────────────────────┬────────────┴───────────────────────────────┐                                                   
+  Medical Geneticist (👨🏿‍⚕️)      Neonatologist (👨‍⚕️)                         Pediatrician (🧑‍⚕️)                                          
+                                                                        ┌───────────────┴───────────────────────────┐                       
+                                                               Cardiologist (🧑🏿‍⚕️)           Developmental Behavioral Pediatrician (🧑🏽‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑‍⚕️ pediatrician): 🤐
+ Agent 2 (👨🏿‍⚕️ medical geneticist): 🤐
+ Agent 3 (🧑🏿‍⚕️ cardiologist): 🤐
+ Agent 4 (👨‍⚕️ neonatologist): 🤐
+ Agent 5 (🧑🏽‍⚕️ developmental behavioral pediatrician): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑‍⚕️) | Agent 2 (👨🏿‍⚕️) | Agent 3 (🧑🏿‍⚕️) | Agent 4 (👨‍⚕️) | Agent 5 (🧑🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (🧑🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely chromosomal abnormality responsible for the patient's disorder, we need to analyze the clinical features presented:\n\n- The patient has a high-pitched mewing cry, which is characteristic of Cri du Chat syndrome, associated with a deletion on chromosome 5.\n- She also exhibits microcephaly, prominent epicanthal folds, and a holosystolic murmur, which can be seen in various genetic syndromes.\n\nGiven the options provided and the classic association of the symptoms with Cri du Chat syndrome, the majority of medical experts would likely point towards chromosome 5 as the most relevant abnormality.\n\nAnswer: A) 5"}
+
+
+[INFO] no: 76
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Gynecologist (Lead)): Specializes in female reproductive health and is responsible for the initial evaluation and management of the vaginal mass. This member leads the assessment of potential malignancy, infections, and any immediate interventions that might be necessary.
+ Member 2 (Urologist): Provides expertise regarding urinary symptoms and evaluates the potential impact of the vaginal mass on urinary function, as well as assessing for any urogynecological issues.
+ Member 3 (Radiologist): Evaluates imaging studies (e.g., pelvic ultrasound, CT scan) to assess the characteristics of the mass and any previously unrecognized abnormalities that may inform management decisions.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Pathologist (Lead)): Responsible for analyzing biopsy samples of the mass to determine its nature (benign or malignant) and providing detailed histopathological insights that will inform the treatment approach.
+ Member 2 (Nurse Practitioner): Guides the team in patient education and coordinates care post
+ Member 3 (Infectious Disease Specialist): Evaluates the need for testing related to sexually transmitted infections considering the patient's vaginal symptoms, contributing to the decision
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Gynecological Oncologist (Lead)): Brings expertise in the management and treatment of gynecological tumors, overseeing the comprehensive evaluation of the results and guiding subsequent treatment options based on the biopsy findings.
+ Member 2 (Clinical Decision Specialist): Integrates recommendations from both the IAT and DET, ensuring that all data and clinical insights are synthesized to form a cohesive treatment plan while liaising with the patient regarding her preferences.
+ Member 3 (Oncological Nurse Coordinator): Manages the patient's care pathway post
+
+
+[INFO] no: 77
+difficulty: basic
+
+[INFO] no: 78
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Neonatologist (Lead)): Specializes in the care of newborns, especially those with complex conditions like congenital heart defects. The neonatologist leads the team to ensure immediate and appropriate clinical assessment and intervention.
+ Member 2 (Pediatric Cardiologist): Focuses on diagnosing and managing congenital heart diseases, interprets echocardiograms, and guides decisions related to interventions such as atrial septostomy.
+ Member 3 (Pediatric Intensivist): Manages the intensive care needs of the newborn, providing expertise in respiratory support and monitoring for complications associated with congenital heart defects.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Pediatric Radiologist (Lead)): Specializes in imaging studies for children, including echocardiography and chest x
+ Member 2 (Clinical Geneticist): Assesses for syndromic associations or genetic conditions that may cause congenital heart defects or contribute to the newborn's symptoms, ensuring genetic considerations are included in the care plan.
+ Member 3 (Cardiovascular Surgeon): Provides expertise in surgical options and discusses the urgency and type of interventions needed based on diagnostic results.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Pediatric Cardiologist (Lead)): Oversees and integrates findings from the various teams, ensuring a comprehensive view of the newborn’s condition and management approach.
+ Member 2 (Ethical Consultant): Addresses any ethical implications regarding intervention timing, including discussions on consent and end
+ Member 3 (Multidisciplinary Coordinator): Ensures effective communication among all team members, synthesizing recommendations and developing a cohesive management plan that addresses the immediate and long
+
+
+[INFO] no: 79
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Trauma Surgeon (Lead)): Specializes in the management of acute trauma cases, including penetrating chest injuries. This member leads the group in immediate surgical intervention, assessing the extent of the injury and planning an operative approach to repair the right ventricular free wall injury.
+ Member 2 (Emergency Medicine Physician): Focuses on the initial stabilization of the patient, including resuscitation efforts, airway management, and rapid assessment of life
+ Member 3 (Critical Care Specialist): Provides expertise in managing critically ill patients post
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Cardiothoracic Surgeon (Lead)): Specializes in surgeries of the heart and thoracic cavity. This member is essential for evaluating the mechanism of the injury, confirming the diagnosis, and making definitive surgical plans for repair if needed.
+ Member 2 (Radiologist): Engages in assessing imaging studies to better understand the extent of cardiac and thoracic injuries through chest X
+ Member 3 (Anesthesiologist): Responsible for the perioperative care and anesthesia management of the patient, ensuring careful evaluation of potential issues related to anesthesia in a trauma scenario, especially concerning cardiovascular stability.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant Trauma Surgeon (Lead)): Provides definitive surgical expertise to guide the team on the best surgical approach, ensuring that all techniques align with current best practices for penetrating cardiac injuries.
+ Member 2 (Clinical Decision Specialist): Coordinates recommendations from the IAT and DET, ensuring evidence
+ Member 3 (Trauma Nurse Coordinator): Ensures continuity of care, oversees documentation and communication among different specialties to guarantee an organized surgical plan and follow
+

@@ -1,0 +1,4 @@
+4dfd08311ac566cdc263f31795966e389123990c804bcead5756bad456613908  runs/phase3/splits/final.json
+7d0c65245ee9378f48abaf391fc0be3e1749476ed2833e7533253e8d5acab5e4  runs/phase3/splits/final_labels.json
+29862a8a79f18c42a1970d06111e47475e0154cff6f99547495fce938310ad52  external/MedAgents/datasets/MedMCQA_p3final/test.jsonl
+# Phase IV uses the unopened Phase III FINAL split (reassigned before any access; see PHASE4_FREEZE.md §1)

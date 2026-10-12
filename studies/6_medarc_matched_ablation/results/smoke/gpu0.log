@@ -1,0 +1,9 @@
+round0 run1: n=5 errors=0 tokens/q=0
+round0 run2: n=5 errors=0 tokens/q=0
+round0 run3: n=5 errors=0 tokens/q=0
+A run2: n=5 errors=0 tokens/q=19977
+A run1: n=5 errors=0 tokens/q=21407
+A run3: n=5 errors=0 tokens/q=21329
+C run2: n=5 errors=0 tokens/q=20240
+C run3: n=5 errors=0 tokens/q=20907
+C run1: n=5 errors=0 tokens/q=21180

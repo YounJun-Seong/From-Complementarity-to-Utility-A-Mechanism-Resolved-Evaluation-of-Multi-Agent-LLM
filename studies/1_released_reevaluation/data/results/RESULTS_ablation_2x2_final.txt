@@ -1,0 +1,13 @@
+2x2 role/budget ablation (MedQA n=200, gpt-4o-mini) — what recovers base_cot 0.700 -> MedAgents 0.800?
+  condition          role     budget  acc [95% CI]           answer-line-fail
+  base_cot           empty    300     0.700 [0.635,0.765]    0.19
+  base_cot_role      expert   300     0.650 [0.580,0.715]    0.26
+  base_cot_budget    empty    700     0.800 [0.745,0.855]    0.00
+  base_cot_strong    expert   700     0.790 [0.730,0.845]    0.00
+
+CONCLUSION: the entire MedAgents-over-base_cot gain is explained by the 300-token generation
+cap alone. Raising it to 700 (budget-only, role unchanged) recovers 0.700->0.800, exactly
+matching MedAgents (0.800), and eliminates answer-line truncation (0.19->0.00). The expert
+role does NOT help (0.700->0.650) because it increases verbosity and thus truncation at 300
+tokens. Mechanism = generation-budget truncation, not coordination and not the system role.
+ABLATION_2X2_FINAL_DONE

@@ -1,0 +1,33 @@
+=== Phase III pilot: 300 questions, 111 triggered ===
+P1  Acc(TDC) − Acc(SampleMore) = -8.1 pp [-16.2, +0.0]   (GO needs ≥ +2.0 pp and CI lower > 0) -> FAIL
+P2  incremental tokens TDC / SampleMore = 0.987   (window [0.9, 1.1]) -> PASS
+P3  rescue 7  vs  harm 16   -> Rescue ≤ Harm
+DECISION: NO-GO
+
+Table 1 — triggered questions: condition, accuracy, incremental tokens/q, Δ vs SampleMore [95% CI]
+  SampleMore  0.450      3674   —
+  HeteroMore  0.396      3300   -5.4 pp [-13.5, +2.7]
+  TDC         0.369      3627   -8.1 pp [-16.2, +0.0]
+  Full MAS    0.351     20876   -9.9 pp [-20.7, +0.9]
+  TDC − HeteroMore: -2.7 pp [-9.9, +4.5]
+  HeteroMore − SampleMore: -5.4 pp [-13.5, +2.7]
+
+Table 2 — by state: n, SampleMore, TDC, Δ [95% CI]
+  weak       n=  59  0.424  0.424  +0.0 pp [-10.2, +10.2]
+  split      n=  23  0.565  0.348  -21.7 pp [-39.1, -4.3]
+  fragmented n=  29  0.414  0.276  -13.8 pp [-34.5, +6.9]
+
+Table 3 — transitions SampleMore → TDC
+  SampleMore wrong → TDC correct (rescue) 7
+  SampleMore correct → TDC wrong (harm)   16
+  both correct 34
+  both wrong   54
+
+Diagnostics
+  states {'unanimous': 189, 'weak': 59, 'split': 23, 'fragmented': 29}; probe parse success 0.995
+  extraction parsed 1.0, CORE fallback 0.0, claim missing 0.0, revision E3 failed 0.00909090909090909, single-answer 1, TDC errors 0
+  flow X {'X stays X': 59, 'X→other': 4, 'X→Y': 47}
+  flow Y {'Y→X': 55, 'Y stays Y': 52, 'Y→other': 3}
+  joint {'converge X': 27, 'disagreement remains': 36, 'swap': 27, 'converge Y': 19, 'converge third': 1}
+  P(convergence) {'all': np.float64(0.42727272727272725), 'weak': np.float64(0.4745762711864407), 'split': np.float64(0.30434782608695654), 'fragmented': np.float64(0.42857142857142855)}
+  overall accuracy (all 300 questions): TDC system 0.593, SampleMore system 0.623

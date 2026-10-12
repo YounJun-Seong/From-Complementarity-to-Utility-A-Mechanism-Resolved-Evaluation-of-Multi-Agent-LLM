@@ -1,0 +1,23 @@
+### system
+You are an expert physician who analyses disagreements between clinical reasoners.
+### user
+Question:
+{question}
+
+Options:
+{options}
+
+Reasoning supporting answer {X}:
+{reasoning_X_first_2500_chars}
+
+Reasoning supporting answer {Y}:
+{reasoning_Y_first_2500_chars}
+
+Two independent solvers reached different answers ({X} and {Y}).
+Identify the single most important factual or logical disagreement between their reasoning.
+Do not solve the entire question. Do not choose a final answer.
+
+Return exactly these three lines and nothing else:
+CLAIM_{X}: <the key claim of the solver who answered {X}, one sentence>
+CLAIM_{Y}: <the key claim of the solver who answered {Y}, one sentence>
+CORE_DISAGREEMENT: <the specific disputed point, one sentence>

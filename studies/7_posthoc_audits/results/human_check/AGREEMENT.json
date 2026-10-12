@@ -1,0 +1,22 @@
+{
+ "final_answer_original": {
+  "n": 80,
+  "agreement": 1.0,
+  "kappa": 1.0
+ },
+ "answer_in_summary": {
+  "n": 80,
+  "agreement": 1.0,
+  "kappa": 1.0
+ },
+ "evidence_preserved": {
+  "n": 80,
+  "agreement": 0.425,
+  "kappa": 0.0
+ },
+ "misrepresented": {
+  "n": 80,
+  "agreement": 0.9875,
+  "kappa": 0.0
+ }
+}

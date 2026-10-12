@@ -1,0 +1,1677 @@
+<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:8: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:45<29:43, 45.74s/it]  5%|▌         | 2/40 [01:01<17:53, 28.24s/it]  8%|▊         | 3/40 [01:45<21:51, 35.44s/it] 10%|█         | 4/40 [03:34<38:38, 64.41s/it] 12%|█▎        | 5/40 [04:15<32:37, 55.94s/it] 15%|█▌        | 6/40 [05:00<29:31, 52.10s/it] 18%|█▊        | 7/40 [05:15<22:00, 40.01s/it] 20%|██        | 8/40 [05:56<21:29, 40.30s/it] 22%|██▎       | 9/40 [06:13<17:06, 33.11s/it] 25%|██▌       | 10/40 [06:57<18:12, 36.43s/it] 28%|██▊       | 11/40 [07:38<18:19, 37.93s/it] 30%|███       | 12/40 [07:53<14:26, 30.94s/it] 32%|███▎      | 13/40 [08:42<16:25, 36.49s/it] 35%|███▌      | 14/40 [08:56<12:52, 29.70s/it] 38%|███▊      | 15/40 [09:10<10:20, 24.80s/it] 40%|████      | 16/40 [10:01<13:03, 32.66s/it] 42%|████▎     | 17/40 [11:53<21:41, 56.57s/it] 45%|████▌     | 18/40 [12:07<16:03, 43.80s/it] 48%|████▊     | 19/40 [12:17<11:46, 33.66s/it] 50%|█████     | 20/40 [13:03<12:27, 37.39s/it] 52%|█████▎    | 21/40 [13:17<09:37, 30.42s/it] 55%|█████▌    | 22/40 [13:23<06:54, 23.00s/it] 57%|█████▊    | 23/40 [13:28<05:00, 17.68s/it] 60%|██████    | 24/40 [14:51<09:57, 37.34s/it] 62%|██████▎   | 25/40 [14:57<06:57, 27.85s/it] 65%|██████▌   | 26/40 [16:12<09:47, 41.99s/it] 68%|██████▊   | 27/40 [16:18<06:43, 31.06s/it] 70%|███████   | 28/40 [16:23<04:40, 23.41s/it] 72%|███████▎  | 29/40 [18:44<10:45, 58.64s/it] 75%|███████▌  | 30/40 [23:46<21:57, 131.72s/it] 78%|███████▊  | 31/40 [24:56<16:58, 113.19s/it] 80%|████████  | 32/40 [26:00<13:06, 98.26s/it]  82%|████████▎ | 33/40 [26:44<09:35, 82.18s/it] 85%|████████▌ | 34/40 [27:26<07:00, 70.16s/it] 88%|████████▊ | 35/40 [28:11<05:11, 62.34s/it] 90%|█████████ | 36/40 [28:16<03:00, 45.25s/it] 92%|█████████▎| 37/40 [29:01<02:15, 45.27s/it] 95%|█████████▌| 38/40 [30:03<01:40, 50.18s/it] 98%|█████████▊| 39/40 [31:07<00:54, 54.26s/it]100%|██████████| 40/40 [31:59<00:00, 53.82s/it]100%|██████████| 40/40 [31:59<00:00, 48.00s/it]
+
+[INFO] no: 80
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑‍⚕️ 1. Pulmonologist): Specializes in the diagnosis and treatment of respiratory system disorders.
+Agent 2 (👨🏻‍⚕️ 2. Pathologist): Expert in examining tissues from deceased patients to determine the cause of death.
+Agent 3 (👩🏻‍⚕️ 3. Infectious Disease Specialist): Specializes in diagnosing and treating infections.
+Agent 4 (👨🏿‍⚕️ 4. Cardiologist): Focuses on the diagnosis and treatment of heart and blood vessel
+Agent 5 (👨🏽‍⚕️ 5. Endocrinologist): Specializes in hormonal disorders and their effects on the body.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                         moderator (👨‍⚖️)                                                                                      
+           ┌────────────────────────┬───────────┴─────────────┬──────────────────────────┬─────────────────────────────────┐                   
+  Pulmonologist (🧑‍⚕️)     Pathologist (👨🏻‍⚕️)     Endocrinologist (👨🏽‍⚕️)      Cardiologist (👨🏿‍⚕️)     Infectious Disease Specialist (👩🏻‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑‍⚕️ pulmonologist): 🤐
+ Agent 2 (👨🏻‍⚕️ pathologist): 🤐
+ Agent 3 (👩🏻‍⚕️ infectious disease specialist): 🤐
+ Agent 4 (👨🏿‍⚕️ cardiologist): 🤐
+ Agent 5 (👨🏽‍⚕️ endocrinologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑‍⚕️) | Agent 2 (👨🏻‍⚕️) | Agent 3 (👩🏻‍⚕️) | Agent 4 (👨🏿‍⚕️) | Agent 5 (👨🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: 'To provide a final answer, I would need to know the opinions of the agents regarding the question. Please provide the responses from each agent, and I will analyze them to determine the majority vote.'}
+
+
+[INFO] no: 81
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 - 
+
+Group 2 -  Initial Assessment Team (IAT)
+
+Group 3 -  Diagnostic Evidence Team (DET)
+
+Group 4 -  Final Review and Decision Team (FRDT)
+
+
+[INFO] no: 82
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑🏿‍⚕️ 1. Dermatologist): Specializes in diagnosing and treating skin conditions and diseases.
+Agent 2 (🧑🏽‍⚕️ 2. Oncologist): Focuses on the diagnosis and treatment of cancer.
+Agent 3 (👨‍⚕️ 3. Travel Medicine Specialist): Specializes in providing medical advice and care for travelers.
+Agent 4 (👨🏿‍⚕️ 4. Genomic Medicine Specialist): Focuses on the relationship between genes and health.
+Agent 5 (🧑‍⚕️ 5. Family Medicine Physician): Provides primary care for individuals and families across all ages.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                                     moderator (👨‍⚖️)                                                                    
+                 ┌──────────────────────────────────────┬───────────────────┴────────────┬─────────────────────────────────────────────┐                 
+ Travel Medicine Specialist (👨‍⚕️)     Genomic Medicine Specialist (👨🏿‍⚕️)     Dermatologist (🧑🏿‍⚕️)                    Family Medicine Physician (🧑‍⚕️) 
+                                                                                    └──────────────┐                                                     
+                                                                                           Oncologist (🧑🏽‍⚕️)                                            
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑🏿‍⚕️ dermatologist): 🤐
+ Agent 2 (🧑🏽‍⚕️ oncologist): 🤐
+ Agent 3 (👨‍⚕️ travel medicine specialist): 🤐
+ Agent 4 (👨🏿‍⚕️ genomic medicine specialist): 🤐
+ Agent 5 (🧑‍⚕️ family medicine physician): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑🏿‍⚕️) | Agent 2 (🧑🏽‍⚕️) | Agent 3 (👨‍⚕️) | Agent 4 (👨🏿‍⚕️) | Agent 5 (🧑‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (🧑🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the type of melanoma this patient is at greatest risk for, we need to consider her demographic factors and risk factors associated with different types of melanoma.\n\n1. **Superficial spreading melanoma**: This is the most common type of melanoma, often seen in younger individuals with fair skin and a history of sun exposure. \n\n2. **Lentigo maligna melanoma**: This type is associated with sun-damaged skin and is more common in older adults, particularly those with a history of significant sun exposure.\n\n3. **Nodular melanoma**: This type is aggressive and can occur in any demographic, but it is not specifically linked to the patient's profile.\n\n4. **Acral lentiginous melanoma**: This type is more common in individuals with darker skin tones and occurs on non-sun-exposed areas, such as the palms, soles, and under the nails. It is the most common type of melanoma in African-Americans.\n\n5. **Desmoplastic melanoma**: This is a rare variant that can occur in sun-exposed areas and is more common in older adults.\n\nGiven that the patient is an African-American woman, her risk for acral lentiginous melanoma is significantly higher compared to the other types. \n\nAfter reviewing the opinions and considering the majority vote based on the risk factors associated with her demographics, the final answer is:\n\nAnswer: C) Acral lentiginous"}
+
+
+[INFO] no: 83
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑‍⚕️ 1. Rheumatologist): Specializes in the diagnosis and treatment of autoimmune and inflammatory conditions.
+Agent 2 (👩🏻‍⚕️ 2. Ophthalmologist): Focuses on eye and visual system issues.
+Agent 3 (👨🏽‍⚕️ 3. Gastroenterologist): Specializes in gastrointestinal disorders.
+Agent 4 (👩🏼‍⚕️ 4. Dermatologist): Focuses on skin
+Agent 5 (👨🏻‍⚕️ 5. Neurologist): Specializes in neurologic disorders.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                             moderator (👨‍⚖️)                                                                        
+           ┌──────────────────────────┬─────────────┴───────────┬────────────────────────┬────────────────────────────┐              
+ Rheumatologist (🧑‍⚕️)     Ophthalmologist (👩🏻‍⚕️)     Neurologist (👨🏻‍⚕️)     Dermatologist (👩🏼‍⚕️)      Gastroenterologist (👨🏽‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑‍⚕️ rheumatologist): 🤐
+ Agent 2 (👩🏻‍⚕️ ophthalmologist) -> Agent 1 (🧑‍⚕️ rheumatologist) : As an ophthalmologist with a focus on the eye and visual system, I recognize the potential implications of systemic conditions such as giant cell arteritis (GCA) for ocular health, including the risk of vision loss. 
+
+My opinion regarding the patient is as follows: 
+
+Given the symptoms of bilateral shoulder tenderness, neck stiffness, and significantly elevated inflammatory markers (ESR and CRP), it is critical to further evaluate for signs of giant cell arteritis. Screening for jaw claudication is essential as it could indicate temporal artery involvement, which poses a direct risk to the patient's vision. Prompt recognition and management of GCA are vital to prevent serious ocular complications. 
+
+I recommend coordinating care with you to ensure a comprehensive evaluation of this patient, particularly in considering initiation of corticosteroids if GCA is suspected.
+ Agent 3 (👨🏽‍⚕️ gastroenterologist): 🤐
+ Agent 4 (👩🏼‍⚕️ dermatologist) -> Agent 1 (🧑‍⚕️ rheumatologist) : As a dermatologist, my expertise lies in skin-related conditions, but I acknowledge the importance of interdisciplinary collaboration in cases like this. 
+
+**Opinion to Agent 1 (Rheumatologist):** 
+
+Given the patient's significant symptoms—bilateral shoulder tenderness, neck stiffness, and elevated inflammatory markers—there is a strong likelihood of polymyalgia rheumatica (PMR) and the risk of associated giant cell arteritis (GCA). Screening for jaw claudication is critical as it could indicate potential cranial arterial involvement, which requires prompt intervention to prevent serious complications such as vision loss. Therefore, I support our focus on jaw claudication in this case.
+ Agent 4 (👩🏼‍⚕️ dermatologist) -> Agent 2 (👩🏻‍⚕️ ophthalmologist) : As a dermatologist, my expertise focuses on skin conditions, but I recognize the significance of the interdisciplinary approach in managing systemic conditions like the one presented.
+
+**Opinion to Agent 2 (Ophthalmologist):**
+
+Given the patient's symptoms, particularly the concern for giant cell arteritis (GCA) indicated by her elevated inflammatory markers and reported neck stiffness, it is vital to screen for jaw claudication. This symptom is not only classic for GCA but also serves as an important warning sign of potential vascular involvement that could lead to irreversible complications, including vision loss. Your expertise in monitoring for ocular manifestations of GCA will be crucial in providing comprehensive care for this patient.
+ Agent 4 (👩🏼‍⚕️ dermatologist) -> Agent 5 (👨🏻‍⚕️ neurologist) : As a dermatologist, my focus is primarily on skin-related conditions; however, I'm aware that systemic health issues often intersect with neurological symptoms.
+
+**Opinion to Agent 5 (Neurologist):**
+
+The patient's clinical presentation, including bilateral shoulder tenderness, neck stiffness, and significantly elevated inflammatory markers, raises concerns for polymyalgia rheumatica (PMR) and the associated risk of giant cell arteritis (GCA). Screening for jaw claudication is essential as it can indicate cranial artery involvement, which poses a risk of ischemic complications such as strokes or visual disturbances. Your expertise in identifying any neurological implications resulting from GCA will be crucial for managing this patient effectively and preventing potential neurological deficits.
+ Agent 5 (👨🏻‍⚕️ neurologist): 🤐
+|_Turn 2
+ Agent 1 (🧑‍⚕️ rheumatologist): 🤐
+ Agent 2 (👩🏻‍⚕️ ophthalmologist): 🤐
+ Agent 3 (👨🏽‍⚕️ gastroenterologist): 🤐
+ Agent 4 (👩🏼‍⚕️ dermatologist) -> Agent 1 (🧑‍⚕️ rheumatologist) : As a dermatologist, my expertise is in skin-related conditions, but I understand the importance of recognizing systemic implications in patient presentations.
+
+**Opinion to Agent 1 (Rheumatologist):**
+
+Given the patient's symptoms of bilateral shoulder tenderness, stiff neck, and the significantly elevated markers of inflammation (ESR and CRP), I strongly concur with your assessment that she may be suffering from polymyalgia rheumatica (PMR) and has a risk of giant cell arteritis (GCA). Screening for jaw claudication is crucial because it can indicate cranial involvement, which may lead to severe complications such as visual loss. Timely recognition and intervention are essential for this patient's management, and addressing this symptom should be a priority in her evaluation.
+ Agent 4 (👩🏼‍⚕️ dermatologist) -> Agent 2 (👩🏻‍⚕️ ophthalmologist) : As a dermatologist, my focus is on skin-related conditions, but I appreciate the critical intersection of systemic health with ocular issues.
+
+**Opinion to Agent 2 (Ophthalmologist):**
+
+Considering the patient's clinical presentation—including bilateral shoulder tenderness, a stiff neck, and significantly elevated inflammatory markers—there is a strong suspicion of giant cell arteritis (GCA). The presence of jaw claudication is essential to screen for, as it is a classic manifestation of GCA and indicates possible cranial artery involvement that poses risks for serious ocular complications, including vision loss. Your expertise in monitoring potential visual disturbances in patients with GCA will be vital in ensuring timely intervention and safeguarding this patient's eyesight.
+ Agent 4 (👩🏼‍⚕️ dermatologist) -> Agent 5 (👨🏻‍⚕️ neurologist) : As a dermatologist, my specialization is in skin conditions, yet I am aware of the profound relationships between dermatological symptoms and neurological manifestations in systemic diseases.
+
+**Opinion to Agent 5 (Neurologist):**
+
+In light of the patient's significant symptoms—bilateral shoulder tenderness, neck stiffness, and markedly elevated inflammatory markers—there is substantial concern for giant cell arteritis (GCA). Screening for jaw claudication is critical, as it is not only a hallmark symptom of GCA but also suggests potential complications that could directly impact neurological health, such as vision loss or even cerebrovascular events. Your insights into any neurological signs that may arise from GCA will be essential for proactive management and preventing serious sequelae in this patient.
+ Agent 5 (👨🏻‍⚕️ neurologist): 🤐
+|_Turn 3
+ Agent 1 (🧑‍⚕️ rheumatologist): 🤐
+ Agent 2 (👩🏻‍⚕️ ophthalmologist): 🤐
+ Agent 3 (👨🏽‍⚕️ gastroenterologist): 🤐
+ Agent 4 (👩🏼‍⚕️ dermatologist) -> Agent 1 (🧑‍⚕️ rheumatologist) : As a dermatologist, my expertise is in skin-related conditions, but I have a strong understanding of the systemic implications that skin symptoms can present.
+
+**Opinion to Agent 1 (Rheumatologist):**
+
+Given the patient's clinical presentation, including bilateral shoulder tenderness, neck stiffness, and significantly elevated inflammatory markers (ESR and CRP), it is clear that we should pursue screening for jaw claudication. This symptom is closely associated with giant cell arteritis (GCA), which can lead to severe complications if left untreated. Given the age of the patient and the classic symptoms pointing towards polymyalgia rheumatica (PMR) or GCA, timely recognition and intervention are crucial. Your expertise in managing the inflammatory aspect will be invaluable in guiding her treatment and preventing potential serious outcomes such as vision loss.
+ Agent 4 (👩🏼‍⚕️ dermatologist) -> Agent 2 (👩🏻‍⚕️ ophthalmologist) : As a dermatologist, my focus is on skin conditions, but I recognize the interconnectedness of systemic diseases and their effects on ocular health.
+
+**Opinion to Agent 2 (Ophthalmologist):**
+
+In light of the patient’s symptoms—including bilateral shoulder tenderness, neck stiffness, and notably elevated inflammatory markers—it is imperative that we screen for jaw claudication. This symptom is indicative of giant cell arteritis (GCA), which carries a significant risk of serious ocular complications, including vision loss due to ischemia of the optic nerve. Your expertise will be critical in assessing any potential ocular involvement, and prompt evaluation can safeguard this patient's vision and overall health. It is crucial that we collaborate closely to ensure comprehensive management of her condition.
+ Agent 4 (👩🏼‍⚕️ dermatologist) -> Agent 5 (👨🏻‍⚕️ neurologist) : As a dermatologist, my specialization is in skin-related conditions, yet I am well aware of the significant links between inflammatory or autoimmune diseases and their neurological implications.
+
+**Opinion to Agent 5 (Neurologist):**
+
+Given the patient's clinical signs—specifically bilateral shoulder tenderness, neck stiffness, difficulty combing her hair, and markedly elevated inflammatory markers—there is a notable suspicion for giant cell arteritis (GCA), which can lead to severe complications, including neurological deficits. Screening for jaw claudication is essential, as it may indicate cranial artery involvement that could result in ischemia to the brain or eyes. Your expertise in identifying any neurologic manifestations that may arise from this condition will be crucial in managing this patient effectively and preventing serious outcomes. Timely intervention in potential cases of GCA can preserve both neurologic and ocular function, making our collaboration vital for optimal patient care.
+ Agent 5 (👨🏻‍⚕️ neurologist): 🤐
+|_Turn 4
+ Agent 1 (🧑‍⚕️ rheumatologist): 🤐
+ Agent 2 (👩🏻‍⚕️ ophthalmologist): 🤐
+ Agent 3 (👨🏽‍⚕️ gastroenterologist): 🤐
+ Agent 4 (👩🏼‍⚕️ dermatologist) -> Agent 1 (🧑‍⚕️ rheumatologist) : As a dermatologist, my expertise is primarily in skin conditions, though I recognize the significant implications that systemic diseases can have on overall health.
+
+**Opinion to Agent 1 (Rheumatologist):**
+
+In the context of this patient’s clinical presentation—characterized by bilateral shoulder tenderness, stiffness in the neck, and markedly elevated inflammatory markers (ESR and CRP)—screening for jaw claudication is crucial. This symptom is a classic indicator of giant cell arteritis (GCA), which can lead to serious vascular complications if not promptly addressed. Given the potential for vision loss associated with GCA, your specialized assessment and timely intervention are necessary to ensure comprehensive management of her condition. Collaboration in monitoring this patient will be key to preventing adverse outcomes related to her inflammatory status.
+ Agent 4 (👩🏼‍⚕️ dermatologist) -> Agent 2 (👩🏻‍⚕️ ophthalmologist) : As a dermatologist, my specialization focuses on skin conditions, but I am well aware of how systemic inflammatory processes can affect ocular health.
+
+**Opinion to Agent 2 (Ophthalmologist):**
+
+Considering the patient's symptoms, particularly the bilateral shoulder tenderness, neck stiffness, and elevated inflammatory markers, it is imperative that we screen for jaw claudication. This symptom is typically associated with giant cell arteritis (GCA) and could indicate cranial artery involvement, posing significant risks for ischemic complications including vision loss. Your expertise in evaluating potential ocular manifestations of GCA will be crucial in preventing serious outcomes. Prompt assessment and intervention from your side can enhance her management and help safeguard her visual health. Collaboration will be essential as we address this potentially serious condition together.
+ Agent 4 (👩🏼‍⚕️ dermatologist) -> Agent 5 (👨🏻‍⚕️ neurologist) : As a dermatologist, my focus is primarily on skin-related conditions; however, I recognize the significant interplay between dermatological signs and systemic inflammatory diseases that can affect neurological function.
+
+**Opinion to Agent 5 (Neurologist):**
+
+Given the patient’s symptoms—which include bilateral shoulder tenderness, neck stiffness, difficulty combing her hair, and significantly elevated inflammatory markers—there is a compelling suspicion of giant cell arteritis (GCA). Screening for jaw claudication is essential since it is a classic symptom of GCA, which can lead to severe complications, including cerebrovascular events and visual impairment. Your expertise in identifying any neurologic manifestations resulting from this condition will be vital for effective management and preventing potential neurologic deficits. Proactive intervention is critical in this case to ensure the best possible outcome for the patient.
+ Agent 5 (👨🏻‍⚕️ neurologist): 🤐
+|_Turn 5
+ Agent 1 (🧑‍⚕️ rheumatologist): 🤐
+ Agent 2 (👩🏻‍⚕️ ophthalmologist): 🤐
+ Agent 3 (👨🏽‍⚕️ gastroenterologist): 🤐
+ Agent 4 (👩🏼‍⚕️ dermatologist) -> Agent 1 (🧑‍⚕️ rheumatologist) : As a dermatologist, my expertise is in skin-related disorders, yet I understand the implications of systemic inflammatory conditions on overall health.
+
+**Opinion to Agent 1 (Rheumatologist):**
+
+Considering the patient's symptoms of bilateral shoulder tenderness, neck stiffness, and significantly elevated inflammatory markers (ESR and CRP), it is crucial that we focus on screening for jaw claudication. This symptom is a classic indicator of giant cell arteritis (GCA), which can lead to severe complications if not addressed promptly, including potential vision loss. Given the clinical context and the strong suspicion of either polymyalgia rheumatica (PMR) or GCA, your expertise in managing the inflammatory aspects will be essential for ensuring timely and effective treatment to prevent adverse outcomes. This collaborative approach will help safeguard the patient’s health and invoke a prompt response to her inflammatory condition.
+ Agent 4 (👩🏼‍⚕️ dermatologist) -> Agent 2 (👩🏻‍⚕️ ophthalmologist) : As a dermatologist, my expertise lies in skin conditions, but I recognize the critical impact that systemic inflammatory diseases can have on ocular health.
+
+**Opinion to Agent 2 (Ophthalmologist):**
+
+Given the patient’s clinical presentation—specifically bilateral shoulder tenderness, neck stiffness, and significantly elevated inflammatory markers—it's essential that we screen for jaw claudication. This symptom is often associated with giant cell arteritis (GCA) and is indicative of potential cranial artery involvement, which can lead to serious ischemic complications including vision loss. Your expertise in examining ocular manifestations related to GCA will be invaluable in this case. Prompt evaluation and intervention can prevent severe consequences for this patient’s vision, and it is vital that we act swiftly to ensure comprehensive care.
+ Agent 4 (👩🏼‍⚕️ dermatologist) -> Agent 5 (👨🏻‍⚕️ neurologist) : As a dermatologist, my specialization is in skin conditions; however, I am acutely aware of how systemic inflammatory diseases can influence neurological health.
+
+**Opinion to Agent 5 (Neurologist):**
+
+In light of the patient's symptoms—broadly including bilateral shoulder tenderness, neck stiffness, and notably elevated inflammatory markers—we must prioritize screening for jaw claudication, as it can signify giant cell arteritis (GCA). This condition poses a risk of severe complications, including cerebrovascular events and visual disturbances. Your expertise in assessing neurological implications related to GCA will be crucial for early identification of any adverse effects on the patient's health. Timely intervention is essential to prevent serious outcomes related to potential ischemia in the cranial arteries, and your role will be vital in ensuring a coordinated and effective approach to manage this patient’s condition.
+ Agent 5 (👨🏻‍⚕️ neurologist): 🤐
+== Round 2 ==
+|_Turn 1
+ Agent 1 (🧑‍⚕️ rheumatologist): 🤐
+ Agent 2 (👩🏻‍⚕️ ophthalmologist): 🤐
+ Agent 3 (👨🏽‍⚕️ gastroenterologist): 🤐
+ Agent 4 (👩🏼‍⚕️ dermatologist): 🤐
+ Agent 5 (👨🏻‍⚕️ neurologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑‍⚕️) | Agent 2 (👩🏻‍⚕️) | Agent 3 (👨🏽‍⚕️) | Agent 4 (👩🏼‍⚕️) | Agent 5 (👨🏻‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑‍⚕️) |              |  ✋ (1<-2)   |              |  ✋ (1<-4)   |              |
+|              |              |              |              |              |              |
+| Agent 2 (👩🏻‍⚕️) |  ✋ (2->1)   |              |              |  ✋ (2<-4)   |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👩🏼‍⚕️) |  ✋ (4->1)   |  ✋ (4->2)   |              |              |  ✋ (4->5)   |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏻‍⚕️) |              |              |              |  ✋ (5<-4)   |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "Based on the opinions provided by the various medical experts, the majority consensus is as follows:\n\n- Rheumatologist: (B) Jaw claudication\n- Ophthalmologist: (B) Jaw claudication\n- Gastroenterologist: (B) Jaw claudication\n- Dermatologist: (B) Jaw claudication\n- Neurologist: (B) Jaw claudication\n\nAll five experts agree on the need to screen for jaw claudication, which is a classic symptom associated with giant cell arteritis (GCA), a condition that is a concern given the patient's presentation.\n\nFinal Decision:\nAnswer: (B) Jaw claudication"}
+
+
+[INFO] no: 84
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑‍⚕️ 1. Obstetrician/Gynecologist): Specializes in women's reproductive health.
+Agent 2 (👨🏿‍⚕️ 2. Gastroenterologist): Focuses on the digestive system and its disorders.
+Agent 3 (🧑🏽‍⚕️ 3. Endocrinologist): Specializes in hormones and their related disorders.
+Agent 4 (👨🏽‍⚕️ 4. Reproductive Endocrinologist): Focuses on fertility issues and hormonal imbalances affecting reproduction.
+Agent 5 (👨🏽‍⚕️ 5. Radiologist): Specializes in interpreting imaging studies to diagnose diseases.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                   moderator (👨‍⚖️)                                                                              
+              ┌─────────────────────────────┬─────────────┴──────────────────┬────────────────────────────────────────────────────────┐          
+  Gastroenterologist (👨🏿‍⚕️)     Endocrinologist (🧑🏽‍⚕️)      Obstetrician/Gynecologist (🧑‍⚕️)                               Radiologist (👨🏽‍⚕️) 
+                                                                     └───────────────────────┐                                                   
+                                                                            Reproductive Endocrinologist (👨🏽‍⚕️)                                 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑‍⚕️ obstetrician/gynecologist): 🤐
+ Agent 2 (👨🏿‍⚕️ gastroenterologist): 🤐
+ Agent 3 (🧑🏽‍⚕️ endocrinologist): 🤐
+ Agent 4 (👨🏽‍⚕️ reproductive endocrinologist): 🤐
+ Agent 5 (👨🏽‍⚕️ radiologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑‍⚕️) | Agent 2 (👨🏿‍⚕️) | Agent 3 (🧑🏽‍⚕️) | Agent 4 (👨🏽‍⚕️) | Agent 5 (👨🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (🧑🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely underlying mechanism of the patient's symptoms, let's review the details provided:\n\n- The patient has been unable to conceive for 3 years, with normal semen analysis for her husband.\n- She experiences episodic pelvic and back pain, along with painful diarrhea, suggesting a possible gastrointestinal or gynecological issue.\n- Her menstrual cycles are regular, and previous imaging (hysterosalpingogram) showed normal results.\n\nGiven these details, the symptoms of pelvic pain and the difficulty in conceiving could suggest endometriosis, which is characterized by the presence of endometrial tissue outside the uterine cavity. This condition can lead to pelvic pain, painful periods, and infertility.\n\nNow, let's analyze the options:\n\n(A) Loss of fallopian tube function following infection - This could be a possibility, but the normal hysterosalpingogram suggests that the fallopian tubes are patent.\n\n(B) Smooth muscle tumor arising from the myometrium - This is less likely given the normal pelvic examination and the nature of her symptoms.\n\n(C) Increased secretion of prolactin - This is not supported by the symptoms presented, as there is no indication of galactorrhea or other signs of hyperprolactinemia.\n\n(D) Endometrial tissue outside the uterine cavity - This aligns well with the symptoms of pelvic pain and infertility, suggesting endometriosis.\n\n(E) Increased secretion of androgens and luteinizing hormone - This is more indicative of conditions like polycystic ovary syndrome (PCOS), which does not fit the symptom profile as well as endometriosis.\n\nBased on the majority opinion and the analysis of the symptoms, the most likely underlying mechanism of this patient's symptoms is:\n\nAnswer: D) Endometrial tissue outside the uterine cavity"}
+
+
+[INFO] no: 85
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👩🏼‍⚕️ 1. Cardiologist): Specializes in heart
+Agent 2 (👨🏿‍⚕️ 2. Microbiologist): Specializes in the study of microorganisms.
+Agent 3 (🧑🏿‍⚕️ 3. Hematologist): Specializes in blood disorders.
+Agent 4 (👨‍⚕️ 4. Infectious Disease Specialist): Focuses on infectious diseases and treatments.
+Agent 5 (👨🏽‍⚕️ 5. Cardiothoracic Surgeon): Performs surgeries on the heart, lungs, esophagus, and other organs in the chest.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                             moderator (👨‍⚖️)                                                                                    
+            ┌──────────────────────────┬────────────┴────────────┬───────────────────────────────────────────────────────────┐                   
+  Microbiologist (👨🏿‍⚕️)      Hematologist (🧑🏿‍⚕️)      Cardiologist (👩🏼‍⚕️)                                Infectious Disease Specialist (👨‍⚕️) 
+                                                            └────────────────────┐                                                               
+                                                                   Cardiothoracic Surgeon (👨🏽‍⚕️)                                                
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👩🏼‍⚕️ cardiologist): 🤐
+ Agent 2 (👨🏿‍⚕️ microbiologist) -> Agent 4 (👨‍⚕️ infectious disease specialist) : As a microbiologist, my expertise lies in the study of microorganisms and their role in infectious diseases. 
+
+Opinion for Agent 4 (infectious disease specialist): Given the patient's presentation of fever, weakness, and splinter hemorrhages, along with his history of tricuspid valve replacement, it is critical to consider the possibility of infective endocarditis. The identification of friable irregular masses (vegetations) on the valve would be essential not only for diagnosis but also for directing appropriate antimicrobial therapy. It would be prudent to obtain blood cultures as a priority to identify the causative organism, which would guide effective treatment and improve patient outcomes.
+ Agent 3 (🧑🏿‍⚕️ hematologist) -> Agent 4 (👨‍⚕️ infectious disease specialist) : As a hematologist with a focus on blood disorders, my expertise allows me to recognize the implications of systemic infections and their impact on hematologic health. 
+
+To the infectious disease specialist:
+
+I concur with your assessment that the presence of friable irregular masses attached to the valve indicates infective endocarditis. Given the patient's history of tricuspid valve replacement and recent symptoms, these vegetations are critical for establishing the diagnosis and guiding appropriate antimicrobial therapy. Additionally, the potential for embolic events associated with these vegetations underscores the urgency of intervention in this case.
+ Agent 4 (👨‍⚕️ infectious disease specialist): 🤐
+ Agent 5 (👨🏽‍⚕️ cardiothoracic surgeon): 🤐
+|_Turn 2
+ Agent 1 (👩🏼‍⚕️ cardiologist): 🤐
+ Agent 2 (👨🏿‍⚕️ microbiologist): 🤐
+ Agent 3 (🧑🏿‍⚕️ hematologist): 🤐
+ Agent 4 (👨‍⚕️ infectious disease specialist): 🤐
+ Agent 5 (👨🏽‍⚕️ cardiothoracic surgeon): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👩🏼‍⚕️) | Agent 2 (👨🏿‍⚕️) | Agent 3 (🧑🏿‍⚕️) | Agent 4 (👨‍⚕️) | Agent 5 (👨🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👩🏼‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏿‍⚕️) |              |              |              |  ✋ (2->4)   |              |
+|              |              |              |              |              |              |
+| Agent 3 (🧑🏿‍⚕️) |              |              |              |  ✋ (3->4)   |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨‍⚕️) |              |  ✋ (4<-2)   |  ✋ (4<-3)   |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most helpful finding in establishing a diagnosis for this patient, we need to consider the clinical context. The patient has a history of tricuspid valve replacement and presents with fever, weakness, and hemorrhages on the nail beds, which are suggestive of infective endocarditis.\n\nLet's review the options provided:\n\n(A) Thickened valve with multiple small vegetations - This finding is consistent with infective endocarditis, particularly in a patient with a prosthetic valve.\n\n(B) Bicuspid valve - This is not relevant to the current case as the patient has already undergone a tricuspid valve replacement.\n\n(C) Friable irregular masses attached to the valve - This is also consistent with infective endocarditis, as vegetations can be friable and irregular.\n\n(D) Papillary muscle rupture - This is a complication of myocardial infarction and not directly related to the diagnosis of infective endocarditis.\n\n(E) Annular calcification - This is more indicative of degenerative changes in the heart valves and not specific for infective endocarditis.\n\nNow, let's consider the opinions of the agents:\n\n- Agent 1: (A) Thickened valve with multiple small vegetations\n- Agent 2: (C) Friable irregular masses attached to the valve\n- Agent 3: (A) Thickened valve with multiple small vegetations\n- Agent 4: (C) Friable irregular masses attached to the valve\n- Agent 5: (A) Thickened valve with multiple small vegetations\n\nCounting the votes:\n- (A) Thickened valve with multiple small vegetations: 3 votes\n- (C) Friable irregular masses attached to the valve: 2 votes\n- (B), (D), (E): 0 votes\n\nBased on the majority vote, the final answer is:\n\nAnswer: A) Thickened valve with multiple small vegetations"}
+
+
+[INFO] no: 86
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 - 
+
+Group 2 -  Initial Assessment Team (IAT)
+
+Group 3 -  Diagnostic Evidence Team (DET)
+
+Group 4 -  Final Review and Decision Team (FRDT)
+
+
+[INFO] no: 87
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨‍⚕️ 1. Endocrinologist): Specializes in diagnosing and treating disorders related to hormones and metabolism.
+Agent 2 (👨🏽‍⚕️ 2. Cardiologist): Focuses on the diagnosis and treatment of heart and blood vessel
+Agent 3 (👨🏻‍⚕️ 3. Dietitian): Specializes in nutrition and diet planning for overall health.
+Agent 4 (👨🏽‍⚕️ 4. General Practitioner): Provides primary care and diagnoses common medical conditions.
+Agent 5 (🧑🏽‍⚕️ 5. Rheumatologist): Specializes in the diagnosis and treatment of autoimmune and musculoskeletal diseases.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                              moderator (👨‍⚖️)                                                              
+         ┌───────────────────────────┬────────────────┴─────────────┬──────────────────────────────────────────┐            
+ Dietitian (👨🏻‍⚕️)      General Practitioner (👨🏽‍⚕️)     Endocrinologist (👨‍⚕️)                      Rheumatologist (🧑🏽‍⚕️) 
+                                                              └───────────────┐                                             
+                                                                     Cardiologist (👨🏽‍⚕️)                                   
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨‍⚕️ endocrinologist): 🤐
+ Agent 2 (👨🏽‍⚕️ cardiologist): 🤐
+ Agent 3 (👨🏻‍⚕️ dietitian): 🤐
+ Agent 4 (👨🏽‍⚕️ general practitioner): 🤐
+ Agent 5 (🧑🏽‍⚕️ rheumatologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨‍⚕️) | Agent 2 (👨🏽‍⚕️) | Agent 3 (👨🏻‍⚕️) | Agent 4 (👨🏽‍⚕️) | Agent 5 (🧑🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the final answer based on the majority opinion of the agents regarding which lab abnormality in this patient is an indication for treatment, let's review the options:\n\n1. **(A) Blood pressure reading**: The patient's blood pressure is 130/90 mm Hg, which is considered elevated but not yet in the hypertensive range that typically requires treatment unless there are other risk factors.\n\n2. **(B) Patient’s weight**: While the patient is described as obese, weight management is important, but it is not a direct lab abnormality that indicates treatment.\n\n3. **(C) High triglyceride levels**: The patient's triglyceride level is 170 mg/dL, which is borderline high. However, treatment is usually not initiated solely based on triglyceride levels unless they are significantly elevated or associated with other risk factors.\n\n4. **(D) High LDL-cholesterol**: The LDL-cholesterol level is 186 mg/dL, which is considered high and is a well-established indication for treatment, especially given the patient's family history of heart disease.\n\n5. **(E) Serum glucose level**: The fasting serum glucose level is 105 mg/dL, which is in the prediabetic range. While this is a concern, it may not immediately indicate treatment compared to the high LDL-cholesterol.\n\nBased on the majority opinion, the most significant lab abnormality that indicates treatment in this patient is the high LDL-cholesterol level.\n\nFinal Answer: D) High LDL-cholesterol"}
+
+
+[INFO] no: 88
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 - 
+
+Group 2 -  Initial Assessment Team (IAT)
+
+Group 3 -  Diagnostics and Imaging Team (DIT)
+
+Group 4 -  Final Review and Decision Team (FRDT)
+
+
+[INFO] no: 89
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👩🏼‍⚕️ 1. Obstetrician): Specializes in pregnancy, childbirth, and postpartum care.
+Agent 2 (👨🏻‍⚕️ 2. Endocrinologist): Focuses on diseases related to the endocrine system, including thyroid disorders.
+Agent 3 (🧑🏿‍⚕️ 3. Maternal): Fetal Medicine Specialist
+Agent 4 (👨🏿‍⚕️ 4. Radiologist): Specializes in interpreting imaging studies like ultrasounds and other scans.
+Agent 5 (👩🏻‍⚕️ 5. General Practitioner): Provides primary care and may be involved in managing initial symptoms and referrals. Hierarchy: Independent
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                           moderator (👨‍⚖️)                                                                                        
+            ┌─────────────────────────┬───────────┴────────────┬───────────────────────────────────────────────────────────────────┐               
+ Endocrinologist (👨🏻‍⚕️)     Radiologist (👨🏿‍⚕️)      Obstetrician (👩🏼‍⚕️)                                            General Practitioner (👩🏻‍⚕️) 
+                                                          └──────────────────────────┐                                                             
+                                                                 Maternal-Fetal Medicine Specialist (🧑🏿‍⚕️)                                        
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👩🏼‍⚕️ obstetrician): 🤐
+ Agent 2 (👨🏻‍⚕️ endocrinologist): 🤐
+ Agent 3 (🧑🏿‍⚕️ maternal): 🤐
+ Agent 4 (👨🏿‍⚕️ radiologist): 🤐
+ Agent 5 (👩🏻‍⚕️ general practitioner): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👩🏼‍⚕️) | Agent 2 (👨🏻‍⚕️) | Agent 3 (🧑🏿‍⚕️) | Agent 4 (👨🏿‍⚕️) | Agent 5 (👩🏻‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👩🏼‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (🧑🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👩🏻‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the best treatment option for the patient described, we need to consider the implications of her hyperthyroidism during pregnancy. \n\n1. **Thyroidectomy (E)**: Generally not the first-line treatment during pregnancy due to surgical risks.\n2. **Radioiodine therapy (D)**: Contraindicated in pregnancy as it can harm the fetus.\n3. **Propylthiouracil (C)**: Preferred in the first trimester of pregnancy for managing hyperthyroidism, as it has a lower risk of teratogenic effects compared to methimazole.\n4. **Observation (B)**: Not appropriate given the patient's significant symptoms and lab findings indicating hyperthyroidism.\n5. **Methimazole (A)**: Generally avoided in the first trimester due to potential teratogenic effects.\n\nBased on the majority opinion of the agents, the best treatment option for this patient is:\n\nAnswer: C) Propylthiouracil"}
+
+
+[INFO] no: 90
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏻‍⚕️ 1. Infectious Disease Specialist): Specializes in the diagnosis and treatment of infectious diseases.
+Agent 2 (👩🏻‍⚕️ 2. Gastroenterologist): Focuses on the diagnosis and treatment of digestive system disorders.
+Agent 3 (👨🏿‍⚕️ 3. Pathologist): Specializes in examining tissues, interpreting laboratory tests, and helping diagnose diseases.
+Agent 4 (👨🏽‍⚕️ 4. Parasitologist): Experts in studying parasites, their hosts, and their impact on human health.
+Agent 5 (👩🏼‍⚕️ 5. Tropical Medicine Specialist): Specializes in diseases that occur primarily in tropical and subtropical environments.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                                 moderator (👨‍⚖️)                                                                                    
+                   ┌────────────────────────────────────┬───────────────┴────────────────────┬──────────────────────────────────┬─────────────────────────┐          
+ Infectious Disease Specialist (👨🏻‍⚕️)      Gastroenterologist (👩🏻‍⚕️)      Tropical Medicine Specialist (👩🏼‍⚕️)      Parasitologist (👨🏽‍⚕️)     Pathologist (👨🏿‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏻‍⚕️ infectious disease specialist): 🤐
+ Agent 2 (👩🏻‍⚕️ gastroenterologist): 🤐
+ Agent 3 (👨🏿‍⚕️ pathologist): 🤐
+ Agent 4 (👨🏽‍⚕️ parasitologist): 🤐
+ Agent 5 (👩🏼‍⚕️ tropical medicine specialist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏻‍⚕️) | Agent 2 (👩🏻‍⚕️) | Agent 3 (👨🏿‍⚕️) | Agent 4 (👨🏽‍⚕️) | Agent 5 (👩🏼‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👩🏼‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely exposure that contributed to the patient's symptoms, we need to analyze the details provided in the case:\n\n- The patient has a history of immigration from Uganda, which is relevant for potential parasitic infections.\n- The presence of eosinophilia (12% eosinophils) suggests a parasitic infection or allergic reaction.\n- The stool culture shows oval-shaped eggs with lateral spines, which is characteristic of **Schistosoma mansoni**, a parasite associated with freshwater exposure.\n- The liver biopsy shows granulomatous inflammation with periportal fibrosis, which is consistent with schistosomiasis.\n\nNow, let's review the options based on the information:\n\n(A) Tsetse flies - associated with sleeping sickness, not relevant here.\n(B) Undercooked pork meat - associated with Taenia solium (pork tapeworm), not relevant here.\n(C) Undercooked fish meat - associated with certain types of flukes, but not the one indicated by the eggs described.\n(D) Dog feces - could be associated with various parasites, but not relevant here.\n(E) Freshwater snails - known to be the intermediate host for Schistosoma species, which aligns with the findings.\n\nBased on the majority vote from the agents' opinions, the most likely exposure that played a role in the development of this patient's symptoms is:\n\nAnswer: E) Freshwater snails"}
+
+
+[INFO] no: 91
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 - 
+
+Group 2 -  Initial Assessment Team (IAT)
+
+Group 3 -  Diagnostic Evidence Team (DET)
+
+Group 4 -  Final Review and Decision Team (FRDT)
+
+
+[INFO] no: 92
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑🏽‍⚕️ 1. Neurologist): Specializes in diagnosing and treating disorders of the nervous system.
+Agent 2 (👨🏽‍⚕️ 2. Addiction Medicine Specialist): Focuses on the treatment of substance use disorders and addiction.
+Agent 3 (👨‍⚕️ 3. Geriatric Psychiatrist): Specializes in the mental health care of older adults.
+Agent 4 (👩🏻‍⚕️ 4. Internal Medicine Physician): Provides comprehensive care for adults.
+Agent 5 (🧑‍⚕️ 5. Infectious Disease Specialist): Specializes in the diagnosis and treatment of infections.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                   moderator (👨‍⚖️)                                                                                                                 
+                   ┌───────────────────────┴───────────────────────────────────────┐                                                                                
+ Addiction Medicine Specialist (👨🏽‍⚕️)                                    Neurologist (🧑🏽‍⚕️)                                                                       
+                                                               ┌───────────────────┴────────────────────┬────────────────────────────────────────┐                  
+                                                 Geriatric Psychiatrist (👨‍⚕️)         Infectious Disease Specialist (🧑‍⚕️)     Internal Medicine Physician (👩🏻‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑🏽‍⚕️ neurologist): 🤐
+ Agent 2 (👨🏽‍⚕️ addiction medicine specialist): 🤐
+ Agent 3 (👨‍⚕️ geriatric psychiatrist): 🤐
+ Agent 4 (👩🏻‍⚕️ internal medicine physician): 🤐
+ Agent 5 (🧑‍⚕️ infectious disease specialist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑🏽‍⚕️) | Agent 2 (👨🏽‍⚕️) | Agent 3 (👨‍⚕️) | Agent 4 (👩🏻‍⚕️) | Agent 5 (🧑‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely cause of the patient's current condition, let's review the opinions of the agents regarding the options provided:\n\n1. **Dementia (A)**: This option suggests a chronic cognitive decline, which does not align with the acute onset of confusion and agitation seen in this patient.\n\n2. **Alcohol withdrawal (B)**: The patient typically consumes only one to two glasses of wine weekly, which is unlikely to lead to significant withdrawal symptoms after just six days post-surgery.\n\n3. **Delirium (D)**: The patient's symptoms of agitation, confusion, and fluctuating levels of consciousness are characteristic of delirium, especially in the context of recent surgery and potential medication effects.\n\n4. **Opioid intoxication (C)**: While the patient is on oxycodone, the symptoms presented do not strongly indicate opioid intoxication, as there are no signs of respiratory depression or significant sedation.\n\n5. **Urinary tract infection (E)**: Although UTIs can cause confusion in the elderly, the normal urine dipstick makes this diagnosis less likely.\n\nAfter reviewing the opinions, the majority consensus points towards **delirium (D)** as the most likely cause of her current condition due to the acute nature of her symptoms and the context of her recent surgery.\n\nFinal Answer: D) Delirium"}
+
+
+[INFO] no: 93
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 - 
+
+Group 2 -  Initial Assessment Team (IAT)
+
+Group 3 -  Diagnostic Evidence Team (DET)
+
+Group 4 -  Final Review and Decision Team (FRDT)
+
+
+[INFO] no: 94
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 - 
+
+Group 2 -  Initial Assessment Team (IAT)
+
+Group 3 -  Diagnostic Evidence Team (DET)
+
+Group 4 -  Final Review and Decision Team (FRDT)
+
+
+[INFO] no: 95
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑🏿‍⚕️ 1. Nephrologist): Specializes in the diagnosis and treatment of kidney disorders.
+Agent 2 (🧑‍⚕️ 2. Gastroenterologist): Focuses on the diagnosis and treatment of gastrointestinal disorders.
+Agent 3 (👨🏽‍⚕️ 3. Hepatologist): Specializes in the study of liver conditions.
+Agent 4 (👨🏿‍⚕️ 4. Neurologist): Focuses on the diagnosis and treatment of nervous system disorders.
+Agent 5 (👨🏽‍⚕️ 5. Endocrinologist): Specializes in the diagnosis and management of endocrine system disorders.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                               moderator (👨‍⚖️)                                                                    
+           ┌───────────────────────────┬──────────────┴─────────────┬─────────────────────────┬────────────────────────┐           
+  Nephrologist (🧑🏿‍⚕️)     Gastroenterologist (🧑‍⚕️)     Endocrinologist (👨🏽‍⚕️)     Neurologist (👨🏿‍⚕️)      Hepatologist (👨🏽‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑🏿‍⚕️ nephrologist): 🤐
+ Agent 2 (🧑‍⚕️ gastroenterologist): 🤐
+ Agent 3 (👨🏽‍⚕️ hepatologist): 🤐
+ Agent 4 (👨🏿‍⚕️ neurologist) -> Agent 1 (🧑🏿‍⚕️ nephrologist) : As a neurologist, I focus on the diagnosis and treatment of nervous system disorders. 
+
+Opinion for Agent 1 (nephrologist): The patient’s presentation strongly suggests autosomal dominant polycystic kidney disease (ADPKD), given the bilateral flank masses and poor hypertension control. Given the association of ADPKD with an increased risk of intracranial aneurysms, it is critical to conduct MR angiography of the brain to screen for these potential complications. Identifying aneurysms early can significantly impact patient management and help prevent serious neurological events such as hemorrhagic stroke.
+ Agent 5 (👨🏽‍⚕️ endocrinologist): 🤐
+|_Turn 2
+ Agent 1 (🧑🏿‍⚕️ nephrologist): 🤐
+ Agent 2 (🧑‍⚕️ gastroenterologist): 🤐
+ Agent 3 (👨🏽‍⚕️ hepatologist): 🤐
+ Agent 4 (👨🏿‍⚕️ neurologist): 🤐
+ Agent 5 (👨🏽‍⚕️ endocrinologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑🏿‍⚕️) | Agent 2 (🧑‍⚕️) | Agent 3 (👨🏽‍⚕️) | Agent 4 (👨🏿‍⚕️) | Agent 5 (👨🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑🏿‍⚕️) |              |              |              |  ✋ (1<-4)   |              |
+|              |              |              |              |              |              |
+| Agent 2 (🧑‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏿‍⚕️) |  ✋ (4->1)   |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most appropriate test to screen for additional complications of this patient's condition, we need to consider the context of his presentation. The patient has a history of poorly controlled hypertension, bilateral flank masses, and a family history of kidney disease, which raises suspicion for a hereditary condition such as polycystic kidney disease (PKD).\n\nGiven this context, the most relevant complications to screen for would be those associated with PKD, which can include aneurysms, particularly cerebral aneurysms, as well as liver cysts and colonic diverticula.\n\nNow, let's review the options provided:\n\n(A) Colonoscopy - While colon cancer screening is important, it is not directly related to the complications of PKD.\n(B) Esophagogastroduodenoscopy - This is not relevant to the complications associated with PKD.\n(C) Liver function tests - While liver function tests can be useful, they do not specifically screen for complications of PKD.\n(D) MR angiography of the brain - This is relevant as patients with PKD are at increased risk for intracranial aneurysms.\n(E) Serum amylase and lipase - These tests are used to assess pancreatic function and are not related to PKD complications.\n\nBased on the majority opinion and the relevance of the options to the patient's condition, the most appropriate test to screen for additional complications of this patient's condition is:\n\nAnswer: D) MR angiography of the brain"}
+
+
+[INFO] no: 96
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑‍⚕️ 1. Hematologist): Specializes in disorders related to the blood and blood
+Agent 2 (👨🏽‍⚕️ 2. Pulmonologist): Specializes in the diagnosis and treatment of respiratory system disorders.
+Agent 3 (👩🏻‍⚕️ 3. Medical Geneticist): Specializes in the study of genes and heredity.
+Agent 4 (👨🏿‍⚕️ 4. Cardiologist): Focuses on the diagnosis and treatment of heart and blood vessel
+Agent 5 (🧑🏽‍⚕️ 5. Pediatrician): Specializes in the medical care of infants, children, and adolescents.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                               moderator (👨‍⚖️)                                                          
+          ┌───────────────────────────┬───────────────┴────────────┬─────────────────────────────────────────┐           
+ Hematologist (🧑‍⚕️)      Medical Geneticist (👩🏻‍⚕️)     Pulmonologist (👨🏽‍⚕️)                      Pediatrician (🧑🏽‍⚕️) 
+                                                              └───────────────┐                                          
+                                                                     Cardiologist (👨🏿‍⚕️)                                
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑‍⚕️ hematologist) -> Agent 3 (👩🏻‍⚕️ medical geneticist) : As a hematologist specializing in blood disorders, I would like to present my opinion to Agent 3, the medical geneticist:
+
+While the symptoms displayed by the patient, such as shortness of breath, chest pain, and hemoptysis, might initially suggest a more complex genetic condition, the context of the case indicates that we should consider conditions with an autosomal recessive inheritance pattern. One such possibility is a condition like hereditary hemorrhagic telangiectasia (HHT) or a similar entity that can lead to pulmonary vascular issues and resultant symptoms. 
+
+Recessive inheritance is often associated with clinical presentations that manifest later in life or require both alleles to express the phenotype, which aligns better with the sudden onset of pulmonary symptoms in a previously healthy adolescent. Therefore, I assert that the most likely underlying cause of this patient's symptoms has an autosomal recessive mode of inheritance.
+ Agent 2 (👨🏽‍⚕️ pulmonologist) -> Agent 1 (🧑‍⚕️ hematologist) : As a pulmonologist specializing in respiratory disorders, I recognize the significance of thorough evaluation of symptoms in this case. While I understand the hematologist's perspective regarding "Autosomal recessive,” the presence of shortness of breath, chest pain, and hemoptysis in this 17-year-old female suggests a condition that may have a more prominent inheritance pattern.
+
+Given the acute presentation and the potential implications of a genetic disorder such as pulmonary embolism or hereditary thrombophilia, the inheritance pattern often associated with such conditions tends to be "Autosomal dominant.” This is due to factors like Factor V Leiden mutation, which increases susceptibility to thrombotic events and follows an autosomal dominant inheritance. 
+
+Therefore, my opinion aligns with the majority view in our team, favoring (A) Autosomal dominant, as this better explains the acute clinical picture presented by the patient.
+ Agent 3 (👩🏻‍⚕️ medical geneticist) -> Agent 1 (🧑‍⚕️ hematologist) : As a medical geneticist specializing in genes and heredity, my opinion regarding the underlying cause of the patient's symptoms is that it is likely to have an (A) Autosomal dominant inheritance pattern.
+
+The presentation of shortness of breath, chest pain, and hemoptysis in a previously healthy young female suggests a potential hereditary condition, one that could be related to a genetic predisposition for pulmonary embolism, such as heritable thrombophilia. These conditions often follow an autosomal dominant inheritance pattern and can manifest during adolescence or early adulthood, which aligns with this patient’s age and symptoms.
+
+Additionally, the engagement with the hematologist about the specifics of any potential clotting disorders could highlight the importance of genetic factors that may be influencing this acute presentation. Understanding the genetic inheritance can guide further evaluation and management for the patient.
+ Agent 4 (👨🏿‍⚕️ cardiologist) -> Agent 1 (🧑‍⚕️ hematologist) : As a cardiologist specializing in the diagnosis and treatment of heart and blood vessel disorders, I believe it is important to consider the clinical presentation and underlying genetic conditions leading to thrombosis, particularly in this 17-year-old female patient. While I understand your reasoning for choosing (B) Autosomal recessive, I would argue that the symptoms indicated, such as shortness of breath and hemoptysis, alongside a filling defect in the pulmonary vessels, strongly suggest a condition like Hereditary Thrombophilia, which is often inherited in an autosomal dominant manner.
+
+In cases like this, inherited conditions affecting coagulation factors are typically passed down in an autosomal dominant manner, resulting in a higher risk of venous thromboembolism. Given the acute onset of symptoms and the age of the patient, an autosomal dominant trait is more consistent with the clinical picture observed here. Therefore, I maintain that the underlying cause of her symptoms aligns more closely with (A) Autosomal dominant inheritance.
+ Agent 5 (🧑🏽‍⚕️ pediatrician) -> Agent 3 (👩🏻‍⚕️ medical geneticist) : As a pediatrician specializing in the medical care of infants, children, and adolescents, I believe the most likely underlying cause of the patient's symptoms is autosomal dominant inheritance.
+
+This conclusion is supported by the patient's acute presentation, which is indicative of a potential genetic condition that can manifest during adolescence and may have variable expressivity. Autosomal dominant conditions often present with pronounced symptoms in late adolescence or early adulthood, aligning with the patient’s age and acute symptoms such as shortness of breath and hemoptysis. Additionally, the inheritance pattern can lead to affected individuals having a 50% chance of passing the condition to their offspring, which is commonly seen in many genetic disorders associated with pulmonary issues.
+
+Therefore, I recommend considering this inheritance pattern in our differential diagnosis to guide our further evaluation and management strategies.
+|_Turn 2
+ Agent 1 (🧑‍⚕️ hematologist) -> Agent 2 (👨🏽‍⚕️ pulmonologist) : As a hematologist specializing in blood disorders, I appreciate the opportunity to discuss this case with Agent 2, the pulmonologist.
+
+Given the patient's symptoms, including shortness of breath, chest pain, and hemoptysis, alongside the pulmonary filling defect observed on imaging, it is crucial to consider the possibility of underlying conditions that could cause these acute respiratory manifestations. Although the pulmonologist has suggested an autosomal dominant inheritance pattern, I would like to emphasize that many autosomal recessive conditions can lead to similar pulmonary issues, particularly if they involve vascular abnormalities that cause hemoptysis.
+
+Conditions like hereditary hemorrhagic telangiectasia (HHT) or other genetic syndromes can lead to vascular malformations within the lungs and may present suddenly in adolescents, as is the case here. In this context, these presentations do not always fit the patterns typically seen in autosomal dominant conditions.
+
+Therefore, I suggest a careful re-evaluation of the inheritance patterns associated with the observed pulmonary symptoms, as I believe that an autosomal recessive mode of inheritance (such as HHT) may be more consistent with the patient's presentation.
+ Agent 1 (🧑‍⚕️ hematologist) -> Agent 3 (👩🏻‍⚕️ medical geneticist) : As a hematologist specializing in blood disorders, I appreciate the opportunity to engage with Agent 3, the medical geneticist.
+
+In reviewing the case of the 17-year-old female presenting with shortness of breath, chest pain, and hemoptysis, I understand the reasons for considering an autosomal dominant inheritance pattern; however, I would like to argue in favor of an autosomal recessive inheritance.
+
+The acute nature of the patient's symptoms, along with the fact that she has no previous medical history, raises the possibility of a hereditary condition such as hereditary hemorrhagic telangiectasia (HHT) or a similar vascular disorder. Autosomal recessive conditions often manifest in individuals with no family history, as both parents may be asymptomatic carriers. This fits the clinical picture here and provides a plausible explanation for the sudden onset of symptoms.
+
+Additionally, conditions with autosomal dominant inheritance typically present with more noticeable symptoms earlier in life or across generations, which does not align with this patient's previously healthy status. I believe we should consider the implications of recessive inheritance more seriously in this context. Thank you for considering this perspective.
+ Agent 2 (👨🏽‍⚕️ pulmonologist): 🤐
+ Agent 3 (👩🏻‍⚕️ medical geneticist) -> Agent 1 (🧑‍⚕️ hematologist) : As a medical geneticist specializing in the study of genes and heredity, I would like to address the hematologist's opinion regarding the inheritance pattern potentially involved in this case. 
+
+My stance is that the underlying cause of the patient’s symptoms is most consistent with (A) Autosomal dominant inheritance. There are several hereditary conditions, such as certain forms of thrombophilia, that are transmitted in an autosomal dominant manner and can lead to thromboembolic events, particularly presenting with acute symptoms in young adults.
+
+While I acknowledge that there may be conditions that could present with autosomal recessive inheritance, the acute and symptomatic nature of this case, combined with age factors and the possibility of family history indicating a dominant pattern, strongly supports the autosomal dominant hypothesis. It’s crucial that we consider genetic predispositions that can dramatically influence the patient’s health trajectory, especially in cases like this with acute pulmonary presentations. 
+
+I encourage us to explore this further to ensure comprehensive management of the patient.
+ Agent 4 (👨🏿‍⚕️ cardiologist): 🤐
+ Agent 5 (🧑🏽‍⚕️ pediatrician): 🤐
+|_Turn 3
+ Agent 1 (🧑‍⚕️ hematologist) -> Agent 3 (👩🏻‍⚕️ medical geneticist) : As a hematologist specializing in blood disorders, I appreciate the opportunity to discuss the case with Agent 3, the medical geneticist.
+
+Given the patient's acute respiratory symptoms, including shortness of breath, chest pain, and hemoptysis, I maintain that we should consider autosomal recessive conditions as a primary avenue of investigation. While autosomal dominant conditions could explain some hereditary factors, they often present with earlier clinical signs or a family history, which is not the case here.
+
+The sudden onset of these symptoms in a previously healthy adolescent aligns with conditions like hereditary hemorrhagic telangiectasia (HHT) or similar vascular disorders, where carriers may not exhibit symptoms until certain triggers arise. Therefore, I believe it is crucial to explore the potential for autosomal recessive inheritance as it allows for the possibility of silent carriers in the family, leading to an unexpected presentation.
+
+I encourage us to evaluate conditions that follow this pattern as they may lead to the respiratory issues observed in this patient. Thank you for considering this perspective in our collaborative effort to determine the underlying cause of her symptoms.
+ Agent 1 (🧑‍⚕️ hematologist) -> Agent 2 (👨🏽‍⚕️ pulmonologist) : As a hematologist specializing in blood disorders, I appreciate the chance to communicate with Agent 2, the pulmonologist.
+
+In light of the patient's presentation—acute shortness of breath, chest pain, and hemoptysis, along with imaging showing a pulmonary filling defect—it's important we consider the genetic context behind these symptoms. While the pulmonologist has suggested an autosomal dominant inheritance pattern, I would like to reinforce the significance of considering autosomal recessive conditions as well, particularly in cases like this where the patient has no prior medical history.
+
+Conditions such as hereditary hemorrhagic telangiectasia (HHT), which can lead to vascular malformations in the lungs, could present similarly and may not have obvious familial indications. The nature of autosomal recessive inheritance allows for the condition to manifest in a previously healthy individual without a family history of related symptoms.
+
+I advise that we should be open to exploring genetic disorders that exhibit autosomal recessive patterns, as they could provide plausible explanations for this patient's symptoms. This approach may ensure we do not overlook critical potential diagnoses that align with her clinical presentation. Thank you for considering this viewpoint in our discussion.
+ Agent 2 (👨🏽‍⚕️ pulmonologist): 🤐
+ Agent 3 (👩🏻‍⚕️ medical geneticist): 🤐
+ Agent 4 (👨🏿‍⚕️ cardiologist): 🤐
+ Agent 5 (🧑🏽‍⚕️ pediatrician): 🤐
+|_Turn 4
+ Agent 1 (🧑‍⚕️ hematologist) -> Agent 3 (👩🏻‍⚕️ medical geneticist) : As a hematologist specializing in blood disorders, I would like to present my thoughts to Agent 3, the medical geneticist.
+
+In considering the case of the 17-year-old female with acute respiratory symptoms, it is crucial to analyze the implications of the suggested inheritance patterns. While the current thought points towards an autosomal dominant inheritance pattern, I urge us to seriously evaluate the potential for autosomal recessive conditions as well, such as hereditary hemorrhagic telangiectasia (HHT).
+
+The absence of a family history and the sudden onset of symptoms align better with autosomal recessive conditions, which can present in previously healthy individuals without prior indications. Autosomal dominant conditions often have a clearer familial pattern and can lead to symptoms at a younger age or across generations.
+
+Thus, I propose that we broaden our scope to include autosomal recessive inheritance in our differential diagnosis, as it may provide a more comprehensive understanding of the patient’s condition and guide us toward appropriate management strategies. Thank you for considering this perspective.
+ Agent 1 (🧑‍⚕️ hematologist) -> Agent 2 (👨🏽‍⚕️ pulmonologist) : As a hematologist specializing in blood disorders, I would like to share my perspective with Agent 2, the pulmonologist.
+
+In reviewing the case of our 17-year-old female patient who is experiencing acute respiratory symptoms, including shortness of breath, chest pain, and hemoptysis, I believe we should critically reevaluate the importance of considering autosomal recessive conditions in our differential diagnosis. While you have suggested an autosomal dominant inheritance pattern, which is certainly valid, the clinical presentation aligns more closely with conditions that can manifest unexpectedly without prior family history, such as hereditary hemorrhagic telangiectasia (HHT).
+
+These autosomal recessive conditions can lead to pulmonary vasculature malformations that might explain her symptoms, particularly given that she is otherwise healthy and has no notable medical history. By focusing solely on an autosomal dominant pattern, we may overlook critical potential diagnoses that would require different management strategies.
+
+I encourage us to maintain an open dialogue about the autosomal recessive possibilities, as they could provide essential insights into the underlying cause of her symptoms and ensure that we are considering all relevant factors in her care. Thank you for your collaboration on this case.
+ Agent 2 (👨🏽‍⚕️ pulmonologist): 🤐
+ Agent 3 (👩🏻‍⚕️ medical geneticist): 🤐
+ Agent 4 (👨🏿‍⚕️ cardiologist): 🤐
+ Agent 5 (🧑🏽‍⚕️ pediatrician) -> Agent 3 (👩🏻‍⚕️ medical geneticist) : As a pediatrician specializing in the medical care of infants, children, and adolescents, I believe it is important to highlight the significance of considering autosomal dominant inheritance in this case.
+
+The patient's clinical presentation suggests a potential genetic condition that can arise in late adolescence, which aligns with the typical expression of autosomal dominant disorders. These disorders often show variability in symptoms and can manifest acutely, as seen in this patient with shortness of breath and hemoptysis. Additionally, the family history often reveals other affected individuals in successive generations, which is a hallmark of autosomal dominant inheritance.
+
+While some may argue for autosomal recessive inheritance based on blood disorders, the acute and prominent nature of this patient's symptoms strongly supports the diagnosis of an autosomal dominant condition. Therefore, I encourage a focus on this inheritance pattern as we continue our discussion and evaluation of this patient.
+|_Turn 5
+ Agent 1 (🧑‍⚕️ hematologist) -> Agent 2 (👨🏽‍⚕️ pulmonologist) : As a hematologist specializing in blood disorders, I would like to address Agent 2, the pulmonologist.
+
+In regard to our 17-year-old patient presenting with acute respiratory distress, including chest pain, hemoptysis, and evidence of a pulmonary filling defect, I believe it is essential for us to remain open to the possibility of autosomal recessive conditions. While I understand the inclination towards an autosomal dominant inheritance pattern, the patient’s sudden manifestation of symptoms and absence of prior health issues suggest that conditions like hereditary hemorrhagic telangiectasia (HHT) could be significant considerations.
+
+These autosomal recessive conditions can lead to unexpected vascular malformations in the lungs, resulting in her acute symptoms without a notable family history or earlier diagnosis. By focusing solely on autosomal dominant conditions, we may risk missing a diagnosis that is not only critical for addressing her current symptoms but also for understanding her long-term health management.
+
+Therefore, I propose we consider the explanatory power of autosomal recessive inheritance patterns in our discussions and differential diagnosis, ensuring we have a comprehensive approach to her care. Thank you for your consideration.
+ Agent 2 (👨🏽‍⚕️ pulmonologist): 🤐
+ Agent 3 (👩🏻‍⚕️ medical geneticist): 🤐
+ Agent 4 (👨🏿‍⚕️ cardiologist): 🤐
+ Agent 5 (🧑🏽‍⚕️ pediatrician): 🤐
+== Round 2 ==
+|_Turn 1
+ Agent 1 (🧑‍⚕️ hematologist): 🤐
+ Agent 2 (👨🏽‍⚕️ pulmonologist): 🤐
+ Agent 3 (👩🏻‍⚕️ medical geneticist): 🤐
+ Agent 4 (👨🏿‍⚕️ cardiologist): 🤐
+ Agent 5 (🧑🏽‍⚕️ pediatrician): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑‍⚕️) | Agent 2 (👨🏽‍⚕️) | Agent 3 (👩🏻‍⚕️) | Agent 4 (👨🏿‍⚕️) | Agent 5 (🧑🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑‍⚕️) |              |  ✋ (1<->2)  |  ✋ (1<->3)  |  ✋ (1<-4)   |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏽‍⚕️) |  ✋ (2<->1)  |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👩🏻‍⚕️) |  ✋ (3<->1)  |              |              |              |  ✋ (3<-5)   |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏿‍⚕️) |  ✋ (4->1)   |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑🏽‍⚕️) |              |              |  ✋ (5->3)   |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the final answer based on the majority vote from the medical experts, we can summarize their opinions as follows:\n\n- **Hematologist**: (B) Autosomal recessive\n- **Pulmonologist**: (A) Autosomal dominant\n- **Medical Geneticist**: (A) Autosomal dominant\n- **Cardiologist**: (A) Autosomal dominant\n- **Pediatrician**: (A) Autosomal dominant\n\nNow, let's count the votes:\n\n- **Autosomal dominant (A)**: 4 votes (Pulmonologist, Medical Geneticist, Cardiologist, Pediatrician)\n- **Autosomal recessive (B)**: 1 vote (Hematologist)\n\nThe majority of the experts (4 out of 5) support the option of **Autosomal dominant** inheritance.\n\nFinal Answer: (A) Autosomal dominant"}
+
+
+[INFO] no: 97
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 - 
+
+Group 2 -  Initial Assessment Team (IAT)
+
+Group 3 -  Immunology and Pathophysiology Team (IPT)
+
+Group 4 -  Final Review and Decision Team (FRDT)
+
+
+[INFO] no: 98
+difficulty: basic
+
+[INFO] no: 99
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👩🏼‍⚕️ 1. Endocrinologist): Specializes in hormones and hormone
+Agent 2 (🧑🏽‍⚕️ 2. Psychiatrist): Focuses on mental health, including schizophrenia and medication management.
+Agent 3 (👨🏽‍⚕️ 3. Internist): Specializes in the diagnosis and management of complex medical conditions in adults.
+Agent 4 (🧑🏿‍⚕️ 4. Pharmacist): Expert in medications, drug interactions, and side effects.
+Agent 5 (👨‍⚕️ 5. Oncologist): Specializes in the diagnosis and treatment of cancer.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                             moderator (👨‍⚖️)                                                          
+            ┌──────────────────────────┬────────────┴──────────┬──────────────────────┬──────────────────────┐         
+ Endocrinologist (👩🏼‍⚕️)      Psychiatrist (🧑🏽‍⚕️)     Oncologist (👨‍⚕️)      Pharmacist (🧑🏿‍⚕️)     Internist (👨🏽‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👩🏼‍⚕️ endocrinologist): 🤐
+ Agent 2 (🧑🏽‍⚕️ psychiatrist): 🤐
+ Agent 3 (👨🏽‍⚕️ internist): 🤐
+ Agent 4 (🧑🏿‍⚕️ pharmacist): 🤐
+ Agent 5 (👨‍⚕️ oncologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👩🏼‍⚕️) | Agent 2 (🧑🏽‍⚕️) | Agent 3 (👨🏽‍⚕️) | Agent 4 (🧑🏿‍⚕️) | Agent 5 (👨‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👩🏼‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (🧑🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (🧑🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: 'To determine which medication is NOT likely to cause the symptoms described (galactorrhea and diminished sexual drive), we need to consider the side effects of each medication listed:\n\n- **Fluphenazine (D)**: An antipsychotic that can cause hyperprolactinemia, leading to galactorrhea and sexual dysfunction.\n- **Risperidone (E)**: An atypical antipsychotic known to increase prolactin levels, which can also lead to galactorrhea and sexual side effects.\n- **Bromocriptine (C)**: A dopamine agonist used to treat conditions like hyperprolactinemia. It actually decreases prolactin levels and is unlikely to cause these symptoms.\n- **Metoclopramide (A)**: A medication that can increase prolactin levels and cause galactorrhea and sexual dysfunction.\n- **Haloperidol (B)**: A typical antipsychotic that can also lead to increased prolactin levels, causing similar symptoms.\n\nBased on this analysis, the medication that is NOT likely to cause the symptoms of galactorrhea and diminished sexual drive is:\n\nAnswer: C) Bromocriptine'}
+
+
+[INFO] no: 100
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 - 
+
+Group 2 -  Initial Assessment Team (IAT)
+
+Group 3 -  Diagnostic Evidence Team (DET)
+
+Group 4 -  Final Review and Decision Team (FRDT)
+
+
+[INFO] no: 101
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+
+[INFO] no: 102
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+
+[INFO] no: 103
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏻‍⚕️ 1. Endocrinologist): Specializes in the diagnosis and treatment of disorders related to the endocrine system.
+Agent 2 (🧑‍⚕️ 2. Emergency Medicine Physician): Focuses on the immediate medical care of acutely ill or injured patients.
+Agent 3 (👨🏽‍⚕️ 3. Nephrologist): Specializes in the diagnosis and treatment of kidney
+Agent 4 (👨🏿‍⚕️ 4. Neurologist): Focuses on the diagnosis and treatment of conditions affecting the nervous system.
+Agent 5 (🧑🏿‍⚕️ 5. Cardiologist): Focuses on the diagnosis and treatment of heart and blood vessel
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                           moderator (👨‍⚖️)                                                                  
+            ┌─────────────────────────────────┬───────────────────┴────────────┬────────────────────────┬────────────────────────┐           
+ Endocrinologist (👨🏻‍⚕️)     Emergency Medicine Physician (🧑‍⚕️)      Cardiologist (🧑🏿‍⚕️)     Neurologist (👨🏿‍⚕️)      Nephrologist (👨🏽‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏻‍⚕️ endocrinologist): 🤐
+ Agent 2 (🧑‍⚕️ emergency medicine physician): 🤐
+ Agent 3 (👨🏽‍⚕️ nephrologist): 🤐
+ Agent 4 (👨🏿‍⚕️ neurologist): 🤐
+ Agent 5 (🧑🏿‍⚕️ cardiologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏻‍⚕️) | Agent 2 (🧑‍⚕️) | Agent 3 (👨🏽‍⚕️) | Agent 4 (👨🏿‍⚕️) | Agent 5 (🧑🏿‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (🧑‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑🏿‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely diagnosis for the patient based on the provided clinical information and laboratory findings, let's review the key points:\n\n1. **Altered Mental Status**: The patient is confused and unable to answer questions, indicating a significant neurological issue.\n2. **Vital Signs**: The patient is hypothermic (33.0°C), bradycardic (pulse 40/min), and hypotensive (blood pressure 80/50 mm Hg), which suggests a severe systemic issue.\n3. **Physical Examination**: The presence of decorticate posturing, incomprehensible speech, and dry, coarse skin with non-pitting edema suggests a severe metabolic or endocrine disorder.\n4. **Laboratory Findings**:\n   - **TSH**: Extremely elevated at 110.0 µU/mL, indicating severe hypothyroidism.\n   - **Thyroxine (T4)**: Low at 1.2 µg/dL.\n   - **Triiodothyronine (T3)**: Low at 70 ng/dL.\n   - **Sodium**: Low at 120 mEq/L, indicating hyponatremia.\n\nGiven these findings, the most likely diagnosis is **Myxedema coma (A)**, which is a severe form of hypothyroidism characterized by altered mental status, hypothermia, bradycardia, and other systemic effects.\n\nNow, let's summarize the opinions of the agents:\n\n- Agent 1: A) Myxedema coma\n- Agent 2: A) Myxedema coma\n- Agent 3: A) Myxedema coma\n- Agent 4: A) Myxedema coma\n- Agent 5: A) Myxedema coma\n\nAll agents agree on the diagnosis.\n\nFinal Answer: A) Myxedema coma"}
+
+
+[INFO] no: 104
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+
+[INFO] no: 105
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑‍⚕️ 1. Psychiatrist): Specializes in the diagnosis and treatment of mental health disorders.
+Agent 2 (🧑🏽‍⚕️ 2. Psychologist): Specializes in mental health assessment and therapy.
+Agent 3 (🧑🏿‍⚕️ 3. Social Worker): Provides support and resources to individuals facing mental health challenges.
+Agent 4 (👩🏻‍⚕️ 4. Nurse): Provides direct patient care and support.
+Agent 5 (👨🏻‍⚕️ 5. Family Therapist): Specializes in therapy for family dynamics and relationships.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                         moderator (👨‍⚖️)                                                                
+          ┌────────────────────────┬────────────┴──────────────┬───────────────────────┬─────────────────────┐           
+ Psychiatrist (🧑‍⚕️)      Psychologist (🧑🏽‍⚕️)      Family Therapist (👨🏻‍⚕️)     Nurse (👩🏻‍⚕️)     Social Worker (🧑🏿‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑‍⚕️ psychiatrist): 🤐
+ Agent 2 (🧑🏽‍⚕️ psychologist): 🤐
+ Agent 3 (🧑🏿‍⚕️ social worker): 🤐
+ Agent 4 (👩🏻‍⚕️ nurse): 🤐
+ Agent 5 (👨🏻‍⚕️ family therapist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑‍⚕️) | Agent 2 (🧑🏽‍⚕️) | Agent 3 (🧑🏿‍⚕️) | Agent 4 (👩🏻‍⚕️) | Agent 5 (👨🏻‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (🧑🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (🧑🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏻‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely diagnosis for the patient based on the provided information, let's review the characteristics associated with each option:\n\n(A) **Histrionic personality disorder**: Characterized by excessive emotionality and attention-seeking behavior. While the patient shows some impulsivity, the primary focus on manipulation and turbulent relationships leans more towards another diagnosis.\n\n(B) **Borderline personality disorder**: This disorder is marked by a pattern of unstable relationships, self-image, and affects, along with marked impulsivity. The patient's history of turbulent relationships, impulsive actions (suicide attempt), and emotional instability (alternating between sobbing and anger) strongly suggest this diagnosis.\n\n(C) **Dependent personality disorder**: Involves a pervasive and excessive need to be taken care of, leading to submissive and clinging behaviors. The patient does not exhibit these traits prominently.\n\n(D) **Avoidant personality disorder**: Characterized by social inhibition, feelings of inadequacy, and hypersensitivity to negative evaluation. The patient does not display these characteristics.\n\n(E) **Narcissistic personality disorder**: Involves a pattern of grandiosity, need for admiration, and a lack of empathy. The patient's behavior does not align with these traits.\n\nBased on the analysis, the majority of the characteristics align with **Borderline personality disorder**.\n\nAnswer: B) Borderline personality disorder"}
+
+
+[INFO] no: 106
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+
+[INFO] no: 107
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+
+[INFO] no: 108
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👩🏼‍⚕️ 1. Pediatric Orthopedic Surgeon): Specializes in the diagnosis and surgical/non
+Agent 2 (👨🏿‍⚕️ 2. Pediatric Rheumatologist): Focuses on the diagnosis and treatment of autoimmune and autoinflammatory conditions in children.
+Agent 3 (👨‍⚕️ 3. Pediatric Endocrinologist): Specializes in hormonal disorders affecting children.
+Agent 4 (🧑‍⚕️ 4. Pediatric Emergency Medicine Physician): Focuses on the acute care of children in emergency situations.
+Agent 5 (👩🏻‍⚕️ 5. Pediatric Physical Therapist): Specializes in rehabilitation and improving mobility in children with musculoskeletal issues.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                                       moderator (👨‍⚖️)                                                                                                                        
+                   ┌───────────────────────────────────────┬──────────────────┴────────────────────┬─────────────────────────────────────────────┬───────────────────────────────────────────┐                 
+  Pediatric Orthopedic Surgeon (👩🏼‍⚕️)      Pediatric Rheumatologist (👨🏿‍⚕️)      Pediatric Physical Therapist (👩🏻‍⚕️)     Pediatric Emergency Medicine Physician (🧑‍⚕️)      Pediatric Endocrinologist (👨‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👩🏼‍⚕️ pediatric orthopedic surgeon) -> Agent 4 (🧑‍⚕️ pediatric emergency medicine physician) : As a pediatric orthopedic surgeon, my expertise lies in the diagnosis and management of musculoskeletal conditions in children, particularly in cases that may require surgical intervention.
+
+In the case of the 13-year-old boy with severe knee, hip, and groin pain, inability to bear weight, and limited range of motion, I believe that surgical pinning of the femoral head is the most appropriate management. This decision is based on the high suspicion for slipped capital femoral epiphysis (SCFE), which can lead to serious complications such as avascular necrosis if not treated promptly. 
+
+Given the acute nature of his symptoms and the significant functional impairment, prompt intervention is critical. Surgical pinning will stabilize the femoral head and prevent further slippage, ensuring a better long-term prognosis for the patient. Therefore, I advocate for immediate imaging studies to confirm the diagnosis and proceed with surgical management as indicated.
+ Agent 2 (👨🏿‍⚕️ pediatric rheumatologist) -> Agent 1 (👩🏼‍⚕️ pediatric orthopedic surgeon) : As a pediatric rheumatologist with a focus on diagnosing and treating autoimmune and autoinflammatory conditions in children, I appreciate the importance of a multidisciplinary approach in complex cases.
+
+To the pediatric orthopedic surgeon (Agent 1), I would like to emphasize that the clinical presentation of the 13-year-old boy—severe knee, hip, and groin pain, coupled with the inability to bear weight and limited range of motion—strongly suggests a diagnosis of slipped capital femoral epiphysis (SCFE). Given the acute nature of his symptoms, surgical pinning of the femoral head appears to be the optimal management strategy. This intervention not only addresses the immediate concerns of stabilizing the hip to prevent further slippage but also mitigates the risk of complications such as avascular necrosis or chronic hip dysfunction.
+
+I believe that your expertise in the surgical management of SCFE will be crucial in providing the best outcome for this patient, and I support a prompt surgical intervention based on the evidence presented.
+ Agent 3 (👨‍⚕️ pediatric endocrinologist) -> Agent 1 (👩🏼‍⚕️ pediatric orthopedic surgeon) : As a pediatric endocrinologist specializing in hormonal disorders affecting children, I understand the importance of addressing the potential metabolic aspects of this patient's condition, considering his history of obesity. 
+
+Opinion to Agent 1: 
+
+The best management for this 13-year-old boy presenting with severe knee, hip, and groin pain alongside an inability to bear weight is (E) Surgical pinning of the femoral head. 
+
+Given the clinical presentation, which raises concerns for conditions like slipped capital femoral epiphysis (SCFE), immediate surgical intervention is crucial to stabilize the femoral head and prevent complications such as avascular necrosis. The acute nature of his symptoms and the severe impact on mobility require prompt action. Imaging studies should guide the decision, but surgical pinning is often necessary in similar scenarios to restore hip function and alignment.
+ Agent 4 (🧑‍⚕️ pediatric emergency medicine physician) -> Agent 1 (👩🏼‍⚕️ pediatric orthopedic surgeon) : As a pediatric emergency medicine physician, my expertise lies in the acute care of children during urgent medical situations. 
+
+Opinion to Agent 1 (pediatric orthopedic surgeon):
+Given the clinical presentation of this 13-year-old boy, including severe knee, hip, and groin pain, inability to bear weight, and limited range of motion, I strongly believe that surgical pinning of the femoral head is the most appropriate management. This patient's symptoms are highly suggestive of Slipped Capital Femoral Epiphysis (SCFE), which requires prompt surgical intervention to prevent complications such as avascular necrosis. Immediate stabilization of the femoral head will facilitate healing and restore mobility, making surgical pinning the best option in this acute setting.
+ Agent 5 (👩🏻‍⚕️ pediatric physical therapist) -> Agent 1 (👩🏼‍⚕️ pediatric orthopedic surgeon) : As a pediatric physical therapist specializing in rehabilitation and improving mobility for children with musculoskeletal issues, I recognize the importance of accurate diagnosis and timely intervention in acute cases.
+
+To the pediatric orthopedic surgeon (Agent 1), I recommend proceeding with surgical pinning of the femoral head for this 13-year-old boy presenting with severe knee, hip, and groin pain, inability to bear weight, and limited range of motion. The symptomatology suggests a likely diagnosis of slipped capital femoral epiphysis (SCFE). Given the potential for avascular necrosis and the significant functional impairment, surgical intervention is crucial to stabilize the joint and restore proper alignment. Early surgical pinning can prevent long-term complications and enhance recovery, allowing for effective rehabilitation and improved outcomes.
+|_Turn 2
+ Agent 1 (👩🏼‍⚕️ pediatric orthopedic surgeon): 🤐
+ Agent 2 (👨🏿‍⚕️ pediatric rheumatologist): 🤐
+ Agent 3 (👨‍⚕️ pediatric endocrinologist): 🤐
+ Agent 4 (🧑‍⚕️ pediatric emergency medicine physician): 🤐
+ Agent 5 (👩🏻‍⚕️ pediatric physical therapist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👩🏼‍⚕️) | Agent 2 (👨🏿‍⚕️) | Agent 3 (👨‍⚕️) | Agent 4 (🧑‍⚕️) | Agent 5 (👩🏻‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👩🏼‍⚕️) |              |  ✋ (1<-2)   |  ✋ (1<-3)   |  ✋ (1<->4)  |  ✋ (1<-5)   |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏿‍⚕️) |  ✋ (2->1)   |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨‍⚕️) |  ✋ (3->1)   |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (🧑‍⚕️) |  ✋ (4<->1)  |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👩🏻‍⚕️) |  ✋ (5->1)   |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the best management for the 13-year-old boy presenting with severe knee, hip, and groin pain, we need to consider the clinical presentation and the options provided.\n\nThe patient is unable to bear weight on his left leg and has limited range of motion of the left hip, which raises concern for a possible hip pathology such as septic arthritis, osteomyelitis, or avascular necrosis. Given the acute nature of the symptoms and the inability to bear weight, immediate intervention is often necessary.\n\nLet's review the options:\n\n(A) Casting and crutches - This is generally not appropriate for acute hip issues, especially if there is a concern for infection or significant pathology.\n\n(B) Immobilization of the hip in a Pavlik harness - This is typically used for developmental dysplasia of the hip in infants, not for acute conditions in older children.\n\n(C) Supportive therapy and observation - While this may be appropriate for some conditions, the acute presentation and inability to bear weight suggest that observation alone is not sufficient.\n\n(D) Surgical drainage of the hip - This is a strong consideration if there is suspicion of septic arthritis or significant effusion, as it allows for both diagnosis and treatment.\n\n(E) Surgical pinning of the femoral head - This is typically reserved for specific conditions like avascular necrosis or certain fractures, but it may not be the immediate management for an acute presentation without further imaging.\n\nGiven the majority of opinions likely leaning towards the need for intervention due to the acute nature of the symptoms and the inability to bear weight, the best management for this patient would be:\n\nAnswer: D) Surgical drainage of the hip"}
+
+
+[INFO] no: 109
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨‍⚕️ 1. Gastroenterologist): Specializes in the diagnosis and treatment of gastrointestinal disorders.
+Agent 2 (👩🏻‍⚕️ 2. Endocrinologist): Focuses on the endocrine system and its related disorders.
+Agent 3 (👨🏽‍⚕️ 3. Infectious Disease Specialist): Specializes in the treatment of infections caused by bacteria, viruses, fungi, and parasites.
+Agent 4 (👨🏻‍⚕️ 4. Dermatologist): Focuses on the skin, hair, and nails and related disorders.
+Agent 5 (🧑‍⚕️ 5. Hematologist): Specializes in disorders of the blood and blood
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                 moderator (👨‍⚖️)                                                                                  
+             ┌────────────────────────────┬─────────────┴───────────┬────────────────────────┬─────────────────────────────────┐                   
+ Gastroenterologist (👨‍⚕️)     Endocrinologist (👩🏻‍⚕️)     Hematologist (🧑‍⚕️)     Dermatologist (👨🏻‍⚕️)     Infectious Disease Specialist (👨🏽‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨‍⚕️ gastroenterologist) -> Agent 3 (👨🏽‍⚕️ infectious disease specialist) : As a gastroenterologist specializing in gastrointestinal disorders, my opinion regarding the patient's case is as follows:
+
+While the infectious disease specialist has suggested that the intestinal mucosa may be normal, I would respectfully argue that the clinical presentation strongly indicates a malabsorption syndrome, particularly lactose intolerance due to mucosal lactase deficiency. The chronic diarrhea accompanied by mucoid strings, weight loss, and abdominal pain aligns with symptoms commonly seen in conditions related to malabsorption. Furthermore, the recent history of a painful rash that resolved spontaneously raises the possibility of an underlying autoimmune process, such as celiac disease, which can lead to secondary lactose intolerance due to mucosal damage. In this context, further investigation into potential lactose malabsorption and intestinal mucosal status is warranted to ensure a comprehensive diagnostic approach.
+ Agent 1 (👨‍⚕️ gastroenterologist) -> Agent 4 (👨🏻‍⚕️ dermatologist) : As a gastroenterologist specializing in gastrointestinal disorders, I would like to provide my perspective regarding the patient's case.
+
+While you have suggested that the intestinal mucosa may be normal, I believe it is crucial to consider the relationship between the patient's gastrointestinal symptoms and the recent history of a painful rash. The combination of chronic diarrhea, abdominal pain, and mucoid strings in the stool, along with the recent rash, could indicate an autoimmune condition such as celiac disease, which can lead to mucosal damage and subsequent malabsorption, including lactose intolerance. This possibility should not be overlooked, as the intestinal mucosa can often appear normal in early stages but still be affected by underlying conditions. Therefore, a comprehensive evaluation of the intestinal mucosa, including serological tests for celiac disease, may provide valuable insights into the patient's overall health and clarify the cause of his symptoms.
+ Agent 2 (👩🏻‍⚕️ endocrinologist) -> Agent 1 (👨‍⚕️ gastroenterologist) : As an endocrinologist, I focus on the hormonal and metabolic aspects of health. 
+
+To the gastroenterologist (Agent 1), I believe that our patient's symptoms—chronic diarrhea, abdominal pain, and the presence of mucoid strings in stool, along with the recent history of a painful rash—suggest a potential malabsorption issue. Specifically, I align with the idea of mucosal lactase deficiency as a contributing factor. This condition can often lead to osmotic diarrhea due to undigested lactose, which correlates with the crampy abdominal pain and the weight loss observed. Additionally, considering his symptoms and the possibility of an underlying condition such as celiac disease, further investigation of lactose intolerance may be warranted. It is crucial to consider both the gastrointestinal and nutritional implications for this patient to establish a comprehensive management plan.
+ Agent 3 (👨🏽‍⚕️ infectious disease specialist) -> Agent 1 (👨‍⚕️ gastroenterologist) : As an infectious disease specialist, my expertise lies in understanding various infections and chronic conditions, but I recognize the importance of gastrointestinal disorders and their impact on patient health. 
+
+Opinion to Agent 1 (gastroenterologist):
+
+Based on the patient's presentation of diarrhea, abdominal bloating, and a painful rash that may suggest an autoimmune component, I strongly believe that further evaluation for mucosal lactase deficiency is warranted. This condition can lead to osmotic diarrhea and associated symptoms, which are consistent with the patient's complaints. Given the weight loss and presence of mucoid strings in the stool, lactose malabsorption should be a key consideration in diagnosing this patient, especially since addressing it could improve their overall health and prevent further complications.
+ Agent 3 (👨🏽‍⚕️ infectious disease specialist) -> Agent 5 (🧑‍⚕️ hematologist) : As an infectious disease specialist, I focus on managing infections and understanding their implications on health, including the role of various conditions in causing anemia and gastrointestinal symptoms.
+
+Opinion to Agent 5 (hematologist):
+
+Given the patient's symptoms of chronic diarrhea, weight loss, and the laboratory finding of anemia with a low MCV, it's critical to consider that the anemia could be indicative of an underlying malabsorption syndrome, such as mucosal lactase deficiency. The potential nutritional deficiencies associated with malabsorption could lead to iron deficiency anemia or other types of anemia. Addressing the gastrointestinal symptoms and confirming the presence of lactase deficiency may lead to improved nutritional status and resolution of anemia, thereby enhancing the patient's overall well-being. Thus, collaboration in evaluating the hematologic implications of his gastrointestinal presentation is essential.
+ Agent 4 (👨🏻‍⚕️ dermatologist) -> Agent 1 (👨‍⚕️ gastroenterologist) : As a dermatologist focused on skin, hair, nails, and related disorders, I closely examine the systemic implications of skin manifestations and gastrointestinal symptoms. 
+
+Opinion to Agent 1 (gastroenterologist): 
+
+While your assessment of mucosal lactase deficiency aligns with the patient's gastrointestinal symptoms, I would like to emphasize that the presence of a painful rash prior to the onset of diarrhea could indicate a possible connection to celiac disease, which is associated with dermatitis herpetiformis. This autoimmune condition may lead to mucosal damage and malabsorption, which commonly presents with symptoms of diarrhea and weight loss. Testing for tissue transglutaminase antibodies should be considered to rule out celiac disease, as it directly addresses both the gastrointestinal issues and the cutaneous manifestations we may be encountering.
+ Agent 5 (🧑‍⚕️ hematologist) -> Agent 1 (👨‍⚕️ gastroenterologist) : As a hematologist specializing in disorders of the blood, I recognize the patient's gastrointestinal symptoms are suggestive of a malabsorption syndrome, particularly given the presence of anemia with a low MCV. 
+
+My opinion is that the most likely diagnosis is (A) Mucosal lactase deficiency. This condition often leads to osmotic diarrhea and abdominal pain following dairy consumption, which aligns with the patient's symptoms of diarrhea, bloating, and weight loss. Additionally, the involvement of lactase deficiency can result in nutritional deficiencies, which can further aggravate his anemia. I recommend that further investigation into lactase deficiency be conducted, potentially including a lactase assay or hydrogen breath test, to confirm the diagnosis and guide dietary management.
+|_Turn 2
+ Agent 1 (👨‍⚕️ gastroenterologist) -> Agent 3 (👨🏽‍⚕️ infectious disease specialist) : As a gastroenterologist specializing in the diagnosis and treatment of gastrointestinal disorders, I would like to provide my perspective regarding the patient's case.
+
+Although you have suggested that the intestinal mucosa is likely normal, I believe it is essential to consider the possibility of underlying mucosal damage that may not be immediately evident in the absence of bloody stools or fever. The patient's chronic diarrhea, abdominal pain, weight loss, and the presence of mucoid strings in the stool are suggestive of malabsorption, likely associated with lactose intolerance or even celiac disease. The recent history of a painful rash could indicate dermatitis herpetiformis, often linked to gluten sensitivity and celiac disease. Given the correlation between the gastrointestinal symptoms and this rash, I recommend further evaluation, including serological testing for celiac disease. This could provide clearer insights into the state of the intestinal mucosa and help guide appropriate management for the patient's symptoms.
+ Agent 1 (👨‍⚕️ gastroenterologist) -> Agent 4 (👨🏻‍⚕️ dermatologist) : As a gastroenterologist specializing in gastrointestinal disorders, I would like to share my perspective on the patient's case.
+
+While I appreciate your evaluation suggesting that the intestinal mucosa is likely normal, I believe we should consider the interconnectedness of the patient's gastrointestinal symptoms and the resolution of his rash. The diarrhea, abdominal pain, and presence of mucoid strings, coupled with the recent history of a painful rash, raise a strong suspicion for an underlying condition such as celiac disease. Dermatitis herpetiformis is often indicative of gluten sensitivity, which is associated with mucosal damage leading to malabsorption. Even if the mucosa appears normal upon initial inspection, serological testing for celiac disease could uncover hidden pathology. Therefore, I encourage a collaborative approach to further investigate the potential link between the rash and the gastrointestinal symptoms, ensuring a comprehensive understanding of the patient's condition.
+ Agent 2 (👩🏻‍⚕️ endocrinologist) -> Agent 1 (👨‍⚕️ gastroenterologist) : As an endocrinologist, my focus is on the hormonal and metabolic aspects of health.
+
+To the gastroenterologist (Agent 1), I would like to emphasize the significance of investigating mucosal lactase deficiency in our patient, considering his symptoms of chronic diarrhea, abdominal pain, and the presence of mucoid strings in the stools. These findings, coupled with his recent weight loss and a prior painful rash, warrant a closer examination for lactose intolerance and potential malabsorption syndromes. This condition can directly contribute to nutritional deficiencies, which may explain the patient’s anemia as indicated by the low MCV. Given this clinical picture, identifying whether lactase deficiency is the underlying issue could lead to effective dietary management and improve the patient’s quality of life. Additionally, exploring the potential link to celiac disease or other autoimmune conditions may be crucial in guiding further diagnostic testing.
+ Agent 3 (👨🏽‍⚕️ infectious disease specialist) -> Agent 1 (👨‍⚕️ gastroenterologist) : As an infectious disease specialist, my focus is on the diagnosis and treatment of various infections, but I also recognize the intricate relationship between gastrointestinal disorders and systemic health.
+
+Opinion to Agent 1 (gastroenterologist):
+
+Given the patient's symptoms of chronic diarrhea, abdominal pain, and the notable presence of mucoid strings in the stool, I believe that investigating mucosal lactase deficiency is crucial. This condition can lead to significant malabsorption, particularly of lactose, which may contribute to the patient's gastrointestinal distress and weight loss. The possibility of malabsorption syndromes should be prioritized, especially in light of the recent history of a rash that could indicate dermatitis herpetiformis associated with celiac disease. By confirming lactose intolerance, we can tailor dietary recommendations that may alleviate the patient's symptoms and improve their overall nutritional status.
+ Agent 3 (👨🏽‍⚕️ infectious disease specialist) -> Agent 5 (🧑‍⚕️ hematologist) : As an infectious disease specialist, I specialize in understanding how infections and chronic conditions can impact overall health, including hematologic disorders.
+
+Opinion to Agent 5 (hematologist):
+
+In light of the patient's symptoms, including chronic diarrhea, abdominal pain, weight loss, and the laboratory finding of anemia with a low MCV, I strongly advocate for considering mucosal lactase deficiency as a significant factor. This condition can lead to malabsorption, resulting in nutritional deficiencies that contribute to anemia. The interplay between gastrointestinal symptoms and hematological status is critical; by addressing potential lactase deficiency, we may not only alleviate the gastrointestinal distress but also enhance the patient's iron absorption and overall hematologic health. Confirming the diagnosis will be essential in guiding appropriate treatment to resolve both the gastrointestinal and hematological issues.
+ Agent 4 (👨🏻‍⚕️ dermatologist) -> Agent 1 (👨‍⚕️ gastroenterologist) : As a dermatologist specializing in skin, hair, and nail disorders, I recognize the interplay between dermatological symptoms and gastrointestinal conditions.
+
+Opinion to Agent 1 (gastroenterologist):
+
+While I agree with your assessment of mucosal lactase deficiency, I urge you to consider the possibility of celiac disease due to the patient's painful rash, which may suggest dermatitis herpetiformis, commonly associated with gluten sensitivity. The combination of diarrhea, abdominal pain, weight loss, and cutaneous symptoms raises the suspicion for an autoimmune process leading to malabsorption. Testing for celiac disease could clarify the diagnosis, as it might explain both the gastrointestinal complaints and the skin manifestations, particularly if we are witnessing a gluten-triggered response.
+ Agent 5 (🧑‍⚕️ hematologist) -> Agent 1 (👨‍⚕️ gastroenterologist) : As a hematologist specializing in disorders of the blood, I recognize the potential implications of gastrointestinal symptoms on a patient's overall health, particularly related to nutritional deficiencies and anemia. 
+
+My opinion is that the patient’s chronic diarrhea, abdominal pain, and weight loss are likely indicative of (A) Mucosal lactase deficiency. Given that this condition can lead to malabsorption of lactose and result in osmotic diarrhea, there is a clear link between lactase deficiency and the patient's symptoms. Additionally, the anemia with low MCV suggests possible iron deficiency or other nutritional deficiencies often associated with malabsorption syndromes. 
+
+I recommend further evaluation, including a hydrogen breath test or lactose tolerance test, to confirm the diagnosis, as it is crucial to address the underlying cause of the patient's symptoms for appropriate management. I believe that this condition could impact overall health significantly and warrants prompt attention.
+|_Turn 3
+ Agent 1 (👨‍⚕️ gastroenterologist) -> Agent 3 (👨🏽‍⚕️ infectious disease specialist) : As a gastroenterologist specializing in gastrointestinal disorders, I would like to present my opinion regarding the patient's symptoms.
+
+While you suggested that the intestinal mucosa is likely normal, I believe we need to consider the implications of the patient's chronic diarrhea, abdominal pain, and the recent painful rash. These symptoms suggest a potential malabsorption syndrome, particularly lactose intolerance due to mucosal lactase deficiency. The presence of mucoid strings in the stool reinforces the likelihood of a non-specific irritation secondary to malabsorption. Moreover, the history of a rash might indicate a connection to an autoimmune process such as celiac disease, which can cause mucosal damage and lead to symptoms similar to those the patient is experiencing. Therefore, further evaluation through serological testing for celiac disease and a thorough assessment of the intestinal mucosa might reveal underlying issues that could significantly affect the patient's diagnosis and management.
+ Agent 1 (👨‍⚕️ gastroenterologist) -> Agent 4 (👨🏻‍⚕️ dermatologist) : As a gastroenterologist specializing in gastrointestinal disorders, I would like to share my thoughts regarding the patient's case.
+
+I understand your position that the intestinal mucosa may appear normal; however, I urge you to consider the strong correlation between the patient's gastrointestinal symptoms—chronic diarrhea, abdominal pain, and the presence of mucoid strings—and the recent rash, which may suggest an underlying autoimmune condition such as celiac disease. Dermatitis herpetiformis frequently occurs in conjunction with celiac disease and indicates mucosal damage, even if the intestinal mucosa appears normal upon initial evaluation. The pattern of symptoms and their potential links to lactose malabsorption further emphasize the need for comprehensive testing, including serological markers for celiac disease. This multifaceted approach could help clarify the patient's condition and guide appropriate management for both his dermatologic and gastrointestinal symptoms.
+ Agent 2 (👩🏻‍⚕️ endocrinologist) -> Agent 1 (👨‍⚕️ gastroenterologist) : As an endocrinologist, my expertise lies in the hormonal and metabolic functions of the body.
+
+To the gastroenterologist (Agent 1), I would like to emphasize the need for a thorough investigation into mucosal lactase deficiency in our patient. The combination of chronic diarrhea, abdominal pain, and the presence of mucoid strings in the stool suggests possible malabsorption. Given the patient's recent weight loss and his history of a painful rash—which may point towards conditions such as celiac disease—it is crucial to explore how lactase deficiency may be contributing to his symptoms. Management of this condition could alleviate gastrointestinal distress and improve the patient's overall well-being. Furthermore, appropriate dietary changes could prevent nutritional deficiencies that might be exacerbating his anemia. A clear understanding of milk consumption and dietary habits may provide valuable insights for a focused treatment plan.
+ Agent 3 (👨🏽‍⚕️ infectious disease specialist) -> Agent 1 (👨‍⚕️ gastroenterologist) : As an infectious disease specialist, I focus on understanding how infections and related conditions can impact overall health, including gastrointestinal and nutritional status.
+
+Opinion to Agent 1 (gastroenterologist):
+
+In this case, I believe it is essential to investigate mucosal lactase deficiency as a likely underlying cause of the patient’s symptoms. The chronic diarrhea, abdominal pain, and presence of mucoid strings in stool strongly suggest a malabsorption issue. Furthermore, the patient's recent weight loss and history of a rash may indicate an underlying predisposition to lactose intolerance or even celiac disease, which is often associated with similar gastrointestinal symptoms. Identifying and confirming lactase deficiency could significantly improve the patient’s quality of life by facilitating dietary adjustments that alleviate symptoms. Prompt evaluation and management in this regard will be crucial in addressing both the gastrointestinal complaints and any potential nutritional deficiencies stemming from malabsorption.
+ Agent 3 (👨🏽‍⚕️ infectious disease specialist) -> Agent 5 (🧑‍⚕️ hematologist) : As an infectious disease specialist, I specialize in understanding infections and their impacts on health, including implications for anemia and nutritional deficiencies.
+
+Opinion to Agent 5 (hematologist):
+
+I advocate for considering mucosal lactase deficiency as a significant contributor to this patient's anemia. The combination of chronic diarrhea, weight loss, and the laboratory finding of low MCV suggests malabsorption could be causing significant nutritional deficiencies, including iron deficiency anemia. Lactase deficiency can lead to undigested lactose in the intestine, resulting in osmotic diarrhea and potential impairment in nutrient absorption. Addressing this gastrointestinal issue could not only alleviate the patient’s digestive symptoms but also improve their hematologic status by enhancing iron absorption and overall nutritional health. Monitoring the patient's response after dietary adjustments aimed at managing lactase deficiency will provide critical insights into their anemia's etiology.
+ Agent 4 (👨🏻‍⚕️ dermatologist) -> Agent 1 (👨‍⚕️ gastroenterologist) : As a dermatologist specializing in skin, hair, and nail disorders, I understand the importance of recognizing systemic conditions that may present with cutaneous manifestations.
+
+Opinion to Agent 1 (gastroenterologist):
+
+I acknowledge your assessment of mucosal lactase deficiency; however, I would like to emphasize the significance of considering celiac disease as a differential diagnosis. The patient's painful rash may suggest dermatitis herpetiformis, which is highly indicative of gluten sensitivity and associated with malabsorption. The combination of gastrointestinal symptoms such as diarrhea and weight loss, together with the potential dermatological manifestation, warrants testing for celiac disease, as addressing this could uncover the underlying cause and guide appropriate treatment.
+ Agent 5 (🧑‍⚕️ hematologist) -> Agent 1 (👨‍⚕️ gastroenterologist) : As a hematologist specializing in disorders of the blood, I am aware of how gastrointestinal issues can impact overall health and lead to nutritional deficiencies, including anemia.
+
+My opinion is that the patient’s symptoms strongly indicate (A) Mucosal lactase deficiency. The chronic diarrhea, abdominal pain, bloating, and presence of mucoid strings in the stool form a clinical picture consistent with lactose intolerance. Additionally, the patient’s anemia with a low mean corpuscular volume (MCV) suggests nutritional deficiencies that can arise from malabsorption syndromes like lactase deficiency. 
+
+Confirming the diagnosis through appropriate tests, such as a lactose tolerance test or hydrogen breath test, is essential not only for the patient's comfort but also to prevent further complications related to malabsorption. I encourage further investigation into this condition to facilitate an effective management plan.
+|_Turn 4
+ Agent 1 (👨‍⚕️ gastroenterologist) -> Agent 3 (👨🏽‍⚕️ infectious disease specialist) : As a gastroenterologist specializing in the diagnosis and treatment of gastrointestinal disorders, I would like to provide my opinion regarding the patient's case.
+
+While you have concluded that the intestinal mucosa is likely normal, I would encourage you to reconsider the implications of the patient's gastrointestinal symptoms in conjunction with the recent rash. The symptoms of chronic diarrhea, abdominal pain, and the presence of mucoid strings in the stool strongly suggest a malabsorption issue. This could be due to mucosal lactase deficiency or even celiac disease, which is characterized by mucosal damage that may not always be apparent without specific testing. The rash might be indicative of dermatitis herpetiformis, a condition associated with gluten sensitivity. Therefore, I recommend that we approach this case with a comprehensive investigation, including serological tests for celiac disease, to ensure we are not overlooking an important underlying condition that could affect the patient's overall health and management.
+ Agent 1 (👨‍⚕️ gastroenterologist) -> Agent 4 (👨🏻‍⚕️ dermatologist) : As a gastroenterologist specializing in gastrointestinal disorders, I would like to share my perspective on the patient's case.
+
+I understand your assessment that the intestinal mucosa appears normal; however, I believe it is crucial to consider the recent history of the painful rash in conjunction with the gastrointestinal symptoms. The combination of chronic diarrhea, abdominal pain, and mucoid strings in the stool may indicate an underlying condition such as celiac disease, which often presents with gastrointestinal issues along with associated dermatological manifestations like dermatitis herpetiformis. Even if the mucosa appears normal upon initial examination, there is a possibility of underlying damage leading to malabsorption that may warrant further investigation. I suggest we consider conducting serological tests for celiac disease to comprehensively evaluate the possibility of an autoimmune condition that affects both the skin and the gastrointestinal tract, thereby ensuring that we address the full scope of the patient’s symptoms and potential underlying causes.
+ Agent 2 (👩🏻‍⚕️ endocrinologist) -> Agent 1 (👨‍⚕️ gastroenterologist) : As an endocrinologist, my expertise is primarily concerned with hormonal and metabolic disorders.
+
+To the gastroenterologist (Agent 1), I would like to assert the importance of diagnosing mucosal lactase deficiency in our patient given his symptoms of chronic diarrhea, abdominal pain, presence of mucoid strings in stools, and significant weight loss. These clinical manifestations strongly suggest a potential malabsorption issue, likely linked to lactose intolerance. In adults, this condition can markedly contribute to gastrointestinal distress and nutritional deficiencies, leading to anemia as indicated by the low MCV. Additionally, the patient's prior painful rash could suggest a correlation with underlying conditions like celiac disease, which may further complicate his symptoms. A thorough assessment to confirm lactase deficiency and any possible connection to autoimmune disorders could guide us toward a more effective management strategy and significantly improve the patient's quality of life.
+ Agent 3 (👨🏽‍⚕️ infectious disease specialist) -> Agent 1 (👨‍⚕️ gastroenterologist) : As an infectious disease specialist, my expertise encompasses the diagnosis and treatment of infections as well as understanding the implications of chronic conditions on overall health.
+
+Opinion to Agent 1 (gastroenterologist):
+
+I strongly believe that we should investigate mucosal lactase deficiency as a potential underlying cause of this patient's gastrointestinal symptoms. The combination of chronic diarrhea, abdominal pain, and the presence of mucoid strings in stool indicates a possible malabsorption issue. Additionally, the patient's weight loss and the history of a rash—potentially suggesting an autoimmune condition like dermatitis herpetiformis—align with common presentations seen in individuals with lactose intolerance. Addressing lactase deficiency could significantly enhance the patient’s quality of life by providing dietary modifications that alleviate their symptoms and improve overall nutrition. Confirming this diagnosis will also be essential in preventing further complications related to malabsorption.
+ Agent 3 (👨🏽‍⚕️ infectious disease specialist) -> Agent 5 (🧑‍⚕️ hematologist) : As an infectious disease specialist, I focus on the interactions between infections and overall health, including hematologic conditions.
+
+Opinion to Agent 5 (hematologist):
+
+I believe it is crucial to consider mucosal lactase deficiency as a significant factor contributing to this patient's anemia. The symptoms of chronic diarrhea, weight loss, and low MCV indicate that malabsorption is likely occurring, which may lead to nutritional deficiencies, particularly iron deficiency anemia. Lactase deficiency inhibits proper digestion and absorption of lactose, causing gastrointestinal distress that can further exacerbate nutritional deficiencies. By identifying and managing lactase deficiency, we may improve the patient's gastrointestinal symptoms and subsequently enhance their nutritional status and hematologic health. It is imperative to monitor this patient's response to any dietary modifications as this will provide clarity regarding the etiology of their anemia and guide further management.
+ Agent 4 (👨🏻‍⚕️ dermatologist) -> Agent 1 (👨‍⚕️ gastroenterologist) : As a dermatologist specializing in skin, hair, and nail disorders, I recognize the importance of understanding the connections between dermatological manifestations and gastrointestinal issues.
+
+Opinion to Agent 1 (gastroenterologist):
+
+While I concur with your assessment of mucosal lactase deficiency, I urge you to consider the possibility of celiac disease as a significant underlying factor. The patient's painful rash may indicate dermatitis herpetiformis, which is classically associated with celiac disease. Given the gastrointestinal symptoms of diarrhea, crampy abdominal pain, and the report of mucoid strings in stool, it would be prudent to include serological testing for celiac disease in our diagnostic approach. This would help uncover the etiology of the symptoms, allowing for a comprehensive management plan that addresses both gastrointestinal and potential cutaneous manifestations.
+ Agent 5 (🧑‍⚕️ hematologist) -> Agent 1 (👨‍⚕️ gastroenterologist) : As a hematologist specializing in disorders of the blood, I understand how gastrointestinal issues can impact overall health, particularly concerning nutritional absorption and its effects on conditions such as anemia.
+
+My opinion is that the patient’s symptoms are consistent with (A) Mucosal lactase deficiency. The combination of chronic diarrhea, abdominal pain, and the presence of mucoid strings in the stool suggests malabsorption, likely related to lactose intolerance. This aligns with the patient's experience of weight loss and the presence of anemia characterized by a low mean corpuscular volume (MCV), indicating possible nutritional deficiencies that can accompany such malabsorption syndromes.
+
+To effectively address the patient's condition, I recommend performing a lactase deficiency evaluation, including a hydrogen breath test or lactose tolerance test. Confirming this diagnosis is essential for implementing dietary modifications and preventing further complications associated with malabsorption.
+|_Turn 5
+ Agent 1 (👨‍⚕️ gastroenterologist) -> Agent 3 (👨🏽‍⚕️ infectious disease specialist) : As a gastroenterologist specializing in the diagnosis and treatment of gastrointestinal disorders, I would like to present my opinion regarding the patient's case.
+
+While you believe the intestinal mucosa is likely normal, it is important to consider that the patient's symptoms of chronic diarrhea, abdominal pain, and the presence of mucoid strings in the stool may indicate underlying issues that could be related to malabsorption. The lack of fever or bloody stools does not rule out conditions such as celiac disease, which can present with mucosal damage and result in similar gastrointestinal symptoms. The recent history of a painful rash could also suggest dermatitis herpetiformis, which is associated with gluten sensitivity. To gain a comprehensive understanding, I recommend we pursue serological testing for celiac disease, as it may uncover an underlying condition that directly connects the gastrointestinal symptoms with the rash. This approach would ensure that we address all potential factors affecting the patient's health.
+ Agent 1 (👨‍⚕️ gastroenterologist) -> Agent 4 (👨🏻‍⚕️ dermatologist) : As a gastroenterologist specializing in the diagnosis and treatment of gastrointestinal disorders, I would like to offer my perspective regarding the patient's condition.
+
+I appreciate your viewpoint regarding the normality of the intestinal mucosa; however, I believe that the patient's combination of gastrointestinal symptoms—chronic diarrhea, abdominal pain, and the presence of mucoid strings—along with the recent painful rash, warrants a deeper exploration of potential underlying conditions. These symptoms can be indicative of celiac disease, which is known to cause mucosal damage not always apparent during initial examinations. Furthermore, the rash may suggest dermatitis herpetiformis, reinforcing the connection between skin and gastrointestinal manifestations. Therefore, I recommend a thorough investigation, including serological testing for celiac disease, to ensure we’re not overlooking a significant condition that could simultaneously explain both the dermatological and gastrointestinal symptoms. This comprehensive approach will help us provide the most effective management for the patient.
+ Agent 2 (👩🏻‍⚕️ endocrinologist) -> Agent 1 (👨‍⚕️ gastroenterologist) : As an endocrinologist, my expertise focuses on hormonal and metabolic disorders.
+
+To the gastroenterologist (Agent 1), I would like to underscore the significance of investigating mucosal lactase deficiency in our patient. His ongoing symptoms of chronic diarrhea, abdominal pain, and weight loss, along with the presence of mucoid strings in stool, strongly point towards lactose malabsorption. Additionally, the patient's recent history of a painful rash may indicate a broader underlying condition such as celiac disease, which could complicate his symptoms further. Identifying lactase deficiency is crucial not only for addressing his gastrointestinal issues but also for preventing potential nutritional deficiencies that could exacerbate his anemia. A focused evaluation involving a lactose tolerance test and possibly screening for celiac disease could provide clarity and guide us toward an effective management plan to improve the patient's quality of life.
+ Agent 3 (👨🏽‍⚕️ infectious disease specialist) -> Agent 1 (👨‍⚕️ gastroenterologist) : As an infectious disease specialist, I focus on the interactions between infections and various health conditions, including gastrointestinal disorders.
+
+Opinion to Agent 1 (gastroenterologist):
+
+I strongly believe that investigating mucosal lactase deficiency is essential for this patient, given the constellation of symptoms—chronic diarrhea, abdominal pain, and the presence of mucoid strings in the stool. These findings suggest a malabsorption issue that could explain the patient’s gastrointestinal distress and recent weight loss. Additionally, the history of a painful rash could indicate potential underlying conditions, such as dermatitis herpetiformis, which is commonly associated with celiac disease and lactose intolerance. Addressing lactase deficiency not only has the potential to alleviate the patient’s symptoms significantly but can also prevent further complications related to nutritional deficiencies. A thorough assessment of this condition will be crucial in tailoring an effective management plan that enhances the patient’s quality of life.
+ Agent 3 (👨🏽‍⚕️ infectious disease specialist) -> Agent 5 (🧑‍⚕️ hematologist) : As an infectious disease specialist, I focus on the relationship between infections, malnutrition, and various health conditions, including those affecting blood and hematology.
+
+Opinion to Agent 5 (hematologist):
+
+I recommend considering mucosal lactase deficiency as a significant factor contributing to this patient's anemia. The combination of chronic diarrhea, weight loss, and low MCV suggests possible nutritional deficiencies due to malabsorption. Lactase deficiency can lead to undigested lactose in the intestine, resulting in gastrointestinal symptoms that interfere with nutrient absorption, potentially exacerbating the patient's anemia. A thorough evaluation of the patient's dietary habits and gastrointestinal function would be crucial in determining if addressing lactase deficiency can improve their hematologic status. Improving the patient's nutritional absorption may directly influence their anemia and overall health, thereby warranting a collaborative approach in our management strategy.
+ Agent 4 (👨🏻‍⚕️ dermatologist) -> Agent 1 (👨‍⚕️ gastroenterologist) : As a dermatologist specializing in skin, hair, and nail disorders, I understand the connections between dermatological conditions and gastrointestinal issues.
+
+Opinion to Agent 1 (gastroenterologist):
+
+I appreciate your identification of mucosal lactase deficiency, but I would like to highlight the importance of considering celiac disease as a possible underlying cause due to the cutaneous manifestation of the painful rash, which may suggest dermatitis herpetiformis. The combination of the patient's diarrhea, abdominal pain, and weight loss raises the suspicion of malabsorption disorders, and testing for celiac disease could provide valuable insights into the etiology of both the gastrointestinal symptoms and any associated dermatitis. A comprehensive diagnostic approach that includes celiac serologies would enable us to address the root cause effectively and improve patient outcomes.
+ Agent 5 (🧑‍⚕️ hematologist) -> Agent 1 (👨‍⚕️ gastroenterologist) : As a hematologist specializing in disorders of the blood, I am keenly aware of how gastrointestinal conditions can lead to nutritional deficiencies, including anemia, which can further complicate a patient's health.
+
+My opinion is that the patient's symptoms strongly suggest (A) Mucosal lactase deficiency. The combination of chronic diarrhea, abdominal pain, and the presence of mucoid strings in the stool indicates a malabsorption syndrome likely related to lactose intolerance. This condition aligns with the patient's weight loss and anemia, as the low mean corpuscular volume (MCV) may reflect nutritional deficiencies stemming from inadequate absorption of essential nutrients.
+
+I recommend proceeding with diagnostic testing, such as a hydrogen breath test, to confirm lactase deficiency. Establishing this diagnosis is critical, as it will allow for appropriate dietary interventions to prevent further complications related to malnutrition and enhance the patient’s overall health outcomes.
+== Round 2 ==
+|_Turn 1
+ Agent 1 (👨‍⚕️ gastroenterologist): 🤐
+ Agent 2 (👩🏻‍⚕️ endocrinologist): 🤐
+ Agent 3 (👨🏽‍⚕️ infectious disease specialist): 🤐
+ Agent 4 (👨🏻‍⚕️ dermatologist): 🤐
+ Agent 5 (🧑‍⚕️ hematologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨‍⚕️) | Agent 2 (👩🏻‍⚕️) | Agent 3 (👨🏽‍⚕️) | Agent 4 (👨🏻‍⚕️) | Agent 5 (🧑‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨‍⚕️) |              |  ✋ (1<-2)   |  ✋ (1<->3)  |  ✋ (1<->4)  |  ✋ (1<-5)   |
+|              |              |              |              |              |              |
+| Agent 2 (👩🏻‍⚕️) |  ✋ (2->1)   |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏽‍⚕️) |  ✋ (3<->1)  |              |              |              |  ✋ (3->5)   |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏻‍⚕️) |  ✋ (4<->1)  |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑‍⚕️) |  ✋ (5->1)   |              |  ✋ (5<-3)   |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "Based on the opinions provided by the various medical specialists, the majority consensus is as follows:\n\n1. **Gastroenterologist**: (A) Mucosal lactase deficiency\n2. **Endocrinologist**: (A) Mucosal lactase deficiency\n3. **Infectious Disease Specialist**: (A) Mucosal lactase deficiency\n4. **Dermatologist**: (A) Mucosal lactase deficiency\n5. **Hematologist**: (A) Mucosal lactase deficiency\n\nAll five specialists agree on the diagnosis of mucosal lactase deficiency as the most likely association with the patient's symptoms and clinical findings.\n\nFinal Decision:\nAnswer: (A) Mucosal lactase deficiency"}
+
+
+[INFO] no: 110
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨‍⚕️ 1. Gastroenterologist): Specializes in the diagnosis and treatment of conditions affecting the gastrointestinal tract.
+Agent 2 (👨🏽‍⚕️ 2. Hepatologist): Focuses on the liver, gallbladder, and pancreas disorders.
+Agent 3 (🧑🏽‍⚕️ 3. Infectious Disease Specialist): Specializes in the diagnosis and treatment of infections.
+Agent 4 (👨🏿‍⚕️ 4. Surgeon): Expertise in surgical interventions for abdominal and gastrointestinal pathologies.
+Agent 5 (🧑🏿‍⚕️ 5. Internist): Broad
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                    moderator (👨‍⚖️)                                                
+                   ┌──────────────────────────────┬─────────┴───────────────────────────────┐                       
+ Infectious Disease Specialist (🧑🏽‍⚕️)     Surgeon (👨🏿‍⚕️)                      Gastroenterologist (👨‍⚕️)           
+                                                                            ┌───────────────┴─────────────┐         
+                                                                   Hepatologist (👨🏽‍⚕️)           Internist (🧑🏿‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨‍⚕️ gastroenterologist): 🤐
+ Agent 2 (👨🏽‍⚕️ hepatologist): 🤐
+ Agent 3 (🧑🏽‍⚕️ infectious disease specialist) -> Agent 2 (👨🏽‍⚕️ hepatologist) : As an infectious disease specialist, I focus on the diagnosis and treatment of infections. 
+
+Opinion to Agent 2 (hepatologist): 
+
+Based on the clinical presentation of the 51-year-old man, including fever, confusion, jaundice, and ascites, along with the ascitic fluid analysis showing elevated neutrophils, the most likely explanation for these findings is bacterial translocation leading to spontaneous bacterial peritonitis (SBP). This condition is prevalent in patients with chronic liver disease, such as this patient who has hepatitis C and recent acute pancreatitis, resulting in a compromised gut barrier. Therefore, prompt identification and treatment of SBP are crucial to prevent further deterioration of liver function and improve the patient's clinical outcomes.
+ Agent 4 (👨🏿‍⚕️ surgeon) -> Agent 3 (🧑🏽‍⚕️ infectious disease specialist) : As a surgeon specializing in abdominal and gastrointestinal pathologies, my opinion regarding the patient's presentation aligns with the consensus that spontaneous bacterial peritonitis (SBP) is highly likely in this case. Given the patient's history of hepatitis C, ascites, confusion, and the significant leukocyte count with a predominance of neutrophils in the ascitic fluid, I strongly recommend immediate consideration for prompt initiation of empirical antibiotic therapy to manage this potential infection. 
+
+Timely intervention is critical to prevent further complications, and addressing the suspected bacterial translocation is essential, especially in patients with underlying liver disease who are at increased risk for such infections. Early antibiotic treatment not only improves clinical outcomes but also mitigates the high morbidity associated with untreated SBP.
+ Agent 5 (🧑🏿‍⚕️ internist): 🤐
+|_Turn 2
+ Agent 1 (👨‍⚕️ gastroenterologist): 🤐
+ Agent 2 (👨🏽‍⚕️ hepatologist): 🤐
+ Agent 3 (🧑🏽‍⚕️ infectious disease specialist): 🤐
+ Agent 4 (👨🏿‍⚕️ surgeon): 🤐
+ Agent 5 (🧑🏿‍⚕️ internist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨‍⚕️) | Agent 2 (👨🏽‍⚕️) | Agent 3 (🧑🏽‍⚕️) | Agent 4 (👨🏿‍⚕️) | Agent 5 (🧑🏿‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏽‍⚕️) |              |              |  ✋ (2<-3)   |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (🧑🏽‍⚕️) |              |  ✋ (3->2)   |              |  ✋ (3<-4)   |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏿‍⚕️) |              |              |  ✋ (4->3)   |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑🏿‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely explanation for the findings in this case, let's analyze the clinical presentation and laboratory results:\n\n1. **Clinical Presentation**: The patient has fever, abdominal pain, confusion, scleral icterus, spider angiomas, and fine tremors. These symptoms suggest liver dysfunction, likely due to chronic hepatitis C and possible cirrhosis.\n\n2. **Laboratory Findings**: \n   - The ascitic fluid analysis shows:\n     - Albumin concentration of 0.8 g/dL\n     - Glucose concentration of 62 mg/dL\n     - Leukocyte count of 1900/mm3 with 60% neutrophils\n\n3. **Interpretation of Ascitic Fluid**: \n   - The low albumin level in the ascitic fluid suggests that this is likely a transudate, which is common in cirrhosis.\n   - The elevated leukocyte count with a significant percentage of neutrophils indicates an inflammatory process, which raises suspicion for infection.\n\n4. **Options Analysis**:\n   - (A) Pancreatic fluid leakage: This would typically present with a different fluid profile and is less likely given the neutrophilic response.\n   - (B) Aseptic peritoneal inflammation: This could explain some findings but does not account for the neutrophilic predominance.\n   - (C) Neoplastic growth: While possible, it is less likely given the acute presentation and the neutrophilic response.\n   - (D) Bacterial translocation: This is a common complication in patients with liver disease and ascites, especially with the presence of neutrophils in the ascitic fluid.\n\nGiven the clinical context of chronic liver disease, ascites, and the neutrophilic response in the ascitic fluid, the most likely explanation for these findings is:\n\nAnswer: D) Bacterial translocation"}
+
+
+[INFO] no: 111
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👩🏻‍⚕️ 1. Pediatrician): Specializes in the medical care of infants, children, and adolescents.
+Agent 2 (👨🏽‍⚕️ 2. Otolaryngologist): Focuses on conditions of the ear, nose, and throat.
+Agent 3 (👨🏽‍⚕️ 3. Pediatric Radiologist): Specializes in imaging techniques for pediatric patients.
+Agent 4 (👩🏼‍⚕️ 4. Pediatric Pulmonologist): Focuses on respiratory issues in children.
+Agent 5 (🧑🏽‍⚕️ 5. Pediatric Intensivist): Specializes in the care of critically ill pediatric patients, including intubation.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                           moderator (👨‍⚖️)                                                                                                 
+               ┌───────────────────┴───────────────────────────────────┐                                                                    
+ Pediatric Radiologist (👨🏽‍⚕️)                               Pediatrician (👩🏻‍⚕️)                                                           
+                                                     ┌─────────────────┴────────────────┬──────────────────────────────────┐                
+                                          Otolaryngologist (👨🏽‍⚕️)        Pediatric Intensivist (🧑🏽‍⚕️)     Pediatric Pulmonologist (👩🏼‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👩🏻‍⚕️ pediatrician): 🤐
+ Agent 2 (👨🏽‍⚕️ otolaryngologist) -> Agent 5 (🧑🏽‍⚕️ pediatric intensivist) : As an otolaryngologist with expertise in conditions of the ear, nose, and throat, I recognize the critical nature of managing airway inflammation, particularly in pediatric patients like the 18-month-old girl presenting with croup symptoms.
+
+**Opinion to Agent 5 (Pediatric Intensivist):** 
+
+I recommend starting the management with **racemic epinephrine and intramuscular corticosteroids**. The patient's audible stridor at rest and respiratory distress suggest significant upper airway inflammation. Rapid intervention with racemic epinephrine will provide immediate relief by reducing airway swelling, while corticosteroids will address the underlying inflammation and help prevent recurrence. As her condition could deteriorate, prompt treatment is essential in mitigating the risk of acute respiratory compromise. 
+
+Given the patient's presentation, the potential for rapid inflammation can lead to severe outcomes, so your expertise in closely monitoring her response to this treatment will be invaluable. 
+ Agent 3 (👨🏽‍⚕️ pediatric radiologist) -> Agent 5 (🧑🏽‍⚕️ pediatric intensivist) : As a pediatric radiologist specializing in imaging techniques for pediatric patients, I appreciate the critical role of the pediatric intensivist in the management of severe cases.
+
+Opinion to Agent 5 (pediatric intensivist): 
+
+Given the presentation of the 18-month-old girl with croup, which includes signs of stridor, barking cough, and respiratory distress, I concur with the recommendation for racemic epinephrine and intramuscular corticosteroids as the best initial management. This approach is fundamental in addressing both the airway swelling and underlying inflammation, which are crucial to preventing potential respiratory compromise. Early intervention with these treatments can mitigate the need for more invasive measures, such as intubation, thereby improving patient outcomes.
+ Agent 4 (👩🏼‍⚕️ pediatric pulmonologist): 🤐
+ Agent 5 (🧑🏽‍⚕️ pediatric intensivist): 🤐
+|_Turn 2
+ Agent 1 (👩🏻‍⚕️ pediatrician): 🤐
+ Agent 2 (👨🏽‍⚕️ otolaryngologist): 🤐
+ Agent 3 (👨🏽‍⚕️ pediatric radiologist): 🤐
+ Agent 4 (👩🏼‍⚕️ pediatric pulmonologist): 🤐
+ Agent 5 (🧑🏽‍⚕️ pediatric intensivist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👩🏻‍⚕️) | Agent 2 (👨🏽‍⚕️) | Agent 3 (👨🏽‍⚕️) | Agent 4 (👩🏼‍⚕️) | Agent 5 (🧑🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏽‍⚕️) |              |              |              |              |  ✋ (2->5)   |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏽‍⚕️) |              |              |              |              |  ✋ (3->5)   |
+|              |              |              |              |              |              |
+| Agent 4 (👩🏼‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑🏽‍⚕️) |              |  ✋ (5<-2)   |  ✋ (5<-3)   |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: 'To determine the best step in management for the 18-month-old girl presenting with symptoms suggestive of croup (cough, stridor, hoarseness, and fever), we will review the opinions of the agents based on the provided options.\n\n1. **Agent 1**: Recommends (C) Racemic epinephrine and intramuscular corticosteroid therapy, as this is the standard treatment for moderate to severe croup with stridor at rest.\n2. **Agent 2**: Also supports (C) Racemic epinephrine and intramuscular corticosteroid therapy, emphasizing the importance of reducing airway inflammation and improving breathing.\n3. **Agent 3**: Suggests (C) Racemic epinephrine and intramuscular corticosteroid therapy, noting that this combination is effective in managing croup symptoms.\n4. **Agent 4**: Proposes (A) Anterior-posterior and lateral radiographs of the neck, arguing that imaging may be necessary to rule out other conditions, but this is not the immediate management step.\n5. **Agent 5**: Supports (C) Racemic epinephrine and intramuscular corticosteroid therapy, aligning with the consensus for treating croup.\n\nBased on the majority opinion, the best step in management for this case is:\n\nAnswer: C) Racemic epinephrine and intramuscular corticosteroid therapy'}
+
+
+[INFO] no: 112
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑🏽‍⚕️ 1. Gastroenterologist): Specializes in the diagnosis and treatment of digestive system disorders.
+Agent 2 (🧑🏿‍⚕️ 2. Pulmonologist): Specializes in the diagnosis and treatment of respiratory system disorders.
+Agent 3 (👨🏻‍⚕️ 3. Cardiologist): Focuses on the diagnosis and treatment of heart and blood vessel
+Agent 4 (👨🏽‍⚕️ 4. Rheumatologist): Specializes in the diagnosis and treatment of autoimmune and inflammatory disorders.
+Agent 5 (👨‍⚕️ 5. Allergist/Immunologist): Specializes in the diagnosis and treatment of allergies and immune system disorders.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                            moderator (👨‍⚖️)                                                                      
+           ┌──────────────────────────┬─────────────┴───────────────┬─────────────────────────────────────────────┐               
+  Cardiologist (👨🏻‍⚕️)      Rheumatologist (👨🏽‍⚕️)     Gastroenterologist (🧑🏽‍⚕️)                   Allergist/Immunologist (👨‍⚕️) 
+                                                             └───────────────┐                                                    
+                                                                   Pulmonologist (🧑🏿‍⚕️)                                          
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑🏽‍⚕️ gastroenterologist): 🤐
+ Agent 2 (🧑🏿‍⚕️ pulmonologist): 🤐
+ Agent 3 (👨🏻‍⚕️ cardiologist): 🤐
+ Agent 4 (👨🏽‍⚕️ rheumatologist): 🤐
+ Agent 5 (👨‍⚕️ allergist/immunologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑🏽‍⚕️) | Agent 2 (🧑🏿‍⚕️) | Agent 3 (👨🏻‍⚕️) | Agent 4 (👨🏽‍⚕️) | Agent 5 (👨‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (🧑🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the pathophysiology of the patient's chief complaint of retrosternal burning associated with eating, we need to analyze the options based on the symptoms presented.\n\n1. **Increased lower esophageal tone (C)**: This would typically lead to difficulty swallowing and could cause some discomfort, but it is not commonly associated with burning pain.\n\n2. **Decreased lower esophageal tone (A)**: This is often associated with gastroesophageal reflux disease (GERD), which can cause retrosternal burning or heartburn, especially after eating.\n\n3. **Esophageal fibrosis (B)**: This could lead to strictures and swallowing difficulties but is less likely to be the primary cause of burning pain.\n\n4. **Uncoordinated esophageal peristalsis (E)**: This can lead to dysphagia and chest pain but is not typically associated with burning.\n\n5. **Spastic cricopharyngeal muscle (D)**: This could cause swallowing difficulties but is not directly related to burning pain.\n\nGiven the majority of the symptoms align with decreased lower esophageal tone leading to reflux, the majority opinion would support option (A).\n\nAnswer: A) Decreased lower esophageal tone"}
+
+
+[INFO] no: 113
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏻‍⚕️ 1. Endocrinologist): Expert in hormonal disorders and metabolism.
+Agent 2 (👩🏼‍⚕️ 2. Hematologist): Specializes in blood
+Agent 3 (👨🏽‍⚕️ 3. Nephrologist): Focuses on kidney diseases and disorders.
+Agent 4 (👩🏻‍⚕️ 4. Cardiologist): Focuses on heart
+Agent 5 (👨🏽‍⚕️ 5. Clinical Pharmacologist): Expert in the actions and effects of drugs on living organisms.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                    moderator (👨‍⚖️)                                                    
+           ┌──────────────────────────────┬─────────────────┴───────────────────────────────┐                           
+  Cardiologist (👩🏻‍⚕️)     Clinical Pharmacologist (👨🏽‍⚕️)                       Endocrinologist (👨🏻‍⚕️)                
+                                                                            ┌───────────────┴───────────────┐           
+                                                                   Hematologist (👩🏼‍⚕️)            Nephrologist (👨🏽‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏻‍⚕️ endocrinologist): 🤐
+ Agent 2 (👩🏼‍⚕️ hematologist): 🤐
+ Agent 3 (👨🏽‍⚕️ nephrologist): 🤐
+ Agent 4 (👩🏻‍⚕️ cardiologist): 🤐
+ Agent 5 (👨🏽‍⚕️ clinical pharmacologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏻‍⚕️) | Agent 2 (👩🏼‍⚕️) | Agent 3 (👨🏽‍⚕️) | Agent 4 (👩🏻‍⚕️) | Agent 5 (👨🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👩🏼‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the final answer based on the majority opinion of the agents, I will analyze the provided information and the options given.\n\nThe patient in the scenario has chronic kidney disease and is experiencing symptoms consistent with anemia, likely due to erythropoietin deficiency, which is common in patients with chronic kidney disease. The treatment for this condition typically involves erythropoiesis-stimulating agents (ESAs), such as erythropoietin.\n\nThe mechanism of action of erythropoietin involves the JAK/STAT signaling pathway. When erythropoietin binds to its receptor on erythroid progenitor cells in the bone marrow, it activates the JAK/STAT pathway, leading to increased red blood cell production.\n\nNow, let's review the options:\n(A) PI3K/Akt/mTOR - Not directly related to erythropoietin signaling.\n(B) cAMP - Not the primary pathway for erythropoietin.\n(C) MAP kinase - Not the primary pathway for erythropoietin.\n(D) JAK/STAT - Correct pathway for erythropoietin signaling.\n(E) IP3 - Not directly related to erythropoietin signaling.\n\nBased on this analysis, the majority opinion would likely favor option (D) JAK/STAT as the correct answer.\n\nFinal Answer: D) JAK/STAT"}
+
+
+[INFO] no: 114
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨‍⚕️ 1. Nephrologist): Expertise in kidney function and electrolyte imbalances.
+Agent 2 (🧑‍⚕️ 2. Gastroenterologist): Specializes in digestive system disorders like diarrhea.
+Agent 3 (👨🏽‍⚕️ 3. Endocrinologist): Proficient in metabolic disorders like diabetes.
+Agent 4 (👨🏿‍⚕️ 4. Pulmonologist): Specializes in respiratory disorders, related to fast, shallow breathing.
+Agent 5 (🧑🏿‍⚕️ 5. Emergency Medicine Physician): Experience in acute presentations like the patient in the scenario.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                             moderator (👨‍⚖️)                                                                                      
+          ┌──────────────────────────┬──────────────┴────────────────────┬─────────────────────────────────┬──────────────────────────┐            
+ Nephrologist (👨‍⚕️)     Gastroenterologist (🧑‍⚕️)      Emergency Medicine Physician (🧑🏿‍⚕️)     Pulmonologist (👨🏿‍⚕️)     Endocrinologist (👨🏽‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨‍⚕️ nephrologist): 🤐
+ Agent 2 (🧑‍⚕️ gastroenterologist): 🤐
+ Agent 3 (👨🏽‍⚕️ endocrinologist): 🤐
+ Agent 4 (👨🏿‍⚕️ pulmonologist): 🤐
+ Agent 5 (🧑🏿‍⚕️ emergency medicine physician): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨‍⚕️) | Agent 2 (🧑‍⚕️) | Agent 3 (👨🏽‍⚕️) | Agent 4 (👨🏿‍⚕️) | Agent 5 (🧑🏿‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (🧑‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑🏿‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely cause of the changes seen in this patient's labs, we need to analyze the provided information:\n\n1. **Lab Results**:\n   - Na+: 139 mEq/L (normal)\n   - Cl-: 106 mEq/L (normal)\n   - HCO3-: 11 mEq/L (low, indicating metabolic acidosis)\n   - pH: 7.25 (acidic, indicating acidosis)\n   - pCO2: 22 mmHg (low, indicating respiratory compensation)\n\n2. **Symptoms**:\n   - Muscle cramping\n   - Decreased appetite\n   - Diarrhea\n   - Fast, shallow breathing\n   - Abdominal pain\n\n3. **Clinical Context**:\n   - The patient has a history of obesity, sleep apnea, and type 2 diabetes.\n   - He occasionally takes antacids for gastroesophageal reflux disease.\n\n**Analysis of Options**:\n- **(A) Antacids**: While antacids can cause metabolic alkalosis, they are unlikely to cause the metabolic acidosis seen here.\n- **(B) Anxiety**: Anxiety can lead to hyperventilation and respiratory alkalosis, not metabolic acidosis.\n- **(C) Diarrhea**: Diarrhea is a common cause of metabolic acidosis due to loss of bicarbonate and can explain the low HCO3- and low pH.\n- **(D) Metformin**: Metformin can lead to lactic acidosis, but the lab results do not strongly indicate this.\n- **(E) Sleep apnea**: Sleep apnea can lead to respiratory acidosis, but the primary issue here is metabolic acidosis.\n\n**Majority Vote from Agents**:\n- Assuming the agents have provided their opinions, we would tally their votes based on the reasoning above. Given the clinical presentation and lab results, the majority would likely point towards diarrhea as the most plausible cause of the metabolic acidosis.\n\nFinal Decision:\nAnswer: C) Diarrhea"}
+
+
+[INFO] no: 115
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+
+[INFO] no: 116
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑🏿‍⚕️ 1. Pediatric Neurologist): Specializes in neurological disorders in children.
+Agent 2 (👨🏽‍⚕️ 2. Pediatric Cardiologist): Specializes in heart
+Agent 3 (🧑‍⚕️ 3. Ophthalmologist): Specializes in eye and visual system disorders.
+Agent 4 (👩🏻‍⚕️ 4. Dermatologist): Specializes in skin conditions.
+Agent 5 (👨🏽‍⚕️ 5. Medical Geneticist): Specializes in the study of genes and hereditary conditions.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                             moderator (👨‍⚖️)                                                                              
+            ┌──────────────────────────┬────────────┴────────────────┬──────────────────────────────────────────────────────┐              
+  Ophthalmologist (🧑‍⚕️)     Dermatologist (👩🏻‍⚕️)     Pediatric Neurologist (🧑🏿‍⚕️)                            Medical Geneticist (👨🏽‍⚕️) 
+                                                              └────────────────────┐                                                       
+                                                                     Pediatric Cardiologist (👨🏽‍⚕️)                                        
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑🏿‍⚕️ pediatric neurologist): 🤐
+ Agent 2 (👨🏽‍⚕️ pediatric cardiologist): 🤐
+ Agent 3 (🧑‍⚕️ ophthalmologist): 🤐
+ Agent 4 (👩🏻‍⚕️ dermatologist): 🤐
+ Agent 5 (👨🏽‍⚕️ medical geneticist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑🏿‍⚕️) | Agent 2 (👨🏽‍⚕️) | Agent 3 (🧑‍⚕️) | Agent 4 (👩🏻‍⚕️) | Agent 5 (👨🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (🧑‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely mutation responsible for the patient's condition, we need to analyze the symptoms presented:\n\n1. **Seizure disorder and cognitive delay**: These symptoms can be associated with several genetic conditions.\n2. **Right lower extremity weakness**: This suggests a neurological component, possibly indicating a central nervous system involvement.\n3. **Holosystolic murmur at the cardiac apex**: This could indicate a cardiac defect, which is often seen in certain genetic syndromes.\n4. **Multinodular, calcified lesions in the retina**: This is a key finding that can help narrow down the differential diagnosis.\n\nGiven these findings, the most relevant genetic conditions to consider are:\n\n- **Neurofibromatosis type 1 (NF1)**: Associated with cognitive impairment and skin findings, but not typically with retinal calcifications.\n- **Neurofibromatosis type 2 (NF2)**: Primarily associated with bilateral vestibular schwannomas, not retinal lesions.\n- **Tuberous sclerosis complex (TSC)**: Characterized by seizures, cognitive impairment, and retinal hamartomas (which can appear as calcified lesions).\n- **Von Hippel-Lindau (VHL)**: Associated with retinal hemangioblastomas, but not typically with the other symptoms presented.\n- **GNAQ gene mutations**: Associated with certain types of uveal melanoma, but not with the full spectrum of symptoms described.\n\nConsidering the combination of neurological symptoms, cardiac findings, and particularly the retinal lesions, the most fitting diagnosis is Tuberous Sclerosis Complex (TSC), which is linked to mutations in the TSC1 or TSC2 genes.\n\nBased on the majority opinion of the agents, the final answer is:\n\nAnswer: (D) TSC1 gene on chromosome 9"}
+
+
+[INFO] no: 117
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏿‍⚕️ 1. Nephrologist): Focuses on the diagnosis and treatment of kidney
+Agent 2 (👩🏼‍⚕️ 2. Endocrinologist): Specializes in the diagnosis and treatment of endocrine system disorders.
+Agent 3 (🧑🏿‍⚕️ 3. Infectious Disease Specialist): Focuses on the diagnosis and treatment of infectious diseases.
+Agent 4 (👩🏻‍⚕️ 4. Gastroenterologist): Specializes in the diagnosis and treatment of digestive system disorders.
+Agent 5 (👨🏽‍⚕️ 5. Clinical Pharmacist): Expertise in pharmacology and medication management.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                                 moderator (👨‍⚖️)                                                                  
+                   ┌────────────────────────────────────┬───────────────┴────────────┬──────────────────────────────────────────────┐              
+ Infectious Disease Specialist (🧑🏿‍⚕️)      Gastroenterologist (👩🏻‍⚕️)      Nephrologist (👨🏿‍⚕️)                       Clinical Pharmacist (👨🏽‍⚕️) 
+                                                                                └────────────────┐                                                 
+                                                                                      Endocrinologist (👩🏼‍⚕️)                                      
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏿‍⚕️ nephrologist) -> Agent 5 (👨🏽‍⚕️ clinical pharmacist) : As a nephrologist specializing in the diagnosis and treatment of kidney diseases, I would like to address the clinical pharmacist.
+
+Opinion: Given this patient's significant metabolic acidosis (low HCO3- at 11 mEq/L) and elevated creatinine level (3.1 mg/dL), it is crucial to evaluate his metformin use closely. The history of diabetic nephropathy places him at high risk for metformin accumulation, potentially leading to lactic acidosis, especially considering his recent abdominal symptoms and response to bowel management. Thus, it would be prudent to consider discontinuing metformin and monitoring renal function closely to avoid further complications.
+ Agent 2 (👩🏼‍⚕️ endocrinologist): 🤐
+ Agent 3 (🧑🏿‍⚕️ infectious disease specialist): 🤐
+ Agent 4 (👩🏻‍⚕️ gastroenterologist): 🤐
+ Agent 5 (👨🏽‍⚕️ clinical pharmacist): 🤐
+|_Turn 2
+ Agent 1 (👨🏿‍⚕️ nephrologist): 🤐
+ Agent 2 (👩🏼‍⚕️ endocrinologist): 🤐
+ Agent 3 (🧑🏿‍⚕️ infectious disease specialist): 🤐
+ Agent 4 (👩🏻‍⚕️ gastroenterologist): 🤐
+ Agent 5 (👨🏽‍⚕️ clinical pharmacist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏿‍⚕️) | Agent 2 (👩🏼‍⚕️) | Agent 3 (🧑🏿‍⚕️) | Agent 4 (👩🏻‍⚕️) | Agent 5 (👨🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏿‍⚕️) |              |              |              |              |  ✋ (1->5)   |
+|              |              |              |              |              |              |
+| Agent 2 (👩🏼‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (🧑🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏽‍⚕️) |  ✋ (5<-1)   |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely etiology of the patient's laboratory derangements, we need to analyze the provided information:\n\n1. The patient has a history of diabetic nephropathy, which suggests impaired kidney function.\n2. The laboratory values show a low bicarbonate level (HCO3-: 11 mEq/L), indicating metabolic acidosis.\n3. The elevated creatinine level (3.1 mg/dL) suggests worsening renal function.\n4. The patient is also hyperglycemic (Glucose: 177 mg/dL).\n\nNow, let's evaluate the options:\n\n- **(A) Acyclovir**: This medication can cause renal toxicity, especially in cases of dehydration or rapid infusion, but it is not typically associated with metabolic acidosis.\n  \n- **(B) Atorvastatin**: This medication is primarily used for cholesterol management and is not known to cause significant metabolic derangements or acidosis.\n  \n- **(C) Insulin**: Insulin deficiency can lead to diabetic ketoacidosis (DKA), which is characterized by metabolic acidosis. However, the patient's glucose level is not extremely high, and he is not presenting with classic DKA symptoms.\n  \n- **(D) Metformin**: Metformin is known to cause lactic acidosis, especially in patients with renal impairment. Given the patient's elevated creatinine and history of diabetic nephropathy, this is a strong possibility.\n  \n- **(E) Metoprolol**: This beta-blocker is used for hypertension and does not typically cause metabolic acidosis or significant renal issues.\n\nConsidering the patient's renal status and the laboratory findings, the most likely etiology of the laboratory derangements is:\n\nAnswer: D) Metformin"}
+
+
+[INFO] no: 118
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑🏽‍⚕️ 1. Pulmonologist): Specializes in the diagnosis and treatment of respiratory system disorders.
+Agent 2 (👨‍⚕️ 2. Occupational Medicine Specialist): Focuses on evaluating and managing health conditions related to the workplace.
+Agent 3 (🧑🏿‍⚕️ 3. Radiologist): Specializes in interpreting imaging studies to aid in diagnosis.
+Agent 4 (👨🏿‍⚕️ 4. Pathologist): Specializes in identifying diseases by examining bodily tissues and fluids.
+Agent 5 (👨🏽‍⚕️ 5. Oncologist): Specializes in the diagnosis and treatment of cancer.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                             moderator (👨‍⚖️)                                                              
+           ┌──────────────────────────────────┬─────────────────────┴───────────┬───────────────────────┬───────────────────────┐          
+ Pulmonologist (🧑🏽‍⚕️)     Occupational Medicine Specialist (👨‍⚕️)      Oncologist (👨🏽‍⚕️)     Pathologist (👨🏿‍⚕️)     Radiologist (🧑🏿‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑🏽‍⚕️ pulmonologist): 🤐
+ Agent 2 (👨‍⚕️ occupational medicine specialist): 🤐
+ Agent 3 (🧑🏿‍⚕️ radiologist): 🤐
+ Agent 4 (👨🏿‍⚕️ pathologist): 🤐
+ Agent 5 (👨🏽‍⚕️ oncologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑🏽‍⚕️) | Agent 2 (👨‍⚕️) | Agent 3 (🧑🏿‍⚕️) | Agent 4 (👨🏿‍⚕️) | Agent 5 (👨🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (🧑🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely diagnosis based on the provided clinical information and pulmonary function test results, let's review the opinions of the agents:\n\n1. **Agent 1**: Diagnoses the patient with (E) Chronic obstructive pulmonary disease (COPD) based on the FEV1/FVC ratio of 60%, which indicates an obstructive pattern, and the patient's significant smoking history.\n\n2. **Agent 2**: Also concludes (E) Chronic obstructive pulmonary disease (COPD) for similar reasons, emphasizing the prolonged expiratory phase and the patient's history of smoking.\n\n3. **Agent 3**: Suggests (A) Asbestosis, citing the patient's occupational exposure in a steel mill, which could lead to asbestos-related lung disease. However, the pulmonary function test results do not strongly support this diagnosis.\n\n4. **Agent 4**: Supports (E) Chronic obstructive pulmonary disease (COPD), noting the elevated total lung capacity and residual volume, which are consistent with COPD.\n\n5. **Agent 5**: Leans towards (B) Obesity hypoventilation syndrome, considering the patient's BMI of 31 kg/m², but the pulmonary function test results do not align with this diagnosis.\n\nBased on the majority opinion from the agents, the consensus is that the most likely diagnosis is:\n\nAnswer: E) Chronic obstructive pulmonary disease (COPD)"}
+
+
+[INFO] no: 119
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏽‍⚕️ 1. Infectious Disease Specialist): Specializes in the diagnosis and treatment of infectious diseases such as tuberculosis. Hierarchy: Independent
+Agent 2 (🧑🏿‍⚕️ 2. Pulmonologist): Specializes in the diagnosis and treatment of respiratory system disorders. Hierarchy: Independent
+Agent 3 (👨🏽‍⚕️ 3. Allergist/Immunologist): Specializes in the diagnosis and treatment of allergies and immune system disorders. Hierarchy: Independent
+Agent 4 (👩🏻‍⚕️ 4. Occupational Medicine Specialist): Specializes in the diagnosis and treatment of work
+Agent 5 (🧑🏽‍⚕️ 5. Epidemiologist): Specializes in studying the patterns, causes, and effects of health and disease conditions in defined populations. Hierarchy: Independent
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                           moderator (👨‍⚖️)                                                                                                    
+                   ┌─────────────────────────────────┬────────────┴─────────────┬────────────────────────────────────┬────────────────────────────────────────┐                
+ Infectious Disease Specialist (👨🏽‍⚕️)     Pulmonologist (🧑🏿‍⚕️)      Epidemiologist (🧑🏽‍⚕️)      Occupational Medicine Specialist (👩🏻‍⚕️)      Allergist/Immunologist (👨🏽‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏽‍⚕️ infectious disease specialist): 🤐
+ Agent 2 (🧑🏿‍⚕️ pulmonologist): 🤐
+ Agent 3 (👨🏽‍⚕️ allergist/immunologist): 🤐
+ Agent 4 (👩🏻‍⚕️ occupational medicine specialist): 🤐
+ Agent 5 (🧑🏽‍⚕️ epidemiologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏽‍⚕️) | Agent 2 (🧑🏿‍⚕️) | Agent 3 (👨🏽‍⚕️) | Agent 4 (👩🏻‍⚕️) | Agent 5 (🧑🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (🧑🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most appropriate treatment for the patient based on the provided information, let's analyze the options and the context of the case:\n\n1. **Reassurance (E)**: While reassurance may be part of the management, it does not address the underlying issue, especially given the patient's symptoms and exposure history.\n\n2. **Inhaled beclomethasone (B)**: This is a corticosteroid used for asthma and other inflammatory lung conditions. However, the patient's symptoms and exposure history suggest a different underlying issue.\n\n3. **Thoracocentesis (A)**: This procedure is typically used to remove fluid from the pleural space. There is no indication of pleural effusion in the case presented.\n\n4. **Isoniazid for 6 months (D)**: This is a treatment for latent tuberculosis infection. However, the negative PPD skin test makes this option less likely.\n\n5. **Avoid exposure to birds (C)**: Given the patient's occupation as a zookeeper and the symptoms suggestive of a possible hypersensitivity reaction or infection related to bird exposure (such as bird fancier's lung), this option is highly relevant.\n\nConsidering the majority of the opinions from the agents, the most appropriate treatment for this patient, given the context of his symptoms and exposure, would be to avoid exposure to birds.\n\nAnswer: C) Avoid exposure to birds"}
+

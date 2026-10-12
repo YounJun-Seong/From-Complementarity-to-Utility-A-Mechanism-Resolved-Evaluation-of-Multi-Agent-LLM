@@ -1,0 +1,157 @@
+<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [01:47<1:09:53, 107.51s/it]  5%|▌         | 2/40 [02:30<44:09, 69.74s/it]     8%|▊         | 3/40 [03:06<33:26, 54.22s/it] 10%|█         | 4/40 [05:19<51:14, 85.41s/it] 12%|█▎        | 5/40 [07:49<1:03:17, 108.51s/it] 15%|█▌        | 6/40 [10:15<1:08:45, 121.32s/it] 18%|█▊        | 7/40 [12:28<1:08:53, 125.26s/it] 20%|██        | 8/40 [14:59<1:11:03, 133.23s/it] 22%|██▎       | 9/40 [17:17<1:09:38, 134.78s/it] 25%|██▌       | 10/40 [19:16<1:05:00, 130.00s/it] 28%|██▊       | 11/40 [21:04<59:35, 123.29s/it]   30%|███       | 12/40 [22:10<49:22, 105.81s/it] 32%|███▎      | 13/40 [24:34<52:46, 117.29s/it] 35%|███▌      | 14/40 [26:29<50:32, 116.63s/it] 38%|███▊      | 15/40 [28:09<46:31, 111.65s/it] 40%|████      | 16/40 [28:36<34:30, 86.25s/it]  42%|████▎     | 17/40 [28:51<24:50, 64.82s/it] 45%|████▌     | 18/40 [30:49<29:35, 80.72s/it] 48%|████▊     | 19/40 [33:26<36:14, 103.53s/it] 50%|█████     | 20/40 [34:48<32:21, 97.08s/it]  52%|█████▎    | 21/40 [35:03<23:00, 72.68s/it] 55%|█████▌    | 22/40 [35:18<16:35, 55.28s/it] 57%|█████▊    | 23/40 [36:41<18:03, 63.71s/it] 60%|██████    | 24/40 [39:14<24:04, 90.30s/it] 62%|██████▎   | 25/40 [41:02<23:54, 95.63s/it] 65%|██████▌   | 26/40 [41:57<19:28, 83.48s/it] 68%|██████▊   | 27/40 [42:17<13:58, 64.49s/it] 70%|███████   | 28/40 [43:57<14:59, 74.96s/it] 72%|███████▎  | 29/40 [45:49<15:46, 86.07s/it] 75%|███████▌  | 30/40 [46:49<13:04, 78.44s/it] 78%|███████▊  | 31/40 [48:56<13:56, 92.96s/it] 80%|████████  | 32/40 [49:54<11:00, 82.56s/it] 82%|████████▎ | 33/40 [51:21<09:46, 83.72s/it] 85%|████████▌ | 34/40 [53:40<10:01, 100.26s/it] 88%|████████▊ | 35/40 [54:30<07:05, 85.19s/it]  90%|█████████ | 36/40 [1:04:50<16:23, 245.75s/it] 92%|█████████▎| 37/40 [1:14:28<17:16, 345.39s/it]<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s] 90%|█████████ | 36/40 [00:29<00:03,  1.21it/s] 92%|█████████▎| 37/40 [02:18<00:14,  4.95s/it] 95%|█████████▌| 38/40 [04:19<00:21, 10.95s/it] 98%|█████████▊| 39/40 [04:32<00:11, 11.07s/it]100%|██████████| 40/40 [05:23<00:00, 14.66s/it]100%|██████████| 40/40 [05:23<00:00,  8.09s/it]
+
+[INFO] no: 115
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👩🏻‍⚕️ 1. Molecular Biologist): Specializes in the study of biological processes at the molecular level, including protein interactions and muscle contraction mechanisms.
+Agent 2 (🧑🏽‍⚕️ 2. Pharmacologist): Focuses on the actions and effects of drugs on biological systems, including their mechanism of action in muscle tissues.
+Agent 3 (👩🏼‍⚕️ 3. Physiologist): Studies the functions and processes of living organisms, with a focus on muscle physiology and mechanics.
+Agent 4 (🧑‍⚕️ 4. Muscle Biologist): Specializes in the structure, function, and pathology of muscle tissues, particularly myosin and actin interactions.
+Agent 5 (🧑🏿‍⚕️ 5. Biochemist): Studies the chemical processes and substances that occur within living organisms, concerned with protein biochemistry and enzyme functions.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                   moderator (👨‍⚖️)                                                                    
+              ┌─────────────────────────────┬─────────────┴───────────┬─────────────────────────┬──────────────────────────┐           
+ Molecular Biologist (👩🏻‍⚕️)      Pharmacologist (🧑🏽‍⚕️)      Biochemist (🧑🏿‍⚕️)     Muscle Biologist (🧑‍⚕️)      Physiologist (👩🏼‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👩🏻‍⚕️ molecular biologist): 🤐
+ Agent 2 (🧑🏽‍⚕️ pharmacologist): 🤐
+ Agent 3 (👩🏼‍⚕️ physiologist): 🤐
+ Agent 4 (🧑‍⚕️ muscle biologist): 🤐
+ Agent 5 (🧑🏿‍⚕️ biochemist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👩🏻‍⚕️) | Agent 2 (🧑🏽‍⚕️) | Agent 3 (👩🏼‍⚕️) | Agent 4 (🧑‍⚕️) | Agent 5 (🧑🏿‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (🧑🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👩🏼‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (🧑‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑🏿‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the final answer based on the majority vote of the agents' opinions, I will analyze the options in relation to the effects of the drug that inhibits phosphate release by the myosin head.\n\n1. **Power stroke (E)**: The power stroke occurs when the myosin head pivots and pulls the actin filament toward the center of the sarcomere. This step requires the release of ADP and is not directly affected by phosphate release.\n\n2. **Exposure of myosin-binding sites on actin (C)**: This step occurs when calcium ions bind to troponin, causing a conformational change that moves tropomyosin away from the myosin-binding sites on actin. This process is not directly related to phosphate release.\n\n3. **Myosin head release from actin (A)**: The release of the myosin head from actin is dependent on the binding of ATP to the myosin head. Phosphate release is not directly involved in this step.\n\n4. **Myosin head cocking (B)**: The cocking of the myosin head occurs when ATP is hydrolyzed to ADP and inorganic phosphate. Inhibition of phosphate release would not directly block this step.\n\n5. **Myosin head binding to actin (D)**: The binding of the myosin head to actin occurs after the cocking of the myosin head and is not directly affected by phosphate release.\n\nBased on the analysis, the step most likely to be blocked by the drug that inhibits phosphate release is the **myosin head release from actin (A)**, as phosphate release is crucial for the transition from the rigor state to the next cycle.\n\nFinal decision based on majority vote:\nAnswer: A) Myosin head release from actin"}
+
+
+[INFO] no: 116
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Neurologist (Lead)): Specializes in diagnosing and managing neurological disorders, particularly those presenting with seizures and cognitive impairments. This member leads the group due to their critical role in the overall evaluation of the patient's neurologic status and possible diagnosis related to his symptoms and signs of lower extremity weakness.
+ Member 2 (Pediatric Cardiologist): Assesses the significance of the holosystolic murmur and its potential connection to the overall clinical picture, including any cardiovascular implications on neurological health (e.g. potential embolic events).
+ Member 3 (Geneticist): Provides expertise in hereditary syndromes, particularly in identifying genetic mutations related to conditions such as Neurofibromatosis, Tuberous Sclerosis, or von Hippel
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Ophthalmologist (Lead)): Evaluates the retinal lesions identified in the fundoscopic examination, determining their nature and relevance to the patient's overall diagnosis, particularly considering the association with potential genetic syndromes.
+ Member 2 (Radiologist): Interprets any necessary imaging studies (such as MRI) to evaluate the nervous system involvement and to look for any structural abnormalities correlating with clinical symptoms, including assessment for lesions in the brain and spine related to possible syndromic conditions.
+ Member 3 (Pathologist): Assists in understanding any biopsied lesions if needed, and provides insights on the histological findings that may further clarify the diagnosis, particularly in relation to tumors or neoplastic conditions.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant Neurosurgeon (Lead)): Provides an overarching view of the surgical options (if necessary) and the implications of the findings, guiding decisions for further interventions or management plans based on the multidisciplinary evaluations.
+ Member 2 (Clinical Decision Specialist): Coordinates the recommendations from the IAT and DET, ensuring that all aspects of the patient’s condition are considered to formulate a comprehensive treatment plan, especially in relation to rehabilitation services.
+ Member 3 (Pediatric Hematologist): Oncologist
+
+
+[INFO] no: 117
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Emergency Medicine Physician (Lead)): Specializes in acute care and initial assessment, responsible for evaluating the patient's presenting symptoms and guiding immediate medical interventions. Leads the team to ensure quick and effective management in the emergency department.
+ Member 2 (Nephrologist): Provides expertise in renal function and addresses the implications of the patient's elevated creatinine level, contributing insights regarding diabetic nephropathy and strategies for managing acute kidney injury.
+ Member 3 (Gastroenterologist): Assesses for potential gastrointestinal causes of abdominal pain and evaluates the unremarkable CT scan results, ensuring comprehensive investigation into abdominal symptoms and considering bowel obstruction or ischemia.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Endocrinologist (Lead)): Focuses on understanding the metabolic implications of the patient's diabetes and interprets the laboratory values, particularly the metabolic acidosis expressed by low bicarbonate, to explore effects of potential medications like Metformin.
+ Member 2 (Clinical Pharmacist): Analyzes the patient's current medication list, including an assessment of the risk of lactic acidosis associated with Metformin, and provides recommendations on medication adjustments based on renal function and lab values.
+ Member 3 (Clinical Pathologist): Evaluates the lab results in context, ensuring accurate interpretation of metabolic derangements, particularly in relation to the bicarbonate levels, and collaborates in identifying any underlying causes based on lab data.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant Nephrologist (Lead)): Reviews all findings and leads the discussion on the most likely etiology of the patient's laboratory derangements, providing nephrology expertise and synthesizing input from other specialists.
+ Member 2 (Diabetes Educator/Certified Diabetes Care and Education Specialist): Guides discussions on the management of the patient's diabetes in the context of his acute presentation and chronic conditions, ensuring a comprehensive approach to his ongoing management post
+ Member 3 (Medical Director of the Observation Unit): Coordinates between the specialty teams, facilitates final decision
+
+
+[INFO] no: 118
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+
+Group 2 -  Diagnostic Evidence Team (DET)
+
+Group 3 -  Final Review and Decision Team (FRDT)
+
+
+[INFO] no: 119
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨‍⚕️ 1. Pulmonologist): Specializes in the diagnosis and treatment of respiratory system disorders.
+Agent 2 (👩🏼‍⚕️ 2. Occupational Medicine Specialist): Focuses on health issues related to the workplace and exposure to environmental hazards.
+Agent 3 (👩🏻‍⚕️ 3. Infectious Disease Specialist): Deals with infections and infectious diseases, including zoonotic diseases from animal exposure.
+Agent 4 (🧑🏽‍⚕️ 4. Allergist/Immunologist): Specializes in allergies and immune system disorders, assessing allergic responses and management.
+Agent 5 (👨🏽‍⚕️ 5. Internal Medicine Physician): Provides comprehensive care for adult patients and can integrate various specialties.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                               moderator (👨‍⚖️)                                                                                                            
+           ┌───────────────────────────────────┬──────────────────────┴───────────────────┬─────────────────────────────────────┬──────────────────────────────────────┐                   
+  Pulmonologist (👨‍⚕️)      Occupational Medicine Specialist (👩🏼‍⚕️)     Internal Medicine Physician (👨🏽‍⚕️)      Allergist/Immunologist (🧑🏽‍⚕️)     Infectious Disease Specialist (👩🏻‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨‍⚕️ pulmonologist): 🤐
+ Agent 2 (👩🏼‍⚕️ occupational medicine specialist): 🤐
+ Agent 3 (👩🏻‍⚕️ infectious disease specialist): 🤐
+ Agent 4 (🧑🏽‍⚕️ allergist/immunologist): 🤐
+ Agent 5 (👨🏽‍⚕️ internal medicine physician): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨‍⚕️) | Agent 2 (👩🏼‍⚕️) | Agent 3 (👩🏻‍⚕️) | Agent 4 (🧑🏽‍⚕️) | Agent 5 (👨🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👩🏼‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (🧑🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most appropriate treatment for the patient based on the provided information, let's review the opinions of the agents regarding the options:\n\n1. **(D) Isoniazid for 6 months** - This option is typically used for latent tuberculosis infection, but the negative PPD skin test suggests that tuberculosis is not the cause of the symptoms.\n\n2. **(E) Reassurance** - While reassurance may be appropriate in some cases, it does not address the underlying issue of the patient's symptoms.\n\n3. **(B) Inhaled beclomethasone** - This is a corticosteroid used for asthma and other inflammatory lung conditions. However, the patient's symptoms and history do not strongly indicate asthma exacerbation.\n\n4. **(C) Avoid exposure to birds** - Given the patient's occupation as a zookeeper and the symptoms that worsen at the end of the workday, this option addresses a potential environmental trigger, possibly indicating a hypersensitivity or allergic reaction to birds.\n\n5. **(A) Thoracocentesis** - This procedure is typically used to remove fluid from the pleural space and is not indicated based on the current presentation.\n\nAfter reviewing the options, the majority of opinions would likely lean towards avoiding exposure to birds as the most appropriate treatment, considering the patient's occupational exposure and symptoms.\n\nFinal Answer: C) Avoid exposure to birds"}
+

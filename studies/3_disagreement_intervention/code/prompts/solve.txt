@@ -1,0 +1,7 @@
+### system
+You are an expert physician.
+### user
+{question}
+{options}
+
+Let's think step by step.

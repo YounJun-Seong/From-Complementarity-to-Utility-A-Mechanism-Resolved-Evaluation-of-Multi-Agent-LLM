@@ -1,0 +1,243 @@
+wandb: Tracking run with wandb version 0.30.0
+wandb: W&B syncing is set to `offline` in this directory. Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Run data is saved locally in <REPO>/external/MedLA/wandb/offline-run-20260924_152246-5er2sov0
+wandb: View this run in the terminal with `wandb leet`
+wandb: Detected [langchain, openai] in use.
+wandb: Use W&B Weave for improved LLM call tracing. Install Weave with `pip install weave` then add `import weave` to the top of your script.
+wandb: For more information, check out the docs at: https://weave-docs.wandb.ai
+2026-09-24 15:22:47.580 | INFO     | util.rag:__init__:30 - examples number: 100
+2026-09-24 15:22:47.580 | INFO     | util.base:__init__:23 - Namespace(dataset='medqa_us', model='openai', llm_name='gpt-4o-mini-2024-07-18', url=None, few_shots=1, knowledges=0, db_size=100, num_agents=17, num_rounds=3, num_times=1, temp=0.7, seed='42', baseline_bool=1, num_samples=200, num_threads=8, tag='pilot-L1-run2', log=None, debug=False)
+2026-09-24 15:22:47.596 | INFO     | util.base:preprocess:49 - Loading 200 samples in total
+2026-09-24 15:22:47.618 | INFO     | util.base:preprocess:59 - Output file: <REPO>/external/MedLA/output/20260924/medqa_us/openai_medqa_us_200_pilot-L1-run2_20260924_152247.json
+2026-09-24 15:22:48.419 | INFO     | util.util:cal_acc:56 - Accuracy: 0/1 = 0.0
+2026-09-24 15:22:48.532 | INFO     | util.util:cal_acc:56 - Accuracy: 1/2 = 0.5
+2026-09-24 15:22:48.588 | INFO     | util.util:cal_acc:56 - Accuracy: 1/3 = 0.3333333333333333
+2026-09-24 15:22:48.596 | INFO     | util.util:cal_acc:56 - Accuracy: 2/4 = 0.5
+2026-09-24 15:22:48.648 | INFO     | util.util:cal_acc:56 - Accuracy: 3/5 = 0.6
+2026-09-24 15:22:48.684 | INFO     | util.util:cal_acc:56 - Accuracy: 4/6 = 0.6666666666666666
+2026-09-24 15:22:48.729 | INFO     | util.util:cal_acc:56 - Accuracy: 5/7 = 0.7142857142857143
+2026-09-24 15:22:48.733 | INFO     | util.util:cal_acc:56 - Accuracy: 5/8 = 0.625
+2026-09-24 15:22:49.023 | INFO     | util.util:cal_acc:56 - Accuracy: 6/9 = 0.6666666666666666
+2026-09-24 15:22:49.136 | INFO     | util.util:cal_acc:56 - Accuracy: 7/10 = 0.7
+2026-09-24 15:22:49.163 | INFO     | util.util:cal_acc:56 - Accuracy: 8/11 = 0.7272727272727273
+2026-09-24 15:22:49.237 | INFO     | util.util:cal_acc:56 - Accuracy: 9/12 = 0.75
+2026-09-24 15:22:49.253 | INFO     | util.util:cal_acc:56 - Accuracy: 10/13 = 0.7692307692307693
+2026-09-24 15:22:49.383 | INFO     | util.util:cal_acc:56 - Accuracy: 11/14 = 0.7857142857142857
+2026-09-24 15:22:49.414 | INFO     | util.util:cal_acc:56 - Accuracy: 12/15 = 0.8
+2026-09-24 15:22:49.448 | INFO     | util.util:cal_acc:56 - Accuracy: 13/16 = 0.8125
+2026-09-24 15:22:49.751 | INFO     | util.util:cal_acc:56 - Accuracy: 14/17 = 0.8235294117647058
+2026-09-24 15:22:49.810 | INFO     | util.util:cal_acc:56 - Accuracy: 15/18 = 0.8333333333333334
+2026-09-24 15:22:49.897 | INFO     | util.util:cal_acc:56 - Accuracy: 16/19 = 0.8421052631578947
+2026-09-24 15:22:49.906 | INFO     | util.util:cal_acc:56 - Accuracy: 17/20 = 0.85
+2026-09-24 15:22:50.029 | INFO     | util.util:cal_acc:56 - Accuracy: 18/21 = 0.8571428571428571
+2026-09-24 15:22:50.069 | INFO     | util.util:cal_acc:56 - Accuracy: 18/22 = 0.8181818181818182
+2026-09-24 15:22:50.093 | INFO     | util.util:cal_acc:56 - Accuracy: 19/23 = 0.8260869565217391
+2026-09-24 15:22:50.368 | INFO     | util.util:cal_acc:56 - Accuracy: 19/24 = 0.7916666666666666
+2026-09-24 15:22:50.505 | INFO     | util.util:cal_acc:56 - Accuracy: 20/25 = 0.8
+2026-09-24 15:22:50.611 | INFO     | util.util:cal_acc:56 - Accuracy: 21/26 = 0.8076923076923077
+2026-09-24 15:22:50.627 | INFO     | util.util:cal_acc:56 - Accuracy: 22/27 = 0.8148148148148148
+2026-09-24 15:22:50.662 | INFO     | util.util:cal_acc:56 - Accuracy: 23/28 = 0.8214285714285714
+2026-09-24 15:22:50.683 | INFO     | util.util:cal_acc:56 - Accuracy: 24/29 = 0.8275862068965517
+2026-09-24 15:22:50.736 | INFO     | util.util:cal_acc:56 - Accuracy: 25/30 = 0.8333333333333334
+2026-09-24 15:22:50.866 | INFO     | util.util:cal_acc:56 - Accuracy: 26/31 = 0.8387096774193549
+2026-09-24 15:22:50.912 | INFO     | util.util:cal_acc:56 - Accuracy: 27/32 = 0.84375
+2026-09-24 15:22:51.167 | INFO     | util.util:cal_acc:56 - Accuracy: 28/33 = 0.8484848484848485
+2026-09-24 15:22:51.202 | INFO     | util.util:cal_acc:56 - Accuracy: 29/34 = 0.8529411764705882
+2026-09-24 15:22:51.417 | INFO     | util.util:cal_acc:56 - Accuracy: 29/35 = 0.8285714285714286
+2026-09-24 15:22:51.529 | INFO     | util.util:cal_acc:56 - Accuracy: 30/36 = 0.8333333333333334
+2026-09-24 15:22:51.533 | INFO     | util.util:cal_acc:56 - Accuracy: 31/37 = 0.8378378378378378
+2026-09-24 15:22:51.542 | INFO     | util.util:cal_acc:56 - Accuracy: 32/38 = 0.8421052631578947
+2026-09-24 15:22:51.652 | INFO     | util.util:cal_acc:56 - Accuracy: 32/40 = 0.8
+2026-09-24 15:22:51.653 | INFO     | util.util:cal_acc:56 - Accuracy: 32/40 = 0.8
+2026-09-24 15:22:51.817 | INFO     | util.util:cal_acc:56 - Accuracy: 33/41 = 0.8048780487804879
+2026-09-24 15:22:51.931 | INFO     | util.util:cal_acc:56 - Accuracy: 34/42 = 0.8095238095238095
+2026-09-24 15:22:51.976 | INFO     | util.util:cal_acc:56 - Accuracy: 35/43 = 0.813953488372093
+2026-09-24 15:22:52.066 | INFO     | util.util:cal_acc:56 - Accuracy: 35/44 = 0.7954545454545454
+2026-09-24 15:22:52.244 | INFO     | util.util:cal_acc:56 - Accuracy: 35/45 = 0.7777777777777778
+2026-09-24 15:22:52.295 | INFO     | util.util:cal_acc:56 - Accuracy: 35/46 = 0.7608695652173914
+2026-09-24 15:22:52.319 | INFO     | util.util:cal_acc:56 - Accuracy: 35/47 = 0.7446808510638298
+2026-09-24 15:22:52.414 | INFO     | util.util:cal_acc:56 - Accuracy: 36/48 = 0.75
+2026-09-24 15:22:52.535 | INFO     | util.util:cal_acc:56 - Accuracy: 37/49 = 0.7551020408163265
+2026-09-24 15:22:52.628 | INFO     | util.util:cal_acc:56 - Accuracy: 38/50 = 0.76
+2026-09-24 15:22:52.635 | INFO     | util.util:cal_acc:56 - Accuracy: 39/51 = 0.7647058823529411
+2026-09-24 15:22:52.855 | INFO     | util.util:cal_acc:56 - Accuracy: 40/52 = 0.7692307692307693
+2026-09-24 15:22:52.870 | INFO     | util.util:cal_acc:56 - Accuracy: 41/53 = 0.7735849056603774
+2026-09-24 15:22:52.930 | INFO     | util.util:cal_acc:56 - Accuracy: 42/54 = 0.7777777777777778
+2026-09-24 15:22:52.946 | INFO     | util.util:cal_acc:56 - Accuracy: 43/55 = 0.7818181818181819
+2026-09-24 15:22:53.040 | INFO     | util.util:cal_acc:56 - Accuracy: 44/56 = 0.7857142857142857
+2026-09-24 15:22:53.047 | INFO     | util.util:cal_acc:56 - Accuracy: 45/57 = 0.7894736842105263
+2026-09-24 15:22:53.299 | INFO     | util.util:cal_acc:56 - Accuracy: 46/58 = 0.7931034482758621
+2026-09-24 15:22:53.310 | INFO     | util.util:cal_acc:56 - Accuracy: 47/59 = 0.7966101694915254
+2026-09-24 15:22:53.535 | INFO     | util.util:cal_acc:56 - Accuracy: 48/60 = 0.8
+2026-09-24 15:22:53.540 | INFO     | util.util:cal_acc:56 - Accuracy: 48/61 = 0.7868852459016393
+2026-09-24 15:22:53.619 | INFO     | util.util:cal_acc:56 - Accuracy: 49/62 = 0.7903225806451613
+2026-09-24 15:22:53.648 | INFO     | util.util:cal_acc:56 - Accuracy: 50/63 = 0.7936507936507936
+2026-09-24 15:22:53.732 | INFO     | util.util:cal_acc:56 - Accuracy: 50/64 = 0.78125
+2026-09-24 15:22:53.934 | INFO     | util.util:cal_acc:56 - Accuracy: 51/65 = 0.7846153846153846
+2026-09-24 15:22:53.995 | INFO     | util.util:cal_acc:56 - Accuracy: 51/66 = 0.7727272727272727
+2026-09-24 15:22:54.103 | INFO     | util.util:cal_acc:56 - Accuracy: 52/67 = 0.7761194029850746
+2026-09-24 15:22:54.494 | INFO     | util.util:cal_acc:56 - Accuracy: 53/68 = 0.7794117647058824
+2026-09-24 15:22:54.509 | INFO     | util.util:cal_acc:56 - Accuracy: 53/69 = 0.7681159420289855
+2026-09-24 15:22:54.526 | INFO     | util.util:cal_acc:56 - Accuracy: 55/71 = 0.7746478873239436
+2026-09-24 15:22:54.527 | INFO     | util.util:cal_acc:56 - Accuracy: 55/71 = 0.7746478873239436
+2026-09-24 15:22:54.546 | INFO     | util.util:cal_acc:56 - Accuracy: 56/73 = 0.7671232876712328
+2026-09-24 15:22:54.551 | INFO     | util.util:cal_acc:56 - Accuracy: 56/73 = 0.7671232876712328
+2026-09-24 15:22:54.558 | INFO     | util.util:cal_acc:56 - Accuracy: 57/74 = 0.7702702702702703
+2026-09-24 15:22:54.872 | INFO     | util.util:cal_acc:56 - Accuracy: 58/75 = 0.7733333333333333
+2026-09-24 15:22:55.105 | INFO     | util.util:cal_acc:56 - Accuracy: 58/76 = 0.7631578947368421
+2026-09-24 15:22:55.176 | INFO     | util.util:cal_acc:56 - Accuracy: 59/77 = 0.7662337662337663
+2026-09-24 15:22:55.214 | INFO     | util.util:cal_acc:56 - Accuracy: 59/78 = 0.7564102564102564
+2026-09-24 15:22:55.290 | INFO     | util.util:cal_acc:56 - Accuracy: 60/79 = 0.759493670886076
+2026-09-24 15:22:55.439 | INFO     | util.util:cal_acc:56 - Accuracy: 61/80 = 0.7625
+2026-09-24 15:22:55.456 | INFO     | util.util:cal_acc:56 - Accuracy: 61/81 = 0.7530864197530864
+2026-09-24 15:22:55.497 | INFO     | util.util:cal_acc:56 - Accuracy: 62/82 = 0.7560975609756098
+2026-09-24 15:22:55.646 | INFO     | util.util:cal_acc:56 - Accuracy: 63/83 = 0.7590361445783133
+2026-09-24 15:22:55.834 | INFO     | util.util:cal_acc:56 - Accuracy: 64/84 = 0.7619047619047619
+2026-09-24 15:22:55.877 | INFO     | util.util:cal_acc:56 - Accuracy: 65/85 = 0.7647058823529411
+2026-09-24 15:22:55.908 | INFO     | util.util:cal_acc:56 - Accuracy: 66/86 = 0.7674418604651163
+2026-09-24 15:22:56.235 | INFO     | util.util:cal_acc:56 - Accuracy: 67/87 = 0.7701149425287356
+2026-09-24 15:22:56.334 | INFO     | util.util:cal_acc:56 - Accuracy: 68/88 = 0.7727272727272727
+2026-09-24 15:22:56.362 | INFO     | util.util:cal_acc:56 - Accuracy: 71/91 = 0.7802197802197802
+2026-09-24 15:22:56.364 | INFO     | util.util:cal_acc:56 - Accuracy: 71/91 = 0.7802197802197802
+2026-09-24 15:22:56.366 | INFO     | util.util:cal_acc:56 - Accuracy: 71/91 = 0.7802197802197802
+2026-09-24 15:22:56.530 | INFO     | util.util:cal_acc:56 - Accuracy: 71/92 = 0.7717391304347826
+2026-09-24 15:22:56.615 | INFO     | util.util:cal_acc:56 - Accuracy: 72/93 = 0.7741935483870968
+2026-09-24 15:22:56.716 | INFO     | util.util:cal_acc:56 - Accuracy: 72/94 = 0.7659574468085106
+2026-09-24 15:22:56.911 | INFO     | util.util:cal_acc:56 - Accuracy: 73/95 = 0.7684210526315789
+2026-09-24 15:22:56.982 | INFO     | util.util:cal_acc:56 - Accuracy: 74/96 = 0.7708333333333334
+2026-09-24 15:22:57.006 | INFO     | util.util:cal_acc:56 - Accuracy: 75/97 = 0.7731958762886598
+2026-09-24 15:22:57.093 | INFO     | util.util:cal_acc:56 - Accuracy: 76/98 = 0.7755102040816326
+2026-09-24 15:22:57.107 | INFO     | util.util:cal_acc:56 - Accuracy: 76/99 = 0.7676767676767676
+2026-09-24 15:22:57.249 | INFO     | util.util:cal_acc:56 - Accuracy: 78/101 = 0.7722772277227723
+2026-09-24 15:22:57.250 | INFO     | util.util:cal_acc:56 - Accuracy: 78/101 = 0.7722772277227723
+2026-09-24 15:22:57.319 | INFO     | util.util:cal_acc:56 - Accuracy: 79/102 = 0.7745098039215687
+2026-09-24 15:22:57.527 | INFO     | util.util:cal_acc:56 - Accuracy: 80/103 = 0.7766990291262136
+2026-09-24 15:22:57.575 | INFO     | util.util:cal_acc:56 - Accuracy: 81/104 = 0.7788461538461539
+2026-09-24 15:22:57.626 | INFO     | util.util:cal_acc:56 - Accuracy: 82/105 = 0.780952380952381
+2026-09-24 15:22:57.729 | INFO     | util.util:cal_acc:56 - Accuracy: 82/106 = 0.7735849056603774
+2026-09-24 15:22:57.803 | INFO     | util.util:cal_acc:56 - Accuracy: 83/107 = 0.7757009345794392
+2026-09-24 15:22:57.993 | INFO     | util.util:cal_acc:56 - Accuracy: 84/108 = 0.7777777777777778
+2026-09-24 15:22:58.013 | INFO     | util.util:cal_acc:56 - Accuracy: 84/109 = 0.7706422018348624
+2026-09-24 15:22:58.130 | INFO     | util.util:cal_acc:56 - Accuracy: 85/110 = 0.7727272727272727
+2026-09-24 15:22:58.313 | INFO     | util.util:cal_acc:56 - Accuracy: 86/111 = 0.7747747747747747
+2026-09-24 15:22:58.391 | INFO     | util.util:cal_acc:56 - Accuracy: 86/112 = 0.7678571428571429
+2026-09-24 15:22:58.410 | INFO     | util.util:cal_acc:56 - Accuracy: 87/113 = 0.7699115044247787
+2026-09-24 15:22:58.482 | INFO     | util.util:cal_acc:56 - Accuracy: 87/114 = 0.7631578947368421
+2026-09-24 15:22:58.593 | INFO     | util.util:cal_acc:56 - Accuracy: 88/115 = 0.7652173913043478
+2026-09-24 15:22:58.634 | INFO     | util.util:cal_acc:56 - Accuracy: 89/116 = 0.7672413793103449
+2026-09-24 15:22:58.656 | INFO     | util.util:cal_acc:56 - Accuracy: 90/117 = 0.7692307692307693
+2026-09-24 15:22:58.667 | INFO     | util.util:cal_acc:56 - Accuracy: 91/118 = 0.7711864406779662
+2026-09-24 15:22:59.105 | INFO     | util.util:cal_acc:56 - Accuracy: 92/119 = 0.773109243697479
+2026-09-24 15:22:59.149 | INFO     | util.util:cal_acc:56 - Accuracy: 93/120 = 0.775
+2026-09-24 15:22:59.201 | INFO     | util.util:cal_acc:56 - Accuracy: 94/121 = 0.7768595041322314
+2026-09-24 15:22:59.236 | INFO     | util.util:cal_acc:56 - Accuracy: 95/122 = 0.7786885245901639
+2026-09-24 15:22:59.268 | INFO     | util.util:cal_acc:56 - Accuracy: 96/123 = 0.7804878048780488
+2026-09-24 15:22:59.275 | INFO     | util.util:cal_acc:56 - Accuracy: 97/124 = 0.782258064516129
+2026-09-24 15:22:59.324 | INFO     | util.util:cal_acc:56 - Accuracy: 98/125 = 0.784
+2026-09-24 15:22:59.429 | INFO     | util.util:cal_acc:56 - Accuracy: 99/126 = 0.7857142857142857
+2026-09-24 15:22:59.753 | INFO     | util.util:cal_acc:56 - Accuracy: 100/127 = 0.7874015748031497
+2026-09-24 15:22:59.777 | INFO     | util.util:cal_acc:56 - Accuracy: 101/128 = 0.7890625
+2026-09-24 15:22:59.852 | INFO     | util.util:cal_acc:56 - Accuracy: 102/129 = 0.7906976744186046
+2026-09-24 15:22:59.865 | INFO     | util.util:cal_acc:56 - Accuracy: 104/131 = 0.7938931297709924
+2026-09-24 15:22:59.867 | INFO     | util.util:cal_acc:56 - Accuracy: 104/131 = 0.7938931297709924
+2026-09-24 15:22:59.899 | INFO     | util.util:cal_acc:56 - Accuracy: 104/132 = 0.7878787878787878
+2026-09-24 15:23:00.003 | INFO     | util.util:cal_acc:56 - Accuracy: 105/133 = 0.7894736842105263
+2026-09-24 15:23:00.242 | INFO     | util.util:cal_acc:56 - Accuracy: 106/134 = 0.7910447761194029
+2026-09-24 15:23:00.415 | INFO     | util.util:cal_acc:56 - Accuracy: 107/135 = 0.7925925925925926
+2026-09-24 15:23:00.489 | INFO     | util.util:cal_acc:56 - Accuracy: 108/136 = 0.7941176470588235
+2026-09-24 15:23:00.566 | INFO     | util.util:cal_acc:56 - Accuracy: 109/137 = 0.7956204379562044
+2026-09-24 15:23:00.622 | INFO     | util.util:cal_acc:56 - Accuracy: 110/138 = 0.7971014492753623
+2026-09-24 15:23:00.702 | INFO     | util.util:cal_acc:56 - Accuracy: 110/139 = 0.7913669064748201
+2026-09-24 15:23:00.731 | INFO     | util.util:cal_acc:56 - Accuracy: 111/140 = 0.7928571428571428
+2026-09-24 15:23:00.903 | INFO     | util.util:cal_acc:56 - Accuracy: 112/141 = 0.7943262411347518
+2026-09-24 15:23:01.021 | INFO     | util.util:cal_acc:56 - Accuracy: 113/142 = 0.795774647887324
+2026-09-24 15:23:01.048 | INFO     | util.util:cal_acc:56 - Accuracy: 114/143 = 0.7972027972027972
+2026-09-24 15:23:01.281 | INFO     | util.util:cal_acc:56 - Accuracy: 115/144 = 0.7986111111111112
+2026-09-24 15:23:01.356 | INFO     | util.util:cal_acc:56 - Accuracy: 117/146 = 0.8013698630136986
+2026-09-24 15:23:01.360 | INFO     | util.util:cal_acc:56 - Accuracy: 117/146 = 0.8013698630136986
+2026-09-24 15:23:01.392 | INFO     | util.util:cal_acc:56 - Accuracy: 117/147 = 0.7959183673469388
+2026-09-24 15:23:01.532 | INFO     | util.util:cal_acc:56 - Accuracy: 118/148 = 0.7972972972972973
+2026-09-24 15:23:01.565 | INFO     | util.util:cal_acc:56 - Accuracy: 118/149 = 0.7919463087248322
+2026-09-24 15:23:01.712 | INFO     | util.util:cal_acc:56 - Accuracy: 118/150 = 0.7866666666666666
+2026-09-24 15:23:01.934 | INFO     | util.util:cal_acc:56 - Accuracy: 119/151 = 0.7880794701986755
+2026-09-24 15:23:02.002 | INFO     | util.util:cal_acc:56 - Accuracy: 120/152 = 0.7894736842105263
+2026-09-24 15:23:02.011 | INFO     | util.util:cal_acc:56 - Accuracy: 120/153 = 0.7843137254901961
+2026-09-24 15:23:02.124 | INFO     | util.util:cal_acc:56 - Accuracy: 121/154 = 0.7857142857142857
+2026-09-24 15:23:02.133 | INFO     | util.util:cal_acc:56 - Accuracy: 122/155 = 0.7870967741935484
+2026-09-24 15:23:02.344 | INFO     | util.util:cal_acc:56 - Accuracy: 123/156 = 0.7884615384615384
+2026-09-24 15:23:02.527 | INFO     | util.util:cal_acc:56 - Accuracy: 124/157 = 0.7898089171974523
+2026-09-24 15:23:02.538 | INFO     | util.util:cal_acc:56 - Accuracy: 125/158 = 0.7911392405063291
+2026-09-24 15:23:02.635 | INFO     | util.util:cal_acc:56 - Accuracy: 126/159 = 0.7924528301886793
+2026-09-24 15:23:02.705 | INFO     | util.util:cal_acc:56 - Accuracy: 127/160 = 0.79375
+2026-09-24 15:23:02.757 | INFO     | util.util:cal_acc:56 - Accuracy: 128/161 = 0.7950310559006211
+2026-09-24 15:23:02.768 | INFO     | util.util:cal_acc:56 - Accuracy: 129/162 = 0.7962962962962963
+2026-09-24 15:23:02.805 | INFO     | util.util:cal_acc:56 - Accuracy: 130/163 = 0.7975460122699386
+2026-09-24 15:23:03.112 | INFO     | util.util:cal_acc:56 - Accuracy: 132/165 = 0.8
+2026-09-24 15:23:03.114 | INFO     | util.util:cal_acc:56 - Accuracy: 132/165 = 0.8
+2026-09-24 15:23:03.154 | INFO     | util.util:cal_acc:56 - Accuracy: 133/166 = 0.8012048192771084
+2026-09-24 15:23:03.322 | INFO     | util.util:cal_acc:56 - Accuracy: 134/167 = 0.8023952095808383
+2026-09-24 15:23:03.432 | INFO     | util.util:cal_acc:56 - Accuracy: 135/168 = 0.8035714285714286
+2026-09-24 15:23:03.452 | INFO     | util.util:cal_acc:56 - Accuracy: 136/169 = 0.8047337278106509
+2026-09-24 15:23:03.493 | INFO     | util.util:cal_acc:56 - Accuracy: 137/170 = 0.8058823529411765
+2026-09-24 15:23:03.519 | INFO     | util.util:cal_acc:56 - Accuracy: 138/171 = 0.8070175438596491
+2026-09-24 15:23:03.831 | INFO     | util.util:cal_acc:56 - Accuracy: 139/172 = 0.8081395348837209
+2026-09-24 15:23:03.861 | INFO     | util.util:cal_acc:56 - Accuracy: 139/173 = 0.8034682080924855
+2026-09-24 15:23:03.939 | INFO     | util.util:cal_acc:56 - Accuracy: 140/174 = 0.8045977011494253
+2026-09-24 15:23:04.032 | INFO     | util.util:cal_acc:56 - Accuracy: 141/175 = 0.8057142857142857
+2026-09-24 15:23:04.138 | INFO     | util.util:cal_acc:56 - Accuracy: 142/176 = 0.8068181818181818
+2026-09-24 15:23:04.230 | INFO     | util.util:cal_acc:56 - Accuracy: 144/178 = 0.8089887640449438
+2026-09-24 15:23:04.233 | INFO     | util.util:cal_acc:56 - Accuracy: 144/178 = 0.8089887640449438
+2026-09-24 15:23:04.344 | INFO     | util.util:cal_acc:56 - Accuracy: 145/179 = 0.8100558659217877
+2026-09-24 15:23:04.436 | INFO     | util.util:cal_acc:56 - Accuracy: 145/180 = 0.8055555555555556
+2026-09-24 15:23:04.524 | INFO     | util.util:cal_acc:56 - Accuracy: 146/181 = 0.8066298342541437
+2026-09-24 15:23:04.560 | INFO     | util.util:cal_acc:56 - Accuracy: 147/182 = 0.8076923076923077
+2026-09-24 15:23:04.607 | INFO     | util.util:cal_acc:56 - Accuracy: 148/183 = 0.8087431693989071
+2026-09-24 15:23:04.791 | INFO     | util.util:cal_acc:56 - Accuracy: 150/185 = 0.8108108108108109
+2026-09-24 15:23:04.794 | INFO     | util.util:cal_acc:56 - Accuracy: 150/185 = 0.8108108108108109
+2026-09-24 15:23:04.982 | INFO     | util.util:cal_acc:56 - Accuracy: 151/186 = 0.8118279569892473
+2026-09-24 15:23:05.078 | INFO     | util.util:cal_acc:56 - Accuracy: 152/187 = 0.8128342245989305
+2026-09-24 15:23:05.137 | INFO     | util.util:cal_acc:56 - Accuracy: 153/188 = 0.8138297872340425
+2026-09-24 15:23:05.226 | INFO     | util.util:cal_acc:56 - Accuracy: 154/189 = 0.8148148148148148
+2026-09-24 15:23:05.253 | INFO     | util.util:cal_acc:56 - Accuracy: 155/190 = 0.8157894736842105
+2026-09-24 15:23:05.362 | INFO     | util.util:cal_acc:56 - Accuracy: 156/191 = 0.8167539267015707
+2026-09-24 15:23:05.529 | INFO     | util.util:cal_acc:56 - Accuracy: 157/192 = 0.8177083333333334
+2026-09-24 15:23:05.554 | INFO     | util.util:cal_acc:56 - Accuracy: 157/193 = 0.8134715025906736
+2026-09-24 15:23:05.729 | INFO     | util.util:cal_acc:56 - Accuracy: 157/194 = 0.8092783505154639
+2026-09-24 15:23:05.736 | INFO     | util.util:cal_acc:56 - Accuracy: 158/195 = 0.8102564102564103
+2026-09-24 15:23:05.942 | INFO     | util.util:cal_acc:56 - Accuracy: 159/196 = 0.8112244897959183
+2026-09-24 15:23:05.953 | INFO     | util.util:cal_acc:56 - Accuracy: 160/197 = 0.8121827411167513
+2026-09-24 15:23:05.972 | INFO     | util.util:cal_acc:56 - Accuracy: 160/199 = 0.8040201005025126
+2026-09-24 15:23:05.976 | INFO     | util.util:cal_acc:56 - Accuracy: 160/199 = 0.8040201005025126
+2026-09-24 15:23:06.164 | INFO     | util.util:cal_acc:56 - Accuracy: 161/200 = 0.805
+wandb: 
+wandb: Run history:
+wandb:          accuracy ▁▃▄▆▇██▇▇██▆▆▆▄▆▄▅▅▅▅▅▅▅▅▅▅▆▆▆▆▆▆▆▆▆▇▇▇▆
+wandb:        data_index ▁▁▁▂▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▄▄▅▅▅▅▅▅▅▆▇▇▇▇▇▇▇███
+wandb:     make_decision ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: make_decision_num ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:         num_right ▁▁▁▁▁▂▂▂▂▃▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▅▅▅▆▆▇▇▇▇▇▇▇███
+wandb:        numn_total ▁▁▁▁▁▁▂▂▂▂▂▂▂▄▄▄▄▄▄▅▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇▇██
+wandb:       retry_count ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:         retry_pro ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        right_bool █▁████▁█████████▁█████▁█▁██████▁▁██████▁
+wandb:         talkTimes ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:          accuracy 0.805
+wandb:        data_index 199
+wandb:     make_decision 0
+wandb: make_decision_num 0
+wandb:         num_right 161
+wandb:        numn_total 200
+wandb:       retry_count 0
+wandb:         retry_pro 0
+wandb:        right_bool 1
+wandb:         talkTimes 0
+wandb: 
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync <REPO>/external/MedLA/wandb/offline-run-20260924_152246-5er2sov0
+wandb: Find logs at: ./wandb/offline-run-20260924_152246-5er2sov0/logs
+Command line arguments: ['main.py', '--dataset', 'medqa_us', '--model', 'openai', '--llm_name', 'gpt-4o-mini-2024-07-18', '--baseline_bool', '1', '--num_samples', '200', '--num_threads', '8', '--tag', 'pilot-L1-run2']
+Number of arguments: 15
+Arguments: ['--dataset', 'medqa_us', '--model', 'openai', '--llm_name', 'gpt-4o-mini-2024-07-18', '--baseline_bool', '1', '--num_samples', '200', '--num_threads', '8', '--tag', 'pilot-L1-run2']
+medqa_us test_qa:  1273

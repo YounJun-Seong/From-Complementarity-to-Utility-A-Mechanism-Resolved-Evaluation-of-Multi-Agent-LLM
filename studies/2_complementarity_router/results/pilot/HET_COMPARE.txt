@@ -1,0 +1,16 @@
+=== Qwen2.5-14B-Instruct  (k* = 22) ===
+accuracy (expected, per question):  S 0.694  SC-22 0.740  HET-22 0.728  M1 0.701
+tokens / question:                  S 1369  SC-22 25482  HET-22 27194  M1 24991
+HET − SC   -1.1 pp [-2.7, +0.3]    (role heterogeneity)
+M1 − HET   -2.7 pp [-6.4, +0.9]    (interaction / orchestration beyond heterogeneity)
+M1 − SC    -3.9 pp [-7.7, -0.1]
+well-formed 5+2 recruitment: M1 93.7% of question-runs, HET 93.0%
+
+=== Llama-3.1-8B-Instruct  (k* = 7) ===
+accuracy (expected, per question):  S 0.694  SC-7 0.728  HET-7 0.722  M1 0.594
+tokens / question:                  S 1332  SC-7 7566  HET-7 8156  M1 7198
+HET − SC   -0.6 pp [-1.9, +0.7]    (role heterogeneity)
+M1 − HET   -12.8 pp [-17.5, -8.1]    (interaction / orchestration beyond heterogeneity)
+M1 − SC    -13.4 pp [-18.2, -8.6]
+well-formed 5+2 recruitment: M1 0.3% of question-runs, HET 0.0%
+

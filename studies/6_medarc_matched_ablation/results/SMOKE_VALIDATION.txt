@@ -1,0 +1,23 @@
+A run1: n=5 errors=0 (agent,summary)={(9, 6)} trunc=0.0000
+A run2: n=5 errors=0 (agent,summary)={(9, 6)} trunc=0.0000
+A run3: n=5 errors=0 (agent,summary)={(9, 6)} trunc=0.0000
+B run1: n=5 errors=0 (agent,summary)={(9, 0)} trunc=0.0000
+B run2: n=5 errors=0 (agent,summary)={(9, 0)} trunc=0.0000
+B run3: n=5 errors=0 (agent,summary)={(9, 0)} trunc=0.0000
+C run1: n=5 errors=0 (agent,summary)={(9, 6)} trunc=0.0000
+C run2: n=5 errors=0 (agent,summary)={(9, 6)} trunc=0.0000
+C run3: n=5 errors=0 (agent,summary)={(9, 6)} trunc=0.0000
+run1: round-0 identical A=B=C True; B no summary True; A source=self True; C source=next True
+run2: round-0 identical A=B=C True; B no summary True; A source=self True; C source=next True
+run3: round-0 identical A=B=C True; B no summary True; A source=self True; C source=next True
+cot run1: n=5 errors=0
+cot run2: n=5 errors=0
+cot run3: n=5 errors=0
+sc run1: n=5 errors=0 requests/q={25}
+sc run2: n=5 errors=0 requests/q={25}
+sc run3: n=5 errors=0 requests/q={25}
+sc run4: n=5 errors=0 requests/q={25}
+sc run5: n=5 errors=0 requests/q={25}
+sc run6: n=5 errors=0 requests/q={25}
+tokens/q: A 20904, B 11580, C 20776, SC-25 19392
+VALID

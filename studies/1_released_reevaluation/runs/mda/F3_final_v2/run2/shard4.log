@@ -1,0 +1,194 @@
+<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [02:26<1:35:15, 146.54s/it]  5%|▌         | 2/40 [03:30<1:02:00, 97.92s/it]   8%|▊         | 3/40 [05:49<1:12:04, 116.88s/it] 10%|█         | 4/40 [08:38<1:22:25, 137.39s/it] 12%|█▎        | 5/40 [09:55<1:07:29, 115.71s/it] 15%|█▌        | 6/40 [10:17<47:20, 83.56s/it]    18%|█▊        | 7/40 [11:44<46:36, 84.74s/it] 20%|██        | 8/40 [13:01<43:50, 82.20s/it] 22%|██▎       | 9/40 [14:54<47:35, 92.12s/it] 25%|██▌       | 10/40 [16:29<46:25, 92.86s/it] 28%|██▊       | 11/40 [21:58<1:19:47, 165.10s/it] 30%|███       | 12/40 [24:07<1:11:52, 154.02s/it] 32%|███▎      | 13/40 [25:10<56:53, 126.44s/it]   35%|███▌      | 14/40 [26:25<48:04, 110.92s/it] 38%|███▊      | 15/40 [28:06<45:04, 108.19s/it] 40%|████      | 16/40 [30:12<45:25, 113.55s/it] 42%|████▎     | 17/40 [30:25<31:51, 83.10s/it]  45%|████▌     | 18/40 [31:16<26:55, 73.42s/it] 48%|████▊     | 19/40 [32:09<23:32, 67.28s/it] 50%|█████     | 20/40 [32:24<17:12, 51.60s/it] 52%|█████▎    | 21/40 [34:20<22:27, 70.90s/it] 55%|█████▌    | 22/40 [35:12<19:36, 65.38s/it] 57%|█████▊    | 23/40 [37:24<24:12, 85.41s/it] 60%|██████    | 24/40 [40:00<28:22, 106.43s/it] 62%|██████▎   | 25/40 [41:10<23:55, 95.71s/it]  65%|██████▌   | 26/40 [45:10<32:25, 138.93s/it] 68%|██████▊   | 27/40 [47:47<31:16, 144.37s/it] 70%|███████   | 28/40 [48:37<23:11, 115.96s/it] 72%|███████▎  | 29/40 [49:33<17:56, 97.87s/it]  75%|███████▌  | 30/40 [50:50<15:16, 91.68s/it] 78%|███████▊  | 31/40 [51:03<10:13, 68.21s/it] 80%|████████  | 32/40 [53:12<11:30, 86.27s/it] 82%|████████▎ | 33/40 [53:56<08:36, 73.76s/it] 85%|████████▌ | 34/40 [54:10<05:33, 55.66s/it] 88%|████████▊ | 35/40 [1:04:56<19:25, 233.02s/it] 90%|█████████ | 36/40 [1:14:36<22:27, 336.96s/it]<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s] 88%|████████▊ | 35/40 [01:00<00:08,  1.73s/it] 90%|█████████ | 36/40 [01:12<00:08,  2.11s/it] 92%|█████████▎| 37/40 [02:28<00:18,  6.03s/it] 95%|█████████▌| 38/40 [03:40<00:21, 10.72s/it] 98%|█████████▊| 39/40 [06:00<00:22, 22.56s/it]100%|██████████| 40/40 [07:24<00:00, 29.57s/it]100%|██████████| 40/40 [07:24<00:00, 11.10s/it]
+
+[INFO] no: 194
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Pediatrician (Lead)): Specializes in child health and development, responsible for the initial clinical assessment, evaluation of symptoms (abdominal pain, constipation, irritability), and coordination of further investigations based on clinical findings.
+ Member 2 (Pediatric Hematologist): Focuses on blood disorders in children. Conducts detailed assessments of the blood smear results, interpreting findings such as small, pale red blood cells and basophilic stippling, to confirm potential diagnoses related to anemia.
+ Member 3 (Pediatric Gastroenterologist): Evaluates gastrointestinal issues, such as constipation, which could contribute to abdominal pain and assesses dietary factors that may impact the child’s overall health and nutritional status.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Clinical Geneticist (Lead)): Investigates potential genetic causes for the child's symptoms, including any hereditary conditions that might be affecting growth, development, and hematological health.
+ Member 2 (Pediatric Neurologist): Evaluates developmental delays (e.g., vocabulary, self
+ Member 3 (Clinical Laboratory Scientist): Specializes in evaluating blood tests and providing diagnostic insight into metabolic and hematologic disorders noted in the patient’s blood work, focusing on specific analyses that would detail anemia's underlying causes.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Pediatric Hematologist (Lead)): In charge of synthesizing information from previous evaluations and formulating the diagnosis regarding the impaired process likely leading to the anemia seen in the patient.
+ Member 2 (Pediatrician): Ensures that the treatment plan addresses both medical and developmental needs, coordinating between specialties to optimize care for the patient.
+ Member 3 (Psychological Consultant (Child Psychologist)): Assesses the psychological implications of the child's health issues and suggests interventions to support emotional well
+
+
+[INFO] no: 195
+difficulty: basic
+
+[INFO] no: 196
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨‍⚕️ 1. Pharmacologist): Specializes in the study of drug actions and interactions, particularly on how different drugs behave in the body.
+Agent 2 (🧑🏿‍⚕️ 2. Hematologist): Focuses on blood disorders and the management of anticoagulant therapy.
+Agent 3 (👨🏻‍⚕️ 3. Clinical Researcher): Specializes in conducting clinical trials and analyzing research data, especially related to drug efficacy and elimination.
+Agent 4 (👨🏽‍⚕️ 4. Toxicologist): Focuses on the effects of drugs and toxins, including their elimination pathways.
+Agent 5 (👨🏽‍⚕️ 5. Clinical Laboratory Scientist): Specializes in analyzing laboratory samples to provide data on drug levels and pharmacokinetics.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                 moderator (👨‍⚖️)                                                                          
+              ┌────────────────────────────┬────────────┴────────────┬─────────────────────────────────────────────────┐                   
+ Clinical Researcher (👨🏻‍⚕️)      Toxicologist (👨🏽‍⚕️)     Pharmacologist (👨‍⚕️)                     Clinical Laboratory Scientist (👨🏽‍⚕️) 
+                                                                └───────────────┐                                                          
+                                                                       Hematologist (🧑🏿‍⚕️)                                                
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨‍⚕️ pharmacologist) -> Agent 4 (👨🏽‍⚕️ toxicologist) : As a pharmacologist specializing in drug actions and interactions, my expertise lies in understanding the pharmacokinetics of medications and how they behave in the body, particularly regarding their elimination.
+
+To Agent 4 (toxicologist): 
+
+While I appreciate your perspective on apixaban, I believe that enoxaparin is the more accurate answer based on the elimination rate of 0.5 mg every 4 hours. Enoxaparin has a well-documented elimination profile characterized by a predictable pharmacokinetic behavior, primarily via renal clearance, which aligns precisely with the observed data. In contrast, while apixaban also has a renal elimination component, its half-life and dosing do not typically lead to such a consistent elimination rate in shorter intervals. Therefore, the evidence strongly supports enoxaparin as the most likely anticoagulant for this elimination pattern.
+ Agent 2 (🧑🏿‍⚕️ hematologist) -> Agent 4 (👨🏽‍⚕️ toxicologist) : As a hematologist specializing in blood disorders and anticoagulant therapy, I understand the importance of accurately identifying anticoagulants based on their elimination profiles. 
+
+To the toxicologist (Agent 4), while I appreciate your perspective on apixaban's elimination characteristics, I would like to emphasize that enoxaparin's elimination pattern of 0.5 mg every 4 hours aligns more consistently with its pharmacokinetic profile in therapeutic use. Enoxaparin is known for its predictable clearance during standard dosing, which offers clear clinical implications for monitoring and adjusting therapy in patients, particularly those with renal considerations. I encourage you to consider this aspect while reviewing the elimination data.
+ Agent 3 (👨🏻‍⚕️ clinical researcher) -> Agent 4 (👨🏽‍⚕️ toxicologist) : As a clinical researcher specializing in conducting clinical trials and analyzing research data related to drug efficacy and elimination, I would like to present my opinion to Agent 4, the toxicologist.
+
+Opinion: While I acknowledge your consideration of apixaban's elimination rate, I support the view that enoxaparin is the more likely anticoagulant in this case. The specific elimination of 0.5 mg every 4 hours aligns closely with the expected pharmacokinetic profile of enoxaparin, which is well-characterized and consistently monitored through anti-factor Xa levels. Apixaban, despite having a known half-life, tends to have a more variable elimination in clinical practice compared to enoxaparin, especially at therapeutic doses, making the observed elimination pattern more consistent with enoxaparin. Therefore, in this context, I believe enoxaparin is the appropriate inference based on the data presented.
+ Agent 4 (👨🏽‍⚕️ toxicologist) -> Agent 1 (👨‍⚕️ pharmacologist) : As a toxicologist, my expertise lies in understanding the effects of drugs and toxins, including their pharmacokinetic profiles and elimination pathways. 
+
+Opinion to Agent 1 (pharmacologist): 
+
+I acknowledge the pharmacokinetic properties of enoxaparin but would like to highlight the significance of considering the drug's half-life and clearance mechanisms. While enoxaparin aligns with the observed elimination rate of 0.5 mg every 4 hours, the pharmacodynamics and potential variability in patient response must also be accounted for. It's essential to remember that individual patient factors, such as renal function, can significantly influence the elimination profile. Thus, we should consider both enoxaparin and apixaban based on the patient’s overall clinical picture and renal status to ensure accurate interpretation of the elimination data.
+ Agent 4 (👨🏽‍⚕️ toxicologist) -> Agent 2 (🧑🏿‍⚕️ hematologist) : As a toxicologist, my area of expertise focuses on the effects of drugs and toxins, including their elimination and safety profiles.
+
+Opinion to Agent 2 (hematologist):
+
+While enoxaparin is indeed a common anticoagulant with a predictable elimination profile, we must consider that it is essential to differentiate between the pharmacokinetics of various anticoagulants in real clinical scenarios. The elimination of 0.5 mg every 4 hours could also suggest apixaban under certain renal function contexts. Given the variations in individual patient pharmacokinetics and responses, it is crucial to take into account the potential for other anticoagulants, such as apixaban, which may also be associated with consistent elimination rates in specific patient populations. This consideration is vital for ensuring optimal patient management and outcomes.
+ Agent 5 (👨🏽‍⚕️ clinical laboratory scientist) -> Agent 1 (👨‍⚕️ pharmacologist) : As a clinical laboratory scientist specializing in analyzing laboratory samples and understanding pharmacokinetics, I have reviewed the drug elimination profile of the observed subject. Based on the data of eliminating 0.5 mg of the drug every 4 hours, I align with the assessment that the patient most likely consumed (B) Enoxaparin. 
+
+Enoxaparin, a low molecular weight heparin, has a well-characterized pharmacokinetic profile that supports this specific elimination pattern. Its renal clearance and predictable dosing allow for consistent levels of elimination to be observed, making it the most probable anticoagulant in this scenario compared to the other options. Additionally, considering that other anticoagulants such as apixaban have a different elimination profile, it reinforces the conclusion that enoxaparin is indeed the most fitting choice given the details provided. 
+
+Therefore, I assure you that my laboratory insights genuinely support the elimination pattern attributed to enoxaparin.
+ Agent 5 (👨🏽‍⚕️ clinical laboratory scientist) -> Agent 2 (🧑🏿‍⚕️ hematologist) : As a clinical laboratory scientist with expertise in analyzing pharmacokinetics and drug levels, I would like to emphasize that the patient likely consumed (B) Enoxaparin. 
+
+The elimination rate of 0.5 mg every 4 hours aligns with the pharmacokinetic profile of enoxaparin, which is a low molecular weight heparin commonly used in anticoagulation therapy. Its clearance is primarily renal and exhibits predictable dosing and elimination characteristics, both of which are crucial for effective anticoagulation management. 
+
+In contrast, other anticoagulants listed, such as apixaban and dabigatran, have differing elimination pathways and rates that do not correspond to the observed data. Therefore, I strongly believe that enoxaparin is the appropriate conclusion based on the elimination pattern documented, and it should be considered the most likely anticoagulant consumed by the patient.
+ Agent 5 (👨🏽‍⚕️ clinical laboratory scientist) -> Agent 3 (👨🏻‍⚕️ clinical researcher) : As a clinical laboratory scientist with a specialization in analyzing drug levels and understanding pharmacokinetics, I would like to present my opinion regarding the anticoagulant in question. Based on the elimination data showing a reduction of 0.5 mg every 4 hours, I assert that the patient most likely consumed (B) Enoxaparin.
+
+Enoxaparin has a well-documented pharmacokinetic profile characterized by predictable renal clearance and a consistent elimination rate, making it a common choice in anticoagulation therapy. This matches the observed elimination pattern closely, providing a strong basis for this conclusion. 
+
+Other anticoagulants such as apixaban have different elimination profiles that do not align with the reported data, adding weight to the assertion that enoxaparin is the anticoagulant of choice for this specific elimination pattern. Thus, I firmly believe that enoxaparin is the most logical answer given the circumstances.
+ Agent 5 (👨🏽‍⚕️ clinical laboratory scientist) -> Agent 5 (👨🏽‍⚕️ clinical laboratory scientist) : As a clinical laboratory scientist specializing in pharmacokinetics and the analysis of drug levels, I would like to affirm my strong belief that the patient most likely consumed (B) Enoxaparin.
+
+The observed elimination of 0.5 mg every 4 hours aligns perfectly with the pharmacokinetic characteristics of enoxaparin, a low molecular weight heparin known for its predictable renal clearance and elimination profile. This consistent elimination rate is critical for effective anticoagulation management, as it allows for appropriate dosing and monitoring.
+
+Other anticoagulants on the list, such as dabigatran, apixaban, and fondaparinux, exhibit different elimination patterns that do not correspond with the evidence we have. Therefore, based on the clear and documented pharmacokinetics of enoxaparin, I confidently conclude that it is the most likely anticoagulant consumed by this patient.
+|_Turn 2
+ Agent 1 (👨‍⚕️ pharmacologist): 🤐
+ Agent 2 (🧑🏿‍⚕️ hematologist): 🤐
+ Agent 3 (👨🏻‍⚕️ clinical researcher): 🤐
+ Agent 4 (👨🏽‍⚕️ toxicologist): 🤐
+ Agent 5 (👨🏽‍⚕️ clinical laboratory scientist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨‍⚕️) | Agent 2 (🧑🏿‍⚕️) | Agent 3 (👨🏻‍⚕️) | Agent 4 (👨🏽‍⚕️) | Agent 5 (👨🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨‍⚕️) |              |              |              |  ✋ (1<->4)  |  ✋ (1<-5)   |
+|              |              |              |              |              |              |
+| Agent 2 (🧑🏿‍⚕️) |              |              |              |  ✋ (2<->4)  |  ✋ (2<-5)   |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏻‍⚕️) |              |              |              |  ✋ (3->4)   |  ✋ (3<-5)   |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏽‍⚕️) |  ✋ (4<->1)  |  ✋ (4<->2)  |  ✋ (4<-3)   |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏽‍⚕️) |  ✋ (5->1)   |  ✋ (5->2)   |  ✋ (5->3)   |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: 'To determine the most likely anticoagulant consumed by the patient based on the elimination rate of 0.5 mg every 4 hours, we need to consider the pharmacokinetics of each medication listed:\n\n- **Warfarin**: Typically has a long half-life and is not eliminated at a rate of 0.5 mg every 4 hours.\n- **Enoxaparin**: A low molecular weight heparin that is usually dosed based on weight and has a different elimination profile.\n- **Fondaparinux**: Has a longer half-life and is not eliminated at this rate.\n- **Dabigatran**: Has a half-life of about 12-17 hours and is eliminated renally, but the elimination rate does not match 0.5 mg every 4 hours.\n- **Apixaban**: Has a half-life of about 12 hours and is also eliminated renally, but again, the elimination rate does not match.\n\nGiven the elimination rate of 0.5 mg every 4 hours, this corresponds to a total of 3 mg per day, which is more consistent with the dosing and elimination profile of **Apixaban**.\n\nAfter reviewing the opinions and pharmacokinetic profiles of the anticoagulants, the majority would likely lean towards:\n\nAnswer: (E) Apixaban'}
+
+
+[INFO] no: 197
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Nephrologist (Lead)): 
+ Member 2 (Primary Care Physician): 
+ Member 3 (Hematologist): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Radiologist (Lead)): 
+ Member 2 (Urologist): 
+ Member 3 (Pathologist): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Nephrologist (Lead)): 
+ Member 2 (Clinical Decision Specialist): 
+ Member 3 (Palliative Care Specialist): 
+
+
+[INFO] no: 198
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Reproductive Endocrinologist (Lead)): This specialist assesses hormonal factors affecting fertility and is crucial in determining the optimal treatment regimen tailored to the patient’s needs.
+ Member 2 (Obstetrician/Gynecologist): Provides expertise on reproductive health, evaluates the patient's reproductive anatomy post
+ Member 3 (Urologist): Brings insights into male reproductive health and assesses any anatomical or functional issues in the male partner contributing to infertility.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Endocrinologist (Lead)): Focuses on investigating any endocrine abnormalities in the patient, particularly considering her family history, and evaluates how hormonal imbalances might be influencing fertility.
+ Member 2 (Radiologist): Provides imaging support to evaluate anatomical factors affecting fertility, such as uterine and ovarian structures, through ultrasound or other advanced imaging techniques.
+ Member 3 (Genetic Counselor): Assesses for any genetic components that could be influencing fertility, particularly in conjunction with the patient’s family history of endocrine abnormalities.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Reproductive Specialist (Lead)): Integrates findings from the initial assessment and diagnostic teams to provide high
+ Member 2 (Clinical Pharmacist): Evaluates and discusses the proposed medication strategy, especially if dealing with hormonal treatments, to optimize dosages and minimize side effects.
+ Member 3 (Psychologist): Addresses emotional and psychological aspects associated with infertility and ongoing treatment, ensuring the patient’s mental wellbeing is part of the holistic care approach.
+
+Group 4 -  Treatment Protocol Team (TPT)
+ Member 1 (Fertility Specialist (Lead)): Designs and oversees the execution of fertility treatments, focusing on hormone therapy administered at specific times in the menstrual cycle.
+ Member 2 (Nurse Practitioner or Fertility Nurse): Facilitates patient education on treatment regimens, ensures adherence to the medication protocol, and provides ongoing support throughout the treatment process.
+ Member 3 (Social Worker): Offers psychosocial support and helps the patient navigate resources related to fertility treatments, including counseling that may be required during the emotional journey of infertility.
+
+
+[INFO] no: 199
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Pediatric Nephrologist (Lead)): 
+ Member 2 (Pediatric Urologist): 
+ Member 3 (Pediatric Radiologist): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Pediatric Pathologist (Lead)): 
+ Member 2 (Pediatric Infectious Disease Specialist): 
+ Member 3 (Pediatric Immunologist): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Pediatric Nephrologist (Lead)): 
+ Member 2 (Pediatric Health Services Coordinator): 
+ Member 3 (Clinical Research Specialist): 
+

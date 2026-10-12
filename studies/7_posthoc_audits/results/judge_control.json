@@ -1,0 +1,32 @@
+{
+ "true_summary": {
+  "answer_in_summary": {
+   "maybe": 194,
+   "yes": 195,
+   "no": 110,
+   "unstated": 1
+  },
+  "label_equals_source": 0.988,
+  "evidence": {
+   "full": 490,
+   "partial": 10
+  },
+  "misrepresented": 0.002
+ },
+ "mismatched_summary": {
+  "answer_in_summary": {
+   "unstated": 272,
+   "no": 53,
+   "maybe": 147,
+   "yes": 28
+  },
+  "label_equals_source": 0.186,
+  "evidence": {
+   "none": 389,
+   "partial": 102,
+   "full": 9
+  },
+  "misrepresented": 0.674
+ },
+ "n": 500
+}

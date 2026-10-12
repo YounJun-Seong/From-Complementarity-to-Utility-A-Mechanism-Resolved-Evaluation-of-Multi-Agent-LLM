@@ -1,0 +1,358 @@
+<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [01:16<49:37, 76.34s/it]  5%|▌         | 2/40 [02:08<39:26, 62.27s/it]  8%|▊         | 3/40 [05:49<1:23:02, 134.67s/it] 10%|█         | 4/40 [06:11<54:07, 90.21s/it]    12%|█▎        | 5/40 [08:30<1:02:47, 107.65s/it] 15%|█▌        | 6/40 [09:46<55:01, 97.12s/it]    18%|█▊        | 7/40 [11:26<53:48, 97.84s/it] 20%|██        | 8/40 [15:03<1:12:26, 135.83s/it] 22%|██▎       | 9/40 [15:50<55:47, 107.97s/it]   25%|██▌       | 10/40 [16:40<45:02, 90.07s/it] 28%|██▊       | 11/40 [16:55<32:28, 67.17s/it] 30%|███       | 12/40 [19:40<45:14, 96.94s/it] 32%|███▎      | 13/40 [21:15<43:20, 96.33s/it] 35%|███▌      | 14/40 [22:04<35:34, 82.11s/it] 38%|███▊      | 15/40 [22:46<29:11, 70.05s/it] 40%|████      | 16/40 [23:23<24:04, 60.18s/it] 42%|████▎     | 17/40 [23:35<17:29, 45.62s/it] 45%|████▌     | 18/40 [24:57<20:42, 56.46s/it] 48%|████▊     | 19/40 [26:59<26:39, 76.17s/it] 50%|█████     | 20/40 [28:55<29:22, 88.10s/it] 52%|█████▎    | 21/40 [30:14<27:03, 85.46s/it] 55%|█████▌    | 22/40 [30:59<21:59, 73.31s/it] 57%|█████▊    | 23/40 [31:40<17:59, 63.50s/it] 60%|██████    | 24/40 [32:33<16:06, 60.42s/it] 62%|██████▎   | 25/40 [36:24<27:53, 111.57s/it] 65%|██████▌   | 26/40 [37:31<22:54, 98.18s/it]  68%|██████▊   | 27/40 [39:25<22:20, 103.12s/it] 70%|███████   | 28/40 [40:26<18:05, 90.48s/it]  72%|███████▎  | 29/40 [41:18<14:26, 78.79s/it] 75%|███████▌  | 30/40 [44:28<18:42, 112.30s/it] 78%|███████▊  | 31/40 [45:28<14:27, 96.34s/it]  80%|████████  | 32/40 [46:14<10:51, 81.49s/it] 82%|████████▎ | 33/40 [47:45<09:49, 84.19s/it] 85%|████████▌ | 34/40 [48:28<07:10, 71.83s/it] 88%|████████▊ | 35/40 [52:07<09:39, 115.96s/it] 90%|█████████ | 36/40 [1:04:47<20:36, 309.15s/it] 92%|█████████▎| 37/40 [1:14:27<19:31, 390.38s/it]<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s] 90%|█████████ | 36/40 [02:26<00:16,  4.07s/it] 92%|█████████▎| 37/40 [03:16<00:17,  5.82s/it] 95%|█████████▌| 38/40 [04:14<00:17,  8.52s/it] 98%|█████████▊| 39/40 [05:53<00:14, 14.78s/it]100%|██████████| 40/40 [07:48<00:00, 23.73s/it]100%|██████████| 40/40 [07:48<00:00, 11.72s/it]
+
+[INFO] no: 75
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏽‍⚕️ 1. Pediatrician): Specializes in the medical care of infants, children, and adolescents.
+Agent 2 (👨🏽‍⚕️ 2. Medical Geneticist): Specializes in the study of genes and heredity.
+Agent 3 (👩🏼‍⚕️ 3. Cardiologist): Focuses on the diagnosis and treatment of heart and blood vessel
+Agent 4 (👨‍⚕️ 4. Neonatologist): Focuses on the care of newborn infants, especially those who are born prematurely or have medical issues at birth.
+Agent 5 (🧑‍⚕️ 5. Psychiatrist): Focuses on mental health issues, which may play a role in understanding and managing the patient's overall well
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                 moderator (👨‍⚖️)                                                                  
+           ┌────────────────────────────┬───────────────┴───────────┬────────────────────────┬─────────────────────────┐           
+  Pediatrician (👨🏽‍⚕️)      Medical Geneticist (👨🏽‍⚕️)     Psychiatrist (🧑‍⚕️)      Neonatologist (👨‍⚕️)      Cardiologist (👩🏼‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏽‍⚕️ pediatrician) -> Agent 2 (👨🏽‍⚕️ medical geneticist) : As a pediatrician specializing in the medical care of infants, children, and adolescents, I would like to express my opinion on the genetic abnormality related to the patient's symptoms.
+
+**Opinion to Agent 2 (medical geneticist):**
+
+While the patient's features such as the high-pitched mewing cry, microcephaly, and developmental delay are often associated with Cri du Chat syndrome due to a deletion on chromosome 5, I believe that the combination of symptoms presented could also align with characteristics of Patau syndrome (trisomy 13). Given the holosystolic murmur indicating possible congenital heart defect and the developmental challenges, I suggest that a thorough genetic evaluation should be considered to confirm the specific chromosomal involvement. This could help provide clarity in directing the patient towards appropriate interventions and support.
+ Agent 2 (👨🏽‍⚕️ medical geneticist) -> Agent 1 (👨🏽‍⚕️ pediatrician) : As a medical geneticist, I specialize in the study of genes and heredity, particularly in relation to chromosomal disorders. 
+
+**Opinion to Pediatrician:**
+While I understand your reasoning pointing to chromosome 13 and Patau syndrome, I maintain that the more characteristic clinical features presented in this case strongly align with Cri du Chat syndrome, which is caused by a deletion on chromosome 5. The defining features like the high-pitched mewing cry, microcephaly, and epicanthal folds are more directly indicative of Cri du Chat, making chromosome 5 the most relevant abnormality in this scenario. Given the specific presentation, I'm confident that chromosome 5 should be the focus for our diagnosis.
+ Agent 2 (👨🏽‍⚕️ medical geneticist) -> Agent 3 (👩🏼‍⚕️ cardiologist) : As a medical geneticist, my expertise lies in the study of genes and hereditary conditions, particularly in understanding chromosomal abnormalities and their clinical manifestations.
+
+**Opinion to Cardiologist:**
+I appreciate your input regarding the potential for Patau syndrome and abnormalities of chromosome 13. However, the clinical presentation, specifically the high-pitched mewing cry, microcephaly, and prominent epicanthal folds, is classically associated with Cri du Chat syndrome, which results from a deletion on chromosome 5. While both conditions can present with congenital heart defects, the distinct crying pattern and facial features are hallmark signs of Cri du Chat. Therefore, I strongly believe that we should focus on chromosome 5 for the most accurate diagnosis in this case.
+ Agent 3 (👩🏼‍⚕️ cardiologist) -> Agent 1 (👨🏽‍⚕️ pediatrician) : As a cardiologist specializing in the diagnosis and treatment of heart conditions, my opinion on the case of the 5-year-old girl with developmental delay, a high-pitched mewing cry, microcephaly, and a holosystolic murmur aligns with the more complex presentation that may suggest abnormalities associated with chromosome 13, such as Patau syndrome. 
+
+While Cri du Chat syndrome is characterized by a deletion on chromosome 5 and shares some features, the combination of a holosystolic murmur—which suggests a congenital heart defect—along with the other signs presented is more indicative of Patau syndrome. This syndrome is recognized for its cardiac anomalies and distinctive phenotype, which aligns with our patient's symptoms. Therefore, it is important to consider chromosome 13 as the likely source of this patient's presentation.
+ Agent 3 (👩🏼‍⚕️ cardiologist) -> Agent 2 (👨🏽‍⚕️ medical geneticist) : As a cardiologist, my focus is on the diagnosis and management of cardiovascular conditions, but I also recognize the importance of genetic factors in congenital heart defects. Regarding the case of the 5-year-old girl, I understand your emphasis on Cri du Chat syndrome due to the high-pitched mewing cry and the characteristic features you noted associated with chromosome 5 deletion.
+
+However, I believe it's crucial to also consider the broader context of her presentation, including the holosystolic murmur which suggests underlying congenital heart disease. This symptom, combined with the developmental delays and microcephaly, aligns more closely with the phenotypic expression of Patau syndrome (trisomy 13), which is known to cause significant congenital heart defects. Therefore, I support the notion that an abnormality on chromosome 13 may better explain the complete clinical picture we are observing in this patient.
+ Agent 4 (👨‍⚕️ neonatologist) -> Agent 2 (👨🏽‍⚕️ medical geneticist) : As a neonatologist with experience in the care of newborns and understanding congenital conditions, I would like to express my opinion regarding the presented case of the 5-year-old girl.
+
+I believe that the symptoms, including the high-pitched mewing cry, microcephaly, prominent epicanthal folds, and developmental delay, are highly indicative of cri du chat syndrome, which is classically associated with a deletion of chromosome 5p. While I acknowledge that some features may overlap with Patau syndrome (trisomy 13), the specific combination of auditory and physical characteristics in this case aligns more closely with cri du chat. The typical cry and distinctive facial features strongly support this diagnosis.
+
+Please consider the established link between the lack of the short arm of chromosome 5 and the observed clinical features to advocate for a focus on chromosome 5 in this case.
+ Agent 5 (🧑‍⚕️ psychiatrist) -> Agent 2 (👨🏽‍⚕️ medical geneticist) : As a psychiatrist with a focus on mental health issues and understanding the interplay between psychological and genetic factors, I believe the presentation of the 5-year-old girl aligns more closely with Patau syndrome (Trisomy 13) rather than Cri du Chat syndrome. 
+
+The distinctive features such as developmental delay, microcephaly, prominent epicanthal folds, and the presence of congenital heart defects warrant a thorough genetic evaluation for chromosome 13 abnormalities. While Cri du Chat syndrome is associated with a deletion on chromosome 5, the combination of characteristics described leans more towards those commonly seen in Patau syndrome. Therefore, it’s essential to consider further genetic testing to confirm the diagnosis related to chromosome 13 and to guide management and counseling for the family.
+|_Turn 2
+ Agent 1 (👨🏽‍⚕️ pediatrician) -> Agent 2 (👨🏽‍⚕️ medical geneticist) : As a pediatrician specializing in the medical care of infants, children, and adolescents, I have carefully considered the clinical presentation of the 5-year-old girl. 
+
+**Opinion to Agent 2 (medical geneticist):**
+
+While I acknowledge your assertion that the symptoms point primarily to Cri du Chat syndrome due to the deletion on chromosome 5, I believe it is essential to also consider the characteristics that align with Patau syndrome (trisomy 13). The presence of congenital heart defects, developmental delay, and distinct facial features warrants a comprehensive genetic evaluation to rule out trisomy 13. Confirming the chromosomal abnormality will ensure appropriate management strategies and family planning discussions are appropriately tailored. Your expertise in genetic analysis will be crucial in discerning the exact nature of this patient’s condition.
+ Agent 2 (👨🏽‍⚕️ medical geneticist) -> Agent 1 (👨🏽‍⚕️ pediatrician) : As a medical geneticist, I specialize in the study of genes and hereditary conditions, focusing on chromosomal abnormalities and their impacts on development.
+
+**Opinion to Pediatrician:**
+I value your assessment, but I would like to emphasize that the specific combination of features observed in this patient—particularly the high-pitched mewing cry, microcephaly, and the developmental delay—strongly point toward Cri du Chat syndrome, which is linked to a deletion on chromosome 5. While Patau syndrome does share some overlapping features, it is characterized by different developmental anomalies and presentations. The distinctive cry and facial features are hallmark signs of Cri du Chat that should direct our focus to chromosome 5 as the primary abnormality in this case.
+ Agent 2 (👨🏽‍⚕️ medical geneticist) -> Agent 3 (👩🏼‍⚕️ cardiologist) : As a medical geneticist, my expertise lies in understanding genetic disorders and the implications of chromosomal abnormalities on patient health.
+
+**Opinion to Cardiologist:**
+I appreciate your perspective on the association with chromosome 13 and Patau syndrome. However, the clinical features presented in this case—particularly the high-pitched mewing cry, microcephaly, prominent epicanthal folds, and developmental delay—are distinctly characteristic of Cri du Chat syndrome, which arises from a deletion on chromosome 5. While congenital heart defects may occur in both syndromes, the presence of the mewing cry and the specific facial dysmorphologies are highly indicative of Cri du Chat rather than Patau syndrome. Thus, I firmly assert that our focus should be on chromosome 5 as the underlying cause of this patient’s symptoms.
+ Agent 3 (👩🏼‍⚕️ cardiologist) -> Agent 2 (👨🏽‍⚕️ medical geneticist) : As a cardiologist, my expertise lies in diagnosing and managing heart-related conditions, but I also recognize the crucial role of genetic factors in congenital anomalies. Regarding the patient's presentation, I understand your position on Cri du Chat syndrome being linked to chromosome 5 due to its characteristic high-pitched mewing cry, microcephaly, and developmental delay.
+
+However, I believe it is essential to consider the broader clinical picture. The holosystolic murmur observed in this patient suggests significant congenital heart defects, which are more prominently associated with Patau syndrome (trisomy 13). This condition is characterized not only by developmental delays and distinctive facial features, but also by a spectrum of congenital heart anomalies that align with the symptoms we see in this girl.
+
+Given these considerations, I would argue that the abnormalities we are observing fit the profile of Patau syndrome more closely than Cri du Chat syndrome. Thus, I support the hypothesis of chromosome 13 abnormalities as a likely underlying cause for this child's clinical presentation.
+ Agent 4 (👨‍⚕️ neonatologist) -> Agent 1 (👨🏽‍⚕️ pediatrician) : As a neonatologist with a focus on the care of newborns and an understanding of congenital conditions, I would like to share my insights regarding the diagnosis of the 5-year-old girl with developmental delay and distinctive features.
+
+While I appreciate your perspective on the possibility of Patau syndrome (trisomy 13), I believe the clinical presentation aligns more closely with cri du chat syndrome due to the combination of the high-pitched mewing cry, microcephaly, and characteristic facial features including prominent epicanthal folds. Cri du chat syndrome is specifically associated with a deletion in the short arm of chromosome 5, which correlates with the observed developmental delays and congenital anomalies in this patient.
+
+I urge you to consider the unique presentation of the high-pitched cry, which is a hallmark of cri du chat syndrome, distinguishing it from other syndromes. This specificity supports the connection to chromosome 5 rather than suggesting a broader diagnostic consideration without clear evidence.
+ Agent 5 (🧑‍⚕️ psychiatrist) -> Agent 2 (👨🏽‍⚕️ medical geneticist) : As a psychiatrist with a focus on mental health issues and their interplay with developmental disorders, I would like to address the medical geneticist based on our discussions regarding the patient's presentation. 
+
+While there is a suggestion of Cri du Chat syndrome associated with chromosome 5 due to the high-pitched mewing cry, microcephaly, and developmental delay, the overall picture is more indicative of Patau syndrome (Trisomy 13). This syndrome aligns better with the combination of congenital anomalies, including the holosystolic murmur and distinctive facial features such as prominent epicanthal folds. Therefore, I recommend a thorough evaluation for chromosomal analysis to confirm a potential Trisomy 13 diagnosis, as it could significantly impact management and genetic counseling for the family.
+|_Turn 3
+ Agent 1 (👨🏽‍⚕️ pediatrician) -> Agent 1 (👨🏽‍⚕️ pediatrician) : As a pediatrician specializing in the medical care of infants, children, and adolescents, I have reflected on the current discussion regarding the 5-year-old girl's symptoms and their potential chromosomal implications.
+
+**Opinion to Agent 1 (pediatrician):**
+
+I understand the consensus leaning towards Cri du Chat syndrome due to the high-pitched mewing cry, microcephaly, and developmental delays. However, I believe it is essential to keep in mind the possibility of Patau syndrome (trisomy 13) given the presentation of congenital heart defects and other significant developmental challenges. The overlapping features can complicate the diagnosis, and ensuring a thorough chromosomal analysis will provide clarity. A precise diagnosis is crucial for creating an effective management plan tailored to address her specific needs and to support her family's understanding of the condition. By considering both possibilities, we can ensure comprehensive care and support.
+ Agent 2 (👨🏽‍⚕️ medical geneticist) -> Agent 1 (👨🏽‍⚕️ pediatrician) : As a medical geneticist, I specialize in the study of genes and hereditary conditions, particularly focusing on chromosomal abnormalities and their clinical implications.
+
+**Opinion to Pediatrician:**
+I appreciate your evaluation of the case, but I strongly believe that we need to focus on Cri du Chat syndrome as the most likely diagnosis, which is linked to a deletion on chromosome 5. The distinctive high-pitched mewing cry, microcephaly, and characteristic facial features such as prominent epicanthal folds are hallmark signs of this syndrome. While I understand your consideration of chromosome 13 and Patau syndrome, the specific combination of symptoms, particularly the unique crying pattern, aligns more closely with Cri du Chat. Therefore, I would advocate that our primary focus should be on chromosome 5 in this patient's case.
+ Agent 2 (👨🏽‍⚕️ medical geneticist) -> Agent 5 (🧑‍⚕️ psychiatrist) : As a medical geneticist, my expertise focuses on the study of genes and hereditary conditions, particularly relating to chromosomal abnormalities and their effects on development and health.
+
+**Opinion to Psychiatrist:**
+I appreciate your insights regarding the potential connection to chromosome 13 and Patau syndrome. However, I would like to emphasize that the specific clinical features presented in this case—such as the high-pitched mewing cry, developmental delay, and distinctive facial characteristics—are far more indicative of Cri du Chat syndrome, which is associated with a deletion on chromosome 5. This syndrome's defining traits make it essential for us to prioritize chromosome 5 as the relevant abnormality. Understanding this genetic basis is critical for managing the patient’s developmental challenges effectively, and I believe we should advocate for this diagnosis in our discussions.
+ Agent 3 (👩🏼‍⚕️ cardiologist) -> Agent 1 (👨🏽‍⚕️ pediatrician) : As a cardiologist, my expertise in diagnosing and managing heart conditions informs my perspective on this patient's presentation. I acknowledge your opinion regarding Cri du Chat syndrome being associated with chromosome 5, particularly given the high-pitched mewing cry and developmental delay.
+
+However, I want to emphasize the significance of the holosystolic murmur identified during the examination. This finding strongly suggests the presence of a congenital heart defect, which aligns more closely with Patau syndrome (trisomy 13). This condition is known for its association with significant congenital heart defects, along with the developmental delays and distinct physical features we see in this girl.
+
+Thus, while Cri du Chat syndrome is certainly a consideration, I believe that the comprehensive clinical presentation aligns more consistently with abnormalities on chromosome 13. It is important to keep this in mind as we consider the most likely diagnosis for this patient.
+ Agent 4 (👨‍⚕️ neonatologist) -> Agent 3 (👩🏼‍⚕️ cardiologist) : As a neonatologist with experience in the care of newborns and congenital conditions, I would like to discuss the relevance of congenital heart defects in the context of the diagnosis for the 5-year-old girl.
+
+While I understand your assessment of the potential link to Patau syndrome (trisomy 13) based on the holosystolic murmur and other features, I want to emphasize that the combination of a high-pitched mewing cry, microcephaly, and developmental delay strongly suggests cri du chat syndrome, which is associated with a deletion on chromosome 5. This syndrome also includes a range of congenital heart defects but is distinct in its characteristic presentation.
+
+I encourage us to weigh the specific phenotypic features of each condition carefully. The hallmark signs of cri du chat syndrome, particularly the crying pattern and developmental presentation, provide a clearer pathway to diagnosing chromosome 5 deletion rather than attributing these symptoms to the broader characteristics associated with trisomy 13. This specificity is crucial for guiding appropriate management and support for the child and her family.
+ Agent 5 (🧑‍⚕️ psychiatrist) -> Agent 1 (👨🏽‍⚕️ pediatrician) : As a psychiatrist focusing on mental health and its interplay with developmental disorders, I would like to address the pediatrician regarding the 5-year-old girl’s symptoms.
+
+Given the combination of developmental delay, microcephaly, a high-pitched mewing cry, and congenital heart defects, I believe it’s crucial to pursue a comprehensive assessment of her development through a multidisciplinary approach. While the symptoms suggest a potential chromosomal anomaly, such as Patau syndrome (Trisomy 13), it’s important to consider the broader implications for her ongoing care and developmental support. Rigorous developmental assessments and tailored intervention strategies will be essential for optimizing her communication skills and overall well-being. Collaboration with speech therapy and developmental resources will ensure we meet her specific needs effectively.
+|_Turn 4
+ Agent 1 (👨🏽‍⚕️ pediatrician) -> Agent 2 (👨🏽‍⚕️ medical geneticist) : As a pediatrician specializing in the medical care of infants, children, and adolescents, I have carefully reviewed the details surrounding the 5-year-old girl's clinical presentation.
+
+**Opinion to Agent 2 (medical geneticist):**
+
+While your conclusion pointing to Cri du Chat syndrome due to a deletion on chromosome 5 is well-founded given the high-pitched mewing cry, microcephaly, and developmental delays, I urge you to consider the broader implications of the overlapping features with Patau syndrome (trisomy 13). The combination of developmental delays, congenital heart defects, and distinctive facial features may suggest a more complex genetic profile. A definitive genetic analysis could elucidate whether there is a chromosomal abnormality other than a simple deletion. Ensuring the correct diagnosis is not only crucial for planning the child's care and interventions but also for understanding potential familial implications. Your expertise in genetic testing will be key to achieving clarity in this case.
+ Agent 2 (👨🏽‍⚕️ medical geneticist) -> Agent 1 (👨🏽‍⚕️ pediatrician) : As a medical geneticist, my expertise centers on the study of genes and hereditary conditions, particularly focusing on the impacts of chromosomal abnormalities on development and health.
+
+**Opinion to Pediatrician:**
+I respect your evaluation of the case, but I want to emphasize that the specific clinical features, especially the high-pitched mewing cry, microcephaly, and distinctive facial aspects, are strongly indicative of Cri du Chat syndrome linked to a deletion on chromosome 5. While Patau syndrome (Trisomy 13) does share some features like developmental delay and congenital heart defects, the unique combination presented here aligns far more closely with Cri du Chat. Therefore, I believe we need to prioritize chromosome 5 in our discussions about this patient's diagnosis.
+ Agent 2 (👨🏽‍⚕️ medical geneticist) -> Agent 5 (🧑‍⚕️ psychiatrist) : As a medical geneticist, my expertise is in the study of genes and hereditary conditions, particularly focusing on chromosomal abnormalities and their implications for development and health.
+
+**Opinion to Psychiatrist:**
+I appreciate your thoughts regarding the consideration of chromosome 13 and Patau syndrome. However, I want to reiterate the importance of the clinical features observed in this case. The patient’s high-pitched mewing cry, microcephaly, and distinctive facial features are classic signs of Cri du Chat syndrome, which is specifically linked to a deletion on chromosome 5. While it’s true that both syndromes can present with developmental delays and congenital anomalies, the unique combination of signs here is quite characteristic of Cri du Chat. Therefore, I advocate for focusing on chromosome 5 as the underlying cause in our discussions and evaluations.
+ Agent 3 (👩🏼‍⚕️ cardiologist) -> Agent 2 (👨🏽‍⚕️ medical geneticist) : As a cardiologist, my focus on cardiovascular conditions and their implications in broader syndromic presentations informs my perspective on this case. I recognize that you have provided a compelling argument for Cri du Chat syndrome related to chromosome 5 based on the high-pitched mewing cry and developmental delay.
+
+However, I would like to reiterate the importance of considering the holosystolic murmur found during the examination. This clinical finding is highly indicative of congenital heart defects, which are significantly associated with Patau syndrome (trisomy 13). The presence of both developmental delays and congenital heart abnormalities supports the notion that the patient's presentation may be more consistent with abnormalities related to chromosome 13.
+
+Given this broader clinical context, I propose that we consider the possibility of Patau syndrome as the underlying cause, as it encompasses both the developmental features and the cardiac anomalies observed in this patient. This perspective may align our diagnostic conclusions more effectively.
+ Agent 4 (👨‍⚕️ neonatologist) -> Agent 2 (👨🏽‍⚕️ medical geneticist) : As a neonatologist with a focus on the care of newborns and an understanding of congenital conditions, I would like to address the discussion regarding the diagnosis of the 5-year-old girl.
+
+While I recognize that there can be overlap in the presentations of different genetic syndromes, I firmly believe that the specific combination of a high-pitched mewing cry, microcephaly, prominent epicanthal folds, and developmental delay is most indicative of cri du chat syndrome, which is caused by a deletion on chromosome 5. This cry is a hallmark feature of the syndrome and distinguishes it from other disorders.
+
+I encourage us to focus on the defined characteristics that point to chromosome 5 as the underlying genetic alteration in this case. The emphasis on developmental features and the specific presentation uniquely align with cri du chat syndrome, providing a compelling argument for this diagnosis over potential issues related to chromosome 13. It is essential to make a precise diagnosis to guide the appropriate management for the child and her family.
+ Agent 5 (🧑‍⚕️ psychiatrist) -> Agent 2 (👨🏽‍⚕️ medical geneticist) : As a psychiatrist specializing in mental health and its intersections with developmental disorders, I would like to address the medical geneticist regarding the case of the 5-year-old girl.
+
+While the symptoms—developmental delay, microcephaly, a high-pitched mewing cry, and congenital heart defect—primarily point towards Cri du Chat syndrome due to the classic deletion on chromosome 5, we must also consider the potential for Patau syndrome (Trisomy 13). This syndrome encompasses similar clinical features and could provide a more comprehensive understanding of her condition. 
+
+I recommend performing chromosomal analysis to confirm the specific genetic anomaly present. This will not only clarify her diagnosis but will also guide us in tailoring her management plan and providing appropriate support and resources to her family. Early intervention is critical, especially given her developmental delays, and understanding the underlying genetic context will enhance our ability to address her needs effectively.
+|_Turn 5
+ Agent 1 (👨🏽‍⚕️ pediatrician) -> Agent 2 (👨🏽‍⚕️ medical geneticist) : As a pediatrician specializing in the medical care of infants, children, and adolescents, I have given careful consideration to the clinical details provided regarding our patient.
+
+**Opinion to Agent 2 (medical geneticist):**
+
+While your conclusion about Cri du Chat syndrome resulting from a deletion of chromosome 5 is indeed plausible given the clinical features we observe, I would like to emphasize the importance of a thorough genetic evaluation to rule out other possibilities such as Patau syndrome (trisomy 13). The overlapping symptoms, including developmental delays and congenital heart defects, necessitate a comprehensive analysis. Identifying the specific chromosomal abnormality will not only clarify the diagnosis but also guide us in tailoring management strategies and discussing prognosis with the family. Your expertise in genetic testing is essential to achieving a definitive diagnosis and ensuring the best outcome for our patient.
+ Agent 2 (👨🏽‍⚕️ medical geneticist) -> Agent 1 (👨🏽‍⚕️ pediatrician) : As a medical geneticist, my expertise is in the study of genes and hereditary conditions, particularly focusing on chromosomal abnormalities and their clinical implications.
+
+**Opinion to Pediatrician:**
+I value your perspective, but I must emphasize that the combination of clinical features observed in this case—especially the high-pitched mewing cry, microcephaly, and prominent epicanthal folds—strongly aligns with Cri du Chat syndrome. This syndrome is specifically caused by a deletion of a portion of chromosome 5. While Patau syndrome (Trisomy 13) does present with developmental delays and some overlapping features, the unique crying characteristic and facial dysmorphologies are hallmark signs of Cri du Chat. Therefore, I believe we should focus our diagnosis on chromosome 5, as it is the most relevant abnormality for this patient's symptoms.
+ Agent 2 (👨🏽‍⚕️ medical geneticist) -> Agent 3 (👩🏼‍⚕️ cardiologist) : As a medical geneticist, my expertise lies in identifying and understanding genetic disorders and the significance of chromosomal abnormalities.
+
+**Opinion to Cardiologist:**
+I appreciate your input regarding Patau syndrome and the consideration of chromosome 13; however, I want to underscore that the specific symptoms displayed by this patient—particularly the high-pitched mewing cry, microcephaly, and distinctive facial features—are much more indicative of Cri du Chat syndrome, which is linked to a deletion on chromosome 5. Although both syndromes can present with some overlapping features such as congenital heart defects, the unique combination of signs and the characteristic crying pattern strongly suggest that chromosome 5 should be the focus of our diagnostic efforts. I believe we need to prioritize this in our discussions for a more accurate diagnosis.
+ Agent 3 (👩🏼‍⚕️ cardiologist) -> Agent 2 (👨🏽‍⚕️ medical geneticist) : As a cardiologist, my expertise lies in understanding congenital heart defects and their implications in various syndromic presentations. In this case, I appreciate your emphasis on Cri du Chat syndrome linked to chromosome 5 based on the characteristic high-pitched mewing cry, microcephaly, and developmental delays.
+
+However, I believe it is crucial to highlight the clinical significance of the observed holosystolic murmur. This finding is indicative of substantial congenital heart defects that are often associated with Patau syndrome (trisomy 13). Given that this syndrome includes both severe developmental delays and congenital heart anomalies, the overall presentation may be more accurately aligned with Patau syndrome rather than Cri du Chat syndrome.
+
+I would recommend that we carefully consider the evidence of the holosystolic murmur in conjunction with the developmental features, as this could provide a clearer insight into the underlying chromosomal abnormality being indicated, potentially focusing our evaluation on chromosome 13.
+ Agent 4 (👨‍⚕️ neonatologist): 🤐
+ Agent 5 (🧑‍⚕️ psychiatrist) -> Agent 3 (👩🏼‍⚕️ cardiologist) : As a psychiatrist with expertise in understanding developmental disorders and the mental health implications they carry, I would like to address the cardiologist regarding the 5-year-old girl’s case.
+
+The presence of a holosystolic murmur, coupled with developmental delay, microcephaly, and a high-pitched mewing cry, suggests a complex interplay of cardiac and genetic factors. Given that congenital heart defects are commonly associated with several genetic syndromes, including Patau syndrome (Trisomy 13), it is crucial to fully characterize the heart defect present in this patient.
+
+Understanding the specific nature of her cardiac condition will provide insights into the severity of her overall prognosis and potential interventions needed. A detailed cardiovascular evaluation could help manage her congenital heart defect appropriately and inform the multidisciplinary team about how best to support her developmental needs moving forward.
+== Round 2 ==
+|_Turn 1
+ Agent 1 (👨🏽‍⚕️ pediatrician): 🤐
+ Agent 2 (👨🏽‍⚕️ medical geneticist): 🤐
+ Agent 3 (👩🏼‍⚕️ cardiologist): 🤐
+ Agent 4 (👨‍⚕️ neonatologist): 🤐
+ Agent 5 (🧑‍⚕️ psychiatrist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏽‍⚕️) | Agent 2 (👨🏽‍⚕️) | Agent 3 (👩🏼‍⚕️) | Agent 4 (👨‍⚕️) | Agent 5 (🧑‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏽‍⚕️) |              |  ✋ (1<->2)  |  ✋ (1<-3)   |  ✋ (1<-4)   |  ✋ (1<-5)   |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏽‍⚕️) |  ✋ (2<->1)  |              |  ✋ (2<->3)  |  ✋ (2<-4)   |  ✋ (2<->5)  |
+|              |              |              |              |              |              |
+| Agent 3 (👩🏼‍⚕️) |  ✋ (3->1)   |  ✋ (3<->2)  |              |  ✋ (3<-4)   |  ✋ (3<-5)   |
+|              |              |              |              |              |              |
+| Agent 4 (👨‍⚕️) |  ✋ (4->1)   |  ✋ (4->2)   |  ✋ (4->3)   |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑‍⚕️) |  ✋ (5->1)   |  ✋ (5<->2)  |  ✋ (5->3)   |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the final answer based on the majority opinion of the medical experts, let's summarize their conclusions:\n\n1. **Pediatrician**: (C) 13\n2. **Medical Geneticist**: (A) 5\n3. **Cardiologist**: (C) 13\n4. **Neonatologist**: (A) 5\n5. **Psychiatrist**: (C) 13\n\nNow, let's count the votes for each option:\n- **(A) 5**: 2 votes (Medical Geneticist, Neonatologist)\n- **(C) 13**: 3 votes (Pediatrician, Cardiologist, Psychiatrist)\n\nThe majority opinion is in favor of option (C) 13, which aligns with the conclusions drawn by the pediatrician, cardiologist, and psychiatrist regarding the clinical presentation suggesting Patau syndrome (trisomy 13).\n\nFinal Decision:\nAnswer: (C) 13"}
+
+
+[INFO] no: 76
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑🏿‍⚕️ 1. Gynecologist): Specializes in women's reproductive health.
+Agent 2 (👩🏻‍⚕️ 2. Oncologist): Focuses on the diagnosis and treatment of cancers.
+Agent 3 (👨‍⚕️ 3. Endocrinologist): Specializes in the endocrine system and related disorders.
+Agent 4 (👨🏻‍⚕️ 4. Urologist): Focuses on the urinary system and its related conditions.
+Agent 5 (👩🏼‍⚕️ 5. Pathologist): Specializes in the analysis of tissue samples for diagnostic purposes.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                         moderator (👨‍⚖️)                                                                
+           ┌────────────────────────┬───────────┴───────────┬──────────────────────┬────────────────────────┐            
+  Gynecologist (🧑🏿‍⚕️)      Oncologist (👩🏻‍⚕️)     Pathologist (👩🏼‍⚕️)     Urologist (👨🏻‍⚕️)      Endocrinologist (👨‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑🏿‍⚕️ gynecologist): 🤐
+ Agent 2 (👩🏻‍⚕️ oncologist) -> Agent 5 (👩🏼‍⚕️ pathologist) : As an oncologist focusing on the diagnosis and treatment of cancers, I believe that obtaining a biopsy of the vaginal mass is the most appropriate next step in management for this patient. 
+
+My opinion: Performing a biopsy is essential to establish a definitive diagnosis, particularly given the concerning characteristics of the mass and the patient's postmenopausal status, which significantly increases her risk for malignancy. Accurate histopathological evaluation is critical to rule out or confirm potential cancerous lesions, guiding our subsequent treatment decisions effectively. I am confident that timely biopsy results will inform our management strategy and ensure we address any malignancy appropriately.
+ Agent 3 (👨‍⚕️ endocrinologist): 🤐
+ Agent 4 (👨🏻‍⚕️ urologist): 🤐
+ Agent 5 (👩🏼‍⚕️ pathologist): 🤐
+|_Turn 2
+ Agent 1 (🧑🏿‍⚕️ gynecologist): 🤐
+ Agent 2 (👩🏻‍⚕️ oncologist): 🤐
+ Agent 3 (👨‍⚕️ endocrinologist): 🤐
+ Agent 4 (👨🏻‍⚕️ urologist): 🤐
+ Agent 5 (👩🏼‍⚕️ pathologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑🏿‍⚕️) | Agent 2 (👩🏻‍⚕️) | Agent 3 (👨‍⚕️) | Agent 4 (👨🏻‍⚕️) | Agent 5 (👩🏼‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👩🏻‍⚕️) |              |              |              |              |  ✋ (2->5)   |
+|              |              |              |              |              |              |
+| Agent 3 (👨‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👩🏼‍⚕️) |              |  ✋ (5<-2)   |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most appropriate next step in management for the patient described, we will review the opinions of the agents regarding the options provided.\n\n1. **Agent 1**: Recommends (B) Biopsy of the mass, as the presence of a firm, immobile mass in a postmenopausal woman raises concern for malignancy, and a biopsy is necessary for diagnosis.\n  \n2. **Agent 2**: Also supports (B) Biopsy of the mass, emphasizing the importance of ruling out cancer given the patient's age and symptoms.\n\n3. **Agent 3**: Suggests (C) Loop electrosurgical excision procedure, arguing that it could be both diagnostic and therapeutic if the mass is suspected to be precancerous or cancerous.\n\n4. **Agent 4**: Recommends (E) Urine gonorrhea and chlamydia testing, stating that sexually active women should be screened for STIs, although this may not be the immediate priority given the mass.\n\n5. **Agent 5**: Supports (B) Biopsy of the mass, reiterating the need for histological evaluation to determine the nature of the mass.\n\nAfter reviewing the opinions, the majority of agents (3 out of 5) recommend a biopsy of the mass as the most appropriate next step in management.\n\nAnswer: (B) Biopsy of the mass"}
+
+
+[INFO] no: 77
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑🏽‍⚕️ 1. Endocrinologist): Specializes in the diagnosis and treatment of hormone
+Agent 2 (👨🏽‍⚕️ 2. Rheumatologist): Focuses on the diagnosis and treatment of musculoskeletal diseases and autoimmune conditions.
+Agent 3 (👩🏻‍⚕️ 3. Hematologist): Specializes in the study and treatment of blood disorders.
+Agent 4 (👨🏽‍⚕️ 4. Orthopedic Surgeon): Specializes in surgical treatment of musculoskeletal conditions.
+Agent 5 (👨‍⚕️ 5. Microbiologist): Focuses on the study of microorganisms and infectious diseases.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                            moderator (👨‍⚖️)                                                                  
+            ┌──────────────────────────┬────────────┴─────────────┬───────────────────────────────────────────────┐           
+ Endocrinologist (🧑🏽‍⚕️)      Hematologist (👩🏻‍⚕️)     Rheumatologist (👨🏽‍⚕️)                           Microbiologist (👨‍⚕️) 
+                                                            └──────────────────┐                                              
+                                                                   Orthopedic Surgeon (👨🏽‍⚕️)                                 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑🏽‍⚕️ endocrinologist) -> Agent 2 (👨🏽‍⚕️ rheumatologist) : As an endocrinologist specializing in hormonal disorders, my expertise allows me to understand the intricate connections between metabolic conditions and musculoskeletal issues.
+
+To Agent 2 (rheumatologist): 
+
+I concur with the assessment that this patient exhibits signs of an inflammatory rheumatological syndrome, specifically related to hemochromatosis. The elevated serum ferritin levels and transferrin saturation indicate iron overload, which can precipitate joint inflammation. Given that the pattern of joint involvement is consistent with inflammatory processes rather than degenerative changes or crystal-induced arthropathies, this reinforces the need to consider managing the underlying iron overload. Addressing the hemochromatosis through appropriate interventions may alleviate the joint symptoms and improve the patient's overall quality of life.
+ Agent 1 (🧑🏽‍⚕️ endocrinologist) -> Agent 3 (👩🏻‍⚕️ hematologist) : As an endocrinologist with a focus on hormonal disorders, I understand the impact of metabolic derangements on various organ systems, including musculoskeletal health.
+
+To Agent 3 (hematologist):
+
+I agree with your assessment that the patient's elevated serum ferritin and transferrin saturation suggest iron overload, consistent with hemochromatosis. This metabolic condition has direct implications for joint health, leading to inflammatory arthritis due to iron deposition in the joints. Addressing the underlying iron overload is crucial, as it can significantly impact both the progression of the patient's diabetes and the inflammatory joint symptoms. A collaborative approach to manage the iron levels effectively will not only help reduce joint inflammation but also mitigate long-term complications associated with hemochromatosis.
+ Agent 2 (👨🏽‍⚕️ rheumatologist): 🤐
+ Agent 3 (👩🏻‍⚕️ hematologist): 🤐
+ Agent 4 (👨🏽‍⚕️ orthopedic surgeon) -> Agent 3 (👩🏻‍⚕️ hematologist) : As an orthopedic surgeon specializing in surgical treatment of musculoskeletal conditions, my opinion regarding the case of the 59-year-old man with progressive joint pain is that the etiology of his condition aligns with an inflammatory rheumatological syndrome, particularly in the context of hemochromatosis.
+
+Agent 3, I believe that the elevated transferrin saturation and serum ferritin levels indicate significant iron overload, which can lead to joint inflammation due to iron deposition. This manifests as progressive joint pain and tenderness, particularly in the metacarpophalangeal joints. In addition, the patient's history of poorly managed diabetes might exacerbate inflammatory processes. Given these factors, it seems imperative to consider hemochromatosis-related arthritis as the causative factor of his symptoms, and addressing the underlying iron overload could also significantly alleviate his joint issues.
+ Agent 5 (👨‍⚕️ microbiologist) -> Agent 3 (👩🏻‍⚕️ hematologist) : As a microbiologist, my expertise lies in the study of microorganisms and infectious diseases. 
+
+To Agent 3 (hematologist): 
+
+Given the patient's presentation of progressive joint pain, swelling, and elevated serum ferritin and transferrin saturation, it strongly suggests hemochromatosis. This condition is associated with iron overload, which can lead to inflammatory arthropathy. The elevated ferritin levels indicate an inflammatory process rather than merely a degenerative or crystal-induced joint condition. Therefore, I agree that this case represents an inflammatory rheumatological syndrome due to iron deposition, and it is crucial to consider this diagnosis to guide appropriate management and treatment strategies for the patient.
+|_Turn 2
+ Agent 1 (🧑🏽‍⚕️ endocrinologist): 🤐
+ Agent 2 (👨🏽‍⚕️ rheumatologist): 🤐
+ Agent 3 (👩🏻‍⚕️ hematologist): 🤐
+ Agent 4 (👨🏽‍⚕️ orthopedic surgeon): 🤐
+ Agent 5 (👨‍⚕️ microbiologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑🏽‍⚕️) | Agent 2 (👨🏽‍⚕️) | Agent 3 (👩🏻‍⚕️) | Agent 4 (👨🏽‍⚕️) | Agent 5 (👨‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑🏽‍⚕️) |              |  ✋ (1->2)   |  ✋ (1->3)   |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏽‍⚕️) |  ✋ (2<-1)   |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👩🏻‍⚕️) |  ✋ (3<-1)   |              |              |  ✋ (3<-4)   |  ✋ (3<-5)   |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏽‍⚕️) |              |              |  ✋ (4->3)   |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨‍⚕️) |              |              |  ✋ (5->3)   |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the etiology of the patient's condition based on the provided information, we need to analyze the key details:\n\n- The patient is a 59-year-old man with progressive joint pain, swelling, and tenderness in the metacarpophalangeal joints.\n- He has poorly controlled diabetes mellitus.\n- Lab studies show a transferrin saturation of 88% and a serum ferritin level of 1,200 ng/mL, indicating iron overload.\n\nGiven these details, the most likely etiology is related to the iron overload, which can lead to a condition known as hemochromatosis. Hemochromatosis can cause joint pain and arthritis due to the deposition of iron in the joints.\n\nNow, let's review the options:\n\n(A) Deposition of urate crystals - This is associated with gout, which is less likely given the lab findings.\n(B) Deposition of calcium pyrophosphate (CPP) crystals - This is associated with pseudogout, but the iron overload is more indicative of hemochromatosis.\n(C) Degenerative joint disorder - This is less likely given the acute presentation and lab findings.\n(D) Inflammatory rheumatological syndrome - While this could be a consideration, the specific lab findings point more towards iron overload.\n(E) Pathogenic inoculation of microbes - This does not fit the clinical picture.\n\nBased on the majority vote of the expert opinions and the clinical context, the best representation of the etiology of this patient's condition is:\n\nAnswer: (D) Inflammatory rheumatological syndrome"}
+
+
+[INFO] no: 78
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Neonatologist (Lead)): Specializes in the care of newborns, particularly those who are critically ill. This member leads the team due to their expertise in assessing respiratory distress and congenital heart defects at birth.
+ Member 2 (Pediatric Cardiologist): Expert in diagnosing and managing congenital heart diseases, including identifying heart murmurs and interpreting echocardiographic findings that could lead to accurate diagnoses.
+ Member 3 (Pediatric Radiologist): Focuses on imaging studies in neonates and helps in interpreting the chest X
+
+Group 2 -  Therapeutic Management Team (TMT)
+ Member 1 (Pediatric Cardiothoracic Surgeon (Lead)): Responsible for planning and executing surgical interventions, including the atrial septostomy and any corrective surgery needed, assisting in the management of congenital heart defects.
+ Member 2 (Pediatric Intensivist): Manages the overall care of critically ill patients in the neonatal ICU, ensuring that interventions are aligned with best practices and closely monitoring the newborn’s respiratory and hemodynamic status.
+ Member 3 (Neonatal Nurse Practitioner): Provides specialized nursing care, monitoring vital signs, administering medications, and assisting with the logistics of the atrial septostomy procedure, focusing on the patient’s immediate needs in the ICU.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Pediatric Cardiologist (Lead)): Provides expertise in final diagnoses based on the assessments and therapeutic management, ensuring all team members' recommendations are aligned and comprehensive.
+ Member 2 (Genetic Counselor): Assesses any hereditary factors contributing to congenital defects, discussing potential genetic influences that could affect family planning and management of future pregnancies.
+ Member 3 (Pediatric Psychologist): Addresses the psychological impact on the family and newborn related to the diagnosis and urgent treatment decisions, providing support and counseling to the parents during this critical time.
+
+
+[INFO] no: 79
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Trauma Surgeon (Lead)): Specializes in managing traumatic injuries and performing emergency surgical interventions, including repair of cardiac injuries. This member leads the group in evaluating the patient’s condition and making urgent surgical decisions.
+ Member 2 (Emergency Medicine Physician): Provides immediate assessment of the patient in the trauma bay, manages resuscitation protocols, and coordinates emergency procedures, including fluid resuscitation and airway management.
+ Member 3 (Anesthesiologist): Focuses on perioperative care, particularly anesthesia management during surgery and monitoring the patient's vital signs to ensure stability during the repair of the cardiac injury.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Cardiothoracic Surgeon (Lead)): Expert in cardiac and thoracic surgical procedures, evaluates the penetrating injury's extent and strategizes on the best surgical interventions for repair of the right ventricle.
+ Member 2 (Radiologist): Reviews any imaging studies and assists in interpreting transthoracic echocardiography results, helping to clarify the injury's extent and potential complications.
+ Member 3 (Trauma Nurse Practitioner): Coordinates initial assessments, tracks clinical changes, and provides insights into optimal interventions based on the patient's evolving condition during the initial phase of care.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Trauma Surgeon (Lead)): Provides comprehensive insight into the overall management strategy, evaluates the need for surgical repair versus alternative options, and ensures alignment with best practices in trauma care.
+ Member 2 (Critical Care Specialist): Focuses on ongoing management in the ICU, reviews fluid resuscitation protocols, and evaluates the patient's response to treatment while ensuring optimization of other body functions during recovery.
+ Member 3 (Clinical Ethicist): Offers guidance on the ethical considerations surrounding surgical intervention, especially considering the patient's current state, potential outcomes, and alignment with the patient's best interests.
+

@@ -1,0 +1,142 @@
+<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [02:19<1:30:39, 139.48s/it]  5%|▌         | 2/40 [05:12<1:40:43, 159.04s/it]  8%|▊         | 3/40 [06:39<1:17:57, 126.42s/it] 10%|█         | 4/40 [09:38<1:28:18, 147.17s/it] 12%|█▎        | 5/40 [11:23<1:16:51, 131.75s/it] 15%|█▌        | 6/40 [13:05<1:08:53, 121.59s/it] 18%|█▊        | 7/40 [14:58<1:05:24, 118.92s/it] 20%|██        | 8/40 [16:06<54:48, 102.77s/it]   22%|██▎       | 9/40 [17:57<54:28, 105.44s/it] 25%|██▌       | 10/40 [20:10<56:57, 113.91s/it] 28%|██▊       | 11/40 [21:58<54:10, 112.08s/it] 30%|███       | 12/40 [24:11<55:17, 118.47s/it] 32%|███▎      | 13/40 [24:25<39:04, 86.85s/it]  35%|███▌      | 14/40 [26:39<43:42, 100.87s/it] 38%|███▊      | 15/40 [28:27<43:00, 103.23s/it] 40%|████      | 16/40 [29:28<36:11, 90.47s/it]  42%|████▎     | 17/40 [29:43<25:55, 67.62s/it] 45%|████▌     | 18/40 [29:56<18:48, 51.30s/it] 48%|████▊     | 19/40 [30:47<17:57, 51.33s/it] 50%|█████     | 20/40 [31:40<17:13, 51.65s/it] 52%|█████▎    | 21/40 [33:04<19:27, 61.46s/it] 55%|█████▌    | 22/40 [33:23<14:33, 48.52s/it] 57%|█████▊    | 23/40 [34:57<17:39, 62.30s/it] 60%|██████    | 24/40 [37:11<22:20, 83.78s/it] 62%|██████▎   | 25/40 [38:21<19:56, 79.80s/it] 65%|██████▌   | 26/40 [39:24<17:26, 74.73s/it] 68%|██████▊   | 27/40 [42:56<25:05, 115.83s/it] 70%|███████   | 28/40 [45:18<24:42, 123.57s/it] 72%|███████▎  | 29/40 [47:44<23:53, 130.28s/it] 75%|███████▌  | 30/40 [48:59<18:57, 113.77s/it] 78%|███████▊  | 31/40 [50:39<16:28, 109.78s/it] 80%|████████  | 32/40 [50:52<10:44, 80.60s/it]  82%|████████▎ | 33/40 [51:48<08:33, 73.32s/it] 85%|████████▌ | 34/40 [53:51<08:49, 88.23s/it] 88%|████████▊ | 35/40 [54:05<05:29, 66.00s/it] 90%|█████████ | 36/40 [1:04:47<15:55, 238.82s/it] 92%|█████████▎| 37/40 [1:14:26<17:02, 340.85s/it]<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s] 90%|█████████ | 36/40 [01:15<00:08,  2.09s/it] 92%|█████████▎| 37/40 [02:31<00:14,  4.91s/it] 95%|█████████▌| 38/40 [03:59<00:18,  9.25s/it] 98%|█████████▊| 39/40 [04:53<00:12, 12.31s/it]100%|██████████| 40/40 [06:46<00:00, 21.26s/it]100%|██████████| 40/40 [06:46<00:00, 10.15s/it]
+
+[INFO] no: 115
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Physiologist (Lead)): Specializes in muscle physiology and mechanics, providing critical insights into the mechanisms of myosin
+ Member 2 (Molecular Biologist): Focuses on the biochemical pathways involved in myosin
+ Member 3 (Pharmacologist): Evaluates the pharmacodynamics and pharmacokinetics of the drug, including its specific target on myosin heads and potential side effects on muscle function.
+
+Group 2 -  Experimental Design and Analysis Team (EDAT)
+ Member 1 (Biophysicist (Lead)): Expert in the application of physical principles to understand muscle contraction mechanisms, contributes to the design of experiments to measure myosin binding and power stroke dynamics in the presence of the drug.
+ Member 2 (Clinical Research Scientist): Specializes in study design and statistical analysis, ensuring that the experimental approach captures meaningful data on how the drug impacts muscle tissue function.
+ Member 3 (Biomedical Engineer): Focuses on the development of techniques and technologies for measuring contractile force and cross
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant in Sports Medicine (Lead)): Brings expertise in muscle function and rehabilitation, guiding the team on the potential implications of the drug’s action in both healthy and clinical muscle settings.
+ Member 2 (Neurologist): Evaluates how changes in muscle contractility due to the drug may impact neuromuscular function and overall muscle health, providing a neurological perspective on muscle performance.
+ Member 3 (Clinical Biochemist): Assesses biochemical markers that may result from altered muscle dynamics and the role of myosin
+
+
+[INFO] no: 116
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Pediatric Neurologist (Lead)): 
+ Member 2 (Pediatric Geneticist): 
+ Member 3 (Pediatric Cardiologist): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Pediatric Ophthalmologist (Lead)): 
+ Member 2 (Pediatric Oncologist): 
+ Member 3 (Radiologist): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Pediatric Consultant (Lead)): 
+ Member 2 (Clinical Decision Specialist): 
+ Member 3 (Bioethicist): 
+
+
+[INFO] no: 117
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Emergency Medicine Physician (Lead)): 
+ Member 2 (Nephrologist): 
+ Member 3 (Gastroenterologist): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Endocrinologist (Lead)): 
+ Member 2 (Clinical Laboratory Scientist): 
+ Member 3 (Pharmacist): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant in Internal Medicine (Lead)): 
+ Member 2 (Clinical Decision Specialist): 
+ Member 3 (Critical Care Specialist): 
+
+
+[INFO] no: 118
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏽‍⚕️ 1. Pulmonologist): Specializes in the diagnosis and treatment of respiratory system disorders.
+Agent 2 (👩🏼‍⚕️ 2. Occupational Medicine Specialist): Focuses on the health outcomes of workers in relation to their work environment and occupational exposures.
+Agent 3 (👨🏿‍⚕️ 3. Radiologist): Specializes in interpreting medical images, including chest X
+Agent 4 (🧑🏿‍⚕️ 4. Clinical Immunologist): Focuses on the diagnosis and management of autoimmune and inflammatory diseases that can affect the lungs.
+Agent 5 (👨🏻‍⚕️ 5. Epidemiologist): Specializes in studying the patterns and causes of diseases in populations, including risk factors related to lung diseases.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                               moderator (👨‍⚖️)                                                                            
+           ┌───────────────────────────────────┬──────────────────────┴─────────────┬──────────────────────────────┬────────────────────────────┐          
+ Pulmonologist (👨🏽‍⚕️)      Occupational Medicine Specialist (👩🏼‍⚕️)      Epidemiologist (👨🏻‍⚕️)     Clinical Immunologist (🧑🏿‍⚕️)     Radiologist (👨🏿‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏽‍⚕️ pulmonologist): 🤐
+ Agent 2 (👩🏼‍⚕️ occupational medicine specialist): 🤐
+ Agent 3 (👨🏿‍⚕️ radiologist): 🤐
+ Agent 4 (🧑🏿‍⚕️ clinical immunologist): 🤐
+ Agent 5 (👨🏻‍⚕️ epidemiologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏽‍⚕️) | Agent 2 (👩🏼‍⚕️) | Agent 3 (👨🏿‍⚕️) | Agent 4 (🧑🏿‍⚕️) | Agent 5 (👨🏻‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👩🏼‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (🧑🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏻‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely diagnosis based on the provided clinical scenario and pulmonary function test results, let's review the opinions of the agents:\n\n1. **Agent A**: Asbestosis - This condition is associated with exposure to asbestos and typically presents with restrictive lung disease. However, the FEV1/FVC ratio and lung volumes do not strongly support this diagnosis.\n\n2. **Agent B**: Obesity hypoventilation syndrome - This condition is characterized by hypoventilation due to obesity, leading to respiratory acidosis and often a restrictive pattern. The patient's BMI of 31 kg/m² could suggest obesity, but the pulmonary function test results do not align with this diagnosis.\n\n3. **Agent C**: Idiopathic pulmonary fibrosis - This is a restrictive lung disease characterized by a reduced FVC and a normal or increased FEV1/FVC ratio. The patient's lung volumes indicate a total lung capacity of 110% and a DLCO of 60%, which could suggest a restrictive process, but the FEV1/FVC ratio of 60% is not typical for this condition.\n\n4. **Agent D**: Bronchiectasis - This condition typically presents with an obstructive pattern on pulmonary function tests, which does not match the findings here.\n\n5. **Agent E**: Chronic obstructive pulmonary disease (COPD) - The patient's smoking history and the pulmonary function test showing an FEV1/FVC ratio of 60% indicate an obstructive pattern, which is consistent with COPD.\n\nAfter reviewing the opinions, the majority of the agents lean towards Chronic Obstructive Pulmonary Disease (COPD) as the most likely diagnosis given the patient's significant smoking history and the pulmonary function test results.\n\nFinal Answer: E) Chronic obstructive pulmonary disease"}
+
+
+[INFO] no: 119
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Pulmonologist (Lead)): A specialist in lung diseases who will evaluate the patient’s respiratory symptoms, perform a thorough examination, and direct initial diagnostic tests. Their expertise is crucial in identifying any potential respiratory conditions prevalent among zookeepers.
+ Member 2 (Infectious Disease Specialist): Focuses on potential infectious causes of the patient's symptoms, particularly those related to zoonotic diseases or environmental exposures often encountered in zookeeping. This member will help rule out infections or recommend specific testing.
+ Member 3 (Occupational Health Physician): Expert in workplace
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Radiologist (Lead)): Reviews imaging studies, particularly the chest X
+ Member 2 (Allergist/Immunologist): Evaluates the patient for allergic reactions, particularly to birds, which could explain the dry cough and other symptoms. This member will interpret any allergy tests and provide insights on managing symptoms related to allergies.
+ Member 3 (Clinical Laboratory Scientist): Focuses on interpreting laboratory tests including sputum cultures or serologies that may be needed to identify infectious diseases or allergens contributing to the patient’s condition.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Pulmonologist (Lead)): Provides overarching expertise to summarize findings from the IAT and DET and guides the final treatment plan, ensuring all aspects of the patient’s condition are taken into consideration.
+ Member 2 (General Practitioner/Family Medicine Physician): Coordinates information across specialties, considering the patient's overall health context and directly involved in communicating the treatment decision to the patient.
+ Member 3 (Pharmacist with Clinical Expertise): Offers essential insights on pharmacological options for treatment, advising on the appropriateness of inhaled medications, and reinforces best practices in managing the patient's symptoms related to their work environment.
+

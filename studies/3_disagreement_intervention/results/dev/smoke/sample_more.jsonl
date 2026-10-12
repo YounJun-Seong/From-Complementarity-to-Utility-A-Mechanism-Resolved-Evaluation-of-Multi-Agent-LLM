@@ -1,0 +1,7 @@
+{"qid": 77, "state": "split", "k_additional": 3, "votes": ["A", "A", "A"], "final_answer": "A", "tokens": {"input_tokens": 1238, "output_tokens": 985}, "error": null}
+{"qid": 101, "state": "weak", "k_additional": 3, "votes": ["B", "B", "B"], "final_answer": "B", "tokens": {"input_tokens": 1193, "output_tokens": 969}, "error": null}
+{"qid": 104, "state": "weak", "k_additional": 3, "votes": ["C", "B", "B"], "final_answer": "B", "tokens": {"input_tokens": 1724, "output_tokens": 1440}, "error": null}
+{"qid": 109, "state": "weak", "k_additional": 3, "votes": ["C", "C", "C"], "final_answer": "C", "tokens": {"input_tokens": 1190, "output_tokens": 963}, "error": null}
+{"qid": 142, "state": "split", "k_additional": 3, "votes": ["A", "A", "A"], "final_answer": "A", "tokens": {"input_tokens": 1548, "output_tokens": 1270}, "error": null}
+{"qid": 214, "state": "fragmented", "k_additional": 3, "votes": ["B", "D", "B"], "final_answer": "B", "tokens": {"input_tokens": 1222, "output_tokens": 925}, "error": null}
+{"qid": 243, "state": "weak", "k_additional": 3, "votes": ["C", "C", "C"], "final_answer": "C", "tokens": {"input_tokens": 1227, "output_tokens": 996}, "error": null}

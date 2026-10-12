@@ -1,0 +1,269 @@
+<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [02:32<1:39:18, 152.77s/it]  5%|▌         | 2/40 [05:32<1:46:57, 168.89s/it]  8%|▊         | 3/40 [10:47<2:25:18, 235.63s/it] 10%|█         | 4/40 [11:26<1:34:39, 157.76s/it] 12%|█▎        | 5/40 [13:00<1:18:32, 134.63s/it] 15%|█▌        | 6/40 [14:56<1:12:50, 128.53s/it] 18%|█▊        | 7/40 [15:49<57:07, 103.88s/it]   20%|██        | 8/40 [18:40<1:06:45, 125.18s/it] 22%|██▎       | 9/40 [21:06<1:08:04, 131.77s/it] 25%|██▌       | 10/40 [22:43<1:00:24, 120.83s/it] 28%|██▊       | 11/40 [24:17<54:31, 112.80s/it]   30%|███       | 12/40 [25:10<44:02, 94.37s/it]  32%|███▎      | 13/40 [26:21<39:24, 87.57s/it] 35%|███▌      | 14/40 [27:40<36:43, 84.74s/it] 38%|███▊      | 15/40 [29:02<35:03, 84.14s/it] 40%|████      | 16/40 [30:29<33:56, 84.86s/it] 42%|████▎     | 17/40 [32:31<36:48, 96.01s/it] 45%|████▌     | 18/40 [33:39<32:08, 87.64s/it] 48%|████▊     | 19/40 [34:35<27:18, 78.01s/it] 50%|█████     | 20/40 [34:49<19:40, 59.01s/it] 52%|█████▎    | 21/40 [35:06<14:38, 46.25s/it] 55%|█████▌    | 22/40 [38:46<29:32, 98.49s/it] 57%|█████▊    | 23/40 [40:37<28:59, 102.31s/it] 60%|██████    | 24/40 [43:15<31:41, 118.87s/it] 62%|██████▎   | 25/40 [43:30<21:56, 87.79s/it]  65%|██████▌   | 26/40 [44:43<19:27, 83.37s/it] 68%|██████▊   | 27/40 [45:51<17:04, 78.82s/it] 70%|███████   | 28/40 [48:03<18:57, 94.76s/it] 72%|███████▎  | 29/40 [50:12<19:14, 104.96s/it] 75%|███████▌  | 30/40 [51:21<15:42, 94.25s/it]  78%|███████▊  | 31/40 [53:12<14:52, 99.16s/it] 80%|████████  | 32/40 [54:03<11:17, 84.67s/it] 82%|████████▎ | 33/40 [1:04:47<29:26, 252.39s/it] 85%|████████▌ | 34/40 [1:14:25<35:00, 350.14s/it]<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s] 82%|████████▎ | 33/40 [00:49<00:10,  1.50s/it] 85%|████████▌ | 34/40 [02:08<00:28,  4.73s/it] 88%|████████▊ | 35/40 [02:23<00:26,  5.30s/it] 90%|█████████ | 36/40 [03:10<00:33,  8.38s/it] 92%|█████████▎| 37/40 [04:29<00:45, 15.13s/it] 95%|█████████▌| 38/40 [05:29<00:41, 20.51s/it] 98%|█████████▊| 39/40 [06:21<00:25, 25.07s/it]100%|██████████| 40/40 [07:12<00:00, 29.69s/it]100%|██████████| 40/40 [07:12<00:00, 10.82s/it]
+
+[INFO] no: 112
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Gastroenterologist (Lead)): Specializes in diagnosing and treating gastrointestinal disorders, particularly esophageal conditions. This member leads the group due to their critical role in evaluating the pathophysiology behind the patient's retrosternal burning and assessing related symptoms.
+ Member 2 (Pulmonologist): Focused on respiratory issues, this member assesses the chronic cough and dyspnea while determining if there's an overlap with gastrointestinal conditions that could manifest as respiratory symptoms (e.g., aspiration).
+ Member 3 (Emergency Medicine Physician): Responsible for initial patient stabilization and managing acute care needs based on the patient's elevated blood pressure and respiratory status during the evaluation process.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Radiologist (Lead)): Reviews imaging studies such as chest X
+ Member 2 (Clinical Pharmacist): Provides insight on medication management and potential therapeutic options for symptomatic relief, while considering interactions with the patient's respiratory and gastrointestinal symptoms (e.g., antacids or proton pump inhibitors).
+ Member 3 (Registered Nurse (RN) with expertise in Gastroenterology): Assists in gathering detailed patient history and performing assessments crucial for diagnostic clarity while also supporting patient comfort during investigations.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Gastroenterologist (Lead)): Offers overarching expertise and guides the final diagnostic and management decisions for the patient's esophageal symptoms.
+ Member 2 (Multidisciplinary Care Coordinator): Ensures communication between different specialties and coordinates the patient care plan, synthesizing findings from various evaluations to form a coherent treatment strategy.
+ Member 3 (Metabolic Physician): Assesses any underlying metabolic or systemic disorders that may contribute to the patient's clinical presentation, particularly if there is concern for an autoimmune condition given the associated symptoms of hand pain and cough.
+
+
+[INFO] no: 113
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Nephrologist (Lead)): 
+ Member 2 (Hematologist): 
+ Member 3 (Endocrinologist): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Internal Medicine Physician (Lead)): 
+ Member 2 (Clinical Laboratory Scientist): 
+ Member 3 (Pharmacologist): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant Nephrologist (Lead)): 
+ Member 2 (Clinical Decision Specialist): 
+ Member 3 (Palliative Care Specialist): 
+
+
+[INFO] no: 114
+difficulty: basic
+
+[INFO] no: 115
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👩🏼‍⚕️ 1. Molecular Biologist): Specializes in the study of biological processes at the molecular level, particularly protein interactions.
+Agent 2 (👨🏻‍⚕️ 2. Physiologist): Focuses on the physical and biochemical functions of tissues and organs, including muscle physiology.
+Agent 3 (🧑🏽‍⚕️ 3. Pharmacologist): Expert in the effects of drugs on biological systems, including mechanisms of action and drug interactions.
+Agent 4 (👩🏻‍⚕️ 4. Neurologist): Specializes in the nervous system, including muscle control and motor functions.
+Agent 5 (👨🏽‍⚕️ 5. Exercise Physiologist): Focuses on the physiological responses and adaptations to exercise, including muscle function and performance.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                  moderator (👨‍⚖️)                                                                             
+          ┌──────────────┴─────────────────────────────────┐                                                   
+ Neurologist (👩🏻‍⚕️)                          Molecular Biologist (👩🏼‍⚕️)                                      
+                                          ┌────────────────┴───────────────┐                                   
+                                Pharmacologist (🧑🏽‍⚕️)            Physiologist (👨🏻‍⚕️)                         
+                                                                      └───────────────────┐                    
+                                                                            Exercise Physiologist (👨🏽‍⚕️)      
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👩🏼‍⚕️ molecular biologist): 🤐
+ Agent 2 (👨🏻‍⚕️ physiologist): 🤐
+ Agent 3 (🧑🏽‍⚕️ pharmacologist): 🤐
+ Agent 4 (👩🏻‍⚕️ neurologist): 🤐
+ Agent 5 (👨🏽‍⚕️ exercise physiologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👩🏼‍⚕️) | Agent 2 (👨🏻‍⚕️) | Agent 3 (🧑🏽‍⚕️) | Agent 4 (👩🏻‍⚕️) | Agent 5 (👨🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👩🏼‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (🧑🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏽‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the final answer based on the majority vote of the agents' opinions, I will analyze the options provided in relation to the mechanism of myosin-actin interactions and the effect of the drug that inhibits phosphate release.\n\n1. **Myosin head release from actin (A)**: This step occurs when ATP binds to the myosin head, causing it to detach from actin. Inhibition of phosphate release would not directly block this step.\n\n2. **Power stroke (E)**: The power stroke occurs when the myosin head pivots and pulls the actin filament toward the center of the sarcomere. This process is dependent on the release of ADP and inorganic phosphate. If phosphate release is inhibited, the power stroke may not occur effectively.\n\n3. **Myosin head binding to actin (D)**: This step occurs after the myosin head has been cocked and is ready to bind to actin. Inhibition of phosphate release does not directly block this step.\n\n4. **Myosin head cocking (B)**: This step involves the hydrolysis of ATP to ADP and inorganic phosphate, which cocks the myosin head. If phosphate release is inhibited, this step may not be affected directly.\n\n5. **Exposure of myosin-binding sites on actin (C)**: This step is related to the conformational change in actin that allows myosin to bind. It is not directly affected by phosphate release.\n\nBased on the analysis, the most likely step in cross-bridge cycling that would be blocked by the drug inhibiting phosphate release is the **power stroke (E)**, as this step relies on the release of inorganic phosphate to proceed.\n\nFinal Answer: E) Power stroke"}
+
+
+[INFO] no: 116
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Pediatric Neurologist (Lead)): 
+ Member 2 (Pediatric Cardiologist): 
+ Member 3 (Pediatric Ophthalmologist): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Geneticist (Lead)): 
+ Member 2 (Radiologist): 
+ Member 3 (Clinical Genetic Counselor): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Pediatric Consultant (Lead)): 
+ Member 2 (Pediatric Infectious Disease Specialist): 
+ Member 3 (Multidisciplinary Care Coordinator): 
+
+
+[INFO] no: 117
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👩🏻‍⚕️ 1. Nephrologist): Specializes in the management of kidney diseases and electrolyte imbalances.
+Agent 2 (👨🏽‍⚕️ 2. Gastroenterologist): Focuses on the diagnosis and treatment of gastrointestinal disorders, including abdominal pain and bowel issues.
+Agent 3 (👨‍⚕️ 3. Endocrinologist): Expertise in managing metabolic conditions, including diabetes and its complications.
+Agent 4 (👨🏿‍⚕️ 4. Pharmacologist): Specializes in the study of drug interactions and side effects, particularly relevant to medication effects on renal function.
+Agent 5 (👩🏼‍⚕️ 5. Internist): Generalist with experience in complex medical cases involving multiple comorbidities and medication effects.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                 moderator (👨‍⚖️)                                                                    
+           ┌────────────────────────────┬───────────────┴──────────┬────────────────────────┬───────────────────────────┐            
+  Nephrologist (👩🏻‍⚕️)      Gastroenterologist (👨🏽‍⚕️)     Internist (👩🏼‍⚕️)      Pharmacologist (👨🏿‍⚕️)      Endocrinologist (👨‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👩🏻‍⚕️ nephrologist): 🤐
+ Agent 2 (👨🏽‍⚕️ gastroenterologist): 🤐
+ Agent 3 (👨‍⚕️ endocrinologist) -> Agent 1 (👩🏻‍⚕️ nephrologist) : As an endocrinologist specializing in diabetes management, I believe that this patient's laboratory derangements, particularly the elevated creatinine and low bicarbonate levels, indicate acute kidney injury likely related to metformin use. Given his history of diabetic nephropathy, the risk of metformin-associated lactic acidosis is significant. 
+
+While managing diabetes is critical, we must ensure the patient's renal function is preserved to prevent further complications. It is crucial to evaluate his renal status closely and consider discontinuing metformin while exploring alternative glucose-lowering agents that pose less risk in the setting of renal impairment. I urge careful monitoring and prompt intervention to prevent deterioration of renal function and mitigate the risk of lactic acidosis.
+ Agent 4 (👨🏿‍⚕️ pharmacologist) -> Agent 1 (👩🏻‍⚕️ nephrologist) : As a pharmacologist specializing in drug interactions and side effects, particularly regarding renal function, my opinion regarding this patient's condition is that the metabolic acidosis and elevated creatinine levels are primarily related to the use of metformin in the context of his diabetic nephropathy. 
+
+Given his renal impairment, metformin accumulation poses a significant risk for lactic acidosis, especially when renal clearance is compromised. The gastrointestinal symptoms and abdominal pain may be linked to the underlying metabolic derangement, requiring careful management of both his diabetes and kidney function. It is critical to reassess his medication regimen, considering discontinuing metformin and closely monitoring his renal status to prevent further complications.
+ Agent 5 (👩🏼‍⚕️ internist): 🤐
+|_Turn 2
+ Agent 1 (👩🏻‍⚕️ nephrologist): 🤐
+ Agent 2 (👨🏽‍⚕️ gastroenterologist): 🤐
+ Agent 3 (👨‍⚕️ endocrinologist): 🤐
+ Agent 4 (👨🏿‍⚕️ pharmacologist): 🤐
+ Agent 5 (👩🏼‍⚕️ internist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👩🏻‍⚕️) | Agent 2 (👨🏽‍⚕️) | Agent 3 (👨‍⚕️) | Agent 4 (👨🏿‍⚕️) | Agent 5 (👩🏼‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👩🏻‍⚕️) |              |              |  ✋ (1<-3)   |  ✋ (1<-4)   |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨‍⚕️) |  ✋ (3->1)   |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏿‍⚕️) |  ✋ (4->1)   |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👩🏼‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely etiology of the patient's laboratory derangements, we need to analyze the provided laboratory values and the patient's clinical context.\n\nThe key laboratory findings are:\n- HCO3-: 11 mEq/L (indicating metabolic acidosis)\n- Elevated BUN and creatinine (indicating possible renal impairment)\n- Elevated glucose (177 mg/dL, indicating hyperglycemia)\n\nGiven the patient's history of diabetic nephropathy and current treatment for genital herpes, we should consider the medications he is taking and their potential side effects.\n\n1. **Acyclovir**: This medication can cause renal toxicity, especially in cases of dehydration or rapid infusion, but it is not typically associated with metabolic acidosis.\n  \n2. **Atorvastatin**: This is a statin used for dyslipidemia and is not known to cause significant metabolic derangements like acidosis.\n\n3. **Insulin**: Insulin can help lower blood glucose levels but is not typically associated with causing metabolic acidosis.\n\n4. **Metformin**: This medication is known to cause lactic acidosis, especially in patients with renal impairment. Given the patient's elevated creatinine (3.1 mg/dL), he is at risk for metformin accumulation and subsequent lactic acidosis, which would explain the metabolic acidosis (low HCO3-).\n\n5. **Metoprolol**: This beta-blocker is used for hypertension and does not typically cause metabolic acidosis.\n\nConsidering the above analysis, the majority of opinions would likely point towards **Metformin** as the most likely etiology of the patient's laboratory derangements due to its association with lactic acidosis, especially in the context of renal impairment.\n\nFinal Answer: D) Metformin"}
+
+
+[INFO] no: 118
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑🏿‍⚕️ 1. Pulmonologist): Specializes in the diagnosis and treatment of respiratory system disorders.
+Agent 2 (👩🏻‍⚕️ 2. Occupational Medicine Specialist): Focuses on health issues related to the workplace and occupational exposures.
+Agent 3 (👨🏽‍⚕️ 3. Radiologist): Specializes in interpreting medical images to diagnose conditions related to the lungs and chest.
+Agent 4 (👨🏿‍⚕️ 4. Allergist/Immunologist): Focuses on respiratory allergies and autoimmune conditions affecting the lungs.
+Agent 5 (🧑‍⚕️ 5. Primary Care Physician): Provides comprehensive care and coordinates treatment plans for chronic diseases, including respiratory conditions.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                               moderator (👨‍⚖️)                                                                                    
+           ┌───────────────────────────────────┬──────────────────────┴────────────────┬──────────────────────────────────┬─────────────────────────────┐          
+ Pulmonologist (🧑🏿‍⚕️)      Occupational Medicine Specialist (👩🏻‍⚕️)     Primary Care Physician (🧑‍⚕️)      Allergist/Immunologist (👨🏿‍⚕️)     Radiologist (👨🏽‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑🏿‍⚕️ pulmonologist): 🤐
+ Agent 2 (👩🏻‍⚕️ occupational medicine specialist): 🤐
+ Agent 3 (👨🏽‍⚕️ radiologist): 🤐
+ Agent 4 (👨🏿‍⚕️ allergist/immunologist): 🤐
+ Agent 5 (🧑‍⚕️ primary care physician): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑🏿‍⚕️) | Agent 2 (👩🏻‍⚕️) | Agent 3 (👨🏽‍⚕️) | Agent 4 (👨🏿‍⚕️) | Agent 5 (🧑‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👩🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely diagnosis based on the provided clinical information and pulmonary function test results, let's analyze the opinions of the agents:\n\n1. **Agent 1**: (D) Bronchiectasis - This condition typically presents with a productive cough and recurrent infections, which are not mentioned in the case. The FEV1/FVC ratio and lung volumes do not align with bronchiectasis.\n\n2. **Agent 2**: (B) Obesity hypoventilation syndrome - While the patient has a high BMI, the pulmonary function test results do not support this diagnosis, as the FEV1/FVC ratio and lung volumes are more indicative of obstructive or restrictive lung disease.\n\n3. **Agent 3**: (C) Idiopathic pulmonary fibrosis - This condition usually presents with a restrictive pattern on pulmonary function tests, which is not consistent with the findings of an FEV1/FVC ratio of 60% and increased lung volumes.\n\n4. **Agent 4**: (A) Asbestosis - This is a restrictive lung disease associated with exposure to asbestos, but the FEV1/FVC ratio and lung volumes do not support this diagnosis.\n\n5. **Agent 5**: (E) Chronic obstructive pulmonary disease - The FEV1/FVC ratio of 60% indicates an obstructive pattern, which is consistent with COPD, especially given the patient's significant smoking history.\n\nBased on the majority opinion and the analysis of the pulmonary function test results, the most likely diagnosis is:\n\nAnswer: (E) Chronic obstructive pulmonary disease"}
+
+
+[INFO] no: 119
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (🧑🏽‍⚕️ 1. Pulmonologist): Specializes in the diagnosis and treatment of respiratory diseases, particularly those affecting the lungs.
+Agent 2 (👨🏻‍⚕️ 2. Infectious Disease Specialist): Focuses on the diagnosis and management of infectious diseases, including conditions that could arise from occupational exposure.
+Agent 3 (🧑🏿‍⚕️ 3. Occupational Medicine Specialist): Expert in health issues related to the workplace and exposure to environmental hazards.
+Agent 4 (👨🏿‍⚕️ 4. Allergist/Immunologist): Specializes in diagnosing and treating allergies and asthma, particularly relevant due to the patient's history and symptoms.
+Agent 5 (🧑‍⚕️ 5. General Practitioner): Provides comprehensive care and oversees the management of various health conditions, including respiratory symptoms.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                           moderator (👨‍⚖️)                                                                                                        
+           ┌─────────────────────────────────┬────────────────────┴───────────────┬─────────────────────────────────┬────────────────────────────────────────┐                     
+ Pulmonologist (🧑🏽‍⚕️)     Infectious Disease Specialist (👨🏻‍⚕️)     General Practitioner (🧑‍⚕️)      Allergist/Immunologist (👨🏿‍⚕️)      Occupational Medicine Specialist (🧑🏿‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (🧑🏽‍⚕️ pulmonologist): 🤐
+ Agent 2 (👨🏻‍⚕️ infectious disease specialist): 🤐
+ Agent 3 (🧑🏿‍⚕️ occupational medicine specialist): 🤐
+ Agent 4 (👨🏿‍⚕️ allergist/immunologist): 🤐
+ Agent 5 (🧑‍⚕️ general practitioner): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (🧑🏽‍⚕️) | Agent 2 (👨🏻‍⚕️) | Agent 3 (🧑🏿‍⚕️) | Agent 4 (👨🏿‍⚕️) | Agent 5 (🧑‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (🧑🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏻‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (🧑🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most appropriate treatment for the patient based on the provided information, I will review the opinions of the agents and take a majority vote.\n\n1. **Agent 1**: C) Avoid exposure to birds - This agent believes that the patient's symptoms are likely due to an allergic reaction or hypersensitivity to birds, and avoiding exposure would be the most effective treatment.\n  \n2. **Agent 2**: C) Avoid exposure to birds - This agent agrees with the first agent, emphasizing that the patient's occupation as a zookeeper and the symptoms suggest an environmental trigger related to bird exposure.\n\n3. **Agent 3**: B) Inhaled beclomethasone - This agent suggests that the patient may benefit from inhaled corticosteroids to manage potential asthma or allergic symptoms, especially given the family history of asthma.\n\n4. **Agent 4**: C) Avoid exposure to birds - This agent also supports the idea that avoiding exposure to birds is crucial in managing the patient's symptoms.\n\n5. **Agent 5**: E) Reassurance - This agent believes that the symptoms may resolve on their own and that reassurance is sufficient, given the negative PPD and lack of severe findings.\n\nAfter reviewing the opinions:\n\n- **C) Avoid exposure to birds** received 3 votes.\n- **B) Inhaled beclomethasone** received 1 vote.\n- **E) Reassurance** received 1 vote.\n\nBased on the majority vote, the final decision is:\n\nAnswer: C) Avoid exposure to birds"}
+

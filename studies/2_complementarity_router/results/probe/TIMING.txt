@@ -1,0 +1,2 @@
+Llama-3.1-8B-Instruct  probe wall   7.7 min  -> projected PILOT   1.9 GPU-h  | tokens/q S 1327, SC/sample 1104, M1 9210  => full design (P = 60 samples)
+Qwen2.5-14B-Instruct   probe wall  20.5 min  -> projected PILOT   5.1 GPU-h  | tokens/q S 1378, SC/sample 1159, M1 23136  => full design (P = 60 samples)

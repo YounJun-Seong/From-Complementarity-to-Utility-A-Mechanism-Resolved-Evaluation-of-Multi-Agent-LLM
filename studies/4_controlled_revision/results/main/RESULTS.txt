@@ -1,0 +1,20 @@
+=== Phase IV: 1000 questions, 365 triggered, 356 with two parsed answers, 268 discordant pairs ===
+PRIMARY  DI_opp = BRR_opp − HRR_opp = -0.019 [-0.097, +0.060]
+VERDICT  truth discrimination: non-discriminating;  counterclaim effect (Opponent vs Control): mixed;  reading: persuasion-consistent
+
+condition    BRR (W→C)                 HRR (C→W)                 DI                         switch
+control      +0.201 [+0.153, +0.250]  +0.183 [+0.138, +0.228]  +0.019 [-0.045, +0.082]  +0.220 [+0.185, +0.256]
+blinded      +0.354 [+0.299, +0.414]  +0.347 [+0.291, +0.403]  +0.007 [-0.075, +0.090]  +0.405 [+0.362, +0.450]
+opponent     +0.351 [+0.295, +0.407]  +0.369 [+0.310, +0.425]  -0.019 [-0.097, +0.060]  +0.369 [+0.326, +0.410]
+irrelevant   +0.030 [+0.011, +0.052]  +0.078 [+0.049, +0.112]  -0.049 [-0.086, -0.011]  +0.075 [+0.052, +0.099]
+
+contrasts                ΔBRR                      ΔHRR                      Δswitch
+opponent-control        +0.149 [+0.082, +0.216]  +0.187 [+0.119, +0.254]  +0.149 [+0.097, +0.201]
+opponent-blinded        -0.004 [-0.078, +0.071]  +0.022 [-0.052, +0.097]  -0.035 [-0.095, +0.022]
+blinded-control         +0.153 [+0.097, +0.209]  +0.164 [+0.112, +0.220]  +0.185 [+0.144, +0.226]
+
+DI_opp by state: weak (n=155) +0.000 [-0.110, +0.110]; split (n=62) -0.016 [-0.161, +0.129]; fragmented (n=51) -0.078 [-0.255, +0.098]
+coverage: {'gold_in_pair': 268, 'gold_outside': 88, 'single_answer_triggered': 9}
+diagnostics: probe parse 0.989, extraction parsed 1.000, CORE fallback 0.000, E3 failed {'control': 0.0028089887640449437, 'blinded': 0.0028089887640449437, 'opponent': 0.0028089887640449437, 'irrelevant': 0.037921348314606744}, truncated {'control': 0.0014044943820224719, 'blinded': 0.0014044943820224719, 'opponent': 0.0, 'irrelevant': 0.0014044943820224719}
+
+EXPLORATORY (local vs system level; sensitivity only): {"per_revision_BRR_minus_HRR_opponent": -0.005617977528089901, "probe_majority_acc": 0.41853932584269665, "tdc_final_acc_opponent": 0.3960674157303371, "revised_votes_only_acc_opponent": 0.351123595505618}

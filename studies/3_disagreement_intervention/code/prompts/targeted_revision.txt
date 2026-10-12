@@ -1,0 +1,24 @@
+### system
+You are an expert physician.
+### user
+{question}
+{options}
+
+Let's think step by step.
+### assistant
+{own_reasoning_full}
+### user
+You previously answered {own}.
+
+Another independent solver disagreed with you on the following specific point:
+{core_disagreement}
+
+Opposing claim:
+{opposing_claim}
+
+Re-evaluate only this disputed point.
+1. Is the opposing claim correct?
+2. Does it invalidate or materially weaken your original reasoning?
+3. After considering it, give your revised answer.
+
+Do not restart the problem from scratch. End with a line of the form "Revised answer: <letter>".

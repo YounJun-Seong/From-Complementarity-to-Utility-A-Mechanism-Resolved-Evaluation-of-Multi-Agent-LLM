@@ -1,0 +1,15 @@
+### system
+You are an expert physician.
+### user
+{question}
+{options}
+
+Let's think step by step.
+### assistant
+{own_reasoning_full}
+### user
+You previously answered {own}.
+
+Re-examine your reasoning above and give your final answer.
+
+End with a line of the form "Revised answer: <letter>".

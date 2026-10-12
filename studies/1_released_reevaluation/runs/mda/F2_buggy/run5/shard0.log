@@ -1,0 +1,12 @@
+<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:8: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:16<10:24, 16.02s/it]  5%|▌         | 2/40 [04:00<1:27:55, 138.83s/it]  8%|▊         | 3/40 [04:19<51:43, 83.89s/it]    10%|█         | 4/40 [05:15<43:50, 73.06s/it] 12%|█▎        | 5/40 [06:35<43:55, 75.29s/it] 15%|█▌        | 6/40 [06:49<31:00, 54.73s/it] 18%|█▊        | 7/40 [08:01<33:04, 60.12s/it] 20%|██        | 8/40 [09:18<35:01, 65.68s/it] 22%|██▎       | 9/40 [09:38<26:28, 51.26s/it] 25%|██▌       | 10/40 [10:35<26:35, 53.18s/it] 28%|██▊       | 11/40 [11:59<30:12, 62.51s/it] 30%|███       | 12/40 [12:13<22:19, 47.83s/it]

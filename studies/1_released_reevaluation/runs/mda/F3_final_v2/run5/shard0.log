@@ -1,0 +1,229 @@
+<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [04:06<2:40:03, 246.24s/it]  5%|▌         | 2/40 [07:00<2:08:59, 203.68s/it]  8%|▊         | 3/40 [09:14<1:46:13, 172.26s/it] 10%|█         | 4/40 [11:25<1:33:28, 155.80s/it] 12%|█▎        | 5/40 [12:41<1:14:08, 127.10s/it] 15%|█▌        | 6/40 [16:01<1:25:56, 151.67s/it] 18%|█▊        | 7/40 [16:21<59:49, 108.77s/it]   20%|██        | 8/40 [17:35<52:02, 97.56s/it]  22%|██▎       | 9/40 [18:54<47:32, 92.01s/it] 25%|██▌       | 10/40 [20:35<47:23, 94.79s/it] 28%|██▊       | 11/40 [21:46<42:15, 87.44s/it] 30%|███       | 12/40 [23:07<39:47, 85.27s/it] 32%|███▎      | 13/40 [24:54<41:27, 92.12s/it] 35%|███▌      | 14/40 [26:02<36:41, 84.66s/it] 38%|███▊      | 15/40 [28:18<41:47, 100.28s/it] 40%|████      | 16/40 [30:18<42:27, 106.16s/it] 42%|████▎     | 17/40 [31:05<33:50, 88.28s/it]  45%|████▌     | 18/40 [31:57<28:21, 77.36s/it] 48%|████▊     | 19/40 [33:07<26:19, 75.20s/it] 50%|█████     | 20/40 [34:01<22:56, 68.83s/it] 52%|█████▎    | 21/40 [36:08<27:20, 86.33s/it] 55%|█████▌    | 22/40 [38:19<29:54, 99.70s/it] 57%|█████▊    | 23/40 [39:48<27:21, 96.58s/it] 60%|██████    | 24/40 [42:14<29:41, 111.35s/it] 62%|██████▎   | 25/40 [44:19<28:50, 115.37s/it] 65%|██████▌   | 26/40 [45:35<24:09, 103.52s/it] 68%|██████▊   | 27/40 [45:48<16:34, 76.48s/it]  70%|███████   | 28/40 [48:07<19:02, 95.24s/it] 72%|███████▎  | 29/40 [49:46<17:40, 96.44s/it] 75%|███████▌  | 30/40 [49:59<11:51, 71.18s/it] 78%|███████▊  | 31/40 [50:50<09:48, 65.34s/it] 80%|████████  | 32/40 [52:19<09:38, 72.37s/it] 82%|████████▎ | 33/40 [53:42<08:49, 75.57s/it] 85%|████████▌ | 34/40 [54:56<07:31, 75.20s/it] 88%|████████▊ | 35/40 [1:04:51<19:15, 231.02s/it] 90%|█████████ | 36/40 [1:14:30<22:21, 335.33s/it]<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s] 88%|████████▊ | 35/40 [01:41<00:14,  2.91s/it] 90%|█████████ | 36/40 [01:55<00:13,  3.33s/it] 92%|█████████▎| 37/40 [04:16<00:31, 10.61s/it] 95%|█████████▌| 38/40 [05:26<00:29, 14.83s/it] 98%|█████████▊| 39/40 [07:44<00:26, 26.10s/it]100%|██████████| 40/40 [09:34<00:00, 35.82s/it]100%|██████████| 40/40 [09:34<00:00, 14.37s/it]
+
+[INFO] no: 34
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Emergency Medicine Physician (Lead)): This clinician assesses and stabilizes the patient in the emergency setting, focusing on the primary medical issues such as altered mental status, metabolic dysregulation, and hemodynamic stability.
+ Member 2 (Internal Medicine Physician): This member provides expertise on the interpretation of laboratory values and supports management of underlying medical conditions and complications related to IV drug use.
+ Member 3 (Nephrologist): To evaluate and manage the electrolyte imbalances, particularly the hyperkalemia observed, and to consider renal function, especially in the context of IV drug use and potential acute kidney injury.
+
+Group 2 -  Metabolic Management Team (MMT)
+ Member 1 (Endocrinologist (Lead)): This physician specializes in metabolic disorders and is crucial for managing diabetes
+ Member 2 (Pharmacist specializing in Critical Care): Provides expertise on medication management, including insulin dosing and the safe administration of potassium replacement if needed.
+ Member 3 (Dietitian): Aids in the nutritional management of the patient post
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant in Internal Medicine (Lead)): Oversees the final assessment of the complex case and synthesizes input from the IAT and MMT to guide next steps in management.
+ Member 2 (Clinical Decision Specialist): Coordinates the recommendations from both teams, ensuring an integrated approach to management and assisting in developing a continuation plan for the patient.
+ Member 3 (Social Worker): Identifies potential barriers to follow
+
+
+[INFO] no: 35
+difficulty: basic
+
+[INFO] no: 36
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨‍⚕️ 1. Neurologist): Specializes in the diagnosis and treatment of nervous system disorders, including neuromuscular diseases.
+Agent 2 (🧑🏽‍⚕️ 2. Geriatrician): Focuses on the health care of elderly patients and the complexities of their conditions.
+Agent 3 (👨🏻‍⚕️ 3. Urologist): Specializes in urinary tract conditions and bladder dysfunction, particularly in females.
+Agent 4 (🧑‍⚕️ 4. Endocrinologist): Focuses on hormonal disorders, including thyroid conditions and their systemic effects.
+Agent 5 (👩🏼‍⚕️ 5. Oncologist): Specializes in cancer diagnosis and treatment and is knowledgeable about paraneoplastic syndromes.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                         moderator (👨‍⚖️)                                                                
+          ┌────────────────────────┬────────────┴───────────┬─────────────────────────┬────────────────────────┐         
+  Neurologist (👨‍⚕️)      Geriatrician (🧑🏽‍⚕️)      Oncologist (👩🏼‍⚕️)      Endocrinologist (🧑‍⚕️)     Urologist (👨🏻‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨‍⚕️ neurologist): 🤐
+ Agent 2 (🧑🏽‍⚕️ geriatrician) -> Agent 1 (👨‍⚕️ neurologist) : As a geriatrician specializing in the health care of elderly patients, I would like to emphasize the importance of considering myasthenia gravis in this case of the 65-year-old woman presenting with weakness that improves after brief exercise and bladder incontinence. 
+
+While I acknowledge the concerns regarding paraneoplastic syndrome, the specific symptom of fluctuating proximal muscle weakness is hallmark for myasthenia gravis. Given that her symptoms have not improved with anticholinesterase therapy, further evaluation such as anti-acetylcholine receptor antibody testing should be considered. Additionally, an MRI of the chest can help rule out thymoma, which is associated with myasthenia gravis and can present with similar symptoms. 
+
+It is crucial to recognize that while paraneoplastic syndromes like those associated with small cell lung carcinoma can present with similar neuromuscular symptoms, they are more typically secondary to the underlying malignancy. Thus, accurately diagnosing the condition to guide appropriate management is vital, especially in an elderly patient where timely intervention can significantly improve outcomes.
+ Agent 2 (🧑🏽‍⚕️ geriatrician) -> Agent 5 (👩🏼‍⚕️ oncologist) : As a geriatrician specializing in the health care of elderly patients, I recognize the complexities that can arise in managing conditions such as those presented by the 65-year-old woman. While the symptoms of weight loss, weakness improving with brief exercise, and bladder incontinence do raise the concern for a paraneoplastic syndrome, particularly in relation to small cell lung carcinoma (SCLC), it is essential to thoroughly evaluate the patient's symptoms in the context of her overall health.
+
+Given the age of the patient and the presentation, I suggest that we should prioritize a diagnostic workup to identify the underlying cause of her symptoms. While SCLC can lead to neurological manifestations, this patient's symptoms are also very suggestive of myasthenia gravis, especially due to the proximal muscle weakness. It is important to distinguish between these conditions as they require different management approaches. 
+
+A multi-disciplinary assessment, including imaging studies like a chest CT for any malignancy and laboratory tests for myasthenia gravis, would be prudent. If SCLC is indeed present, early intervention could significantly impact her prognosis. Thus, a collaborative approach will be crucial in pinning down the exact etiology behind her symptoms.
+ Agent 3 (👨🏻‍⚕️ urologist) -> Agent 1 (👨‍⚕️ neurologist) : As a urologist specializing in urinary tract conditions and bladder dysfunction, I recognize the complexities of the patient's presentation, particularly the combination of weakness, bladder incontinence, and weight loss. 
+
+**Opinion to Agent 1: Neurologist**
+
+Given the symptoms suggestive of a possible paraneoplastic syndrome related to small cell lung carcinoma, we should consider that the weakness improving with brief exertion, in conjunction with autonomic dysfunction (bladder incontinence), might indicate an underlying malignancy. It is vital to conduct further neurological evaluations to rule out other neuromuscular disorders, while keeping a close eye on paraneoplastic syndromes that could explain this constellation of symptoms. Your insights on the neurological implications of her presenting features will be crucial in guiding diagnostic and therapeutic decisions.
+ Agent 4 (🧑‍⚕️ endocrinologist) -> Agent 1 (👨‍⚕️ neurologist) : As an endocrinologist focusing on hormonal disorders, I appreciate the complexity of conditions that can present with neurological symptoms. 
+
+To the neurologist (Agent 1): Given the patient's symptoms of progressive weakness, bladder incontinence, and lack of response to anticholinesterase agents, I believe we should consider paraneoplastic syndromes, particularly in the context of small cell lung carcinoma. These syndromes can lead to neurological manifestations such as Lambert-Eaton myasthenic syndrome, which presents with muscle weakness that can improve with brief exertion, similar to what we are observing in this patient. The unusual combination of symptoms—especially with the systemic signs like weight loss—strongly suggests an underlying malignancy rather than a straightforward neuromuscular disorder like myasthenia gravis. I recommend a thorough evaluation for malignancy, including imaging studies, to guide our next steps in management.
+ Agent 4 (🧑‍⚕️ endocrinologist) -> Agent 2 (🧑🏽‍⚕️ geriatrician) : As an endocrinologist specializing in hormonal disorders and their systemic effects, I recognize the importance of understanding the complexities that can arise in elderly patients.
+
+To the geriatrician (Agent 2): While I understand your perspective on myasthenia gravis given the patient's symptoms of proximal muscle weakness that improve with brief exercise, I would argue that the combination of significant weight loss, bladder incontinence, and lack of response to anticholinesterase therapy suggests a more serious underlying condition, such as a paraneoplastic syndrome associated with small cell lung carcinoma. In elderly patients, especially those presenting with unexplained systemic symptoms, malignancies should be high on our differential diagnosis list. This approach not only addresses the patient's current symptoms but also ensures we are vigilant about potentially life-threatening conditions. I recommend considering further diagnostic workup for malignancy to guide our management effectively.
+ Agent 5 (👩🏼‍⚕️ oncologist) -> Agent 2 (🧑🏽‍⚕️ geriatrician) : As an oncologist who specializes in cancer diagnosis and treatment and is knowledgeable about paraneoplastic syndromes, I would like to offer my perspective on the case at hand.
+
+Agent 2, regarding the consideration of myasthenia gravis in this 65-year-old woman, I understand the symptoms of proximal muscle weakness and bladder incontinence may seem to align with your diagnosis. However, the key factor to note is that the weakness improves after brief exertion, a hallmark of Lambert-Eaton myasthenic syndrome, which is associated with small cell lung carcinoma. Additionally, the presence of unexplained weight loss and the lack of improvement with anticholinesterase agents further support the likelihood of a paraneoplastic syndrome due to an underlying malignancy, rather than traditional myasthenia gravis. Given these points, I strongly advocate for considering paraneoplastic syndrome from small cell lung carcinoma as the primary diagnosis in this patient.
+|_Turn 2
+ Agent 1 (👨‍⚕️ neurologist): 🤐
+ Agent 2 (🧑🏽‍⚕️ geriatrician) -> Agent 1 (👨‍⚕️ neurologist) : As a geriatrician specializing in the health care of elderly patients, I would like to address the concerns regarding the differential diagnosis for the 65-year-old woman with symptoms of weight loss, weakness, and bladder incontinence. 
+
+While the neurologist has proposed paraneoplastic syndrome related to small cell carcinoma, I believe it is essential to conduct a thorough evaluation for myasthenia gravis as well. The specific symptom of proximal muscle weakness that improves with brief exertion is characteristic of myasthenia gravis. Additionally, her bladder incontinence could be part of the autonomic dysfunction associated with this condition. 
+
+It is critical to consider that while paraneoplastic syndromes may explain the neuromuscular symptoms, they usually accompany systemic signs of cancer, which we should verify through imaging studies and labs. Therefore, focusing on testing for anti-acetylcholine receptor antibodies is imperative. This approach ensures we do not overlook a potentially treatable condition in our efforts to diagnose and manage the patient appropriately.
+ Agent 3 (👨🏻‍⚕️ urologist): 🤐
+ Agent 4 (🧑‍⚕️ endocrinologist) -> Agent 2 (🧑🏽‍⚕️ geriatrician) : As an endocrinologist specializing in hormonal disorders and their systemic effects, I understand the complexities associated with diagnosing conditions in elderly patients.
+
+To the geriatrician (Agent 2): While your assessment of myasthenia gravis is valid, I strongly believe that the combination of symptoms, including significant weight loss, proximal muscle weakness that improves with brief exercise, and bladder incontinence unresponsive to anticholinesterase agents, suggests a more serious underlying pathology, specifically a paraneoplastic syndrome related to small cell lung carcinoma. The presence of systemic symptoms like weight loss in an elderly patient should raise our suspicion for malignancy. Given that myasthenia gravis typically responds to anticholinesterase treatment, the lack of improvement we observe here further supports the notion that we are confronting a paraneoplastic process. I recommend we prioritize further diagnostic imaging for malignancy to ensure that we do not miss a potentially life-threatening condition.
+ Agent 5 (👩🏼‍⚕️ oncologist): 🤐
+|_Turn 3
+ Agent 1 (👨‍⚕️ neurologist): 🤐
+ Agent 2 (🧑🏽‍⚕️ geriatrician) -> Agent 3 (👨🏻‍⚕️ urologist) : As a geriatrician specializing in the health care of elderly patients, I would like to emphasize the importance of addressing the urinary symptoms in the context of the 65-year-old woman’s overall clinical picture. The bladder incontinence she is experiencing, coupled with significant proximal muscle weakness and weight loss, raises the need for a thorough evaluation of potential underlying causes, including the possibility of a malignancy, such as small cell lung carcinoma.
+
+It’s essential to consider how her bladder symptoms may correlate with neurological processes, which can be associated with paraneoplastic syndromes. The urologist's expertise is crucial in further evaluating the urinary dysfunction she is experiencing. Diagnostic imaging and possibly urodynamic studies could provide insight into the cause of her incontinence, while also assessing for any structural abnormalities or impacts from possible malignancy.
+
+Additionally, if we discover that the incontinence is indeed related to an underlying malignancy or another neurological issue, this would guide our multidisciplinary approach to treatment. I recommend a collaborative evaluation to ensure that we are addressing all facets of her condition effectively.
+ Agent 3 (👨🏻‍⚕️ urologist): 🤐
+ Agent 4 (🧑‍⚕️ endocrinologist) -> Agent 1 (👨‍⚕️ neurologist) : As an endocrinologist focusing on hormonal disorders and their systemic effects, I recognize the importance of appropriately diagnosing and managing complex neurological symptoms, particularly in elderly patients.
+
+To the neurologist (Agent 1): I appreciate your perspective on the symptoms indicating a paraneoplastic syndrome associated with small cell lung carcinoma. Given the patient's combination of weight loss, proximal muscle weakness that improves with brief activity, and bladder incontinence, it’s crucial to consider the potential neurological implications. The lack of response to anticholinesterase agents suggests that this is not typical myasthenia gravis. Instead, I believe we should focus on investigating for malignancies such as small cell lung carcinoma, which can have significant paraneoplastic effects on neuromuscular function and contribute to the autonomic issues observed. Prompt imaging and further testing for malignancy would be prudent to guide our management of this patient effectively.
+ Agent 4 (🧑‍⚕️ endocrinologist) -> Agent 3 (👨🏻‍⚕️ urologist) : As an endocrinologist specializing in hormonal disorders and their systemic effects, I understand the interplay between different systems, particularly in complex cases involving elderly patients.
+
+To the urologist (Agent 3): While your assessment pointing toward a paraneoplastic syndrome related to small cell lung carcinoma aligns with the broad view of the patient's symptoms, I think it’s essential to also focus on the implications of her bladder incontinence. The bladder dysfunction in this context may arise from neurological involvement associated with the suspected malignancy. Given that her symptoms do not improve with anticholinesterase agents, this further emphasizes the potential for neurological or paraneoplastic etiology. A thorough evaluation for underlying malignancy should also encompass urinary tract imaging, as it may reveal associated changes that could inform our understanding of her overall condition. Collaboratively, we can ensure this patient receives a comprehensive workup that addresses both her urinary symptoms and her broader health concerns.
+ Agent 5 (👩🏼‍⚕️ oncologist): 🤐
+|_Turn 4
+ Agent 1 (👨‍⚕️ neurologist): 🤐
+ Agent 2 (🧑🏽‍⚕️ geriatrician) -> Agent 1 (👨‍⚕️ neurologist) : As a geriatrician specializing in the health care of elderly patients, I have carefully reviewed the case of the 65-year-old woman presenting with weight loss, weakness that improves after brief exercise, and bladder incontinence. While I understand your perspective on paraneoplastic syndrome being linked to small cell lung carcinoma, I would like to emphasize the importance of considering myasthenia gravis as a potential diagnosis.
+
+The key symptom of proximal muscle weakness that improves with exertion is strongly indicative of myasthenia gravis. Additionally, the combination of her weakness and urinary incontinence raises the possibility of neuromuscular involvement that can be tied to an autoimmune process rather than solely a malignancy. The lack of response to anticholinesterase medication could suggest an atypical presentation of myasthenia gravis or potentially another neuromuscular disorder.
+
+I believe a thorough workup, including anti-acetylcholine receptor antibody testing and other relevant diagnostic assessments, should be prioritized to clarify her condition. This will help ensure that we are addressing the true underlying issue and providing appropriate management for her symptoms, potentially improving her quality of life significantly.
+ Agent 3 (👨🏻‍⚕️ urologist): 🤐
+ Agent 4 (🧑‍⚕️ endocrinologist) -> Agent 1 (👨‍⚕️ neurologist) : As an endocrinologist specializing in hormonal disorders and their systemic effects, I recognize the complexities often present in cases involving neuromuscular symptoms.
+
+To the neurologist (Agent 1): While I appreciate the perspective you provided regarding the likelihood of a paraneoplastic syndrome associated with small cell lung carcinoma, I urge you to consider the implications of the patient’s bladder incontinence and the atypical muscle weakness that improves with brief exertion. The age of the patient and the combination of systemic signs, such as weight loss, suggest we should prioritize evaluating for malignancy more thoroughly. The absence of improvement with anticholinesterase medication further steers us away from myasthenia gravis. It seems prudent to conduct imaging studies to investigate for potential underlying malignancy. This could ultimately refine our diagnosis and ensure appropriate management for this patient, who may be experiencing significant and treatable underlying pathology.
+ Agent 4 (🧑‍⚕️ endocrinologist) -> Agent 2 (🧑🏽‍⚕️ geriatrician) : As an endocrinologist specializing in hormonal disorders and their systemic effects, I understand the intricacies of diagnosing conditions in elderly patients, especially when multiple symptoms are present.
+
+To the geriatrician (Agent 2): I recognize your inclination towards myasthenia gravis given the symptoms of proximal muscle weakness that improve with brief exercise. However, I believe the context of this patient's significant weight loss, bladder incontinence, and the lack of response to anticholinesterase agents is highly suggestive of a paraneoplastic syndrome associated with small cell lung carcinoma. In elderly patients, the presence of systemic symptoms like unintentional weight loss should alert us to the possibility of an underlying malignancy. The atypical response to common myasthenia gravis treatment further reinforces the need to broaden our differential diagnosis. A comprehensive evaluation for malignancy, including imaging studies, could provide crucial insights into her condition and guide appropriate management. Prioritizing this workup may lead to identifying a treatable underlying issue, which is essential in optimizing her care.
+ Agent 5 (👩🏼‍⚕️ oncologist): 🤐
+|_Turn 5
+ Agent 1 (👨‍⚕️ neurologist): 🤐
+ Agent 2 (🧑🏽‍⚕️ geriatrician) -> Agent 4 (🧑‍⚕️ endocrinologist) : As a geriatrician specializing in the health care of elderly patients, I would like to discuss the case of the 65-year-old woman presenting with weight loss, proximal muscle weakness, and bladder incontinence. While the consensus among some team members leans towards a paraneoplastic syndrome related to small cell lung carcinoma, I believe it is important to also consider potential endocrine factors that could contribute to her symptoms.
+
+Conditions such as adrenal insufficiency or thyroid disorders can lead to muscle weakness and systemic symptoms, which may mimic those of myasthenia gravis or a paraneoplastic presentation. Furthermore, hormonal imbalances can also contribute to urinary dysfunction. Given that she has experienced recent weight loss and other systemic changes, a comprehensive evaluation of her thyroid function and adrenal hormones should be performed. This will help us rule out any underlying endocrine disorders that may be impacting her overall health and assist in directing the most appropriate management for her condition.
+
+I recommend collaborating to ensure that we include relevant hormonal assessments in her workup to provide a holistic view of her health status and avoid overlooking any treatable conditions.
+ Agent 3 (👨🏻‍⚕️ urologist): 🤐
+ Agent 4 (🧑‍⚕️ endocrinologist) -> Agent 1 (👨‍⚕️ neurologist) : As an endocrinologist specializing in hormonal disorders and their systemic effects, I understand the complexities involved in diagnosing conditions in older patients.
+
+To the neurologist (Agent 1): While I appreciate your strong argument for the diagnosis of paraneoplastic syndrome associated with small cell lung carcinoma, I believe it is essential to also carefully consider the implications of myasthenia gravis in this patient. Although the symptoms of weight loss and bladder incontinence are troubling, the predominant clinical feature of proximal muscle weakness that improves with brief exertion does align with myasthenia gravis. However, the key issue remains the lack of response to anticholinesterase medication, which introduces uncertainty. I suggest we explore additional diagnostic avenues, such as imaging for malignancy, alongside further neuromuscular assessments to clarify the diagnosis. A prompt and comprehensive evaluation will ensure that we are addressing all potential underlying conditions and providing the patient with optimal management.
+ Agent 4 (🧑‍⚕️ endocrinologist) -> Agent 2 (🧑🏽‍⚕️ geriatrician) : As an endocrinologist specializing in hormonal disorders and their systemic effects, I understand the importance of accurately diagnosing and treating complex conditions in elderly patients.
+
+To the geriatrician (Agent 2): I recognize your view favoring myasthenia gravis based on the patient's symptoms of muscle weakness that improves after brief exertion. However, the combination of significant weight loss, bladder incontinence, and particularly the lack of response to anticholinesterase therapy suggests a more complex underlying issue may be at play. In this context, we should thoroughly consider the possibility of a paraneoplastic syndrome related to small cell lung carcinoma. This condition can present with neurological symptoms similar to myasthenia gravis but typically involves systemic signs like weight loss, and can also lead to bladder dysfunction. I advocate for a complete evaluation, including imaging for any potential malignancy, to ensure we do not overlook a crucial underlying etiology that could dramatically change the management and outcome for this patient. Prioritizing this comprehensive approach is essential in elderly patients presenting with these red flags.
+ Agent 5 (👩🏼‍⚕️ oncologist): 🤐
+== Round 2 ==
+|_Turn 1
+ Agent 1 (👨‍⚕️ neurologist): 🤐
+ Agent 2 (🧑🏽‍⚕️ geriatrician): 🤐
+ Agent 3 (👨🏻‍⚕️ urologist): 🤐
+ Agent 4 (🧑‍⚕️ endocrinologist): 🤐
+ Agent 5 (👩🏼‍⚕️ oncologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨‍⚕️) | Agent 2 (🧑🏽‍⚕️) | Agent 3 (👨🏻‍⚕️) | Agent 4 (🧑‍⚕️) | Agent 5 (👩🏼‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨‍⚕️) |              |  ✋ (1<-2)   |  ✋ (1<-3)   |  ✋ (1<-4)   |              |
+|              |              |              |              |              |              |
+| Agent 2 (🧑🏽‍⚕️) |  ✋ (2->1)   |              |  ✋ (2->3)   |  ✋ (2<->4)  |  ✋ (2<->5)  |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏻‍⚕️) |  ✋ (3->1)   |  ✋ (3<-2)   |              |  ✋ (3<-4)   |              |
+|              |              |              |              |              |              |
+| Agent 4 (🧑‍⚕️) |  ✋ (4->1)   |  ✋ (4<->2)  |  ✋ (4->3)   |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👩🏼‍⚕️) |              |  ✋ (5<->2)  |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: 'Based on the opinions provided by the various medical experts, the majority consensus is as follows:\n\n- **Neurologist**: (E) Paraneoplastic syndrome from small cell carcinoma of the lung\n- **Geriatrician**: (E) Paraneoplastic syndrome from small cell carcinoma of the lung\n- **Urologist**: (E) Paraneoplastic syndrome from small cell carcinoma of the lung\n- **Endocrinologist**: (E) Paraneoplastic syndrome from small cell carcinoma of the lung\n- **Oncologist**: (E) Paraneoplastic syndrome from small cell carcinoma of the lung\n\nAll five experts agree on the diagnosis of paraneoplastic syndrome from small cell carcinoma of the lung (E). \n\nAnswer: (E) Paraneoplastic syndrome from small cell carcinoma of the lung'}
+
+
+[INFO] no: 37
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Pediatric Infectious Disease Specialist (Lead)): 
+ Member 2 (Pediatric Immunologist): 
+ Member 3 (Pediatric Gastroenterologist): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Clinical Laboratory Scientist (Lead)): 
+ Member 2 (Pediatric Pulmonologist): 
+ Member 3 (Pediatric Microbiologist): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Pediatric Immunologist (Lead)): 
+ Member 2 (Pediatric Hematologist): 
+ Member 3 (Clinical Geneticist): 
+
+
+[INFO] no: 38
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Medical Oncologist (Lead)): Specializes in the treatment of pancreatic adenocarcinoma and will direct the assessment of the patient’s suitability for the novel chemotherapeutic agent, considering dosage and potential outcomes.
+ Member 2 (Clinical Pharmacologist): Focuses on drug interactions, pharmacokinetics, and the therapeutic index of the novel agent, providing crucial insight into safe dosing and expected improvements versus adverse effects.
+ Member 3 (Surgical Oncologist): Evaluates the patient’s surgical history and current surgical oncology options, taking into account how the chemotherapeutic agent may play a role in adjuvant treatment following any surgical interventions.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Radiologist (Lead)): Specializes in imaging techniques to assess the progress of pancreatic adenocarcinoma and the effects of the treatment based on imaging biomarkers, contributing to the evaluation of treatment efficacy.
+ Member 2 (Pathologist): Provides histological evaluation of the cancer to ensure accurate diagnosis and understanding of tumor response to therapy, contributing to the interpretation of results from the trial data.
+ Member 3 (Biostatistician): Assesses and analyzes the trial data including treatment efficacy and safety statistics to determine the therapeutic index and make recommendations based on statistical relevance.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Oncologist (Lead)): Provides overarching expertise and clinical guidance on treatment decisions, synthesizing data from the previous teams to recommend a treatment plan tailored to the patient.
+ Member 2 (Clinical Trial Specialist): Coordinates the clinical trial information and outcomes, ensuring that insights from the ongoing Phase 3 trial are integrated into the treatment decision process and discussing implications for FDA approval.
+ Member 3 (Palliative Care Specialist): Ensures that the patient's quality of life is considered in treatment decisions, addressing concerns about potential adverse effects and supporting pain management and symptom relief alongside the novel treatment.
+
+
+[INFO] no: 39
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Neurologist (Lead)): Specializes in the diagnosis and treatment of neurological conditions, particularly focusing on stroke assessments and the impact on speech and language. This member will lead the group to evaluate the patient’s neurological function and determine the extent of the lesions.
+ Member 2 (Speech): Language Pathologist
+ Member 3 (Radiologist): Focuses on obtaining and interpreting imaging studies (such as CT or MRI scans) to identify the areas of brain damage and ensure precise localization of the affected structures related to language functions.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Neuropsychologist (Lead)): Assesses the cognitive implications of the patient’s neurological condition, specifically examining language processing and executive functions, providing insight into the patient's difficulties with verbal repetition.
+ Member 2 (Occupational Therapist): Works on improving the patient's functional abilities and communication strategies in daily life, providing therapeutic interventions that facilitate better use of language in practical scenarios.
+ Member 3 (Primary Care Physician): Coordinates overall patient care and management, providing background on the patient's medical history, and helping to monitor any pre
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Neurologist (Lead)): Provides comprehensive expertise and decision
+ Member 2 (Clinical Decision Support Specialist): Integrates findings and recommendations from the various teams to formulate a cohesive treatment and rehabilitation plan that addresses the patient's needs based on their specific deficits in verbal repetition.
+ Member 3 (Rehabilitation Medicine Specialist): Focuses on creating a detailed rehabilitation strategy that incorporates all aspects of the patient's recovery, ensuring that both speech therapy and neurological recovery are addressed adequately.
+

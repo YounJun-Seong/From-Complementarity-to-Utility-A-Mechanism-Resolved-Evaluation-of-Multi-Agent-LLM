@@ -1,0 +1,3 @@
+RESERVE triggered n=661; TDC 0.402; SampleMore (k_add=4, frozen) 0.437
+SampleMore k_add=3: acc 0.446; TDC − SampleMore -4.4 pp [-8.0, -0.9]
+SampleMore k_add=2: acc 0.427; TDC − SampleMore -2.4 pp [-5.7, +0.9]

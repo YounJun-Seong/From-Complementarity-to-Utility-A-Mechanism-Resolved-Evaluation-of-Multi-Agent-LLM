@@ -1,0 +1,21 @@
+=== F2_final_v2 (pre-registered scorer; crash = wrong) ===
+  route=basic                        n=  36  S 0.783  MDAgents 0.667  gap -0.117
+  route=intermediate                 n= 777  S 0.822  MDAgents 0.722  gap -0.100
+  route=advanced                     n= 187  S 0.753  MDAgents 0.551  gap -0.202
+  intermediate, noAns (no discussion) n= 663  S 0.853  MDAgents 0.771  gap -0.082
+  intermediate, discussion triggered n= 113  S 0.642  MDAgents 0.442  gap -0.200
+  all                                n=1000  S 0.808  MDAgents 0.688  gap -0.120
+=== F3_final_v2 (pre-registered scorer; crash = wrong) ===
+  route=basic                        n= 166  S 0.816  MDAgents 0.560  gap -0.255
+  route=intermediate                 n= 413  S 0.812  MDAgents 0.702  gap -0.109
+  route=advanced                     n= 421  S 0.801  MDAgents 0.582  gap -0.219
+  intermediate, noAns (no discussion) n= 350  S 0.838  MDAgents 0.757  gap -0.081
+  intermediate, discussion triggered n=  63  S 0.667  MDAgents 0.397  gap -0.270
+  all                                n=1000  S 0.808  MDAgents 0.628  gap -0.180
+=== F1 (pre-registered scorer; crash = wrong) ===
+  route=basic                        n=  42  S 0.829  MDAgents 0.548  gap -0.281
+  route=intermediate                 n= 775  S 0.817  MDAgents 0.592  gap -0.225
+  route=advanced                     n= 182  S 0.763  MDAgents 0.011  gap -0.752
+  intermediate, noAns (no discussion) n= 543  S 0.837  MDAgents 0.753  gap -0.084
+  intermediate, discussion triggered n= 108  S 0.657  MDAgents 0.463  gap -0.194
+  all                                n=1000  S 0.808  MDAgents 0.484  gap -0.324

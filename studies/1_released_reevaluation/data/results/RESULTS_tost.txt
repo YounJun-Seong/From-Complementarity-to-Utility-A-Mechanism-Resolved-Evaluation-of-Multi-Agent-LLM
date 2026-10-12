@@ -1,0 +1,8 @@
+TOST equivalence, pre-registered margin delta = +/-0.05
+
+  MedQA: zeroshot_cot vs MedAgents   n=200  multi-single=-0.015  90%CI[-0.055,+0.025]  p_TOST=0.087  -> not shown (widen n or effect real)
+  MedMCQA: zeroshot_cot vs MedAgents n=100  multi-single=+0.010  90%CI[-0.050,+0.070]  p_TOST=0.167  -> not shown (widen n or effect real)
+  MedQA: zeroshot_cot vs MDAgents    n= 50  multi-single=-0.020  90%CI[-0.120,+0.080]  p_TOST=0.305  -> not shown (widen n or effect real)
+
+Note: equivalence at delta=0.05 means multi-agent is not more than 5 accuracy points better than a standard single prompt.
+TOST_DONE

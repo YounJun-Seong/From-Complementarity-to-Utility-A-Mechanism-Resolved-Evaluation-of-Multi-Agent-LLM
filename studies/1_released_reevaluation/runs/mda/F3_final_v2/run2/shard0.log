@@ -1,0 +1,469 @@
+<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [02:19<1:30:51, 139.78s/it]  5%|▌         | 2/40 [05:49<1:54:27, 180.72s/it]  8%|▊         | 3/40 [07:59<1:37:18, 157.81s/it] 10%|█         | 4/40 [10:37<1:34:42, 157.84s/it] 12%|█▎        | 5/40 [12:20<1:20:36, 138.18s/it] 15%|█▌        | 6/40 [15:23<1:26:53, 153.35s/it] 18%|█▊        | 7/40 [18:02<1:25:20, 155.15s/it] 20%|██        | 8/40 [20:24<1:20:32, 151.01s/it] 22%|██▎       | 9/40 [21:59<1:08:58, 133.49s/it] 25%|██▌       | 10/40 [23:05<56:19, 112.66s/it]  28%|██▊       | 11/40 [25:21<57:52, 119.74s/it] 30%|███       | 12/40 [27:33<57:39, 123.54s/it] 32%|███▎      | 13/40 [28:29<46:20, 103.00s/it] 35%|███▌      | 14/40 [30:00<43:05, 99.42s/it]  38%|███▊      | 15/40 [32:15<45:50, 110.03s/it] 40%|████      | 16/40 [34:17<45:30, 113.78s/it] 42%|████▎     | 17/40 [36:29<45:38, 119.06s/it] 45%|████▌     | 18/40 [36:49<32:47, 89.45s/it]  48%|████▊     | 19/40 [37:11<24:12, 69.17s/it] 50%|█████     | 20/40 [37:29<17:55, 53.77s/it] 52%|█████▎    | 21/40 [39:27<23:11, 73.24s/it] 55%|█████▌    | 22/40 [40:27<20:43, 69.08s/it] 57%|█████▊    | 23/40 [41:52<20:58, 74.02s/it] 60%|██████    | 24/40 [44:11<24:56, 93.54s/it] 62%|██████▎   | 25/40 [45:56<24:12, 96.81s/it] 65%|██████▌   | 26/40 [47:29<22:21, 95.81s/it] 68%|██████▊   | 27/40 [50:27<26:04, 120.36s/it] 70%|███████   | 28/40 [51:53<22:01, 110.13s/it] 72%|███████▎  | 29/40 [53:36<19:48, 108.04s/it] 75%|███████▌  | 30/40 [53:49<13:14, 79.48s/it]  78%|███████▊  | 31/40 [1:04:44<37:48, 252.09s/it] 80%|████████  | 32/40 [1:14:24<46:43, 350.38s/it]<REPO>/.venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+<REPO>/external/MDAgents/utils.py:9: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+  0%|          | 0/40 [00:00<?, ?it/s] 78%|███████▊  | 31/40 [02:46<00:48,  5.38s/it] 80%|████████  | 32/40 [04:30<01:17,  9.70s/it] 82%|████████▎ | 33/40 [05:42<01:33, 13.40s/it] 85%|████████▌ | 34/40 [06:55<01:48, 18.05s/it] 88%|████████▊ | 35/40 [08:19<02:03, 24.66s/it] 90%|█████████ | 36/40 [09:22<01:58, 29.52s/it] 92%|█████████▎| 37/40 [09:35<01:21, 27.01s/it] 95%|█████████▌| 38/40 [10:24<01:01, 30.86s/it] 98%|█████████▊| 39/40 [12:57<00:55, 55.74s/it]100%|██████████| 40/40 [14:53<00:00, 69.14s/it]100%|██████████| 40/40 [14:53<00:00, 22.33s/it]
+
+[INFO] no: 30
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏻‍⚕️ 1. Gastroenterologist): Specializes in the diagnosis and treatment of gastrointestinal diseases and conditions.
+Agent 2 (🧑🏽‍⚕️ 2. Hepatologist): Focuses on liver diseases and conditions which would provide insights into biliary tract issues.
+Agent 3 (👩🏻‍⚕️ 3. Radiologist): Expert in interpreting imaging studies, crucial for evaluating ultrasound and cholescintigraphy results.
+Agent 4 (🧑🏿‍⚕️ 4. Surgeon): Specializes in surgical procedures related to the biliary system, such as cholecystectomy or managing complications.
+Agent 5 (👨🏽‍⚕️ 5. Infectious Disease Specialist): Focuses on infections, including those affecting the liver and biliary system, and can rule out hepatotropic viral infections.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                        moderator (👨‍⚖️)                                              
+          ┌────────────────────────────────┬────────────────────┴───────────────────────────────┐                     
+ Radiologist (👩🏻‍⚕️)     Infectious Disease Specialist (👨🏽‍⚕️)                      Gastroenterologist (👨🏻‍⚕️)        
+                                                                                ┌───────────────┴────────────┐        
+                                                                       Hepatologist (🧑🏽‍⚕️)           Surgeon (🧑🏿‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏻‍⚕️ gastroenterologist) -> Agent 4 (🧑🏿‍⚕️ surgeon) : As a gastroenterologist specializing in gastrointestinal diseases, I recognize the importance of collaboration in managing cases like this. 
+
+My opinion for Agent 4 (surgeon): 
+
+Given the patient's clinical presentation of right upper abdominal pain, nausea, elevated leukocyte count, and inconclusive ultrasound findings, it is critical to consider that the symptoms strongly suggest acute cholecystitis. The cholescintigraphy results showing visualization of the intrahepatic and extrahepatic bile ducts indicate the presence of cystic duct obstruction, likely due to gallstones. This obstruction can lead to inflammation and infection of the gallbladder, necessitating surgical intervention. Prompt cholecystectomy would be the most appropriate course of action to prevent complications such as perforation or abscess formation. Therefore, I recommend proceeding with surgical evaluation and possible intervention.
+ Agent 1 (👨🏻‍⚕️ gastroenterologist) -> Agent 2 (🧑🏽‍⚕️ hepatologist) : As a gastroenterologist specializing in gastrointestinal diseases, I understand the intricacies of biliary tract conditions and their management. 
+
+My opinion for Agent 2 (hepatologist):
+
+In this case, while there is concern for gallbladder hypomotility, the clinical findings suggest a stronger likelihood of acute cholecystitis due to cystic duct obstruction. The patient presents with significant right upper quadrant pain, nausea, fever, and an elevated white blood cell count, all of which support this diagnosis. Additionally, the cholescintigraphy results indicating normal flow through the intrahepatic and extrahepatic bile ducts further point toward a functional issue at the level of the cystic duct rather than a primary liver or hepatotropic viral issue. Therefore, it is essential that we focus on the possible obstruction and consider surgical intervention to address the inflammation and prevent further complications.
+ Agent 2 (🧑🏽‍⚕️ hepatologist) -> Agent 1 (👨🏻‍⚕️ gastroenterologist) : As a hepatologist focusing on liver diseases and biliary tract issues, I would like to provide my opinion to Agent 1, the gastroenterologist.
+
+My opinion: While hypomotility of the gallbladder is a plausible explanation for this patient's symptoms, the clinical presentation and laboratory findings are more consistent with obstruction of the cystic duct leading to acute cholecystitis. The elevated leukocyte count and right upper quadrant tenderness strongly suggest inflammation of the gallbladder, which supports the diagnosis of cholecystitis typically caused by cystic duct obstruction, often due to gallstones. Cholescintigraphy and the patient's symptoms align more closely with this diagnosis than with hypomotility alone, which may not fully account for the inflammation and acute symptoms observed. Given this, I recommend considering the need for further evaluation for cystic duct obstruction rather than attributing the condition to gallbladder hypomotility.
+ Agent 2 (🧑🏽‍⚕️ hepatologist) -> Agent 5 (👨🏽‍⚕️ infectious disease specialist) : As a hepatologist focusing on liver diseases and biliary tract issues, I would like to provide my opinion to Agent 5, the infectious disease specialist.
+
+My opinion: While ruling out infections, particularly hepatotropic viral infections, is essential in this patient's evaluation, I believe the clinical presentation—including right upper abdominal pain, elevated leukocyte count, and the inconclusive ultrasound findings—suggests that the primary concern is likely related to acute cholecystitis due to obstruction of the cystic duct. The absence of findings supporting a viral infection, combined with the patient's symptoms suggesting gallbladder inflammation, indicates that it is crucial to prioritize assessment for gallbladder pathology rather than focusing solely on infectious causes. This will guide appropriate management, which may involve surgical intervention if cholecystitis is confirmed. Therefore, while infectious diseases should certainly be on the differential, the acute presentation and lab findings point more convincingly towards a mechanical biliary issue as the primary cause.
+ Agent 3 (👩🏻‍⚕️ radiologist) -> Agent 1 (👨🏻‍⚕️ gastroenterologist) : As a radiologist with expertise in interpreting imaging studies, my opinion is that the most likely cause of the patient's symptoms is (E) Obstruction of the cystic duct. The patient's presentation of right upper abdominal pain, nausea, fever, and elevated leukocyte count, combined with inconclusive ultrasound findings, strongly suggests cholecystitis. Cholescintigraphy revealing visualization of the intrahepatic and extrahepatic bile ducts indicates that there is no obstruction beyond the cystic duct. Given these findings, obstruction of the cystic duct leading to inflammation of the gallbladder aligns well with her clinical presentation, making it the most plausible diagnosis.
+ Agent 3 (👩🏻‍⚕️ radiologist) -> Agent 5 (👨🏽‍⚕️ infectious disease specialist) : As a radiologist specializing in interpreting imaging studies, I believe that the most likely cause of this patient's symptoms is (E) Obstruction of the cystic duct. The patient's clinical presentation, including right upper quadrant pain, nausea, fever, and elevated white blood cell count, aligns with acute cholecystitis. The cholescintigraphy results showing visualization of the intrahepatic and extrahepatic bile ducts suggest that there is no significant obstruction downstream, which supports the diagnosis of cystic duct obstruction as the underlying issue. This insight is critical in ruling out infections as the primary cause of her symptoms and directing appropriate management.
+ Agent 4 (🧑🏿‍⚕️ surgeon) -> Agent 1 (👨🏻‍⚕️ gastroenterologist) : As a biliary surgeon specializing in surgical procedures related to the biliary system, my expertise lies in assessing and managing conditions like acute cholecystitis.
+
+To the gastroenterologist (Agent 1):
+
+I believe it is important to consider that while hypomotility of the gallbladder can contribute to symptoms in patients, the clinical presentation of this patient—specifically the right upper quadrant pain, nausea, elevated leukocyte count, and the inconclusive findings on ultrasound—strongly suggest acute cholecystitis, typically caused by obstruction of the cystic duct. The cholescintigraphy findings that show normal flow through the intrahepatic and extrahepatic bile ducts further support that obstruction at the level of the cystic duct is indeed causing this acute inflammatory response. Therefore, the most immediate concern should be to investigate and address the potential obstruction rather than attributing the symptoms solely to hypomotility.
+ Agent 4 (🧑🏿‍⚕️ surgeon) -> Agent 5 (👨🏽‍⚕️ infectious disease specialist) : As a biliary surgeon specializing in surgical procedures related to the biliary system, I have significant experience in diagnosing and managing conditions such as acute cholecystitis.
+
+To the infectious disease specialist (Agent 5):
+
+While ruling out hepatotropic viral infections is crucial in the differential diagnosis for patients with right upper quadrant pain and elevated leukocyte count, the clinical presentation of this patient—along with the cholescintigraphy findings—strongly indicates acute cholecystitis caused by obstruction of the cystic duct. The right upper quadrant tenderness combined with fever and laboratory results highlight an inflammatory response typically associated with biliary obstruction rather than an infectious etiology at this time. It’s important to prioritize evaluating the biliary tract for potential obstruction and inflammation, as immediate surgical intervention may be necessary, rather than focusing solely on infectious causes at this point.
+ Agent 5 (👨🏽‍⚕️ infectious disease specialist) -> Agent 2 (🧑🏽‍⚕️ hepatologist) : As an infectious disease specialist focused on infections affecting the liver and biliary system, I understand the complexities surrounding biliary tract issues. 
+
+Agent 2 (hepatologist), I appreciate your perspective on the obstruction of the cystic duct causing the patient’s symptoms, as this aligns with the classic presentation of acute cholecystitis. Given the patient's elevated leukocyte count and right upper quadrant tenderness, I agree that obstruction is likely the primary issue, especially since the cholescintigraphy found normal flow in other biliary structures. This underscores the importance of considering surgical intervention, as timely management is crucial in preventing complications from potentially untreated cholecystitis. 
+
+Your expertise in liver conditions will be invaluable in ensuring this patient receives appropriate care moving forward.
+ Agent 5 (👨🏽‍⚕️ infectious disease specialist) -> Agent 3 (👩🏻‍⚕️ radiologist) : As an infectious disease specialist with a focus on liver and biliary system infections, I recognize the importance of accurate imaging interpretation in diagnosing biliary tract issues.
+
+Agent 3 (radiologist), I value your insights on the imaging findings. The fact that cholescintigraphy shows normal flow through the intrahepatic and extrahepatic bile ducts but does not delineate the cystic duct raises a critical point regarding potential obstruction. Given the patient's presentation of right upper abdominal pain, nausea, and elevated leukocyte count, I concur with the view that obstruction of the cystic duct is a reasonable explanation for her symptoms. 
+
+It would be beneficial to emphasize any subtle signs of inflammation or abnormality in the gallbladder or cystic duct area that may guide surgical intervention. Your expertise in interpreting these nuances will be pivotal in determining the next steps for our patient.
+ Agent 5 (👨🏽‍⚕️ infectious disease specialist) -> Agent 4 (🧑🏿‍⚕️ surgeon) : As an infectious disease specialist with expertise in infections affecting the liver and biliary system, I understand the implications of surgical intervention in acute biliary conditions.
+
+Agent 4 (surgeon), I support your perspective on the obstruction of the cystic duct as the likely cause of the patient's symptoms, consistent with acute cholecystitis. The combination of right upper quadrant tenderness, elevated leukocyte count, and inconclusive imaging favors the need for surgical evaluation. Given the potential complications associated with delayed intervention in cases of cholecystitis, timely cholecystectomy could prevent further issues such as perforation or abscess formation.
+
+Your surgical expertise will be crucial in addressing this condition effectively, and I believe prompt action is warranted to mitigate the risks associated with the patient's presentation.
+|_Turn 2
+ Agent 1 (👨🏻‍⚕️ gastroenterologist) -> Agent 3 (👩🏻‍⚕️ radiologist) : As a gastroenterologist specializing in gastrointestinal diseases, I appreciate the role of imaging studies in diagnosing and managing related conditions.
+
+My opinion for Agent 3 (radiologist):
+
+In reviewing the cholescintigraphy results, it is essential to focus on the visualization of the intrahepatic bile ducts, hepatic ducts, and the proximal small bowel while noting the absence of gallbladder visualization. This finding strongly suggests obstruction at the level of the cystic duct, which is consistent with a diagnosis of acute cholecystitis. Given the patient's clinical presentation of right upper quadrant pain, elevated leukocyte count, and nausea, it is critical to evaluate the potential causes of cystic duct obstruction, likely due to gallstones. Clarifying these imaging findings will guide our surgical and management decisions effectively. Your expert interpretation of these studies will aid in solidifying the diagnosis and determining the appropriate next steps for intervention.
+ Agent 2 (🧑🏽‍⚕️ hepatologist) -> Agent 1 (👨🏻‍⚕️ gastroenterologist) : As a hepatologist focusing on liver diseases and biliary tract issues, I would like to provide my opinion to Agent 1, the gastroenterologist.
+
+My opinion: While hypomotility of the gallbladder could be a factor in this patient's symptoms, the clinical picture strongly suggests that obstruction of the cystic duct is the primary concern here. The patient's elevated leukocyte count, right upper quadrant tenderness, and the inconclusive ultrasound findings all point towards acute cholecystitis, a condition that is most commonly caused by cystic duct obstruction due to gallstones. The cholescintigraphy showing normal bile flow in the intrahepatic and extrahepatic ducts further supports the likelihood of cystic duct obstruction rather than hypomotility being the primary issue. Therefore, focusing our evaluation on potential cystic duct blockage is essential for guiding appropriate management and treatment.
+ Agent 2 (🧑🏽‍⚕️ hepatologist) -> Agent 5 (👨🏽‍⚕️ infectious disease specialist) : As a hepatologist focusing on liver diseases and biliary tract issues, I would like to provide my opinion to Agent 5, the infectious disease specialist.
+
+My opinion: While it is crucial to rule out hepatotropic viral infections, the clinical presentation of this patient—specifically the elevated white blood cell count, right upper quadrant pain, and nausea—coupled with the inconclusive ultrasound findings, indicates a higher likelihood of acute cholecystitis related to obstruction of the cystic duct, rather than an infectious etiology. The normal bile flow demonstrated in the cholescintigraphy supports this perspective by suggesting that there is no significant infection obstructing the biliary tree. Thus, while infectious concerns should be addressed, the priority should be on evaluating and managing the potential acute cholecystitis, which could require surgical intervention if confirmed.
+ Agent 3 (👩🏻‍⚕️ radiologist) -> Agent 1 (👨🏻‍⚕️ gastroenterologist) : As a radiologist with a focus on interpreting imaging studies, I would like to present my opinion to the gastroenterologist that the most likely cause of the patient's symptoms is (E) Obstruction of the cystic duct. The clinical presentation, including right upper quadrant pain, nausea, elevated leukocyte count, and inconclusive ultrasound findings, points towards acute cholecystitis. The cholescintigraphy showing normal flow through the intrahepatic and extrahepatic bile ducts suggests that while the cystic duct may be obstructed, there is no significant obstruction in the biliary tree beyond that point. This reasoning supports the diagnosis and provides a clear direction for management, as obstruction of the cystic duct is a common etiology for the symptoms displayed.
+ Agent 3 (👩🏻‍⚕️ radiologist) -> Agent 5 (👨🏽‍⚕️ infectious disease specialist) : As a radiologist specializing in imaging studies, I would like to present my opinion to the infectious disease specialist that the most likely cause of the patient's symptoms is (E) Obstruction of the cystic duct. The patient's presentation, including right upper quadrant pain, nausea, fever, and elevated leukocyte count, is consistent with acute cholecystitis, which is often caused by obstruction of the cystic duct, typically due to gallstones. The cholescintigraphy results showing no obstruction in the intrahepatic or extrahepatic biliary tree further indicate that the issue lies within the cystic duct rather than an infectious process. While infections must be considered, the imaging findings and clinical scenario suggest that obstruction is the primary underlying issue, leading to inflammation rather than an infectious etiology.
+ Agent 4 (🧑🏿‍⚕️ surgeon) -> Agent 2 (🧑🏽‍⚕️ hepatologist) : As a biliary surgeon specializing in surgical procedures related to the biliary system, I have extensive experience in diagnosing and managing conditions impacting the gallbladder and biliary tract.
+
+To the hepatologist (Agent 2):
+
+I appreciate your insight on the obstruction of the cystic duct contributing to acute cholecystitis. Based on the clinical presentation of the patient—right upper quadrant pain, nausea, elevated leukocyte count, and cholescintigraphy results—this strongly supports a diagnosis of acute cholecystitis rather than hypomotility alone. The imaging findings indicate normal flow in the intrahepatic and extrahepatic bile ducts, which suggests that the problem lies specifically at the cystic duct level. Addressing this obstruction is crucial, as it is likely leading to the gallbladder inflammation that we are observing. Prompt evaluation and possible intervention are necessary to prevent complications associated with untreated acute cholecystitis.
+ Agent 4 (🧑🏿‍⚕️ surgeon) -> Agent 3 (👩🏻‍⚕️ radiologist) : As a biliary surgeon specializing in surgical procedures related to the biliary system, I focus on diagnosing and managing conditions affecting the gallbladder and biliary tract.
+
+To the radiologist (Agent 3):
+
+Your interpretation of the imaging studies plays a pivotal role in our understanding of this patient’s condition. Given the cholescintigraphy results, which demonstrate normal flow through the intrahepatic and extrahepatic bile ducts, it strongly suggests that there is no distal obstruction. This reinforces the notion that we are likely dealing with an obstruction at the cystic duct level, a common scenario leading to acute cholecystitis. The patient's clinical presentation—right upper quadrant pain, nausea, and elevated leukocyte count—correlates well with this diagnosis. I believe that ensuring clarity in these imaging results is crucial for determining the best approach to manage the patient effectively, including the potential need for surgical intervention. Your continued expertise in interpreting these findings will be essential in our next steps.
+ Agent 5 (👨🏽‍⚕️ infectious disease specialist) -> Agent 2 (🧑🏽‍⚕️ hepatologist) : As an infectious disease specialist with a focus on liver and biliary system infections, I understand the complexities of biliary tract issues and their implications for patient management.
+
+Agent 2 (hepatologist), I acknowledge your perspective regarding the obstruction of the cystic duct as the likely cause of the patient's symptoms, which is indicative of acute cholecystitis. The combination of elevated leukocyte count, right upper quadrant pain, and inconclusive imaging strongly supports this diagnosis. 
+
+It's crucial that we consider the urgency of surgical exploration given the potential for complications if the cystic duct obstruction is confirmed. Maintaining a clear line of communication and collaboration will be essential as we decide on the next steps for the patient's management, including surgical intervention if necessary. Your expertise will be invaluable in ensuring we approach this case with the best possible outcomes for the patient.
+ Agent 5 (👨🏽‍⚕️ infectious disease specialist) -> Agent 3 (👩🏻‍⚕️ radiologist) : As an infectious disease specialist focusing on infections of the liver and biliary system, I recognize the critical role that imaging plays in diagnosing biliary tract conditions.
+
+Agent 3 (radiologist), I appreciate your insights regarding the imaging findings in this case. The cholescintigraphy showing normal flow through the intrahepatic and extrahepatic bile ducts suggests that there is no obstruction beyond the cystic duct, reinforcing the likelihood of cystic duct obstruction as the cause of the patient's symptoms. 
+
+Given the patient's symptoms of right upper quadrant pain, nausea, and elevated leukocyte count, I believe it is essential to consider any subtle indications of gallbladder inflammation or abnormality in the cystic duct area that might not be immediately apparent. Your expertise in identifying these nuances will be pivotal in guiding the surgical team effectively and ensuring timely intervention, which could prevent further complications. Collaboration on this point is essential for the patient’s optimal care.
+ Agent 5 (👨🏽‍⚕️ infectious disease specialist) -> Agent 4 (🧑🏿‍⚕️ surgeon) : As an infectious disease specialist with expertise in infections affecting the liver and biliary system, I understand the importance of prompt intervention in cases of acute biliary conditions.
+
+Agent 4 (surgeon), I support your conclusion regarding the obstruction of the cystic duct as the likely cause of the patient’s symptoms, aligning with the presentation of acute cholecystitis. The signs of right upper quadrant pain, nausea, and elevated leukocyte count strongly suggest this diagnosis, and the cholescintigraphy results provide further confirmation that intrahepatic and extrahepatic biliary structures are intact.
+
+It is crucial to consider the urgency of surgical intervention, as delayed treatment could lead to serious complications such as perforation or abscess formation. Your expertise in surgical management will be essential in addressing this condition effectively, and I believe we should prioritize surgical evaluation to ensure the best possible outcome for the patient. Collaboration here will be key to optimizing her care.
+|_Turn 3
+ Agent 1 (👨🏻‍⚕️ gastroenterologist): 🤐
+ Agent 2 (🧑🏽‍⚕️ hepatologist) -> Agent 1 (👨🏻‍⚕️ gastroenterologist) : As a hepatologist focusing on liver diseases and biliary tract issues, I would like to provide my opinion to Agent 1, the gastroenterologist.
+
+My opinion: While hypomotility of the gallbladder can contribute to gallbladder-related symptoms, the clinical evidence strongly suggests that the primary issue in this patient is obstruction of the cystic duct, leading to acute cholecystitis. The elevated white blood cell count and right upper quadrant tenderness, along with the inconclusive imaging results, are typical indicators of inflammation likely caused by cystic duct obstruction. Moreover, the cholescintigraphy findings showing normal flow in the intrahepatic and extrahepatic bile ducts indicate that there is likely no obstruction at those sites, further supporting the diagnosis of acute cholecystitis related to cystic duct obstruction rather than simply hypomotility. Therefore, prioritizing a focused evaluation for cystic duct obstruction is essential for guiding appropriate management and treatment.
+ Agent 2 (🧑🏽‍⚕️ hepatologist) -> Agent 5 (👨🏽‍⚕️ infectious disease specialist) : As a hepatologist focusing on liver diseases and biliary tract issues, I would like to provide my opinion to Agent 5, the infectious disease specialist.
+
+My opinion: Although it’s important to consider infectious etiologies, the clinical presentation of this patient strongly suggests an issue related to biliary obstruction, specifically obstruction of the cystic duct leading to acute cholecystitis. The elevated leukocyte count, coupled with right upper quadrant pain and inconclusive imaging findings, aligns with this diagnosis. The cholescintigraphy showing normal flow in the intrahepatic and extrahepatic bile ducts indicates that there is no significant obstruction or infectious process affecting these areas, further reinforcing the suspicion of acute cholecystitis due to cystic duct obstruction rather than a viral infection. Therefore, while infections should certainly be ruled out, the immediate focus should be on managing the acute cholecystitis, which may necessitate surgical intervention.
+ Agent 3 (👩🏻‍⚕️ radiologist) -> Agent 1 (👨🏻‍⚕️ gastroenterologist) : As a radiologist specializing in imaging studies, I want to present my opinion to the gastroenterologist that the most likely cause of the patient's symptoms is (E) Obstruction of the cystic duct. The clinical evidence, including right upper quadrant pain, nausea, elevated leukocyte count, and inconclusive ultrasound results, suggests acute cholecystitis. The cholescintigraphy findings, which show the intrahepatic and extrahepatic bile ducts and small bowel with normal flow, imply that there is likely no obstruction beyond the cystic duct, thereby pointing toward its obstruction as the cause of the gallbladder's inflammatory response. This diagnosis is crucial for directing appropriate treatment and management for this patient.
+ Agent 3 (👩🏻‍⚕️ radiologist) -> Agent 5 (👨🏽‍⚕️ infectious disease specialist) : As a radiologist with expertise in interpreting imaging studies, I would like to offer my opinion to the infectious disease specialist that the most likely cause of the patient's symptoms is (E) Obstruction of the cystic duct. The patient's presentation of right upper quadrant pain, nausea, fever, and elevated white blood cell count is consistent with acute cholecystitis, typically due to cystic duct obstruction, often by gallstones. The imaging results from cholescintigraphy indicate normal flow through the intrahepatic and extrahepatic bile ducts, which suggests that there is no significant obstruction in the biliary tree beyond the cystic duct. While infections must always be considered, the clinical and imaging findings strongly support obstruction as the primary cause of her current symptoms, making it critical to address this diagnosis in the treatment plan.
+ Agent 4 (🧑🏿‍⚕️ surgeon) -> Agent 1 (👨🏻‍⚕️ gastroenterologist) : As a biliary surgeon specializing in surgical procedures related to the biliary system, I focus on diagnosing and managing conditions that affect the gallbladder and biliary tract.
+
+To the gastroenterologist (Agent 1):
+
+I understand your perspective regarding hypomotility of the gallbladder as a contributing factor to the patient's symptoms. However, given the clinical picture—particularly the right upper quadrant pain, nausea, elevated leukocyte count, and the results of the cholescintigraphy—it strongly points toward acute cholecystitis secondary to obstruction of the cystic duct. The cholescintigraphy indicates normal flow in the intrahepatic and extrahepatic bile ducts, which supports the idea that the obstruction is localized at the cystic duct, likely due to gallstones or similar causes. Addressing this acute inflammatory state is critical; therefore, I recommend considering the possibility of surgical intervention to alleviate the obstruction rather than attributing these acute symptoms primarily to hypomotility at this stage.
+ Agent 5 (👨🏽‍⚕️ infectious disease specialist) -> Agent 2 (🧑🏽‍⚕️ hepatologist) : As an infectious disease specialist focusing on infections of the liver and biliary system, I have a firm understanding of the complexities involved in diagnosing and managing biliary tract issues.
+
+Agent 2 (hepatologist), I appreciate your assessment of the patient's condition and your emphasis on the obstruction of the cystic duct leading to acute cholecystitis. I agree that the elevated leukocyte count and right upper quadrant tenderness strongly support this diagnosis. 
+
+It’s essential to act promptly given the potential for serious complications if the obstruction is confirmed. Understanding the urgency of intervention, I believe a surgical consultation is warranted to address the cystic duct obstruction expeditiously. Your expertise in managing liver conditions will be valuable in formulating a comprehensive approach to the patient’s care. Let's ensure we are aligned on the need for timely surgical intervention to prevent further complications.
+ Agent 5 (👨🏽‍⚕️ infectious disease specialist) -> Agent 3 (👩🏻‍⚕️ radiologist) : As an infectious disease specialist with a focus on infections affecting the liver and biliary system, I understand the critical role that imaging plays in diagnosing biliary tract conditions.
+
+Agent 3 (radiologist), I value your insights regarding the imaging results. The cholescintigraphy showing normal flow through the intrahepatic and extrahepatic bile ducts suggests that there is no obstruction beyond the cystic duct, which aligns with the clinical suspicion of cystic duct obstruction as the cause of the patient's symptoms. 
+
+Given the patient’s presentation of right upper quadrant pain, nausea, and elevated leukocyte count, it's crucial to re-examine any subtle abnormalities in the gallbladder or cystic duct area that might indicate inflammation or obstruction. Your expertise in interpreting these nuances is vital to ensure appropriate management decisions are made swiftly. I urge you to provide any additional insights from the imaging that could guide our surgical colleagues in understanding the severity of the situation and informing the next steps in the patient's care.
+ Agent 5 (👨🏽‍⚕️ infectious disease specialist) -> Agent 4 (🧑🏿‍⚕️ surgeon) : As an infectious disease specialist with expertise in infections of the liver and biliary system, I recognize the importance of timely surgical intervention in cases of acute biliary conditions such as cholecystitis.
+
+Agent 4 (surgeon), I fully support your assessment that obstruction of the cystic duct is the likely cause of the patient’s symptoms, which points toward acute cholecystitis. The patient's signs—right upper quadrant pain, nausea, and elevated leukocyte count—strongly indicate the need for immediate surgical evaluation.
+
+Given the potential complications associated with delayed treatment, including perforation or abscess formation, I believe that we should prioritize surgical intervention. Your surgical expertise will be crucial in addressing this condition effectively, and I urge us to collaborate closely to ensure the best possible outcome for the patient. Timely action in managing this case will be essential to mitigate any risks.
+|_Turn 4
+ Agent 1 (👨🏻‍⚕️ gastroenterologist) -> Agent 2 (🧑🏽‍⚕️ hepatologist) : As a gastroenterologist specializing in gastrointestinal diseases, my expertise includes the management of conditions affecting the biliary system.
+
+My opinion for Agent 2 (hepatologist):
+
+Considering the patient's presentation and imaging findings, I concur with the assessment of obstruction of the cystic duct as the likely cause of her symptoms, which are indicative of acute cholecystitis. The elevated leukocyte count alongside right upper abdominal pain supports acute inflammation. The inconclusive ultrasound and the cholescintigraphy results showing visualization of the intrahepatic and extrahepatic biliary structures suggest that we should focus on the function of the cystic duct. This obstruction, often secondary to gallstones, aligns with her clinical symptoms and can lead to serious complications if not addressed. Collaboration in this case will be key as we explore intervention pathways to ensure the patient's condition is effectively managed.
+ Agent 1 (👨🏻‍⚕️ gastroenterologist) -> Agent 4 (🧑🏿‍⚕️ surgeon) : As a gastroenterologist specializing in gastrointestinal diseases, I have a strong focus on managing biliary conditions and their complications.
+
+My opinion for Agent 4 (surgeon):
+
+Based on the patient's clinical presentation—characterized by right upper quadrant pain, elevated leukocyte count, and nausea—along with the cholescintigraphy findings that suggest cystic duct obstruction, there is a compelling indication for acute cholecystitis. The symptoms and imaging findings point towards gallbladder inflammation typically secondary to obstruction due to gallstones. It is crucial to proceed with surgical intervention, such as cholecystectomy, to prevent further complications like perforation or abscess formation. Timely surgical management is essential in this case to alleviate the patient's condition effectively and mitigate the risk of serious sequelae. Your expertise in this surgical procedure will be vital in ensuring a favorable outcome for the patient.
+ Agent 2 (🧑🏽‍⚕️ hepatologist): 🤐
+ Agent 3 (👩🏻‍⚕️ radiologist) -> Agent 1 (👨🏻‍⚕️ gastroenterologist) : As a radiologist specializing in interpreting imaging studies, I would like to present my opinion to the gastroenterologist that the most likely cause of the patient's symptoms is (E) Obstruction of the cystic duct. The combination of right upper quadrant pain, nausea, elevated leukocyte count, and inconclusive ultrasound strongly suggests acute cholecystitis. The cholescintigraphy results, which indicate normal flow through the intrahepatic and extrahepatic bile ducts, point to a likely obstruction at the level of the cystic duct rather than issues of bile flow from the liver or gallbladder. While hypomotility may play a role in gallbladder function, the clinical evidence leans more towards obstruction as the critical factor, warranting focused intervention to prevent further complications.
+ Agent 3 (👩🏻‍⚕️ radiologist) -> Agent 5 (👨🏽‍⚕️ infectious disease specialist) : As a radiologist with expertise in interpreting imaging studies, I would like to share my opinion with the infectious disease specialist that the most likely cause of the patient's symptoms is (E) Obstruction of the cystic duct. The patient's symptoms of right upper quadrant pain, nausea, fever, and an elevated white blood cell count are indicative of acute cholecystitis, which typically arises due to cystic duct obstruction. The cholescintigraphy findings show normal visualization of both the intrahepatic and extrahepatic bile ducts, suggesting that there is no significant obstruction beyond the cystic duct, thus supporting the diagnosis of obstruction rather than an infectious process. While infections should always be considered, the imaging and clinical findings in this case align more closely with mechanical obstruction as the primary etiology of her symptoms, highlighting the need for further evaluation and management in that direction.
+ Agent 4 (🧑🏿‍⚕️ surgeon): 🤐
+ Agent 5 (👨🏽‍⚕️ infectious disease specialist) -> Agent 2 (🧑🏽‍⚕️ hepatologist) : As an infectious disease specialist focusing on infections affecting the liver and biliary system, I understand the complexities related to diagnosing and managing biliary tract conditions.
+
+Agent 2 (hepatologist), I appreciate your assessment of the patient's condition as likely due to obstruction of the cystic duct leading to acute cholecystitis. Your interpretation is supported by the combination of elevated leukocyte count, right upper quadrant tenderness, and the findings from the imaging studies. 
+
+In light of the potential for serious complications associated with cholecystitis, I believe we must prioritize surgical consultation to allow for timely intervention. Your expertise in liver diseases will be essential in ensuring comprehensive patient management, and I suggest that we coordinate closely with the surgical team to define the urgency of intervention in this case. Let's ensure we maintain clear communication as we move forward in the best interest of the patient's health.
+ Agent 5 (👨🏽‍⚕️ infectious disease specialist) -> Agent 3 (👩🏻‍⚕️ radiologist) : As an infectious disease specialist with a focus on infections impacting the liver and biliary system, I understand the significance of precise imaging in diagnosing biliary tract issues.
+
+Agent 3 (radiologist), I value your insights regarding the imaging findings from the cholescintigraphy. Your interpretation indicating that the intrahepatic and extrahepatic bile ducts are functioning normally suggests that the obstruction is likely localized at the cystic duct. Given the patient’s symptoms—right upper quadrant pain, nausea, and elevated leukocyte count—this reinforces the suspicion of acute cholecystitis.
+
+It’s crucial that we look for any subtle signs of inflammation or abnormalities in the gallbladder and the cystic duct during our analysis. Any additional insights you can provide based on your imaging expertise will greatly aid in informing the surgical team and ensuring we take appropriate and timely action for the patient’s care. Your role in interpreting these imaging studies is key to guiding our management plan effectively.
+ Agent 5 (👨🏽‍⚕️ infectious disease specialist) -> Agent 4 (🧑🏿‍⚕️ surgeon) : As an infectious disease specialist focused on infections of the liver and biliary system, I recognize the urgency of addressing acute biliary conditions.
+
+Agent 4 (surgeon), I wholeheartedly support your assessment that obstruction of the cystic duct is the likely cause of the patient's symptoms, pointing towards acute cholecystitis. The patient's clinical presentation, which includes right upper quadrant pain, nausea, and an elevated leukocyte count, strongly indicates the need for immediate surgical evaluation.
+
+Considering the potential complications of delayed intervention, such as gallbladder perforation or the development of an abscess, I believe it is imperative that we expedite the surgical consultation and intervention. Your expertise in performing cholecystectomy and managing biliary complications will be vital in addressing this case promptly and effectively. Timely surgical intervention will be essential to ensure the best outcome for the patient. Let’s ensure we collaborate closely to facilitate the necessary steps for her care.
+|_Turn 5
+ Agent 1 (👨🏻‍⚕️ gastroenterologist): 🤐
+ Agent 2 (🧑🏽‍⚕️ hepatologist): 🤐
+ Agent 3 (👩🏻‍⚕️ radiologist) -> Agent 1 (👨🏻‍⚕️ gastroenterologist) : As a radiologist with expertise in interpreting imaging studies, I would like to present my opinion to the gastroenterologist that the most likely cause of the patient's symptoms is (E) Obstruction of the cystic duct. The patient's clinical presentation—including right upper quadrant pain, nausea, elevated white blood cell count, and the inconclusive results from ultrasound—strongly points toward acute cholecystitis. The cholescintigraphy findings indicate normal visualization of the intrahepatic and extrahepatic bile ducts, which suggests that there is no significant obstruction beyond the cystic duct. Thus, the obstruction at this level is likely leading to inflammation and should be the primary focus for diagnosis and treatment. Addressing this issue is critical for effective management of the patient's condition.
+ Agent 3 (👩🏻‍⚕️ radiologist) -> Agent 5 (👨🏽‍⚕️ infectious disease specialist) : As a radiologist specializing in interpreting imaging studies, I would like to present my opinion to the infectious disease specialist that the most likely cause of the patient's symptoms is (E) Obstruction of the cystic duct. The clinical findings of right upper quadrant pain, nausea, and elevated white blood cell count, along with inconclusive ultrasound results, are consistent with acute cholecystitis. The cholescintigraphy shows normal flow through the intrahepatic and extrahepatic bile ducts, indicating that there is no obstruction in that area, which reinforces the likelihood of cystic duct obstruction. While infections should always be a consideration, the imaging and clinical data strongly point towards mechanical obstruction as the primary cause of this patient's symptoms, necessitating immediate attention to prevent complications.
+ Agent 4 (🧑🏿‍⚕️ surgeon) -> Agent 1 (👨🏻‍⚕️ gastroenterologist) : As a biliary surgeon specializing in surgical procedures related to the biliary system, I focus on diagnosing and treating conditions that affect the gallbladder, bile ducts, and related structures.
+
+To the gastroenterologist (Agent 1):
+
+I appreciate your perspective on hypomotility of the gallbladder as a potential cause for the patient's symptoms. However, the combination of right upper quadrant pain, nausea, elevated leukocyte count, and the results of the cholescintigraphy which show normal flow through the intrahepatic and extrahepatic bile ducts makes a strong case for obstruction of the cystic duct leading to acute cholecystitis. This obstruction is often due to gallstones and is a common cause of inflammation in patients with a clinical profile like this. Given the significant risk of complications such as perforation, I believe it's vital that we prioritize further investigation and potential intervention focused on the cystic duct obstruction rather than attributing her condition solely to hypomotility. Addressing the acute inflammatory state is essential for the patient's safety and recovery.
+ Agent 4 (🧑🏿‍⚕️ surgeon) -> Agent 5 (👨🏽‍⚕️ infectious disease specialist) : As a biliary surgeon specializing in surgical procedures related to the biliary system, my expertise includes diagnosing and managing conditions such as acute cholecystitis and other biliary tract issues.
+
+To the infectious disease specialist (Agent 5):
+
+While it's important to consider infectious etiologies in this case, the patient's clinical presentation—specifically the right upper quadrant pain, nausea, elevated leukocyte count, and the results of cholescintigraphy—strongly indicate acute cholecystitis due to obstruction of the cystic duct. The imaging findings suggest normal flow through the intrahepatic and extrahepatic bile ducts, which significantly reduces the likelihood of an infectious process being the primary driver of her acute symptoms. In light of this, I recommend prioritizing the evaluation of cystic duct obstruction, as prompt intervention may be necessary to prevent complications associated with untreated cholecystitis. While infectious considerations are relevant, the immediate focus should be on managing the potential biliary obstruction to ensure the patient's safety and address the acute inflammatory response.
+ Agent 5 (👨🏽‍⚕️ infectious disease specialist) -> Agent 2 (🧑🏽‍⚕️ hepatologist) : As an infectious disease specialist focused on liver and biliary system infections, I have a strong understanding of the complexities in diagnosing and managing conditions related to the biliary tract.
+
+Agent 2 (hepatologist), I appreciate your identification of obstruction of the cystic duct as the likely cause of the patient's symptoms, indicative of acute cholecystitis. This aligns well with the clinical presentation of elevated leukocyte count and right upper quadrant tenderness. 
+
+Given the risks of complications associated with cholecystitis, including perforation and infection, I believe it is critical that we prioritize surgical intervention. Prompt action is essential to mitigate these risks. Your insights into liver function and how they interact with biliary disease processes will be instrumental in guiding the management plan. Let’s ensure we collaborate effectively to provide the best care for the patient, emphasizing the need for timely surgical consultation.
+ Agent 5 (👨🏽‍⚕️ infectious disease specialist) -> Agent 3 (👩🏻‍⚕️ radiologist) : As an infectious disease specialist with a focus on infections of the liver and biliary system, I understand the importance of precise imaging interpretation in diagnosing biliary tract issues.
+
+Agent 3 (radiologist), I value your expertise in interpreting the imaging findings for this patient. Given that the cholescintigraphy indicates normal flow through the intrahepatic and extrahepatic bile ducts, it reinforces the hypothesis that the obstruction is localized to the cystic duct. This observation is crucial, especially in light of the patient's symptoms—right upper quadrant pain, nausea, and elevated leukocyte count—which strongly suggest acute cholecystitis. 
+
+I encourage you to review any subtle signs of irritation or inflammation in the gallbladder and cystic duct area, as these could significantly impact the management plan. Your insights will be vital in ensuring the surgical team has the necessary information for timely decision-making. Collaboration in this aspect will greatly enhance our ability to deliver optimal patient care.
+ Agent 5 (👨🏽‍⚕️ infectious disease specialist) -> Agent 4 (🧑🏿‍⚕️ surgeon) : As an infectious disease specialist with expertise in infections affecting the liver and biliary system, I recognize the critical nature of promptly addressing biliary conditions, particularly those that can lead to significant morbidity.
+
+Agent 4 (surgeon), I wholeheartedly agree with your assessment that obstruction of the cystic duct is the most likely cause of this patient's symptoms, which aligns with the clinical findings of acute cholecystitis. The evidence presented—right upper quadrant pain, nausea, and notably high leukocyte count—supports the urgency for surgical intervention.
+
+Given the serious complications that can arise from delayed treatment, such as perforation or infection, it is imperative that we expedite surgical evaluation and intervention. Your surgical expertise will be pivotal in managing this case effectively. Let’s ensure we act swiftly to provide the best care for the patient and prevent any further complications.
+== Round 2 ==
+|_Turn 1
+ Agent 1 (👨🏻‍⚕️ gastroenterologist): 🤐
+ Agent 2 (🧑🏽‍⚕️ hepatologist): 🤐
+ Agent 3 (👩🏻‍⚕️ radiologist): 🤐
+ Agent 4 (🧑🏿‍⚕️ surgeon): 🤐
+ Agent 5 (👨🏽‍⚕️ infectious disease specialist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏻‍⚕️) | Agent 2 (🧑🏽‍⚕️) | Agent 3 (👩🏻‍⚕️) | Agent 4 (🧑🏿‍⚕️) | Agent 5 (👨🏽‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏻‍⚕️) |              |  ✋ (1<->2)  |  ✋ (1<->3)  |  ✋ (1<->4)  |              |
+|              |              |              |              |              |              |
+| Agent 2 (🧑🏽‍⚕️) |  ✋ (2<->1)  |              |              |  ✋ (2<-4)   |  ✋ (2<->5)  |
+|              |              |              |              |              |              |
+| Agent 3 (👩🏻‍⚕️) |  ✋ (3<->1)  |              |              |  ✋ (3<-4)   |  ✋ (3<->5)  |
+|              |              |              |              |              |              |
+| Agent 4 (🧑🏿‍⚕️) |  ✋ (4<->1)  |  ✋ (4->2)   |  ✋ (4->3)   |              |  ✋ (4<->5)  |
+|              |              |              |              |              |              |
+| Agent 5 (👨🏽‍⚕️) |              |  ✋ (5<->2)  |  ✋ (5<->3)  |  ✋ (5<->4)  |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "Based on the opinions provided by the various medical experts, the majority consensus is as follows:\n\n- **Gastroenterologist**: (E) Obstruction of the cystic duct\n- **Hepatologist**: (E) Obstruction of the cystic duct\n- **Radiologist**: (E) Obstruction of the cystic duct\n- **Surgeon**: (E) Obstruction of the cystic duct\n- **Infectious Disease Specialist**: (E) Obstruction of the cystic duct\n\nAll five experts agree that the most likely cause of the patient's symptoms is (E) Obstruction of the cystic duct.\n\nTherefore, the final answer is:\n\nAnswer: (E) Obstruction of the cystic duct."}
+
+
+[INFO] no: 31
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Cardiologist (Lead)): Specializes in diagnosing and managing heart conditions, leading the assessment of the patient's cardiac symptoms and interpreting results from the cardiac catheterization and pressure
+ Member 2 (Intensivist): Focuses on critical care management, providing insights into the respiratory support needs and overall management of the patient in the intensive care unit.
+ Member 3 (Cardiac Surgeon): Evaluates the need for any surgical intervention if indicated by the catheterization findings, particularly concerning potential valvular or outflow tract obstructions.
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Cardiovascular Imaging Specialist (Lead)): Interprets echocardiograms and other imaging studies to assess the structural and functional status of the heart, providing essential information regarding ventricular wall stiffness and contractility.
+ Member 2 (Clinical Pharmacologist): Assesses the impact of any medications the patient is on that may influence cardiovascular function, including medications affecting systemic vascular resistance or myocardial contractility.
+ Member 3 (Pulmonologist): Evaluates the patient's respiratory function and may assist in distinguishing cardiac
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Cardiologist (Lead)): Offers expert insights based on all data collected from the IAT and DET, guiding clinical decision
+ Member 2 (Heart Failure Specialist): Provides expertise on managing heart failure symptoms that might correlate with the findings of impaired contractility or structural congenital issues, contributing to long
+ Member 3 (Cardiac Rehabilitation Specialist): Focuses on post
+
+
+[INFO] no: 32
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Infectious Disease Specialist (Lead)): 
+ Member 2 (Hematologist): 
+ Member 3 (Emergency Medicine Physician): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Clinical Microbiologist (Lead)): 
+ Member 2 (Radiologist): 
+ Member 3 (Pathologist): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant Infectious Disease Specialist (Lead)): 
+ Member 2 (Clinical Pharmacist): 
+ Member 3 (Medical Oncologist): 
+
+
+[INFO] no: 33
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Gastroenterologist (Lead)): 
+ Member 2 (Pathologist): 
+ Member 3 (Internist): 
+
+Group 2 -  Diagnostic Evidence Team (DET)
+ Member 1 (Endocrinologist (Lead)): 
+ Member 2 (Radiologist): 
+ Member 3 (Clinical Pharmacologist): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Gastroenterologist (Lead)): 
+ Member 2 (General Surgeon): 
+ Member 3 (Clinical Dietitian): 
+
+
+[INFO] no: 34
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Emergency Medicine Physician (Lead)): 
+ Member 2 (Critical Care Nurse): 
+ Member 3 (Laboratory Technician): 
+
+Group 2 -  Metabolic Management Team (MMT)
+ Member 1 (Endocrinologist (Lead)): 
+ Member 2 (Pharmacist): 
+ Member 3 (Dietitian): 
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Consultant in Endocrinology (Lead)): 
+ Member 2 (Multidisciplinary Care Coordinator): 
+ Member 3 (Clinical Nurse Specialist): 
+
+
+[INFO] no: 35
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👩🏼‍⚕️ 1. Rheumatologist): Specializes in the diagnosis and treatment of arthritis and other rheumatic diseases.
+Agent 2 (🧑‍⚕️ 2. Dermatologist): Focuses on skin conditions, including psoriasis and its related symptoms.
+Agent 3 (👩🏻‍⚕️ 3. Orthopedic Surgeon): Specializes in conditions affecting the musculoskeletal system, including joint pain and arthritis.
+Agent 4 (👨🏽‍⚕️ 4. Physical Medicine and Rehabilitation Specialist): Focuses on restoring function and promoting quality of life in patients with musculoskeletal conditions.
+Agent 5 (👨‍⚕️ 5. Pharmacologist): Specializes in the action of drugs and their effects on the body, providing insights into medication management for pain and inflammation.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                             moderator (👨‍⚖️)                                                                                                            
+            ┌──────────────────────────┬────────────┴────────────┬──────────────────────────────────────────┬─────────────────────────────────────────────┐              
+  Rheumatologist (👩🏼‍⚕️)      Dermatologist (🧑‍⚕️)     Pharmacologist (👨‍⚕️)     Physical Medicine and Rehabilitation Specialist (👨🏽‍⚕️)      Orthopedic Surgeon (👩🏻‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👩🏼‍⚕️ rheumatologist): 🤐
+ Agent 2 (🧑‍⚕️ dermatologist): 🤐
+ Agent 3 (👩🏻‍⚕️ orthopedic surgeon) -> Agent 1 (👩🏼‍⚕️ rheumatologist) : As an orthopedic surgeon specializing in conditions affecting the musculoskeletal system, my opinion regarding the patient’s diagnosis aligns with your assessment of psoriatic arthritis (A). 
+
+The patient's clinical presentation, including the history of long-standing arthritis, bilateral knee swelling and pain, back pain that improves with rest, and nail pitting, strongly suggests psoriatic arthritis. Additionally, the presence of dandruff is indicative of a possible underlying psoriasis, further supporting this diagnosis. 
+
+I recommend focusing on an integrated treatment approach that encompasses both the inflammatory arthritic symptoms and the associated skin condition, as timely management can significantly improve the patient's quality of life and functional ability.
+ Agent 4 (👨🏽‍⚕️ physical medicine and rehabilitation specialist) -> Agent 1 (👩🏼‍⚕️ rheumatologist) : As a physical medicine and rehabilitation specialist, I focus on restoring function and promoting quality of life in patients with musculoskeletal conditions. 
+
+Opinion to Agent 1 (rheumatologist): 
+
+I concur with the diagnosis of psoriatic arthritis based on the patient's clinical presentation, including the history of arthritis and the notable physical examination findings of nail pitting and dandruff. The pattern of joint involvement, along with back pain that improves with rest, aligns well with psoriatic arthritis, distinguishing it from other forms of inflammatory arthritis. Early identification of psoriatic arthritis is crucial, as it can help guide appropriate management strategies to improve the patient's function and quality of life.
+ Agent 4 (👨🏽‍⚕️ physical medicine and rehabilitation specialist) -> Agent 2 (🧑‍⚕️ dermatologist) : As a physical medicine and rehabilitation specialist, I focus on restoring function and promoting quality of life in patients with musculoskeletal conditions.
+
+Opinion to Agent 2 (dermatologist): 
+
+I support the diagnosis of psoriatic arthritis, particularly considering the patient's presentation of pitting nails and dandruff, which may indicate underlying psoriasis. The connection between skin manifestations and arthritic symptoms is well established; thus, identifying and addressing the dermatological aspects is essential for a comprehensive treatment plan. Early intervention can significantly improve both skin and joint symptoms, enhancing the patient's overall quality of life.
+ Agent 4 (👨🏽‍⚕️ physical medicine and rehabilitation specialist) -> Agent 3 (👩🏻‍⚕️ orthopedic surgeon) : As a physical medicine and rehabilitation specialist, I focus on restoring function and promoting quality of life in patients with musculoskeletal conditions.
+
+Opinion to Agent 3 (orthopedic surgeon): 
+
+I agree with the diagnosis of psoriatic arthritis, recognizing that the patient exhibits significant joint involvement and back pain that improves with rest, which are characteristic of this condition. Furthermore, the presence of nail pitting serves as a key indicator linking the patient's skin and musculoskeletal symptoms. Understanding this connection is vital in your surgical evaluations, as it not only emphasizes the inflammatory nature of his symptoms but also guides us toward a multifaceted approach in managing both his joints and overall function. Addressing these factors may reduce future surgical intervention needs and enhance his quality of life.
+ Agent 5 (👨‍⚕️ pharmacologist): 🤐
+|_Turn 2
+ Agent 1 (👩🏼‍⚕️ rheumatologist): 🤐
+ Agent 2 (🧑‍⚕️ dermatologist): 🤐
+ Agent 3 (👩🏻‍⚕️ orthopedic surgeon): 🤐
+ Agent 4 (👨🏽‍⚕️ physical medicine and rehabilitation specialist): 🤐
+ Agent 5 (👨‍⚕️ pharmacologist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👩🏼‍⚕️) | Agent 2 (🧑‍⚕️) | Agent 3 (👩🏻‍⚕️) | Agent 4 (👨🏽‍⚕️) | Agent 5 (👨‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👩🏼‍⚕️) |              |              |  ✋ (1<-3)   |  ✋ (1<-4)   |              |
+|              |              |              |              |              |              |
+| Agent 2 (🧑‍⚕️) |              |              |              |  ✋ (2<-4)   |              |
+|              |              |              |              |              |              |
+| Agent 3 (👩🏻‍⚕️) |  ✋ (3->1)   |              |              |  ✋ (3<-4)   |              |
+|              |              |              |              |              |              |
+| Agent 4 (👨🏽‍⚕️) |  ✋ (4->1)   |  ✋ (4->2)   |  ✋ (4->3)   |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (👨‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely diagnosis based on the provided information, let's analyze the symptoms and the options given:\n\n1. **Psoriatic arthritis (A)**: The patient has dandruff, which could suggest psoriasis, and the presence of pitting nails is a common feature of psoriatic arthritis. The joint symptoms and improvement with rest also align with this diagnosis.\n\n2. **Rheumatoid arthritis (C)**: This condition typically presents with symmetrical joint involvement and morning stiffness, but the significant improvement with rest and the presence of pitting nails are more indicative of psoriatic arthritis.\n\n3. **Arthritis mutilans (B)**: This is a severe form of psoriatic arthritis characterized by bone resorption and deformities, which is not mentioned in the case.\n\n4. **Mixed connective tissue disease (E)**: This condition involves features of multiple connective tissue diseases, but the specific symptoms presented do not strongly align with this diagnosis.\n\n5. **Familial Mediterranean fever (D)**: This is characterized by recurrent fevers and abdominal pain, which are not present in this case.\n\nBased on the majority of the symptoms aligning with psoriatic arthritis, particularly the pitting nails and the history of dandruff, the most likely diagnosis is:\n\nAnswer: A) Psoriatic arthritis"}
+
+
+[INFO] no: 36
+difficulty: basic
+
+[INFO] no: 37
+difficulty: intermediate
+[INFO] Step 1. Expert Recruitment
+Agent 1 (👨🏿‍⚕️ 1. Pediatrician): Specializes in the medical care of infants, children, and adolescents.
+Agent 2 (👨🏽‍⚕️ 2. Infectious Disease Specialist): Focuses on the diagnosis and treatment of infectious diseases, including immunodeficiencies.
+Agent 3 (👨🏽‍⚕️ 3. Immunologist): Specializes in the immune system and related disorders, including immunodeficiencies and antibody defects.
+Agent 4 (🧑‍⚕️ 4. Pediatric Gastroenterologist): Focuses on gastrointestinal issues in children, including conditions related to diarrhea and malabsorption.
+Agent 5 (🧑🏿‍⚕️ 5. Medical Geneticist): Specializes in the study of genes and heredity, particularly those related to immunodeficiency disorders.
+
+[INFO] Step 2. Collaborative Decision Making
+[INFO] Step 2.1. Hierarchy Selection
+                                                           moderator (👨‍⚖️)                                                                                        
+           ┌─────────────────────────────────┬────────────────────┴───────────────┬───────────────────────────────────┬────────────────────────────────┐           
+  Pediatrician (👨🏿‍⚕️)     Infectious Disease Specialist (👨🏽‍⚕️)      Medical Geneticist (🧑🏿‍⚕️)     Pediatric Gastroenterologist (🧑‍⚕️)      Immunologist (👨🏽‍⚕️) 
+
+[INFO] Step 2.2. Participatory Debate
+== Round 1 ==
+|_Turn 1
+ Agent 1 (👨🏿‍⚕️ pediatrician): 🤐
+ Agent 2 (👨🏽‍⚕️ infectious disease specialist): 🤐
+ Agent 3 (👨🏽‍⚕️ immunologist): 🤐
+ Agent 4 (🧑‍⚕️ pediatric gastroenterologist): 🤐
+ Agent 5 (🧑🏿‍⚕️ medical geneticist): 🤐
+
+Interaction Log
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              | Agent 1 (👨🏿‍⚕️) | Agent 2 (👨🏽‍⚕️) | Agent 3 (👨🏽‍⚕️) | Agent 4 (🧑‍⚕️) | Agent 5 (🧑🏿‍⚕️) |
++--------------+--------------+--------------+--------------+--------------+--------------+
+| Agent 1 (👨🏿‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 2 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 3 (👨🏽‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 4 (🧑‍⚕️) |              |              |              |              |              |
+|              |              |              |              |              |              |
+| Agent 5 (🧑🏿‍⚕️) |              |              |              |              |              |
++--------------+--------------+--------------+--------------+--------------+--------------+
+
+[INFO] Step 3. Final Decision
+👨‍⚖️ moderator's final decision (by majority vote): {0.0: "To determine the most likely cause of the findings in this 3-month-old boy, we need to analyze the symptoms and the options provided.\n\nThe patient presents with:\n- Persistent diarrhea\n- Oral candidiasis\n- Symptoms suggestive of RSV pneumonia\n- Weight in the 10th percentile\n- Negative HIV PCR\n\nThese findings suggest an immunodeficiency, particularly one that affects both humoral and cellular immunity. \n\nNow, let's review the options:\n\n(A) Defective T cell function - This could explain the respiratory infections and possibly the oral candidiasis, but it does not directly account for the diarrhea.\n\n(B) Grossly reduced levels of B cells - This would lead to increased susceptibility to infections, particularly with encapsulated organisms, and could explain the oral candidiasis, but it does not directly explain the diarrhea.\n\n(C) An X-linked inheritance of HLA genes - This is less likely to be the cause of the symptoms presented.\n\n(D) Defective isotype switching - This could lead to issues with antibody production, particularly IgG and IgA, which could explain the recurrent infections and possibly the diarrhea.\n\n(E) Selective IgA deficiency - This is a common immunodeficiency that can lead to increased susceptibility to infections, particularly mucosal infections, and could explain the oral candidiasis and diarrhea.\n\nConsidering the majority of the symptoms point towards a defect in humoral immunity, particularly with the presence of oral candidiasis and recurrent infections, the most likely cause of these findings is:\n\nAnswer: E) Selective IgA deficiency"}
+
+
+[INFO] no: 38
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Medical Oncologist (Lead)): Specializes in treating pancreatic adenocarcinoma; orchestrates treatment plans based on the responses observed in the phase 3 trial and assesses the overall efficacy of the novel chemotherapy agent.
+ Member 2 (Clinical Pharmacologist): Provides expertise on drug pharmacodynamics and pharmacokinetics; reviews the dose
+ Member 3 (Biostatistician): Analyzes data from the clinical trial; interprets the clinical significance of the outcomes and adverse events to provide statistical insight into the potential therapeutic index.
+
+Group 2 -  Safety and Tolerability Team (STT)
+ Member 1 (Clinical Toxicologist (Lead)): Reviews the adverse event data associated with different doses of the new chemotherapeutic agent; assesses the safety profile and implications for further dosing in clinical practice.
+ Member 2 (Nurse Clinical Research Coordinator): Monitors adverse events during the study and collects patient
+ Member 3 (Safety Pharmacologist): Evaluates the safety data and assists in identifying the severity, frequency, and types of treatment
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Medical Oncologist (Lead)): Acts as the final authority; synthesizes inputs from IAT and STT to conclude the overall potential and safety of the novel treatment based on the therapeutic index calculations.
+ Member 2 (Regulatory Affairs Specialist): Advises on FDA approval processes and requirements by providing a thorough understanding of the regulatory expectations based on the trial data and therapeutic index findings.
+ Member 3 (Health Outcomes Researcher): Examines the implications of treatment decisions based on the therapeutic index; helps in strategizing how the results may influence future clinical practice and patient management.
+
+
+[INFO] no: 39
+difficulty: advanced
+[STEP 1] Recruitment
+Group 1 -  Initial Assessment Team (IAT)
+ Member 1 (Neurologist (Lead)): Specializes in diagnosing and managing neurological disorders, particularly stroke
+ Member 2 (Speech): Language Pathologist (SLP)
+ Member 3 (Radiologist): Specializes in interpreting neuroimaging studies (e.g., CT or MRI) to identify areas of ischemic damage in the brain, confirming the location and extent of brain injury related to the patient’s speech difficulties.
+
+Group 2 -  Rehabilitation and Management Team (RMT)
+ Member 1 (Speech): Language Pathologist (SLP) (Lead)
+ Member 2 (Occupational Therapist): Evaluates the patient's overall ability to perform daily tasks affected by cognitive and language deficits, aiming to enhance functional communication in daily contexts through targeted interventions.
+ Member 3 (Neuropsychologist): Focuses on assessing cognitive functions and potential language impairments, hypothesizing how these impact the patient's overall rehabilitation, and providing strategies to cope with any associated cognitive challenges.
+
+Group 3 -  Final Review and Decision Team (FRDT)
+ Member 1 (Senior Neurologist (Lead)): Provides expert guidance in consolidating findings from all teams and determining the most likely areas affected that correlate with the patient's presentation of language deficits.
+ Member 2 (Clinical Decision Specialist): Coordinates recommendations and findings from the various teams to formulate a comprehensive treatment and rehabilitation plan based on the patient's specific speech and language needs.
+ Member 3 (Neurosurgeon): Consults on any potential intervention if there is a need to explore surgical options related to underlying structural issues that might have contributed to the patient's neurological condition and current symptoms.
+

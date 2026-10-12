@@ -1,0 +1,21 @@
+=== Qwen2.5-7B-Instruct ===
+  S (zero-shot CoT)    acc 0.628  tokens/q     1391  <- frontier
+  SC-5                 acc 0.653  tokens/q     6038  <- frontier
+  SC-10                acc 0.657  tokens/q    11851  <- frontier
+  SC-20                acc 0.655  tokens/q    23490  
+  Reflection           acc 0.640  tokens/q     5669  <- frontier
+  M1 MedAgents         acc 0.625  tokens/q    21384  
+=== Qwen2.5-14B-Instruct ===
+  S (zero-shot CoT)    acc 0.745  tokens/q     1364  <- frontier
+  SC-5                 acc 0.748  tokens/q     6042  <- frontier
+  SC-10                acc 0.743  tokens/q    11831  
+  SC-20                acc 0.737  tokens/q    23388  
+  Reflection           acc 0.737  tokens/q     5552  
+  M1 MedAgents         acc 0.705  tokens/q    22130  
+=== Llama-3.1-8B-Instruct ===
+  S (zero-shot CoT)    acc 0.693  tokens/q     1329  <- frontier
+  SC-5                 acc 0.725  tokens/q     5620  <- frontier
+  SC-10                acc 0.733  tokens/q    10993  <- frontier
+  SC-20                acc 0.755  tokens/q    21709  <- frontier
+  Reflection           acc 0.505  tokens/q     5052  
+  M1 MedAgents         acc 0.598  tokens/q     7561  

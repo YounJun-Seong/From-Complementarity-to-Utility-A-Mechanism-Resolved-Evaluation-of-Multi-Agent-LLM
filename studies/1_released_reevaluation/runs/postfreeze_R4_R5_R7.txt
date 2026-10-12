@@ -1,0 +1,16 @@
+R4 — MedAgents M1 (0.749) vs MedAgents' own single baseline at each budget (GPT-4o-mini, 1,273 q)
+  empty    512: single 0.746  M1 − single +0.003 [-0.016,+0.023]  TOST δ.03 p=0.003
+  empty    700: single 0.747  M1 − single +0.002 [-0.017,+0.022]  TOST δ.03 p=0.003
+  empty   1024: single 0.745  M1 − single +0.004 [-0.016,+0.024]  TOST δ.03 p=0.005
+  empty   1536: single 0.754  M1 − single -0.005 [-0.024,+0.014]  TOST δ.03 p=0.005
+  expert   512: single 0.749  M1 − single +0.001 [-0.019,+0.021]  TOST δ.03 p=0.002
+  expert   700: single 0.756  M1 − single -0.006 [-0.026,+0.013]  TOST δ.03 p=0.009
+  expert  1024: single 0.750  M1 − single -0.001 [-0.020,+0.019]  TOST δ.03 p=0.002
+  expert  1536: single 0.750  M1 − single -0.001 [-0.020,+0.018]  TOST δ.03 p=0.002
+  strong S (zero-shot CoT 700): 0.755  M1 − S -0.005 [-0.027,+0.015]
+
+R5 — Qwen2.5-14B, approx. compute-matched: SC-20 0.737 vs M1 0.705: SC-20 − M1 +0.032 [-0.010,+0.075]
+
+R7 — MDAgents F0 vs F2 (run-paired, 5 x 200 units)
+  both valid: n=710  F0 acc 0.730  F2 acc 0.711  diff -0.018
+  F0 crashed units: 290; valid in F2: 0.997; F2 accuracy on them: 0.633

@@ -1,0 +1,40 @@
+=== F0: 5 runs, 200 questions complete in every run ===
+run       n  compl acc_all acc_cmp unparsed  basic  inter    adv  crash b/i/a calls/q   tok/q      $/q noAns models
+run1    200  0.705   0.510   0.723    0.035      7    159     34    0/25/34      30.3   75634  0.01584   113 {'gpt-3.5-turbo': 1388, 'gpt-4o-mini-2024-07-18': 4666}
+run2    200  0.735   0.515   0.701    0.034      6    161     33    0/20/33      31.0   81143  0.01694   122 {'gpt-3.5-turbo': 1427, 'gpt-4o-mini-2024-07-18': 4777}
+run3    200  0.710   0.515   0.725    0.028      8    157     35    0/25/33      28.6   70982  0.01519   115 {'gpt-3.5-turbo': 1374, 'gpt-4o-mini-2024-07-18': 4351}
+run4    200  0.700   0.510   0.729    0.029      5    160     35    0/25/35      32.4   90754  0.01831   111 {'gpt-3.5-turbo': 1395, 'gpt-4o-mini-2024-07-18': 5094}
+run5    200  0.700   0.540   0.771    0.014      8    152     40    0/20/40      29.7   75602  0.01580   115 {'gpt-3.5-turbo': 1364, 'gpt-4o-mini-2024-07-18': 4568}
+accuracy (crash = wrong): mean 0.518 ± SD 0.013 (min 0.510, max 0.540)
+answer agreement: pairwise 0.570, identical in all 5 runs 0.225
+route agreement:  pairwise 0.779, identical in all 5 runs 0.515; questions routed both basic and advanced across runs 0.000
+=== F1: 5 runs, 200 questions complete in every run ===
+run       n  compl acc_all acc_cmp unparsed  basic  inter    adv  crash b/i/a calls/q   tok/q      $/q noAns models
+run1    200  0.695   0.485   0.698    0.043      8    156     36    0/25/36      30.9   82530  0.01689   110 {'gpt-3.5-turbo': 1367, 'gpt-4o-mini-2024-07-18': 4804}
+run2    200  0.725   0.515   0.710    0.028      5    164     31    0/25/30      33.2   92960  0.01878   113 {'gpt-3.5-turbo': 1423, 'gpt-4o-mini-2024-07-18': 5208}
+run3    200  0.715   0.480   0.671    0.042      9    155     35    0/23/34      30.3   78385  0.01629   113 {'gpt-3.5-turbo': 1370, 'gpt-4o-mini-2024-07-18': 4682}
+run4    200  0.675   0.455   0.674    0.030     13    144     43    0/22/43      28.8   74160  0.01535   101 {'gpt-3.5-turbo': 1298, 'gpt-4o-mini-2024-07-18': 4453}
+run5    200  0.675   0.485   0.719    0.052      7    156     37    0/29/36      29.2   74745  0.01557   106 {'gpt-3.5-turbo': 1347, 'gpt-4o-mini-2024-07-18': 4489}
+accuracy (crash = wrong): mean 0.484 ± SD 0.021 (min 0.455, max 0.515)
+answer agreement: pairwise 0.518, identical in all 5 runs 0.155
+route agreement:  pairwise 0.750, identical in all 5 runs 0.485; questions routed both basic and advanced across runs 0.000
+=== F2_final_v2: 5 runs, 200 questions complete in every run ===
+run       n  compl acc_all acc_cmp unparsed  basic  inter    adv  crash b/i/a calls/q   tok/q      $/q noAns models
+run1    200  1.000   0.650   0.650    0.065      6    160     34    0/0/0       40.5  102102  0.02116   133 {'gpt-3.5-turbo': 1520, 'gpt-4o-mini-2024-07-18': 6582}
+run2    200  0.995   0.710   0.714    0.040      7    158     35    0/1/0       40.2   99853  0.02077   130 {'gpt-3.5-turbo': 1501, 'gpt-4o-mini-2024-07-18': 6539}
+run3    200  1.000   0.680   0.680    0.030      5    151     44    0/0/0       38.9   93061  0.01982   131 {'gpt-3.5-turbo': 1457, 'gpt-4o-mini-2024-07-18': 6330}
+run4    200  1.000   0.710   0.710    0.045      7    158     35    0/0/0       38.5   91111  0.01945   136 {'gpt-3.5-turbo': 1506, 'gpt-4o-mini-2024-07-18': 6190}
+run5    200  1.000   0.690   0.690    0.065     11    150     39    0/0/0       36.9   83210  0.01811   132 {'gpt-3.5-turbo': 1450, 'gpt-4o-mini-2024-07-18': 5934}
+accuracy (crash = wrong): mean 0.688 ± SD 0.025 (min 0.650, max 0.710)
+answer agreement: pairwise 0.717, identical in all 5 runs 0.495
+route agreement:  pairwise 0.743, identical in all 5 runs 0.465; questions routed both basic and advanced across runs 0.005
+=== F3_final_v2: 5 runs, 200 questions complete in every run ===
+run       n  compl acc_all acc_cmp unparsed  basic  inter    adv  crash b/i/a calls/q   tok/q      $/q noAns models
+run1    200  1.000   0.650   0.650    0.060     32     92     76    0/0/0       33.8   76925  0.01442    78 {'gpt-4o-mini-2024-07-18': 6750}
+run2    200  1.000   0.585   0.585    0.125     31     77     92    0/0/0       32.9   67730  0.01315    63 {'gpt-4o-mini-2024-07-18': 6573}
+run3    200  0.995   0.605   0.608    0.075     38     75     87    0/0/1       30.5   59546  0.01178    65 {'gpt-4o-mini-2024-07-18': 6098}
+run4    200  0.990   0.650   0.657    0.081     32     86     82    0/0/2       32.5   68179  0.01303    73 {'gpt-4o-mini-2024-07-18': 6491}
+run5    200  0.990   0.650   0.657    0.045     33     83     84    0/0/2       32.1   65861  0.01270    70 {'gpt-4o-mini-2024-07-18': 6425}
+accuracy (crash = wrong): mean 0.628 ± SD 0.031 (min 0.585, max 0.650)
+answer agreement: pairwise 0.608, identical in all 5 runs 0.330
+route agreement:  pairwise 0.554, identical in all 5 runs 0.205; questions routed both basic and advanced across runs 0.305

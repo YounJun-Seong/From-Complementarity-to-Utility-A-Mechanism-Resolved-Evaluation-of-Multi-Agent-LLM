@@ -1,0 +1,12 @@
+Truncation-failure attribution (MedQA n=200, gpt-4o-mini): where does the MedAgents gain come from?
+base_cot answer-line failures (truncated at 300 tokens): 38/200
+On the 38 truncated questions (# correct):
+  base_cot (300 tok)     :  9/38 (0.237)
+  base_cot_budget (700)  : 29/38 (0.763)  [+20 recovered by budget alone]
+  base_cot_strong        : 28/38 (0.737)
+  MedAgents (multi)      : 28/38 (0.737)
+On the 162 non-truncated questions: base_cot 0.809 = budget 0.809 = MedAgents 0.815 (no gain)
+MedAgents total gain over base_cot = +20/200; of which +19 (95%) is on the 38 truncated questions.
+=> the reported coordination gain is localized to the baseline's token-truncation artifact;
+   raising the generation budget recovers the same questions.
+TRUNC_ATTRIB_DONE

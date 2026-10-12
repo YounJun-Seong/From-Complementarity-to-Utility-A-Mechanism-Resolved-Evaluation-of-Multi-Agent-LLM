@@ -1,0 +1,17 @@
+medarc_run1    n=498 complete=True errors=0 (agent,summary)/q={(9, 6)} trunc=0.0000 unparsed_turns=0.0259 conf_extracted=0.9589
+medarc_run2    n=498 complete=True errors=0 (agent,summary)/q={(9, 6)} trunc=0.0000 unparsed_turns=0.0210 conf_extracted=0.9703
+medarc_run3    n=498 complete=True errors=0 (agent,summary)/q={(9, 6)} trunc=0.0000 unparsed_turns=0.0201 conf_extracted=0.9578
+zeroshot_run1  n=498 complete=True errors=0
+zeroshot_run2  n=498 complete=True errors=0
+zeroshot_run3  n=498 complete=True errors=0
+cot_run1       n=498 complete=True errors=0
+cot_run2       n=498 complete=True errors=0
+cot_run3       n=498 complete=True errors=0
+sc_run1        n=498 complete=True errors=0 requests/q={25} samples/q={25} trunc=0.0000
+sc_run2        n=498 complete=True errors=0 requests/q={25} samples/q={25} trunc=0.0000
+sc_run3        n=498 complete=True errors=0 requests/q={25} samples/q={25} trunc=0.0000
+sc_run4        n=498 complete=True errors=0 requests/q={25} samples/q={25} trunc=0.0000
+sc_run5        n=498 complete=True errors=0 requests/q={25} samples/q={25} trunc=0.0000
+sc_run6        n=498 complete=True errors=0 requests/q={25} samples/q={25} trunc=0.0000
+tokens/q: MedARC 20920, SC-25 20495; realized ratio T_SC/T_M = 0.980 (predicted 1.009)
+VALID
